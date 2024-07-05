@@ -1,0 +1,379 @@
+html, body {
+    font-family: 'Literata', Georgia, serif;
+    background-color:  #6b63b5;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*****************************************************************************************************************/
+/************************************* First Body: Header Content Section ****************************************/
+/*****************************************************************************************************************/
+
+#Advanced_Search_Header {
+    background-color:  #6b63b5;
+    color: #e7ddfde8;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center; /* Center align the content */
+}
+.Advanced_Search_Header img {
+    width: 20px; /* Set the width of the images */
+    height: 20px; /* Maintain aspect ratio */
+    margin-left: 5vw; /* Add margin around the images */
+    margin-right: 1vw; /* Add margin around the images */
+    /* You can add more styles as needed */
+}
+
+#Advanced_Search_Header a, #Advanced_Search_Header a:visited, #Advanced_Search_Header a:hover, #Advanced_Search_Header a:active {
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+    justify-content: space-around;
+    outline: none;
+}
+
+#Advanced_Search_Header nav
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#Advanced_Search_Header_Advance_Search, #Advanced_Search_Header_Syntax, #Advanced_Search_Header_Sets
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    outline: none;
+}
+
+#search-input {
+    width: 450px; /* Change this value to adjust the width */
+    height: 36px; /* Change this value to adjust the height */
+    opacity: 0.6; /* Set the opacity */
+    border-radius: 5px; /* Change this value for corner radius */
+    padding: 0 10px; /* Optional: add padding inside the button */
+    background-color: rgba(0, 0, 0, 0.25); /* Set the background color */
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Arial', sans-serif;
+    font-size: 14px; /* Optional: adjust font size */
+    border: none; /* Optional: add a border */
+    outline: none;
+}
+
+#search-input::placeholder
+{
+    color: rgba(255, 255, 255, 1);; /* Ccolour of placeholder text*/
+    font-family: 'Arial', sans-serif;
+}
+
+#search-button:hover {
+    background-color: hsl(246, 47%, 46%); /* Change background color on hover */
+}
+
+
+
+/*****************************************************************************************************************/
+/**************************************Second Body: Main Content Section *****************************************/
+/*****************************************************************************************************************/
+
+#Advanced_Search_Body
+{
+    width: 100%;
+    min-height: 75vh;  /* Set the minimum height */
+    background-color: #e8e8e4;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.Advanced_Search_Card_Attributes
+{
+    position: relative;
+    width: 50vw; 
+    height: auto;   
+    color: #333333;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+   
+}
+
+.styled-dropdown {
+    width: 25vw; /* Set the width of the dropdown */
+    height: 3.2vh; /* Set the height of the dropdown */
+    font-size: 14px; /* Set the font size */
+    padding: 5px; /* Optional: Add padding inside the dropdown */
+}
+
+
+.Advanced_Search_Card_Attributes input
+{
+    position: relative;
+    width: 25vw; 
+    height: 3.2vh;
+    border-radius: 4px;
+    border-color: none;
+    border: solid 1px #333333;
+    outline: none;
+
+}
+
+.Advanced_Search_Name, .Advanced_Search_Text, .Advanced_Search_Type, .Advanced_Search_Keywords, .Advanced_Search_Lesson, .Advanced_Search_PPC, 
+.Advanced_Search_Stats, .Advanced_Search_Sets, .Advanced_Search_Rarity, 
+.Advanced_Search_Flavour, .Advanced_Search_Card_Artist, .Advanced_Search_Number 
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    border-bottom: solid 1px rgba(51, 51, 51,0.1);
+}
+.Advanced_Search_Name_Header, .Advanced_Search_Text_Header, .Advanced_Search_Type_Header, .Advanced_Search_Keywords_Header, 
+.Advanced_Search_Lesson_Header, .Advanced_Search_PPC_Header, .Advanced_Search_Stats_Header, .Advanced_Search_Sets_Header, 
+.Advanced_Search_Rarity_Header, .Advanced_Search_Flavour_Header, .Advanced_Search_Card_Artist_Header, .Advanced_Search_Number_Header 
+{
+    width: 8vw;
+    margin: 0;
+    padding: 0;
+}
+/*----------------------- Rarity---------------- */
+.Advanced_Search_Rarity_Field
+{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+
+.Advanced_Search_Rarity_Field form {
+    display: flex; /* Use flexbox to align form elements */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 10px; /* Add margin between form elements */
+    margin-left: 1vw;
+    border-right:solid 1px  rgba(51, 51, 51,0.1);
+}
+.Advanced_Search_Rarity_Field form.no-border {
+    border: none; /* Remove border */
+    padding: 0; /* Remove padding */
+}
+.Advanced_Search_Rarity_Field label {
+    margin-right: 10px; /* Add space between label and checkbox */
+    width: 80px; /* Set width of labels */
+    text-align: left; /* Align text to the right within labels */
+    font-size: 14px;
+}
+
+.Advanced_Search_Rarity_Field input[type="checkbox"] {
+    width: 20px; /* Set width of checkboxes */
+    margin-right: 20px; /* Add space between checkboxes and labels */
+}
+/*----------------- Lesson ---------------------*/
+.Advanced_Search_Lesson_Field
+{
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+}
+.Advanced_Search_Lesson_Header p
+{
+    width: 50vw;
+}
+
+.Advanced_Search_Lesson_Field form {
+    display: flex; /* Use flexbox to align form elements */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 10px; /* Add margin between form elements */
+    margin-left: 1vw;
+    border-right:solid 1px  rgba(51, 51, 51,0.1);
+    width: 15vw;
+}
+.Advanced_Search_Lesson_Field form.no-border {
+    border-right: none; /* Remove border */
+    height: 20vh;
+    padding: 0; /* Remove padding */
+}
+.Advanced_Search_Lesson_Field label {
+    margin-right: 10px; /* Add space between label and checkbox */
+    width: 60px; /* Set width of labels */
+    text-align: left; /* Align text to the right within labels */
+    font-size: 14px;
+}
+
+.transfiguration_no_border label {
+    display: inline-block; /* Display labels in a block */
+    width: 100px; /* Adjust label width as needed */
+    
+}
+
+.Advanced_Search_Lesson_Field input[type="checkbox"] {
+    width: 20px; /* Set width of checkboxes */
+    margin-right: 10px; /* Add space between checkboxes and labels */
+}
+
+/*----------------- type ---------------------*/
+.Advanced_Search_Type_Field .styled-dropdown {
+    height: 5vh; /* Adjust the height as needed */
+    width: 25vw;
+    font-size: 16px; /* Optional: Adjust font size */
+    border-radius: 4px;
+    border:solid 1px  rgba(51, 51, 51,1);
+    /* Add any other styling as needed */
+}
+
+
+/*----------------- type ---------------------*/
+.Advanced_Search_Sets_Field .styled-dropdown {
+    height: 5vh; /* Adjust the height as needed */
+    width: 25vw;
+    font-size: 16px; /* Optional: Adjust font size */
+    border-radius: 4px;
+    border:solid 1px  rgba(51, 51, 51,1);
+    /* Add any other styling as needed */
+}
+
+#Advanced_Search_Button {
+    /* Example styles */
+    background-color: rgba(255, 255, 255,1);; /* Green background */
+    color: rgba(51, 51, 51,1); /* White text color */
+    padding: 10px 20px; /* Padding inside the button */
+    margin-top: 10px;
+    border:solid 1px  rgba(51, 51, 51,1);
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+  }
+
+
+  .Card_Type_Selected_Div 
+{
+    width: 100px;
+    height: 30px;
+    background-color: #6b63b5; /* Green background */
+    color: rgba(255, 255, 255,1); /* White text color */
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    border-radius: 10px; /* Rounded corners */
+
+}
+
+.Card_Type_Selected_Div_Cross
+{
+    height: 10px;
+    background-color: #6b63b5; /* Green background */
+    color: rgba(255, 255, 255,1); /* White text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border: none;
+    border-radius: 10px; /* Rounded corners */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+
+/*****************************************************************************************************************/
+/********************************* Third Body: Footer Content Section ********************************************/
+/*****************************************************************************************************************/
+#Advanced_Search_Footer
+{
+    background-image: url('Images/Temp_Images/feathers@3x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#Advanced_Search_Footer::before {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute; /* Position relative to the container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(107, 99, 181, 0.5);
+    z-index: 0; /* Ensure pseudo-element is above the image */
+}
+
+.Advanced_Search_Footer_Links
+{
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    color: #e8e8e4;
+    text-decoration: none;
+}
+.Advanced_Search_Footer_Links h2
+{
+    margin: 0;
+    border-bottom: 2px solid rgba(107, 99, 181, 0.5);
+    font-family: Literata;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
+.Advanced_Search_Footer_Find_Cards, .Advanced_Search_Footer_Accio, .Advanced_Search_Footer_Socials
+{
+    width: 12Vw;
+    height: 10vh;
+    margin: 0 2vw 0 2vw;
+    font-family: Literata;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: var(--white-100);  
+}
+
+.Advanced_Search_Footer_Find_Cards nav, .Advanced_Search_Footer_Accio nav, .Advanced_Search_Footer_Socials nav,
+.Advanced_Search_Footer_Find_Cards nav a, .Advanced_Search_Footer_Accio nav a, .Advanced_Search_Footer_Socials nav a
+{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-decoration: none;
+    color: #e8e8e4;
+}
+
+.Advanced_Search_Footer_Copyright_Disclosure, .Advanced_Search_Footer_Copyright_Disclosure p
+{
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+    font-family: Literata;
+    font-style: normal;
+    margin: 0;
+    color: #e8e8e4;
+    z-index: 2;
+    overflow: hidden;
+}

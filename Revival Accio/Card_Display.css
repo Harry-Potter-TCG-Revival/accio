@@ -1,0 +1,316 @@
+html, body {
+    font-family: 'Literata', Georgia, serif;
+    background-color:  #6b63b5;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.body-section {
+
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box; 
+}
+
+
+
+/*****************************************************************************************************************/
+/************************************* First Body: Header Content Section ****************************************/
+/*****************************************************************************************************************/
+
+#Card_Display_Header {
+    background-color:  #6b63b5;
+    color: #e7ddfde8;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center; /* Center align the content */
+}
+.Card_Display_Header img {
+    width: 20px; /* Set the width of the images */
+    height: 20px; /* Maintain aspect ratio */
+    margin-left: 5vw; /* Add margin around the images */
+    margin-right: 1vw; /* Add margin around the images */
+    /* You can add more styles as needed */
+}
+
+#Card_Display_Header a, #Card_Display_Header a:visited, #Card_Display_Header a:hover, #Card_Display_Header a:active {
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+    justify-content: space-around;
+    outline: none;
+}
+
+#Card_Display_Header nav
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#Card_Display_Header_Advance_Search, #Card_Display_Header_Syntax, #Card_Display_Header_Sets
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    outline: none;
+}
+
+#search-input {
+    width: 450px; /* Change this value to adjust the width */
+    height: 36px; /* Change this value to adjust the height */
+    opacity: 0.6; /* Set the opacity */
+    border-radius: 5px; /* Change this value for corner radius */
+    padding: 0 10px; /* Optional: add padding inside the button */
+    background-color: rgba(0, 0, 0, 0.25); /* Set the background color */
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Arial', sans-serif;
+    font-size: 14px; /* Optional: adjust font size */
+    border: none; /* Optional: add a border */
+    outline: none;
+}
+
+#search-input::placeholder
+{
+    color: rgba(255, 255, 255, 1);; /* Ccolour of placeholder text*/
+    font-family: 'Arial', sans-serif;
+}
+
+#search-button:hover {
+    background-color: hsl(246, 47%, 46%); /* Change background color on hover */
+}
+
+
+
+/*****************************************************************************************************************/
+/************************************* Second Body: Boby Content Section ****************************************/
+/*****************************************************************************************************************/
+
+#Card_Display_Body
+{
+    background-color: #e8e8e4;
+    color: #e7ddfde8;
+    height: 74vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+}
+
+/************************************* The card display section ****************************************/
+.Card_Display_Body_Card_Display
+{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    position: absolute; 
+    top: 0;
+    width: 100%; 
+
+}
+
+/************************************* The card image ****************************************/
+.Card_Display_Body_Card_Display_Image img {
+    width: 320px; /* Set the width to 200 pixels */
+    height: auto; /* Maintain the aspect ratio */
+    margin-top: 10px;
+    margin-right: 120px;
+}
+
+/************************************* The card infomation text ****************************************/
+.Card_Display_Body_Card_Display_Text
+{
+    width: 40vh; /* Width of the box */
+    height: fit-content; /* Height of the box */
+    background-color: #f0f0f0; /* Background color */
+    margin: 20px; /* Margin around the box */
+}
+
+/************************************* The components to the text box ****************************************/
+
+.Card_Display_Body_Card_Display_Test_Name
+{
+    
+    width: 100%; /* or any specific width */
+    height: 50px; /* or any specific height */
+    background-color: #f0f0f0; /* or any preferred background color */
+    border: 1px solid #000; /* optional: border to make it visible */
+    display: block; /* ensure it's a block-level element */
+    
+}
+                    
+.Card_Display_Body_Card_Display_Test_Type
+{
+    width: 100%; /* or any specific width */
+    height: 50px; /* or any specific height */
+    background-color: #f0f0f0; /* or any preferred background color */
+    border: 1px solid #000; /* optional: border to make it visible */
+    display: block; /* ensure it's a block-level element */
+}
+    
+.Card_Display_Body_Card_Display_Test_Card_Text
+{
+    width: 100%; /* or any specific width */
+    height: 50px; /* or any specific height */
+    background-color: #f0f0f0; /* or any preferred background color */
+    border: 1px solid #000; /* optional: border to make it visible */
+    display: block; /* ensure it's a block-level element */
+}
+    
+.Card_Display_Body_Card_Display_Test_Illustrator
+{
+    width: 100%; /* or any specific width */
+    height: 50px; /* or any specific height */
+    background-color: #f0f0f0; /* or any preferred background color */
+    border: 1px solid #000; /* optional: border to make it visible */
+    display: block; /* ensure it's a block-level element */
+}
+    
+.Card_Display_Body_Card_Display_Test_Set_Info
+{
+    width: 100%; /* or any specific width */
+    height: 50px; /* or any specific height */
+    background-color: #f0f0f0; /* or any preferred background color */
+    border: 1px solid #000; /* optional: border to make it visible */
+    display: block; /* ensure it's a block-level element */
+}
+    
+.Card_Display_Body_Card_Display_Test_Language
+{
+    width: 100%; /* or any specific width */
+    height: 50px; /* or any specific height */
+    background-color: #f0f0f0; /* or any preferred background color */
+    border: 1px solid #000; /* optional: border to make it visible */
+    display: block; /* ensure it's a block-level element */
+}
+    
+
+
+.Card_Display_Body_Card_Rulings
+{
+    position: absolute; 
+    bottom: 0;
+    width: 100%; /* Width of the box */
+    height: 10vh; /* Height of the box */
+    border: none; /* Border color and width */
+    background-color: #a19ebd; /* Background color */
+    
+
+}
+
+
+/*****************************************************************************************************************/
+/************************************* Third Body: Footer Content Section ****************************************/
+/*****************************************************************************************************************/
+
+#Card_Display_Footer
+{
+    background-image: url('Images/Temp_Images/feathers@3x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Remove underline for all links in the specified sections */
+.Card_Display_Footer a {
+    text-decoration: none; /* Remove underline */
+    color: #e8e8e4;
+}
+
+#Card_Display_Footer::before {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute; /* Position relative to the container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(107, 99, 181, 0.5);
+    z-index: 0; /* Ensure pseudo-element is above the image */
+}
+
+.Card_Display_Footer_Links
+{
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    color: #e8e8e4;
+    text-decoration: none;
+}
+
+.Card_Display_Footer_Find_Cards nav
+{
+    text-decoration: none;
+}
+
+.Card_Display_Footer_Links h2
+{
+    margin: 0;
+    border-bottom: 2px solid rgba(107, 99, 181, 0.5);
+    font-family: Literata;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
+.Card_Display_Footer_Find_Cards, .Card_Display_Footer_Accio, .Card_Display_Footer_Socials
+{
+    width: 12Vw;
+    height: 10vh;
+    margin: 0 2vw 0 2vw;
+    font-family: Literata;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: var(--white-100);
+      
+}
+
+.Card_Display_Footer_Find_Cards nav, .Card_Display_Footer_Accio nav, .Card_Display_Footer_Socials nav
+{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
+.Card_Display_Footer_Copyright_Disclosure, .Card_Display_Footer_Copyright_Disclosure p
+{
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+    font-family: Literata;
+    font-style: normal;
+    margin: 0;
+    color: #e8e8e4;
+    z-index: 2;
+    overflow: hidden;
+}
+
+

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Accio Search Display</title>
+        <link rel="stylesheet" href="Search_Display.css">
+    </head>
+    <body>
+
+        <!--*****************************************************************************************************************/
+        /************************************* First Body: Header Content Section ****************************************/
+        /*****************************************************************************************************************-->
+
+        <div class="Search_Display_Header" id="Search_Display_Header">
+
+            <div class="Search_Display_Page_Search_Bar">
+                <input type="text" id="search-input" placeholder="Search for a card">
+            </div>
+
+
+            <img src="Images/Icons/accio.svg"
+            class="Book">
+
+            <nav>
+                <a href="Index.html">Home</a>
+            </nav>
+
+            <img src="Images/Icons/bolt.svg"
+                class="Bolt">
+
+            <nav>
+                <a href="Advanced_Search.html">Advanced Search</a>
+            </nav>
+
+            <img src="Images/Icons/book.svg"
+            class="Book">
+
+            <nav>
+                <a href="Sets_Page.html">Sets</a>
+            </nav>
+
+
+        </div>
+
+        <!--*****************************************************************************************************************/
+        /************************************* Second Body: Body Content Section ****************************************/
+        /*****************************************************************************************************************-->
+
+        <div class="Search_Display_Body" id="Search_Display_Body">
+
+            <!-- Search Result Filters -->
+            <div class="Search_Display_Body_Filters">
+                <div class="Search_Display_Body_Filters_Results_Text">
+                    
+                    <h3>
+                        Search Results
+                    </h3>
+
+                    <p>
+                        70
+                    </p>
+
+                </div>
+
+                <div class="Search_Display_Body_Filters_SortBy">
+                    <form>
+                        <label for="Search_Display_Body_Filters_SortBy_Dropdown"></label>
+                        <select id="Search_Display_Body_Filters_SortBy_Dropdown" name="Search_Display_Body_Filters_SortBy_Dropdown" class="styled-dropdown">
+                            <option class="dropdown-item"  value="Base">Set/Number</option>
+                            <option class="dropdown-item"  value="QC">Name</option>
+                            <option class="dropdown-item"  value="DA">Cost</option>
+                            <option class="dropdown-item"  value="QC">Type</option>
+                            <option class="dropdown-item"  value="DA">Rarity</option>
+                            <option class="dropdown-item"  value="QC">Artist</option>
+                            <option class="dropdown-item"  value="DA">Lesson</option>
+                        </select>
+                    </form>
+                    
+                </div>
+
+                <div class="Search_Display_Body_Filters_Ascending">
+                    <form>
+                        <label for="Search_Display_Body_Filters_Ascending_Dropdown"></label>
+                        <select id="Search_Display_Body_Filters_Ascending_Dropdown" name="Search_Display_Body_Filters_Ascending_Dropdown" class="styled-dropdown">
+                            <option class="dropdown-item"  value="Asc">Asc</option>
+                            <option class="dropdown-item"  value="Desc">Desc</option>
+                        </select>
+                    </form>
+                </div>
+
+                <div class="Search_Display_Body_Filters_Create">
+                    <button class="Search_Display_Body_Filters_Create_Card">Create Card</button>
+                </div>
+            
+            </div>
+
+            <!-- Card Image Grid -->
+            <div class="Search_Display_Body_Card_Display_Grid">
+
+            </div>
+
+        </div>
+
+        <!--*****************************************************************************************************************/
+        /********************************************** Third Body: Footer *****************************************************/
+        /*****************************************************************************************************************-->
+        
+        <div class="Search_Display_Footer" id="Search_Display_Footer">
+            
+            <div class="Search_Display_Footer_Links">
+
+                <div class="Search_Display_Footer_Find_Cards">
+                    
+                    <div class="Search_Display_Footer_Find_Cards_Header">
+                        <h2>Find Cards</h2>
+                    </div>
+                    <nav>
+                        <a href="https://wikipedia.org" target="_blank">All Sets</a>
+                        <a href="https://wikipedia.org" target="_blank">Syntax Guide</a>
+                        <!-- Add more links as needed -->
+                    </nav>
+
+                </div>
+
+                <div class="Search_Display_Footer_Accio">
+                    <div class="Search_Display_Footer_Accio_Header">
+                        <h2>Accio</h2>
+                    </div>
+                    <nav>
+                        <a href="https://wikipedia.org" target="_blank">Wikipedia</a>
+                        <a href="https://wikipedia.org" target="_blank">Contact</a>
+                        <!-- Add more links as needed -->
+                    </nav>
+                </div>
+
+                <div class="Search_Display_Footer_Socials">
+
+
+                    <div class="Search_Display_Footer_Socials_Header">
+                        <h2>Socials</h2>
+                    </div>
+                    <nav>
+                        <a href="https://discord.com" target="_blank">Discord</a>
+                        <!-- Add more links as needed -->
+                    </nav>
+                </div>
+
+            </div>
+
+            <div class="Search_Display_Footer_Copyright_Disclosure">
+                <nav>
+                    <p>
+                        The information presented on this site about Harry Potter, including card images, characters, names and related indicia are ™ and © Warner Bros. Entertainment Inc. 
+                        This website is not produced by, endorsed by, supported by, or affiliated with Warner Bros. Entertainment Inc. All rights reserved.
+
+                    </p>
+                </nav>
+            </div>
+
+
+        </div>
+        <script src="Search_Display.js"></script>
+    </body>
+</html>
+
