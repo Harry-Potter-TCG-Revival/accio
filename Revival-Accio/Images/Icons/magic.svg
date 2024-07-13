@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+    <defs>
+        <path id="pwyymtruba" d="M6.125 2.625l.438-.875.875-.437-.875-.438L6.125 0l-.438.875-.875.438.875.437.438.875zm-3.938 1.75l.73-1.458 1.458-.73-1.459-.729L2.188 0l-.73 1.458L0 2.188l1.459.729.728 1.458zm9.626 3.5l-.73 1.458-1.458.73 1.459.729.729 1.458.728-1.458 1.459-.73-1.459-.729-.729-1.458zm1.93-5.298l-2.32-2.32C11.253.084 11.03 0 10.805 0c-.224 0-.448.085-.619.256l-9.93 9.93c-.341.342-.341.896 0 1.238l2.32 2.32c.171.17.395.256.62.256.223 0 .447-.085.618-.256l9.93-9.93c.341-.342.341-.896 0-1.237zM9.83 5.563L8.437 4.171l2.368-2.368 1.392 1.392-2.368 2.368z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-859 -30) translate(464 24) translate(395 6)">
+                    <mask id="muclzubvkb" fill="#fff">
+                        <use xlink:href="#pwyymtruba"/>
+                    </mask>
+                    <use fill="#FFF" fill-rule="nonzero" opacity=".75" xlink:href="#pwyymtruba"/>
+                    <g fill="#E8E8E4" mask="url(#muclzubvkb)">
+                        <path d="M0 0H14V14H0z"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

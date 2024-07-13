@@ -1,0 +1,440 @@
+html, body {
+    
+    font-family: 'Literata', Georgia, serif;
+    background-color:  #d85b3c;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*****************************************************************************************************************/
+/************************************* First Body: Header Content Section ****************************************/
+/*****************************************************************************************************************/
+
+#Page_Header {
+    background-color:  #6b63b5;
+    color: #e7ddfde8;
+    width: 100%;
+    min-height: 6vh;
+    max-height: 20vh;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(8px,2.5vw,16px);
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center; 
+    overflow: hidden;
+}
+
+.Page_Header_Buttons
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+.Page_Header img {
+    width: 20px; /* Set the width of the images */
+    height: 20px; /* Maintain aspect ratio */
+    margin-left: 5vw; /* Add margin around the images */
+    margin-right: 1vw; /* Add margin around the images */
+    /* You can add more styles as needed */
+}
+
+#Page_Header a, #Page_Header a:visited, #Page_Header a:hover, #Page_Header a:active {
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+    justify-content: space-around;
+    outline: none;
+}
+
+#Page_Header nav
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#Page_Header_Advance_Search, #Page_Header_Syntax, #Page_Header_Sets
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    outline: none;
+}
+
+#search_input {
+    min-width: 100px;
+    max-width: 80vw;
+    width: 400px; /* Change this value to adjust the width */
+    height: 36px; /* Change this value to adjust the height */
+    opacity: 0.6; /* Set the opacity */
+    border-radius: 5px; /* Change this value for corner radius */
+    padding: 0 10px; /* Optional: add padding inside the button */
+    background-color: rgba(0, 0, 0, 0.25); /* Set the background color */
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Arial', sans-serif;
+    font-size: 14px; /* Optional: adjust font size */
+    border: none; /* Optional: add a border */
+    outline: none;
+    margin: 2px;
+}
+
+#search_input::placeholder
+{
+    color: rgba(255, 255, 255, 1);; /* Ccolour of placeholder text*/
+    font-family: 'Arial', sans-serif;
+}
+
+#search_button:hover {
+    background-color: hsl(246, 47%, 46%); /* Change background color on hover */
+}
+
+/*****************************************************************************************************************/
+/**************************************Second Body: Main Content Section *****************************************/
+/*****************************************************************************************************************/
+
+#Sets_Page_Body
+{
+    width: 100%;
+    min-height: 74vh;  /* Set the minimum height */
+    background-color: #e8e8e4;
+    margin: 0;
+    padding: 0;
+}
+
+
+.Sets_Page_Body_Titles
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: rgba(33, 33, 33, 1);;
+    background-color: rgba(232, 232, 228, 1); /* Set the background color */
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    overflow: hidden;
+}
+
+.Sets_Page_Body_Titles_Name
+{
+    width: 20vw;    
+} 
+.Sets_Page_Body_Titles_Cards
+{
+    width: 5vw;
+}
+
+.Sets_Page_Body_Titles_Release_Date 
+{
+    width: 10vw;
+}
+
+.Sets_Page_Body_Titles_Languages
+{
+    width: 20vw;
+}
+.Sets_Page_Body_Grid_Sets_Languages_Box
+{
+    min-height: 10px;
+    max-height: 100%;
+    height: 80%;
+    aspect-ratio: 1/1;
+}
+
+.Sets_Page_Body_Grid_Sets_Languages_Box p
+{
+    min-height: 10px;
+    max-height: 80%;
+    height: 80%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6b63b5;
+    background-color: #fff;
+    border: solid 1px #6b63b5;
+    border-radius: 2px;
+    font-size: clamp(8px,2vw,16px);
+    padding: 1px;
+    margin: 0;
+}
+
+.Sets_Page_Body_Titles p
+{
+    color: rgba(33, 33, 33, 1);
+    font-weight: bold;
+    background-color: rgba(232, 232, 228, 1); /* Set the background color */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------ Sets Grid -------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+.Sets_Page_Body_Grid_Sets 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: rgba(33, 33, 33, 1);;
+    background-color: rgba(232, 232, 228, 1); /* Set the background color */
+    padding-top: 5vh;
+    overflow: hidden;
+}
+.Sets_Page_Body_Display_Grid
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+}
+.Sets_Page_Body_Display_Grid img {
+    max-width: calc(100% - 10px); /* Adjust for padding */
+    max-height: calc(100% - 10px); /* Adjust for padding */
+    width: auto;
+    height: auto;
+    object-fit: contain; /* Ensures the image maintains aspect ratio and fits within the container */
+    padding: 5px; /* Adjust as needed */
+    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+/* -----------------------------------Sets Rows----------------------------------------- */
+.Sets_Page_Body_Grid_HAH
+{
+    display: flex;
+    flex-direction: Row;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 1); /* Set the background color */
+}
+.Sets_Page_Body_Grid_Promo
+{
+    display: flex;
+    flex-direction: Row;
+    margin: 0;
+    background-color: rgba(232, 232, 228, 1); /* Set the background color */
+}
+.Sets_Page_Body_Grid_EOTP
+{
+    display: flex;
+    flex-direction: Row;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 1); /* Set the background color */
+}
+.Sets_Page_Body_Grid_SOH
+{
+    display: flex;
+    flex-direction: Row;
+    margin: 0;
+    background-color: rgba(232, 232, 228, 1); /* Set the background color */
+}
+.Sets_Page_Body_Grid_POA
+{
+    display: flex;
+    flex-direction: Row;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 1); /* Set the background color */
+}
+.Sets_Page_Body_Grid_HOS
+{
+    display: flex;
+    flex-direction: Row;
+    margin: 0;
+    background-color: rgba(232, 232, 228, 1); /* Set the background color */
+}
+
+.Sets_Page_Body_Grid_COS
+{
+    display: flex;
+    flex-direction: Row;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 1); /* Set the background color */
+}
+.Sets_Page_Body_Grid_AAH
+{
+    display: flex;
+    flex-direction: Row;
+    margin: 0;
+    background-color: rgba(232, 232, 228, 1); /* Set the background color */
+}
+.Sets_Page_Body_Grid_DA
+{
+    display: flex;
+    flex-direction: Row;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 1); /* Set the background color */
+}
+.Sets_Page_Body_Grid_QC
+{
+    display: flex;
+    flex-direction: Row;
+    margin: 0;
+    background-color: rgba(232, 232, 228, 1); /* Set the background color */
+}
+.Sets_Page_Body_Grid_Base
+{
+    display: flex;
+    flex-direction: Row;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 1); /* Set the background color */
+}
+
+/* -----------------------------------Column Contents----------------------------------------- */
+.Sets_Page_Body_Grid_Sets_Symbols
+{
+    width: 5vw;
+    height: 5vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.Sets_Page_Body_Grid_Sets_Name
+{
+    height: 5vh;
+    width: 15vw;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+} 
+.Sets_Page_Body_Grid_Sets_Cards
+{
+    height: 5vh;
+    width: 5vw;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sets_Page_Body_Grid_Sets_Release_Date 
+{
+    height: 5vh;
+    width: 10vw;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sets_Page_Body_Grid_Sets_Languages
+{
+    height: 5vh;
+    width: 20vw;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+/*****************************************************************************************************************/
+/********************************* Third Body: Footer Content Section ********************************************/
+/*****************************************************************************************************************/
+#Sets_Page_Footer
+{
+    background-image: url('Images/Temp_Images/feathers@3x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#Sets_Page_Footer::before {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute; /* Position relative to the container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(107, 99, 181, 0.5);
+    z-index: 0; /* Ensure pseudo-element is above the image */
+}
+
+.Sets_Page_Footer_Links
+{
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    color: #e8e8e4;
+    text-decoration: none;
+}
+.Sets_Page_Footer_Links h2
+{
+    margin: 0;
+    border-bottom: 2px solid rgba(107, 99, 181, 0.5);
+    font-family: Literata;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
+.Sets_Page_Footer_Find_Cards, .Sets_Page_Footer_Accio, .Sets_Page_Footer_Socials
+{
+    width: 12Vw;
+    height: 10vh;
+    margin: 0 2vw 0 2vw;
+    font-family: Literata;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: var(--white-100);  
+}
+
+.Sets_Page_Footer_Find_Cards nav, .Sets_Page_Footer_Accio nav, .Sets_Page_Footer_Socials nav,
+.Sets_Page_Footer_Find_Cards nav a, .Sets_Page_Footer_Accio nav a, .Sets_Page_Footer_Socials nav a
+{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-decoration: none;
+    color: #e8e8e4;
+}
+
+.Sets_Page_Footer_Copyright_Disclosure, .Sets_Page_Footer_Copyright_Disclosure p
+{
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+    font-family: Literata;
+    font-style: normal;
+    margin: 0;
+    color: #e8e8e4;
+    z-index: 2;
+    overflow: hidden;
+}

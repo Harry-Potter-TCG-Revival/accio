@@ -1,0 +1,237 @@
+html, body {
+    
+    font-family: 'Literata', Georgia, serif;
+    background-color:  #d85b3c;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*****************************************************************************************************************/
+/************************************* First Body: Header Content Section ****************************************/
+/*****************************************************************************************************************/
+
+#Page_Header {
+    background-color:  #6b63b5;
+    color: #e7ddfde8;
+    width: 100%;
+    min-height: 6vh;
+    max-height: 20vh;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(8px,2.5vw,16px);
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center; 
+    overflow: hidden;
+}
+
+.Page_Header_Buttons
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+.Page_Header img {
+    width: 20px; /* Set the width of the images */
+    height: 20px; /* Maintain aspect ratio */
+    margin-left: 5vw; /* Add margin around the images */
+    margin-right: 1vw; /* Add margin around the images */
+    /* You can add more styles as needed */
+}
+
+#Page_Header a, #Page_Header a:visited, #Page_Header a:hover, #Page_Header a:active {
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+    justify-content: space-around;
+    outline: none;
+}
+
+#Page_Header nav
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#Page_Header_Advance_Search, #Page_Header_Syntax, #Page_Header_Sets
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    outline: none;
+}
+
+#search_input {
+    min-width: 100px;
+    max-width: 80vw;
+    width: 400px; /* Change this value to adjust the width */
+    height: 36px; /* Change this value to adjust the height */
+    opacity: 0.6; /* Set the opacity */
+    border-radius: 5px; /* Change this value for corner radius */
+    padding: 0 10px; /* Optional: add padding inside the button */
+    background-color: rgba(0, 0, 0, 0.25); /* Set the background color */
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Arial', sans-serif;
+    font-size: 14px; /* Optional: adjust font size */
+    border: none; /* Optional: add a border */
+    outline: none;
+    margin: 2px;
+}
+
+#search_input::placeholder
+{
+    color: rgba(255, 255, 255, 1);; /* Ccolour of placeholder text*/
+    font-family: 'Arial', sans-serif;
+}
+
+#search_button:hover {
+    background-color: hsl(246, 47%, 46%); /* Change background color on hover */
+}
+
+/*****************************************************************************************************************/
+/**************************************Second Body: Main Content Section *****************************************/
+/*****************************************************************************************************************/
+
+#Error_Page_Body
+{
+    width: 100%;
+    min-height: 74vh;  /* Set the minimum height */
+    background-color: #e8e8e4;
+}
+.Error_Page_Body_404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.Error_Page_Body_404 img {
+    max-width: 30vw;
+    max-height: 30vh;
+    width: auto;
+    height: auto;
+    padding: 10px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+}
+
+.Error_Page_Body_Card_Message
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+}
+.Error_Page_Body_Card_Message h2
+{
+    color: rgba(107, 99, 181, 1);
+}
+
+/*****************************************************************************************************************/
+/********************************* Third Body: Footer Content Section ********************************************/
+/*****************************************************************************************************************/
+#Error_Page_Footer
+{
+    background-image: url('Images/Temp_Images/feathers@3x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#Error_Page_Footer::before {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute; /* Position relative to the container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(107, 99, 181, 0.5);
+    z-index: 0; /* Ensure pseudo-element is above the image */
+}
+
+.Error_Page_Footer_Links
+{
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    color: #e8e8e4;
+    text-decoration: none;
+}
+.Error_Page_Footer_Links h2
+{
+    margin: 0;
+    border-bottom: 2px solid rgba(107, 99, 181, 0.5);
+    font-family: Literata;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
+.Error_Page_Footer_Find_Cards, .Error_Page_Footer_Accio, .Error_Page_Footer_Socials
+{
+    width: 12Vw;
+    height: 10vh;
+    margin: 0 2vw 0 2vw;
+    font-family: Literata;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: var(--white-100);  
+}
+
+.Error_Page_Footer_Find_Cards nav, .Error_Page_Footer_Accio nav, .Error_Page_Footer_Socials nav,
+.Error_Page_Footer_Find_Cards nav a, .Error_Page_Footer_Accio nav a, .Error_Page_Footer_Socials nav a
+{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-decoration: none;
+    color: #e8e8e4;
+}
+
+.Error_Page_Footer_Copyright_Disclosure, .Error_Page_Footer_Copyright_Disclosure p
+{
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+    font-family: Literata;
+    font-style: normal;
+    margin: 0;
+    color: #e8e8e4;
+    z-index: 2;
+    overflow: hidden;
+}
