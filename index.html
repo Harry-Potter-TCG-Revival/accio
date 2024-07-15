@@ -8,7 +8,7 @@
         let cards = [];
 
         async function fetchCards() {
-            const response = await fetch('https://raw.githubusercontent.com/Tressley/repository/main/hpjson');
+            const response = await fetch('https://raw.githubusercontent.com/Tressley/hpjson/main/cards.json');
             cards = await response.json();
         }
 
