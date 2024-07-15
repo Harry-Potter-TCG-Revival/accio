@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <style>
+        .card {
+            border: 1px solid #ccc;
+            padding: 16px;
+            margin: 16px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .card h2 {
+            margin-top: 0;
+        }
+    </style>
+    <script>
+        let cards = [];
+
+        async function fetchCards() {
+            const response = await fetch('https://raw.githubusercontent.com/username/repository/main/cards.json');
+            cards = await response.json();
+            displayResults();
+        }
+
+        function getQueryParams() {
+            const params = {};
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            for (const [key, value] of urlParams.entries()) {
+                params[key] = value.toLowerCase();
+            }
+            return params;
+        }
+
+        function displayResults() {
+            const params = getQueryParams();
+            const results = cards.filter(card => {
+                return (
+                    (!params.name || card.name.toLowerCase().includes(params.name)) &&
+                    (!params.type || card.type.toLowerCase().includes(params.type)) &&
+                    (!params.description || card.description.toLowerCase().includes(params.description)) &&
+                    (!params.attribute || card.attribute.toLowerCase().includes(params.attribute)) &&
+                    (!params.rarity || card.rarity.toLowerCase().includes(params.rarity)) &&
+                    (!params.set || card.set.toLowerCase().includes(params.set)) &&
+                    (!params.year || card.year == params.year)
+                );
+            });
+
+            const resultsContainer = document.getElementById('results');
+            resultsContainer.innerHTML = '';
+            results.forEach(card => {
+                const cardElement = document.createElement('div');
+                cardElement.className = 'card';
+                cardElement.innerHTML = `
+                    <h2>${card.name}</h2>
+                    <p>Type: ${card.type}</p>
+                    <p>Description: ${card.description}</p>
+                    <p>Attribute: ${card.attribute}</p>
+                    <p>Rarity: ${card.rarity}</p>
+                    <p>Set: ${card.set}</p>
+                    <p>Year: ${card.year}</p>
+                `;
+                resultsContainer.appendChild(cardElement);
+            });
+        }
+
+        window.onload = fetchCards;
+    </script>
+</head>
+<body>
+    <h1>Search Results</h1>
+    <div id="results"></div>
+</body>
+</html>
