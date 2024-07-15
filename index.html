@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Search</title>
+    <script>
+        let cards = [];
+
+        async function fetchCards() {
+            const response = await fetch('https://raw.githubusercontent.com/Tressley/repository/main/hpjson');
+            cards = await response.json();
+        }
+
+        function searchCards() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            const results = cards.filter(card => card.name.toLowerCase().includes(query));
+            document.getElementById('results').innerHTML = JSON.stringify(results, null, 2);
+        }
+
+        window.onload = fetchCards;
+    </script>
+</head>
+<body>
+    <input type="text" id="searchInput" placeholder="Search for cards">
+    <button onclick="searchCards()">Search</button>
+    <pre id="results"></pre>
+</body>
+</html>
