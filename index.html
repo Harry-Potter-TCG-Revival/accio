@@ -76,10 +76,16 @@
                 <p>A magical <strong>Harry Potter Trading Card Game</strong> search</p>
 
                 <!-- Search Bar -->
-                <form class="Home_Page_Search_Bar" id="Home_Page_Search_Bar">
+                <form id="searchForm" action="results.html" method="GET">
+                    <div>
+                        <label for="searchInput">Name:</label>
+                        <input type="text" id="searchInput" name="name" placeholder="Search by name">
+                    </div>
+                    <button type="submit">Search</button>
+                <!-- <form class="Home_Page_Search_Bar" id="Home_Page_Search_Bar"> 
                     <input type="text" id="search_input" placeholder="Search for a card">
                     <button onclick="searchCards()">Search</button>
-                    <pre id="results"></pre>
+                    <pre id="results"></pre> -->
                 </form>
             </div>
 
