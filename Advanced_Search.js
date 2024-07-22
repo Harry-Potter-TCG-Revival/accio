@@ -1,199 +1,130 @@
-// Search Steps
-//1. Get the search button and add a Listener
-//2. Get a string for all the components
-//3. 
-
-const searchName = document.getElementById('NameInput');
-const searchText = document.getElementById('TextInput');
-const searchType = document.getElementById('Card_Type_Dropdown');
-const searchKeywords = document.getElementById('KeywordsInput');
-const searchCOMC = document.getElementById('COMCCheckBox');
-const searchCharms = document.getElementById('CharmsCheckBox');
-const searchPotions = document.getElementById('PotionsCheckBox');
-const searchQuidditch = document.getElementById('QuidCheckBox');
-const searchTransfiguration = document.getElementById('TranCheckBox');
-const searchPower = document.getElementById('PPCInput');
-const searchStats = document.getElementById('StatsInput');
-const searchSet = document.getElementById('Card_Sets_Dropdown');
-const searchCommon = document.getElementById('CommonCheckBox');
-const searchUncommon = document.getElementById('UncommonCheckBox');
-const searchRare = document.getElementById('RareCheckBox');
-const searchPremium = document.getElementById('PremiumCheckBox');
-const searchFlavour = document.getElementById('FlavourInput');
-const searchArtist = document.getElementById('ArtistInput');
-const searchNumber = document.getElementById('NumberInput');
-var Advanced_Search_Type_Field = document.getElementById('Advanced_Search_Type_Field');
-
-const button = document.getElementById('Advanced_Search_Button');
-button.addEventListener('click',function()
-{
-    event.preventDefault();
-
-        // Initialize an empty string to store the result
-        let formDataString = '';
-
-        // Function to add an input's name and value to the result string if value is not empty or checkbox is checked
-        function addToFormDataString(inputElement) {
-        if (inputElement.type === 'checkbox') 
-        {
-            if (inputElement.checked) 
-            {
-                // Add the checkbox name and 'checked' status
-                formDataString += `${inputElement.id}: checked\n`;
-            }
-                // If not checked, do nothing
-        } 
-        else if (inputElement.tagName.toLowerCase() === 'select') 
-        {
-            // For select dropdowns, check if an option is selected
-            if (inputElement.selectedIndex >= 0) 
-            {
-                const selectedOption = inputElement.options[inputElement.selectedIndex];
-                if (selectedOption.value.trim() !== '') 
-                { // Check if selected value is not empty
-                    formDataString += `${inputElement.id}: ${selectedOption.text}\n`;
-                }
-            }
-        // If no option selected, do nothing
-        } 
-        else 
-        {
-      // For other input types (assuming text inputs here)
-      const value = inputElement.value.trim(); // Trim to remove leading and trailing spaces
-  
-            if (value !== '') 
-            {
-                formDataString += `${inputElement.id}: ${value}\n`;
-            }
-        }
-  }
-        // Add each input's name and value to the formDataString
-        addToFormDataString(searchName);
-        addToFormDataString(searchText);
-        addToFormDataString(searchType);
-        addToFormDataString(searchKeywords);
-        addToFormDataString(searchCOMC);
-        addToFormDataString(searchCharms);
-        addToFormDataString(searchPotions);
-        addToFormDataString(searchQuidditch);
-        addToFormDataString(searchTransfiguration);
-        addToFormDataString(searchPower);
-        addToFormDataString(searchStats);
-        addToFormDataString(searchSet);
-        addToFormDataString(searchCommon);
-        addToFormDataString(searchUncommon);
-        addToFormDataString(searchRare);
-        addToFormDataString(searchPremium);
-        addToFormDataString(searchFlavour);
-        addToFormDataString(searchArtist);
-        addToFormDataString(searchNumber);
-
-
-    StringValue = formDataString;
-
-    localStorage.setItem('SearchString', StringValue)
-
-    console.log('Search String:', localStorage.getItem('SearchString'));
-
-
-    if (StringValue !== '') 
-    {
-        const url = `Search_Display.html?search=${encodeURIComponent(StringValue)}`;
-        // Redirect to the new URL  
-        window.location.href = url;
-    }
-})
-
-
-//-----------------------------------------------------------------------------------------
-//--------------------------------Code for the type dropdown list--------------------------
-//-----------------------------------------------------------------------------------------
 document.addEventListener('DOMContentLoaded', function() {
-    var Card_Type_Dropdown = document.getElementById('Card_Type_Dropdown');
-    Card_Type_Dropdown.addEventListener('change', function() {
-    var selectedOption = Card_Type_Dropdown.options[Card_Type_Dropdown.selectedIndex];
-        
-        // Check if the selected option is not the blank option
-        if (selectedOption.value !== "") 
-            {
-             // Create a new div element to hold the selected option text
-             var selectedOptionText = document.createTextNode(selectedOption.text);
-             var selectedOptionDiv = document.createElement('div');
-             selectedOptionDiv.className = 'Card_Type_Selected_Div';
-             selectedOptionDiv.appendChild(selectedOptionText);
+    const types = ["Adventure", "Character", "Creature", "Event", "Item", "Lesson", "Location", "Match", "Spell"];
+    const keywords = ["Wizard", "Unique", "Slytherin", "Dog", "Money", "Seeker", "Gryffindor", "Witch", "Healing", "Ghost", "Dragon", "Cauldron", "Squid", "Gargoyle", "Bat", "Candy", "Chimaera", "Broom", "Hufflepuff", "Ravenclaw", "Unicorn", "Owl", "Troll", "Cat", "Wand", "Kelpie", "Toad", "Snake", "Bird", "Spider", "Rat", "Deer", "Wolf", "Chaser", "Capybara", "Phoenix", "Plant", "Manticore", "Porcupine", "Password", "Ghoul", "Gnome", "Lion", "Book", "Badger", "Eagle", "Ferret", "Goblin", "Beetle Eyes", "Eel Eyes", "Quintaped", "Boar", "Dark", "Marauder", "Beater", "Character Creature", "Werewolf", "Keeper", "Animagus", "Patronus", "Ministry", "Divination", "Revelation", "Centaur", "Dementor", "Newt", "Hinkypunk", "Hippogriff", "Advanced", "Headmaster", "House-elf", "Pixie", "Clothes", "Rooster", "Armour", "Cockatrice", "Boggart", "Red Cap", "Fairy", "Fox", "Snail", "Hogsmeade"];
+    const sets = ["Base", "Quidditch Cup", "Diagon Alley", "Adventures at Hogwarts", "Chamber of Secrets", "Heir of Slytherin", "Prisoner of Azkaban", "Streets of HogsMeade", "Echoes of the Past", "Promotional", "Hogwarts a History"];
 
-            // Creatue a delete button
-             var deleteButton = document.createElement('button');
-             deleteButton.textContent = 'x';
-             deleteButton.className = 'Card_Type_Selected_Div_Cross'
-             deleteButton.addEventListener('click', function() 
-                {
-                    // Store information about the deleted element (example: text content and value)
-                    var deletedOptionText = selectedOptionDiv.textContent;
-                    var deletedOptionValue = selectedOptionDiv.getAttribute('data-value'); // Adjust this based on how you set the value
+    function setupMultiSelect(inputId, options, multiSelectId, selectedContainerId) {
+        const input = document.getElementById(inputId);
+        const multiSelect = document.getElementById(multiSelectId);
+        const selectedContainer = document.getElementById(selectedContainerId);
 
-                    // Create a new option element
-                    var newOption = document.createElement('option');
-                    var cleanText = deletedOptionText.slice(0, -1); // Remove the last character from the text content
-                    newOption.textContent = cleanText;    // Set the option text
-                    newOption.value = deletedOptionValue; // Assign the value if applicable
+        input.addEventListener('input', function() {
+            const value = input.value.toLowerCase();
+            multiSelect.innerHTML = '';
+            options.forEach(option => {
+                if (option.toLowerCase().includes(value)) {
+                    const item = document.createElement('div');
+                    item.classList.add('dropdown-item');
+                    item.dataset.value = option;
+                    item.textContent = option;
+                    multiSelect.appendChild(item);
+                }
+            });
+        });
 
-                    var Card_Type_Options = Card_Type_Dropdown.options;
-                    var insertIndex = 0;
-                    for (var i = 0; i < Card_Type_Options.length; i++) {
-                        if (deletedOptionText < Card_Type_Options[i].textContent) {
-                            insertIndex = i;
-                            break;
-                        }
-                    }
-                    // Insert the new option at the determined index
-                    Card_Type_Dropdown.insertBefore(newOption, Card_Type_Options[insertIndex]);
-                    // Remove the selected option
-                    selectedOptionDiv.remove();
+        multiSelect.addEventListener('click', function(event) {
+            const target = event.target;
+            if (target.classList.contains('dropdown-item')) {
+                const value = target.dataset.value;
+                const selectedOption = document.createElement('div');
+                selectedOption.classList.add('selected-option');
+                selectedOption.dataset.value = value;
+                selectedOption.textContent = value;
+                const removeButton = document.createElement('button');
+                removeButton.textContent = 'x';
+                removeButton.addEventListener('click', function() {
+                    selectedContainer.removeChild(selectedOption);
                 });
-             selectedOptionDiv.appendChild(deleteButton);
+                selectedOption.appendChild(removeButton);
+                selectedContainer.appendChild(selectedOption);
+                input.value = '';
+                multiSelect.innerHTML = '';
+            }
+        });
+    }
 
-             // Append the div to below the dropdown menu
-             Advanced_Search_Type_Field.appendChild(selectedOptionDiv);
+    setupMultiSelect('TypeInput', types, 'Card_Type_MultiSelect', 'Selected_Options_Type');
+    setupMultiSelect('KeywordsInput', keywords, 'Keywords_MultiSelect', 'Selected_Options_Keywords');
+    setupMultiSelect('SetsInput', sets, 'Card_Sets_MultiSelect', 'Selected_Options_Sets');
 
-            // Remove the selected option
-            Card_Type_Dropdown.removeChild(selectedOption);
-
-            // Create a new blank option
-            var blankOption = document.createElement('option');
-            blankOption.className = 'Card_Type_Dropdown_Item';
-            blankOption.value = '';
-            blankOption.disabled = true;
-            blankOption.selected = true;
-            blankOption.hidden = true;
-
-            // Insert the blank option at the beginning of the dropdown
-            Card_Type_Dropdown.insertBefore(blankOption, Card_Type_Dropdown.firstChild);
-
-            // Ensure the blank option is selected
-            Card_Type_Dropdown.selectedIndex = 0;
+    const searchInput = document.getElementById('search_input');
+    searchInput.addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            event.preventDefault();
+            const StringValue = searchInput.value.trim().toLowerCase();
+            const url = `Search_Display.html?search=${encodeURIComponent(StringValue)}`;
+            window.location.href = url;
         }
     });
-});
 
+    const searchButton = document.getElementById('Advanced_Search_Button');
+    searchButton.addEventListener('click', function() {
+        const nameInput = document.getElementById('NameInput').value.trim();
+        const textInput = document.getElementById('TextInput').value.trim();
+        const selectedTypes = Array.from(document.querySelectorAll('#Selected_Options_Type .selected-option'))
+            .map(el => el.dataset.value);
+        const selectedKeywords = Array.from(document.querySelectorAll('#Selected_Options_Keywords .selected-option'))
+            .map(el => el.dataset.value);
+        const selectedSets = Array.from(document.querySelectorAll('#Selected_Options_Sets .selected-option'))
+            .map(el => el.dataset.value);
+        const comcCheckbox = document.getElementById('COMCCheckBox').checked;
+        const charmsCheckbox = document.getElementById('CharmsCheckBox').checked;
+        const potionsCheckbox = document.getElementById('PotionsCheckBox').checked;
+        const quidCheckbox = document.getElementById('QuidCheckBox').checked;
+        const tranCheckbox = document.getElementById('TranCheckBox').checked;
+        const ppcInput = document.getElementById('PPCInput').value.trim();
+        const statsInput = document.getElementById('StatsInput').value.trim();
+        const commonCheckbox = document.getElementById('CommonCheckBox').checked;
+        const uncommonCheckbox = document.getElementById('UncommonCheckBox').checked;
+        const rareCheckbox = document.getElementById('RareCheckBox').checked;
+        const premiumCheckbox = document.getElementById('PremiumCheckBox').checked;
+        const flavorInput = document.getElementById('FlavorInput').value.trim();
+        const artistInput = document.getElementById('ArtistInput').value.trim();
+        const numberInput = document.getElementById('NumberInput').value.trim();
 
-//-----------------------------------------------------------------------------------------
-//--------------------------------Code for the Header Search Bar---------------------------
-//-----------------------------------------------------------------------------------------
+        function quoteIfNeeded(value) {
+            return value.includes(' ') ? `"${value}"` : value;
+        }
 
+        let searchQuery = [];
 
-const searchInput = document.getElementById('search_input');
-searchInput.addEventListener('keydown', function(event) {
-    if (event.key === 'Enter') {
-        console.log("in 1 ")
-        event.preventDefault();
-        const StringValue = searchInput.value;
+        if (nameInput) searchQuery.push(`name:${quoteIfNeeded(nameInput)}`);
+        if (textInput) searchQuery.push(`effect:${quoteIfNeeded(textInput)}`);
+        if (selectedTypes.length > 0) searchQuery.push(`type:${selectedTypes.map(quoteIfNeeded).join('|')}`);
+        if (selectedKeywords.length > 0) searchQuery.push(`keyword:${selectedKeywords.map(quoteIfNeeded).join('|')}`);
         
-        localStorage.setItem('SearchString', StringValue);
+        let lessonValues = [];
+        if (comcCheckbox) lessonValues.push('Care of Magical Creatures');
+        if (charmsCheckbox) lessonValues.push('Charms');
+        if (potionsCheckbox) lessonValues.push('Potions');
+        if (quidCheckbox) lessonValues.push('Quidditch');
+        if (tranCheckbox) lessonValues.push('Transfiguration');
+        if (lessonValues.length > 0) searchQuery.push(`l:${lessonValues.map(quoteIfNeeded).join('|')}`);
         
-        const url = `Search_Display.html?search=${encodeURIComponent(StringValue)}`;
+        if (ppcInput) searchQuery.push(`cost:${quoteIfNeeded(ppcInput)}`);
+        if (statsInput) searchQuery.push(`stats:${quoteIfNeeded(statsInput)}`);
+        if (selectedSets.length > 0) searchQuery.push(`set:${selectedSets.map(quoteIfNeeded).join('|')}`);
+
+        let rarityValues = [];
+        if (commonCheckbox) rarityValues.push('Common');
+        if (uncommonCheckbox) rarityValues.push('Uncommon');
+        if (rareCheckbox) rarityValues.push('Rare');
+        if (premiumCheckbox) rarityValues.push('Premium');
+        if (rarityValues.length > 0) searchQuery.push(`rarity:${rarityValues.map(quoteIfNeeded).join('|')}`);
         
-        // Redirect to the new URL
+        if (flavorInput) searchQuery.push(`flavorText:${quoteIfNeeded(flavorInput)}`);
+        if (artistInput) searchQuery.push(`artist:${quoteIfNeeded(artistInput)}`);
+        if (numberInput) searchQuery.push(`number:${quoteIfNeeded(numberInput)}`);
+
+        const searchString = searchQuery.join(' ');
+
+        console.log('Search Query:', searchString);
+
+        // Store the search string in local storage
+        localStorage.setItem('SearchString', searchString);
+
+        // Redirect to the search results page
+        const url = `Search_Display.html?search=${encodeURIComponent(searchString)}`;
         window.location.href = url;
-    }
+    });
 });

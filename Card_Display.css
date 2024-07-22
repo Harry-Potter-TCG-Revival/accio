@@ -7,7 +7,6 @@ html, body {
     min-height: 100%;
     height: fit-content;
     position: absolute;
-   
 }
 
 /*****************************************************************************************************************/
@@ -33,8 +32,7 @@ html, body {
     overflow: hidden;
 }
 
-.Page_Header_Buttons
-{
+.Page_Header_Buttons {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -46,7 +44,6 @@ html, body {
     height: 20px; /* Maintain aspect ratio */
     margin-left: 5vw; /* Add margin around the images */
     margin-right: 1vw; /* Add margin around the images */
-    /* You can add more styles as needed */
 }
 
 #Page_Header a, #Page_Header a:visited, #Page_Header a:hover, #Page_Header a:active {
@@ -57,14 +54,12 @@ html, body {
     outline: none;
 }
 
-#Page_Header nav
-{
+#Page_Header nav {
     display: flex;
     flex-direction: row;
 }
 
-#Page_Header_Advance_Search, #Page_Header_Syntax, #Page_Header_Sets
-{
+#Page_Header_Advance_Search, #Page_Header_Syntax, #Page_Header_Sets {
     margin-left: 20px;
     margin-right: 20px;
     outline: none;
@@ -87,9 +82,8 @@ html, body {
     margin: 2px;
 }
 
-#search_input::placeholder
-{
-    color: rgba(255, 255, 255, 1);; /* Ccolour of placeholder text*/
+#search_input::placeholder {
+    color: rgba(255, 255, 255, 1); /* Colour of placeholder text */
     font-family: 'Arial', sans-serif;
 }
 
@@ -98,13 +92,12 @@ html, body {
 }
 
 /*****************************************************************************************************************/
-/************************************* Second Body: Boby Content Section ****************************************/
+/************************************* Second Body: Body Content Section ****************************************/
 /*****************************************************************************************************************/
 
-.Card_Display_Body
-{
+.Card_Display_Body {
     background-color: #e8e8e4;
-    color: #e7ddfde8;
+    color: #333;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,54 +106,74 @@ html, body {
     position: relative;
     min-height: 74vh;
     height: fit-content;
+    padding: 20px;
 }
 
-.Card_Display_Body_Card_Display
-{
+.Card_Display_Body_Card_Display {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
     justify-content: center;
     width: 100%;
     min-height: 74vh;
     height: fit-content;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
 }
 
-.Card_Display_Body_Card_Display_Side
-{
+.Card_Display_Body_Card_Display_Side {
     display: flex;
-    flex-direction: row;
+    flex: 1;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    min-height: 5vh;
-    height: fit-content;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding: 20px;
 }
 
-.Card_Display_Body_Card_Display_Image img
-{
+.Card_Display_Body_Card_Display_Image img {
     height: 50vh;
     width: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* Smooth transition */
 }
 
+.horizontal {
+    transform: rotate(90deg);
+}
 
-.Card_Display_Body_Card_Display_Rules_Text
-{
-    width: 100%;
-    height: fit-content;
-    padding-top: 1vh;
-    color:black;
-    background-color: #fff;
+.Card_Display_Body_Card_Display_Info {
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Card_Display_Body_Card_Display_Info h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.Card_Display_Body_Card_Display_Info p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.Card_Display_Body_Card_Display_Info span {
+    font-weight: bold;
+    color: #333;
 }
 
 /*****************************************************************************************************************/
 /************************************* Third Body: Footer Content Section ****************************************/
 /*****************************************************************************************************************/
 
-#Page_Footer
-{
+#Page_Footer {
     background-image: url('Images/Temp_Images/feathers@3x.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -169,7 +182,6 @@ html, body {
     align-items: center;
     justify-content: center;
     min-height: 20vh;
-    max-height: 500px;
     height: fit-content;
     width: 100%;
     position: relative;
@@ -194,8 +206,7 @@ html, body {
     z-index: 0; /* Ensure pseudo-element is above the image */
 }
 
-.Page_Footer_Links
-{
+.Page_Footer_Links {
     display: flex;
     flex-direction: row;
     z-index: 2;
@@ -203,8 +214,7 @@ html, body {
     text-decoration: none;
 }
 
-.Page_Footer_Links h2
-{
+.Page_Footer_Links h2 {
     margin: 0;
     border-bottom: 2px solid rgba(107, 99, 181, 0.5);
     font-family: Literata;
@@ -216,8 +226,7 @@ html, body {
     letter-spacing: normal;
 }
 
-.Page_Footer_Find_Cards, .Page_Footer_Accio, .Page_Footer_Socials
-{
+.Page_Footer_Find_Cards, .Page_Footer_Accio, .Page_Footer_Socials {
     width: 12Vw;
     height: 10vh;
     margin: 0 2vw 0 2vw;
@@ -231,8 +240,7 @@ html, body {
     color: var(--white-100);   
 }
 
-.Page_Footer_Find_Cards nav, .Page_Footer_Accio nav, .Page_Footer_Socials nav
-{
+.Page_Footer_Find_Cards nav, .Page_Footer_Accio nav, .Page_Footer_Socials nav {
     display: flex;
     flex-direction: column;
     font-family: Arial;
@@ -244,8 +252,12 @@ html, body {
     letter-spacing: normal;
 }
 
-.Page_Footer_Copyright_Disclosure, .Page_Footer_Copyright_Disclosure p
-{
+.Page_Footer_Find_Cards nav a, .Page_Footer_Accio nav a, .Page_Footer_Socials nav a {
+    text-decoration: none; 
+    color: #e8e8e4;
+}
+
+.Page_Footer_Copyright_Disclosure, .Page_Footer_Copyright_Disclosure p {
     width: 50vw;
     align-items: center;
     justify-content: center;
@@ -260,4 +272,84 @@ html, body {
     overflow: hidden;
 }
 
+.Card_Display_Body_Card_Display {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    gap: 20px; /* Add gap between the card image and info */
+}
 
+.Card_Display_Body_Card_Display_Side {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Card_Display_Body_Card_Display_Image img {
+    height: 50vh;
+    width: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.Card_Display_Body_Card_Display_Info {
+    flex: 2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.Card_Info_Card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    width: 60%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.Card_Info_Header {
+    height: 4px;
+    background-color: #6b63b5;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Card_Info_Row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.Card_Info_Row:not(:last-child) {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.card-info {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
+}
+
+.card-info span {
+    font-weight: bold;
+    color: #333;
+}
+
+#card-name span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}

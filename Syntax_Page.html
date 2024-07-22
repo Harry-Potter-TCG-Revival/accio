@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accio Search Syntax Guide</title>
+    <link rel="stylesheet" href="Syntax_Page.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <div class="Page_Header" id="Page_Header">
+        <form class="Search_Bar" id="Search_Bar">
+            <input type="text" id="search_input" placeholder="Search for a card">
+        </form>
+        <div class="Page_Header_Buttons" id="Page_Header_Buttons">
+            <img src="Images/Icons/accio.svg" class="Book">
+            <nav>
+                <a href="Index.html">Home</a>
+            </nav>
+            <img src="Images/Icons/bolt.svg" class="Bolt">
+            <nav>
+                <a href="Advanced_Search.html">Advanced Search</a>
+            </nav>
+            <img src="Images/Icons/book.svg" class="Book">
+            <nav>
+                <a href="Sets_Page.html">Sets</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="Content_Section">
+        <h1>Card Search Syntax Guide</h1>
+        <p>To search for cards using various criteria, you can use the following prefixes and terms. Each prefix can be shortened to 1 to 3 letters for convenience.</p>
+
+        <h2>Basic Search</h2>
+        <p>To perform a basic search, simply type your search term:</p>
+        <pre><code>Harry potter<br>common room<br>class</code></pre>
+        <p>This will search for the term within the <em>card names</em>.</p>
+
+        <h2>Advanced Search</h2>
+        <p>To perform an advanced search, use the following prefixes:</p>
+        <ul>
+            <li><strong>Name</strong>: <code>name</code>, <code>n</code>, <code>nm</code></li>
+            <li><strong>Number</strong>: <code>number</code>, <code>num</code></li>
+            <li><strong>Flavor Text</strong>: <code>flavortext</code>, <code>flavor</code>, <code>fl</code></li>
+            <li><strong>Type</strong>: <code>type</code>, <code>t</code></li>
+            <li><strong>SubType or <em>Keyword</em></strong>: <code>keyword</code>, <code>k</code></li>
+            <li><strong>Rarity</strong>: <code>rarity</code>, <code>r</code></li>
+            <li><strong>Artist</strong>: <code>artist</code>, <code>a</code></li>
+            <li><strong>Effect</strong>: <code>effect</code>, <code>e</code></li>
+            <li><strong>Set Name</strong>: <code>setname</code>, <code>set</code>, <code>s</code></li>
+            <li><strong>Release Date</strong>: <code>releasedate</code>, <code>date</code>, <code>d</code></li>
+            <li><strong>To Solve</strong>: <code>tosolve</code>, <code>solve</code>, <code>ts</code></li>
+            <li><strong>Reward</strong>: <code>reward</code>, <code>re</code></li>
+            <li><strong>Lesson</strong>: <code>lesson</code>, <code>l</code></li>
+            <li><strong>Cost</strong>: <code>cost</code>, <code>c</code></li>
+            <li><strong>Damage Each Turn</strong>: <code>dmgeachturn</code>, <code>damage</code>, <code>dmg</code></li>
+            <li><strong>Health</strong>: <code>health</code>, <code>h</code></li>
+            <li><strong>Note</strong>: <code>note</code></li>
+            <li><strong>Provides Lesson</strong>: <code>provides.lesson</code>, <code>provideslesson</code>, <code>pl</code></li>
+            <li><strong>Provides Amount</strong>: <code>provides.amount</code>, <code>providesamount</code>, <code>pa</code></li>
+            <li><strong>To Win</strong>: <code>towin</code>, <code>tw</code></li>
+            <li><strong>Prize</strong>: <code>prize</code>, <code>p</code></li>
+        </ul>
+
+        <h2>Combining Searches</h2>
+        <p>You can combine searches using AND (<code>*</code>) and OR (<code>|</code>) logic. For example:</p>
+        <pre><code>t:spell * r:rare</code></pre>
+        <p>This searches for cards that are of type "Spell" and have rarity "Rare".</p>
+
+        <h3>Quoted Searches</h3>
+        <p>If your search term includes spaces, use quotes:</p>
+        <pre><code>effect:"discard 2 cards"</code></pre>
+
+        <h2>Example Usage</h2>
+        <p>To search for a card by name:</p>
+        <pre><code>Albus Dumbledore<br>albus dumbledore<br>albus<br>dumbledore</code></pre>
+
+        <p>To search for cards with a specific type:</p>
+        <pre><code>type:character<br>t:spell</code></pre>
+
+        <p>To combine multiple search terms using AND logic (all conditions must be met):</p>
+        <pre><code>t:spell * r:rare</code></pre>
+
+        <p>To combine multiple search terms using OR logic (any condition can be met):</p>
+        <pre><code>t:spell | r:rare</code></pre>
+
+        <p>This guide should help you perform both basic and advanced searches effectively. Happy searching!</p>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="Syntax_Page_Footer" id="Syntax_Page_Footer">
+        <div class="Syntax_Page_Footer_Links">
+            <div class="Syntax_Page_Footer_Find_Cards">
+                <div class="Syntax_Page_Footer_Find_Cards_Header">
+                    <h2>Find Cards</h2>
+                </div>
+                <nav>
+                    <a href="Sets_Page.html">All Sets</a>
+                    <a href="Syntax_Page.html">Syntax Guide</a>
+                </nav>
+            </div>
+            <div class="Syntax_Page_Footer_Accio">
+                <div class="Syntax_Page_Footer_Accio_Header">
+                    <h2>Accio</h2>
+                </div>
+                <nav>
+                    <a href="https://www.harrypottertcg.com" target="_blank">HPTCG</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSearA0XbaERqV1_HlvI44Duq1Jf0ciDsBo5pIx0A9q0i5tfcw/viewform?usp=sf_link" target="_blank">Contact</a>
+                </nav>
+            </div>
+            <div class="Syntax_Page_Footer_Socials">
+                <div class="Syntax_Page_Footer_Socials_Header">
+                    <h2>Socials</h2>
+                </div>
+                <nav>
+                    <a href="https://www.youtube.com/@harrypottertcgrevival" target="_blank">Youtube</a>
+                </nav>
+            </div>
+        </div>
+        <div class="Syntax_Page_Footer_Copyright_Disclosure">
+            <nav>
+                <p>
+                    The information presented on this site about Harry Potter, including card images, characters, names and related indicia are ™ and © Warner Bros. Entertainment Inc.
+                    This website is not produced by, endorsed by, supported by, or affiliated with Warner Bros. Entertainment Inc. All rights reserved.
+                </p>
+            </nav>
+        </div>
+    </div>
+
+    <script src="Syntax_Page.js"></script>
+</body>
+
+</html>
