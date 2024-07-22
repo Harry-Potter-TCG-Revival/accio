@@ -147,13 +147,14 @@ html, body {
     margin-bottom: 3vh;
 }
 
-#Search_Display_Body_Filters_SortBy_Dropdown, #Search_Display_Body_Filters_Ascending_Dropdown, .Search_Display_Body_Filters_Create_Card {
+#Search_Display_Body_Filters_SortBy_Dropdown, #Search_Display_Body_Filters_Ascending_Dropdown {
+    min-width: 100px;
     width: 10vw;
     height: 5vh;
     border-radius: 5px;
     background-color: rgba(51, 51, 51, 1);
     color: #e8e8e4;
-    font-size: 14px;
+    font-size: clamp (6px, 14px, 20px);
     outline: none;
     border: solid 1px #e8e8e4;
     margin-left: 5vw;
@@ -293,19 +294,25 @@ html, body {
 /* Pagination Controls */
 .Search_Display_Pagination {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     gap: 10px;
 }
 
 .Search_Display_Pagination button {
     padding: 10px 20px;
-    border: none;
-    background-color: #6b63b5;
-    color: #fff;
+    width: auto;
+    height: auto;
+    
+    border: solid, 1px #6b63b5;
+    background-color: #fff;
+    color: #333;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .Search_Display_Pagination button:hover {
@@ -315,31 +322,3 @@ html, body {
 .Search_Display_Pagination span {
     font-size: 16px;
     color: #333;
-}
-
-/* Pagination Controls */
-.Search_Display_Pagination {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    gap: 10px;
-}
-
-.Search_Display_Pagination button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #6b63b5;
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.Search_Display_Pagination button:hover {
-    background-color: #5a53a3;
-}
-
-.Search_Display_Pagination span {
-    font-size: 16px;
-    color: #333;
-}
