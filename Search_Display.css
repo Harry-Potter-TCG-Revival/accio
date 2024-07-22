@@ -202,7 +202,7 @@ html, body {
 /********************************* Third Body: Footer Content Section ********************************************/
 /*****************************************************************************************************************/
 #Search_Display_Footer {
-    background-image: url('Images/Temp_Images/feathers@3x.png');
+    background-image: url('images/Temp_Images/feathers@3x.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
