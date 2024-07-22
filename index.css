@@ -51,7 +51,7 @@ a {
 }
 
 #Home_Background {
-    background-image: url('images/Temp_Images/background@3x.png');
+    background-image: url('Images/Temp_Images/background@3x.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -171,7 +171,7 @@ a {
     transform: translate(0%, -40%);
     width: 5%;
     height: 50%;
-    background-image: url('images/Icons/accio.svg');
+    background-image: url('Images/Icons/accio.svg');
     background-size: contain;
     background-repeat: no-repeat;
     pointer-events: none;
@@ -220,7 +220,7 @@ a {
 
 /*************************************** Footer Content Section *************************************************/
 #Home_Footer {
-    background-image: url('images//Temp_Images/feathers@3x.png');
+    background-image: url('Images//Temp_Images/feathers@3x.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
