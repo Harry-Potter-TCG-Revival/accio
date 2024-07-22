@@ -213,83 +213,30 @@ html, body {
 }
 
 /* -----------------------------------Sets Rows----------------------------------------- */
-.Sets_Page_Body_Grid_HAH
-{
-    display: flex;
-    flex-direction: Row;
-    margin: 0;
-    background-color: rgba(255, 255, 255, 1); /* Set the background color */
-}
-.Sets_Page_Body_Grid_Promo
-{
-    display: flex;
-    flex-direction: Row;
-    margin: 0;
-    background-color: rgba(232, 232, 228, 1); /* Set the background color */
-}
-.Sets_Page_Body_Grid_EOTP
-{
-    display: flex;
-    flex-direction: Row;
-    margin: 0;
-    background-color: rgba(255, 255, 255, 1); /* Set the background color */
-}
-.Sets_Page_Body_Grid_SOH
-{
-    display: flex;
-    flex-direction: Row;
-    margin: 0;
-    background-color: rgba(232, 232, 228, 1); /* Set the background color */
-}
-.Sets_Page_Body_Grid_POA
-{
-    display: flex;
-    flex-direction: Row;
-    margin: 0;
-    background-color: rgba(255, 255, 255, 1); /* Set the background color */
-}
-.Sets_Page_Body_Grid_HOS
-{
-    display: flex;
-    flex-direction: Row;
-    margin: 0;
-    background-color: rgba(232, 232, 228, 1); /* Set the background color */
-}
-
-.Sets_Page_Body_Grid_COS
-{
-    display: flex;
-    flex-direction: Row;
-    margin: 0;
-    background-color: rgba(255, 255, 255, 1); /* Set the background color */
-}
-.Sets_Page_Body_Grid_AAH
-{
-    display: flex;
-    flex-direction: Row;
-    margin: 0;
-    background-color: rgba(232, 232, 228, 1); /* Set the background color */
-}
-.Sets_Page_Body_Grid_DA
-{
-    display: flex;
-    flex-direction: Row;
-    margin: 0;
-    background-color: rgba(255, 255, 255, 1); /* Set the background color */
-}
+.Sets_Page_Body_Grid_GOF,
+.Sets_Page_Body_Grid_Promo,
+.Sets_Page_Body_Grid_SOH,
+.Sets_Page_Body_Grid_HOS,
+.Sets_Page_Body_Grid_AAH,
 .Sets_Page_Body_Grid_QC
 {
     display: flex;
     flex-direction: Row;
     margin: 0;
-    background-color: rgba(232, 232, 228, 1); /* Set the background color */
+    background-color: rgba(255, 255, 255, 1); /* Set the background color */
 }
+
+.Sets_Page_Body_Grid_HAH,
+.Sets_Page_Body_Grid_EOTP,
+.Sets_Page_Body_Grid_POA,
+.Sets_Page_Body_Grid_COS,
+.Sets_Page_Body_Grid_DA,
 .Sets_Page_Body_Grid_Base
 {
     display: flex;
     flex-direction: Row;
     margin: 0;
-    background-color: rgba(255, 255, 255, 1); /* Set the background color */
+    background-color: rgba(232, 232, 228, 1); /* Set the background color */
 }
 
 /* -----------------------------------Column Contents----------------------------------------- */
