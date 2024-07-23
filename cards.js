@@ -2512,7 +2512,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "TrollInTheBathroom.png",
+        "imgSrc": "TrollintheBathroom.png",
         "horizontal": true
     },
     {
