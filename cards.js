@@ -9,7 +9,7 @@ export const cards = [
             "Wizard",
             "Unique"
         ],
-        "flavorText": "'(Order of Merlin, First Class, Grand Sorc., Chf. Warlock, Supreme Mugwump, International Confed. of Wizards)' \u0097 Hogwarts letterhead",
+        "flavorText": "'(Order of Merlin, First Class, Grand Sorc., Chf. Warlock, Supreme Mugwump, International Confed. of Wizards)'  Hogwarts letterhead",
         "rarity": "Holo Portrait Premium",
         "artist": "Kim Graham",
         "effect": [
@@ -21,10 +21,10 @@ export const cards = [
             {
                 "date": "2001-01-01",
                 "source": "POJO",
-                "ruling": "His effect will only take effect if you have at least 4 Lesson cards in play. Cards that provide power will not count toward Dumbeldore\u0092s effect."
+                "ruling": "His effect will only take effect if you have at least 4 Lesson cards in play. Cards that provide power will not count toward Dumbeldores effect."
             }
         ],
-        "imgSrc": "AlbusDumbledore.jpeg",
+        "imgSrc": "AlbusDumbledore.png",
         "horizontal": true
     },
     {
@@ -45,7 +45,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "ArgusFilch.jpeg",
+        "imgSrc": "ArgusFilch.png",
         "horizontal": true
     },
     {
@@ -68,7 +68,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "CrabbeAndGoyle.jpeg",
+        "imgSrc": "CrabbeAndGoyle.png",
         "horizontal": true
     },
     {
@@ -89,7 +89,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "Detention!.jpg",
+        "imgSrc": "Detention!.png",
         "horizontal": true
     },
     {
@@ -102,7 +102,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'... Professor Dumbledore is particularly famous for... the discovery of the twelve uses of dragon's blood...' \u0097 Chocolate Frog card",
+        "flavorText": "'... Professor Dumbledore is particularly famous for... the discovery of the twelve uses of dragon's blood...'  Chocolate Frog card",
         "rarity": "Foil Premium",
         "artist": "Tim Hildebrandt",
         "effect": [
@@ -111,7 +111,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "DragonsBlood.jpg",
+        "imgSrc": "DragonsBlood.png",
         "horizontal": false
     },
     {
@@ -146,7 +146,7 @@ export const cards = [
                 "ruling": "If it is your turn when this card activates, then you choose what order things happen."
             }
         ],
-        "imgSrc": "DumbledoresWatch.jpg",
+        "imgSrc": "DumbledoresWatch.png",
         "horizontal": true
     },
     {
@@ -168,7 +168,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "EndOfYearFeast.jpg",
+        "imgSrc": "EndOfYearFeast.png",
         "horizontal": false
     },
     {
@@ -196,7 +196,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "Fang.jpg",
+        "imgSrc": "Fang.png",
         "horizontal": true
     },
     {
@@ -217,7 +217,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "FindingThePlatform.jpg",
+        "imgSrc": "FindingThePlatform.png",
         "horizontal": true
     },
     {
@@ -247,7 +247,7 @@ export const cards = [
                 "ruling": "If this card is in play Before your turn, you must discard it and add the extra Actions to your Action count for the turn (this is not optional)."
             }
         ],
-        "imgSrc": "Galleon.jpg",
+        "imgSrc": "Galleon.png",
         "horizontal": true
     },
     {
@@ -273,7 +273,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "GreatHall.jpg",
+        "imgSrc": "GreatHall.png",
         "horizontal": true
     },
     {
@@ -302,10 +302,10 @@ export const cards = [
             {
                 "date": "2001-01-01",
                 "source": "POJO",
-                "ruling": "If you must discard this and a similar Lesson at the same time, and it is your turn, you choose the order. If it's your opponent\u0092s turn, they choose the order of how things are discarded."
+                "ruling": "If you must discard this and a similar Lesson at the same time, and it is your turn, you choose the order. If it's your opponents turn, they choose the order of how things are discarded."
             }
         ],
-        "imgSrc": "HagridsHouse.jpg",
+        "imgSrc": "HagridsHouse.png",
         "horizontal": true
     },
     {
@@ -320,7 +320,7 @@ export const cards = [
             "Seeker",
             "Gryffindor"
         ],
-        "flavorText": "'... to Mr Harry Potter ...' ... '... for pure nerve and outstanding courage, I award Gryffindor house sixty points.' \u0097 Albus Dumbledore",
+        "flavorText": "'... to Mr Harry Potter ...' ... '... for pure nerve and outstanding courage, I award Gryffindor house sixty points.'  Albus Dumbledore",
         "rarity": "Holo Portrait Premium",
         "artist": "Kim Graham",
         "effect": [
@@ -329,7 +329,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "HarryTriumphant.jpg",
+        "imgSrc": "HarryTriumphant.png",
         "horizontal": true
     },
     {
@@ -355,10 +355,10 @@ export const cards = [
             {
                 "date": "2002-09-03",
                 "source": "POJO",
-                "ruling": "In regards to Hagrid Needs Help: read the Adventure as \u0093Assign 8 damage to yourself\u0094. So after you assign the damage, then you can choose to prevent the damage, but all 8 counts toward solving the Adventure, even if this card this card prevents 4 of that damage."
+                "ruling": "In regards to Hagrid Needs Help: read the Adventure as Assign 8 damage to yourself. So after you assign the damage, then you can choose to prevent the damage, but all 8 counts toward solving the Adventure, even if this card this card prevents 4 of that damage."
             }
         ],
-        "imgSrc": "HospitalDormitory.jpg",
+        "imgSrc": "HospitalDormitory.png",
         "horizontal": true
     },
     {
@@ -380,7 +380,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "HutOnTheRock.jpg",
+        "imgSrc": "HutOnTheRock.png",
         "horizontal": true
     },
     {
@@ -403,7 +403,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "MadamPomfrey.jpg",
+        "imgSrc": "MadamPomfrey.png",
         "horizontal": true
     },
     {
@@ -428,7 +428,7 @@ export const cards = [
             {
                 "date": "2001-01-01",
                 "source": "POJO",
-                "ruling": "Your opponent gets 1 more Action the turn this card is solved, even if it\u0092s after their last normal Action."
+                "ruling": "Your opponent gets 1 more Action the turn this card is solved, even if its after their last normal Action."
             },
             {
                 "date": "2001-01-01",
@@ -436,7 +436,7 @@ export const cards = [
                 "ruling": "Your opponent cannot solve this unless they have at least 3 cards in play (not including their starting Character)."
             }
         ],
-        "imgSrc": "MeetingFluffy.jpg",
+        "imgSrc": "MeetingFluffy.png",
         "horizontal": true
     },
     {
@@ -461,10 +461,10 @@ export const cards = [
             {
                 "date": "2001-01-01",
                 "source": "POJO",
-                "ruling": "If your opponent doesn\u0092t have a second card in their hand, they cannot play a Creature or Spell card."
+                "ruling": "If your opponent doesnt have a second card in their hand, they cannot play a Creature or Spell card."
             }
         ],
-        "imgSrc": "MidnightDuel.jpg",
+        "imgSrc": "MidnightDuel.png",
         "horizontal": true
     },
     {
@@ -488,7 +488,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "MirrorOfErised.jpg",
+        "imgSrc": "MirrorOfErised.png",
         "horizontal": true
     },
     {
@@ -518,10 +518,10 @@ export const cards = [
             {
                 "date": "2001-01-01",
                 "source": "POJO",
-                "ruling": "You can use this card even if you don\u0092t have any cards in your hand."
+                "ruling": "You can use this card even if you dont have any cards in your hand."
             }
         ],
-        "imgSrc": "Peeves.jpg",
+        "imgSrc": "Peeves.png",
         "horizontal": true
     },
     {
@@ -554,10 +554,10 @@ export const cards = [
             {
                 "date": "2001-01-01",
                 "source": "POJO",
-                "ruling": "If you are under an effect that says you can\u0092t use Actions to play Lesson cards, then you cannot use Stone\u0092s effect. You must do everything a card says or you cannot play the card."
+                "ruling": "If you are under an effect that says you cant use Actions to play Lesson cards, then you cannot use Stones effect. You must do everything a card says or you cannot play the card."
             }
         ],
-        "imgSrc": "PhilosophersStone.jpg",
+        "imgSrc": "PhilosophersStone.png",
         "horizontal": true
     },
     {
@@ -586,10 +586,10 @@ export const cards = [
             {
                 "date": "2001-01-01",
                 "source": "POJO",
-                "ruling": "If you must discard this and a similar Lesson at the same time, and it is your turn, you choose the order. If it's your opponent\u0092s turn, they choose the order of how things are discarded."
+                "ruling": "If you must discard this and a similar Lesson at the same time, and it is your turn, you choose the order. If it's your opponents turn, they choose the order of how things are discarded."
             }
         ],
-        "imgSrc": "PotionsDungeon.jpg",
+        "imgSrc": "PotionsDungeon.png",
         "horizontal": true
     },
     {
@@ -613,7 +613,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "QuidditchCup.jpg",
+        "imgSrc": "QuidditchCup.png",
         "horizontal": true
     },
     {
@@ -636,7 +636,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "QuidditchPitch.jpg",
+        "imgSrc": "QuidditchPitch.png",
         "horizontal": true
     },
     {
@@ -663,7 +663,7 @@ export const cards = [
                 "ruling": "Your opponent can solve this before their Creatures do damage."
             }
         ],
-        "imgSrc": "RidingTheCentaur.jpg",
+        "imgSrc": "RidingTheCentaur.png",
         "horizontal": true
     },
     {
@@ -686,7 +686,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "RonTheBrave.jpg",
+        "imgSrc": "RonTheBrave.png",
         "horizontal": true
     },
     {
@@ -710,10 +710,10 @@ export const cards = [
             {
                 "date": "2002-05-05",
                 "source": "POJO",
-                "ruling": "Healing cards in play can have their effects activated, as \u0093playing\u0094 a card only counts when the card enters the field."
+                "ruling": "Healing cards in play can have their effects activated, as playing a card only counts when the card enters the field."
             }
         ],
-        "imgSrc": "StoatSandwiches.jpg",
+        "imgSrc": "StoatSandwiches.png",
         "horizontal": true
     },
     {
@@ -735,7 +735,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "TheFatLady.jpg",
+        "imgSrc": "TheFatLady.png",
         "horizontal": true
     },
     {
@@ -756,7 +756,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "VoldemortRevealed.jpg",
+        "imgSrc": "VoldemortRevealed.png",
         "horizontal": true
     },
     {
@@ -783,7 +783,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "WelshGreenDragon.jpg",
+        "imgSrc": "WelshGreenDragon.png",
         "horizontal": true
     },
     {
@@ -805,7 +805,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "5PointsFromGryffindor.jpg",
+        "imgSrc": "5PointsFromGryffindor.png",
         "horizontal": true
     },
     {
@@ -827,7 +827,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "Alohomora.jpg",
+        "imgSrc": "Alohomora.png",
         "horizontal": false
     },
     {
@@ -848,7 +848,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "BaneberryPotion.jpg",
+        "imgSrc": "BaneberryPotion.png",
         "horizontal": false
     },
     {
@@ -873,7 +873,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "BludgerBop.jpg",
+        "imgSrc": "BludgerBop.png",
         "horizontal": false
     },
     {
@@ -895,7 +895,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "CandyCart.jpg",
+        "imgSrc": "CandyCart.png",
         "horizontal": true
     },
     {
@@ -925,7 +925,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "CollapsibleCauldron.jpg",
+        "imgSrc": "CollapsibleCauldron.png",
         "horizontal": true
     },
     {
@@ -947,7 +947,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "FlyingMotorbike.jpg",
+        "imgSrc": "FlyingMotorbike.png",
         "horizontal": false
     },
     {
@@ -968,7 +968,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "FlyingPractice.jpg",
+        "imgSrc": "FlyingPractice.png",
         "horizontal": true
     },
     {
@@ -994,7 +994,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "ForbiddenCorridor.jpeg",
+        "imgSrc": "ForbiddenCorridor.png",
         "horizontal": true
     },
     {
@@ -1017,7 +1017,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "GiantSquid.jpg",
+        "imgSrc": "GiantSquid.png",
         "horizontal": true
     },
     {
@@ -1038,7 +1038,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "LookingForTrevor.jpg",
+        "imgSrc": "LookingForTrevor.png",
         "horizontal": true
     },
     {
@@ -1068,10 +1068,10 @@ export const cards = [
             {
                 "date": "2001-01-01",
                 "source": "POJO",
-                "ruling": "If you play a card like Dog Bite when your opponent has no Creatures in play, \u0093Dog Bite\u0094 says that the Creatures do damage, so their bonus damage will trigger."
+                "ruling": "If you play a card like Dog Bite when your opponent has no Creatures in play, Dog Bite says that the Creatures do damage, so their bonus damage will trigger."
             }
         ],
-        "imgSrc": "MarbleGargoyle.jpg",
+        "imgSrc": "MarbleGargoyle.png",
         "horizontal": true
     },
     {
@@ -1099,10 +1099,10 @@ export const cards = [
             {
                 "date": "2002-11-01",
                 "source": "POJO",
-                "ruling": "You must discard a card with the intent of discarding for this Match. You cannot discard a card for another reason and count it toward this Match\u0092s progress. (See Beater\u0092s Bat)"
+                "ruling": "You must discard a card with the intent of discarding for this Match. You cannot discard a card for another reason and count it toward this Matchs progress. (See Beaters Bat)"
             }
         ],
-        "imgSrc": "MuddyPractice.jpg",
+        "imgSrc": "MuddyPractice.png",
         "horizontal": true
     },
     {
@@ -1124,7 +1124,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "PurpleFirecrackers.jpg",
+        "imgSrc": "PurpleFirecrackers.png",
         "horizontal": false
     },
     {
@@ -1146,7 +1146,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "RunningFromFilch.jpg",
+        "imgSrc": "RunningFromFilch.png",
         "horizontal": true
     },
     {
@@ -1176,7 +1176,7 @@ export const cards = [
                 "ruling": "If this card is in play Before your turn, you must discard it and add the extra Actions to your Action count for the turn (this is not optional)."
             }
         ],
-        "imgSrc": "Sickle.jpg",
+        "imgSrc": "Sickle.png",
         "horizontal": true
     },
     {
@@ -1200,7 +1200,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "StarGrassSalve.jpg",
+        "imgSrc": "StarGrassSalve.png",
         "horizontal": false
     },
     {
@@ -1221,7 +1221,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "ThroughTheTrapdoor.jpg",
+        "imgSrc": "ThroughTheTrapdoor.png",
         "horizontal": true
     },
     {
@@ -1243,7 +1243,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "WinterHoliday.jpg",
+        "imgSrc": "WinterHoliday.png",
         "horizontal": false
     },
     {
@@ -1265,7 +1265,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "WoodenFlute.jpg",
+        "imgSrc": "WoodenFlute.png",
         "horizontal": false
     },
     {
@@ -1287,7 +1287,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "AntiCheatingSpell.jpg",
+        "imgSrc": "AntiCheatingSpell.png",
         "horizontal": false
     },
     {
@@ -1309,7 +1309,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "BewitchedSnowballs.jpg",
+        "imgSrc": "BewitchedSnowballs.png",
         "horizontal": false
     },
     {
@@ -1338,10 +1338,10 @@ export const cards = [
             {
                 "date": "2002-10-11",
                 "source": "POJO",
-                "ruling": "For the \u0093When you play this card\u0094effect, \u0093Black Bat\u0094 is doing the damage, not you."
+                "ruling": "For the When you play this cardeffect, Black Bat is doing the damage, not you."
             }
         ],
-        "imgSrc": "BlackBat.jpeg",
+        "imgSrc": "BlackBat.png",
         "horizontal": true
     },
     {
@@ -1363,7 +1363,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "BuckingBroomstick.jpg",
+        "imgSrc": "BuckingBroomstick.png",
         "horizontal": false
     },
     {
@@ -1389,7 +1389,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "CauldronCakes.jpg",
+        "imgSrc": "CauldronCakes.png",
         "horizontal": false
     },
     {
@@ -1411,7 +1411,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "CharmsAccident.jpg",
+        "imgSrc": "CharmsAccident.png",
         "horizontal": false
     },
     {
@@ -1434,7 +1434,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "Chimaera.jpg",
+        "imgSrc": "Chimaera.png",
         "horizontal": true
     },
     {
@@ -1481,7 +1481,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "EveryFlavourBeans.jpg",
+        "imgSrc": "EveryFlavourBeans.png",
         "horizontal": false
     },
     {
@@ -1503,7 +1503,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "FireProtectionPotion.jpg",
+        "imgSrc": "FireProtectionPotion.png",
         "horizontal": false
     },
     {
@@ -1524,7 +1524,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "FungifacePotion.jpg",
+        "imgSrc": "FungifacePotion.png",
         "horizontal": false
     },
     {
@@ -1554,7 +1554,7 @@ export const cards = [
                 "ruling": "If this card is in play Before your turn, you must discard it and add the extra Actions to your Action count for the turn (this is not optional)."
             }
         ],
-        "imgSrc": "Knut.jpg",
+        "imgSrc": "Knut.png",
         "horizontal": true
     },
     {
@@ -1578,7 +1578,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "LiquoriceWand.jpg",
+        "imgSrc": "LiquoriceWand.png",
         "horizontal": false
     },
     {
@@ -1600,7 +1600,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "LoopTheLoops.jpg",
+        "imgSrc": "LoopTheLoops.png",
         "horizontal": false
     },
     {
@@ -1621,7 +1621,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "ManegroPotion.jpg",
+        "imgSrc": "ManegroPotion.png",
         "horizontal": false
     },
     {
@@ -1642,7 +1642,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "MufflingDraught.jpg",
+        "imgSrc": "MufflingDraught.png",
         "horizontal": false
     },
     {
@@ -1664,7 +1664,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "OwlPost.jpg",
+        "imgSrc": "OwlPost.png",
         "horizontal": false
     },
     {
@@ -1686,7 +1686,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "PhotoAlbum.jpg",
+        "imgSrc": "PhotoAlbum.png",
         "horizontal": true
     },
     {
@@ -1716,10 +1716,10 @@ export const cards = [
             {
                 "date": "2001-01-01",
                 "source": "POJO",
-                "ruling": "If you play a card like Dog Bite when your opponent has no Creatures in play, \u0093Dog Bite\u0094 says that the Creatures do damage, so their bonus damage will trigger."
+                "ruling": "If you play a card like Dog Bite when your opponent has no Creatures in play, Dog Bite says that the Creatures do damage, so their bonus damage will trigger."
             }
         ],
-        "imgSrc": "SandstoneGargoyle.jpg",
+        "imgSrc": "SandstoneGargoyle.png",
         "horizontal": true
     },
     {
@@ -1743,7 +1743,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "SchoolBroom.jpg",
+        "imgSrc": "SchoolBroom.png",
         "horizontal": true
     },
     {
@@ -1764,7 +1764,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "Scribblifors.jpg",
+        "imgSrc": "Scribblifors.png",
         "horizontal": false
     },
     {
@@ -1785,7 +1785,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "SleepingPotion.jpg",
+        "imgSrc": "SleepingPotion.png",
         "horizontal": false
     },
     {
@@ -1807,7 +1807,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "SwitchingSpell.jpg",
+        "imgSrc": "SwitchingSpell.png",
         "horizontal": false
     },
     {
@@ -1829,7 +1829,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "TrollBogies.jpg",
+        "imgSrc": "TrollBogies.png",
         "horizontal": false
     },
     {
@@ -1851,7 +1851,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "VanishingStep.jpg",
+        "imgSrc": "VanishingStep.png",
         "horizontal": false
     },
     {
@@ -2196,7 +2196,7 @@ export const cards = [
             "Gryffindor",
             "Unique"
         ],
-        "flavorText": "'There will be books written about Harry \u0097 every child in our world will know his name!' - Professor McGonagall",
+        "flavorText": "'There will be books written about Harry  every child in our world will know his name!' - Professor McGonagall",
         "rarity": "Holo Portrait Premium",
         "artist": "Scott M. Fischer",
         "effect": [
@@ -2487,7 +2487,7 @@ export const cards = [
             {
                 "date": "2001-11-14",
                 "source": "POJO",
-                "ruling": "If you have Into the Forbidden Forest and Rubeus Hagrid in play, you can first have the Adventure trigger, then Rubeus Hagrid. This means a Creature that normally does 2 damage would do 1 additional damage from the Adventure, and then Hagrid\u0092s effect would trigger."
+                "ruling": "If you have Into the Forbidden Forest and Rubeus Hagrid in play, you can first have the Adventure trigger, then Rubeus Hagrid. This means a Creature that normally does 2 damage would do 1 additional damage from the Adventure, and then Hagrids effect would trigger."
             }
         ],
         "imgSrc": "RubeusHagrid.png",
@@ -4783,7 +4783,7 @@ export const cards = [
             "Chaser",
             "Unique"
         ],
-        "flavorText": "'... what an excellent Chaser that girl is, and rather attractive, too \u0097 ' \u0097 Lee Jordan, commentator",
+        "flavorText": "'... what an excellent Chaser that girl is, and rather attractive, too  '  Lee Jordan, commentator",
         "rarity": "Holo Portrait Premium",
         "artist": "Kim Graham",
         "effect": [
@@ -4798,7 +4798,7 @@ export const cards = [
                 "ruling": "If you win the Match before you take any Actions, you still get extra Actions. Actions are the first thing you decide each turn."
             }
         ],
-        "imgSrc": "AngelinaJohnson.jpeg",
+        "imgSrc": "AngelinaJohnson.png",
         "horizontal": true
     },
     {
@@ -4826,7 +4826,7 @@ export const cards = [
                 "ruling": "Even if another card reduces the cost to play a card, Arthur only cares about the Printed power cost on the card."
             }
         ],
-        "imgSrc": "ArthurWeasley.jpeg",
+        "imgSrc": "ArthurWeasley.png",
         "horizontal": true
     },
     {
@@ -4839,7 +4839,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "''Will you stop messing around!' he yelled. 'That's exactly the sort of thing that'll lose us the match!'' \u0097 Oliver Wood",
+        "flavorText": "''Will you stop messing around!' he yelled. 'That's exactly the sort of thing that'll lose us the match!''  Oliver Wood",
         "rarity": "Foil Premium",
         "artist": "Chris Seaman",
         "effect": [
@@ -4848,7 +4848,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Blagging.jpg",
+        "imgSrc": "Blagging.png",
         "horizontal": false
     },
     {
@@ -4869,7 +4869,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "BodyBlow.jpeg",
+        "imgSrc": "BodyBlow.png",
         "horizontal": false
     },
     {
@@ -4899,7 +4899,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "BrokenWand.jpeg",
+        "imgSrc": "BrokenWand.png",
         "horizontal": true
     },
     {
@@ -4925,7 +4925,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "TheBurrow.jpeg",
+        "imgSrc": "TheBurrow.png",
         "horizontal": true
     },
     {
@@ -4948,7 +4948,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "ColinCreevey.jpeg",
+        "imgSrc": "ColinCreevey.png",
         "horizontal": true
     },
     {
@@ -4974,7 +4974,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "CrazedCapybara.jpeg",
+        "imgSrc": "CrazedCapybara.png",
         "horizontal": true
     },
     {
@@ -4996,7 +4996,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DeGnomingTheGarden.jpeg",
+        "imgSrc": "DeGnomingTheGarden.png",
         "horizontal": true
     },
     {
@@ -5018,7 +5018,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DobbysDisappearance.jpeg",
+        "imgSrc": "DobbysDisappearance.png",
         "horizontal": false
     },
     {
@@ -5031,7 +5031,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'You know what, Harry? If he doesn't stop trying to save your life he's going to kill you.' \u0097 Ron Weasley",
+        "flavorText": "'You know what, Harry? If he doesn't stop trying to save your life he's going to kill you.'  Ron Weasley",
         "rarity": "Foil Premium",
         "artist": "Kevin Dobler",
         "effect": [
@@ -5040,7 +5040,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DobbysHelp.jpeg",
+        "imgSrc": "DobbysHelp.png",
         "horizontal": false
     },
     {
@@ -5053,7 +5053,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'Fred and George Weasley are the Gryffindor Beaters.' \u0097 Harry Potter",
+        "flavorText": "'Fred and George Weasley are the Gryffindor Beaters.'  Harry Potter",
         "rarity": "Foil Premium",
         "artist": "Ken Steacy",
         "effect": [
@@ -5062,7 +5062,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DoubleBeaterDefence.jpeg",
+        "imgSrc": "DoubleBeaterDefence.png",
         "horizontal": false
     },
     {
@@ -5077,7 +5077,7 @@ export const cards = [
             "Seeker",
             "Unique"
         ],
-        "flavorText": "'... we're going to make them rue the day they let that little bit of slime, Malfoy, buy his way onto their team.' \u0097 Oliver Wood",
+        "flavorText": "'... we're going to make them rue the day they let that little bit of slime, Malfoy, buy his way onto their team.'  Oliver Wood",
         "rarity": "Holo Portrait Premium",
         "artist": "Kim Graham",
         "effect": [
@@ -5086,7 +5086,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DracoTheSeeker.jpeg",
+        "imgSrc": "DracoTheSeeker.png",
         "horizontal": true
     },
     {
@@ -5107,7 +5107,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DragonPoison.jpeg",
+        "imgSrc": "DragonPoison.png",
         "horizontal": false
     },
     {
@@ -5133,7 +5133,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DumbledoresOffice.jpeg",
+        "imgSrc": "DumbledoresOffice.png",
         "horizontal": true
     },
     {
@@ -5146,7 +5146,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'... Professor Flitwick knows more about Entrancing Enchantments than any wizard I've ever met, the sly old dog!' \u0097 Professor Gilderoy Lockhart",
+        "flavorText": "'... Professor Flitwick knows more about Entrancing Enchantments than any wizard I've ever met, the sly old dog!'  Professor Gilderoy Lockhart",
         "rarity": "Foil Premium",
         "artist": "Greg Hildebrandt",
         "effect": [
@@ -5155,7 +5155,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "EntrancingEnchantments.jpeg",
+        "imgSrc": "EntrancingEnchantments.png",
         "horizontal": false
     },
     {
@@ -5174,7 +5174,7 @@ export const cards = [
         ],
         "dmgEachTurn": "1",
         "health": "1",
-        "flavorText": "'He's ancient. It wouldn't be the first time he'd collapsed on a delivery.' \u0097 Ron Weasley",
+        "flavorText": "'He's ancient. It wouldn't be the first time he'd collapsed on a delivery.'  Ron Weasley",
         "rarity": "Foil Premium",
         "artist": "Ron Spencer",
         "effect": [
@@ -5183,7 +5183,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Errol.jpg",
+        "imgSrc": "Errol.png",
         "horizontal": true
     },
     {
@@ -5207,7 +5207,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "EscapingTheDursleys.jpeg",
+        "imgSrc": "EscapingTheDursleys.png",
         "horizontal": true
     },
     {
@@ -5231,7 +5231,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "FatFriar.jpeg",
+        "imgSrc": "FatFriar.png",
         "horizontal": true
     },
     {
@@ -5258,7 +5258,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Fawkes.jpg",
+        "imgSrc": "Fawkes.png",
         "horizontal": true
     },
     {
@@ -5280,7 +5280,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "FightingTheBasilisk.jpeg",
+        "imgSrc": "FightingTheBasilisk.png",
         "horizontal": true
     },
     {
@@ -5301,7 +5301,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "FlyingCar.jpeg",
+        "imgSrc": "FlyingCar.png",
         "horizontal": true
     },
     {
@@ -5323,7 +5323,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "FlyingLaps.jpeg",
+        "imgSrc": "FlyingLaps.png",
         "horizontal": false
     },
     {
@@ -5344,7 +5344,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "FlyingToHogwarts.jpeg",
+        "imgSrc": "FlyingToHogwarts.png",
         "horizontal": true
     },
     {
@@ -5358,7 +5358,7 @@ export const cards = [
             "Gryffindor",
             "Unique"
         ],
-        "flavorText": "'You don't know how weird it is for her to be this shy, she never shuts up normally \u0097 ' \u0097 Ron Weasley",
+        "flavorText": "'You don't know how weird it is for her to be this shy, she never shuts up normally  '  Ron Weasley",
         "rarity": "Holo Portrait Premium",
         "artist": "Kim Graham",
         "effect": [
@@ -5367,7 +5367,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "GinnyWeasley.jpeg",
+        "imgSrc": "GinnyWeasley.png",
         "horizontal": true
     },
     {
@@ -5384,7 +5384,7 @@ export const cards = [
             "Unique"
         ],
         "note": "When you play this card, discard any other Location from play (yours or your opponent's).",
-        "flavorText": "'They had only ever worked in Greenhouse One before \u0097 Greenhouse Three housed far more interesting and dangerous plants.'",
+        "flavorText": "'They had only ever worked in Greenhouse One before  Greenhouse Three housed far more interesting and dangerous plants.'",
         "rarity": "Foil Premium",
         "artist": "Cindy Salans Rosenheim",
         "effect": [
@@ -5393,7 +5393,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "GreenhouseThree.jpeg",
+        "imgSrc": "GreenhouseThree.png",
         "horizontal": true
     },
     {
@@ -5420,7 +5420,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "GryffindorCommonRoom.jpeg",
+        "imgSrc": "GryffindorCommonRoom.png",
         "horizontal": true
     },
     {
@@ -5445,7 +5445,7 @@ export const cards = [
             {
                 "date": "2002-10-11",
                 "source": "POJO",
-                "ruling": "You write down the name of the card after seeing your opponent\u0092s Starting Character."
+                "ruling": "You write down the name of the card after seeing your opponents Starting Character."
             },
             {
                 "date": "2002-10-16",
@@ -5453,7 +5453,7 @@ export const cards = [
                 "ruling": "If your opponent plays the card your wrote down with Harry, Second Year more than once, you can reveal the card you wrote down each time and repeatedly heal 20."
             }
         ],
-        "imgSrc": "HarrySecondYear.jpeg",
+        "imgSrc": "HarrySecondYear.png",
         "horizontal": true
     },
     {
@@ -5476,7 +5476,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "HermionePotionMaker.jpeg",
+        "imgSrc": "HermionePotionMaker.png",
         "horizontal": true
     },
     {
@@ -5498,7 +5498,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "ImpersonatingGoyle.jpeg",
+        "imgSrc": "ImpersonatingGoyle.png",
         "horizontal": false
     },
     {
@@ -5519,7 +5519,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "InTheSpidersLair.jpeg",
+        "imgSrc": "InTheSpidersLair.png",
         "horizontal": true
     },
     {
@@ -5542,7 +5542,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "JustinFinchFletchley.jpeg",
+        "imgSrc": "JustinFinchFletchley.png",
         "horizontal": true
     },
     {
@@ -5569,12 +5569,12 @@ export const cards = [
             {
                 "date": "2001-01-01",
                 "source": "POJO",
-                "ruling": "You must give your opponent a reasonable amount of time to say \u0093Brilliant\u0094. If you go too fast, your opponent can ask you to wait."
+                "ruling": "You must give your opponent a reasonable amount of time to say Brilliant. If you go too fast, your opponent can ask you to wait."
             },
             {
                 "date": "2001-01-01",
                 "source": "POJO",
-                "ruling": "No matter how many Spells you play and how many times your opponent forgets to say \u0093Brilliant\u0094, they will only take 3 damage at the end of the turn."
+                "ruling": "No matter how many Spells you play and how many times your opponent forgets to say Brilliant, they will only take 3 damage at the end of the turn."
             },
             {
                 "date": "2001-01-01",
@@ -5582,7 +5582,7 @@ export const cards = [
                 "ruling": "If your opponent is physically unable to comply with the directions, they do not need to speak, and will not take damage."
             }
         ],
-        "imgSrc": "LockhartsLecture.jpeg",
+        "imgSrc": "LockhartsLecture.png",
         "horizontal": true
     },
     {
@@ -5609,7 +5609,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Mandrake.jpg",
+        "imgSrc": "Mandrake.png",
         "horizontal": true
     },
     {
@@ -5622,7 +5622,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'If there's one thing I pride myself on, it's my Memory Charms.' \u0097 Professor Gilderoy Lockhart",
+        "flavorText": "'If there's one thing I pride myself on, it's my Memory Charms.'  Professor Gilderoy Lockhart",
         "rarity": "Foil Premium",
         "artist": "Ron Spencer",
         "effect": [
@@ -5631,7 +5631,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "MemoryCharm.jpeg",
+        "imgSrc": "MemoryCharm.png",
         "horizontal": false
     },
     {
@@ -5657,7 +5657,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "MoaningMyrtlesBathroom.jpeg",
+        "imgSrc": "MoaningMyrtlesBathroom.png",
         "horizontal": true
     },
     {
@@ -5682,7 +5682,7 @@ export const cards = [
             {
                 "date": "2001-01-01",
                 "source": "POJO",
-                "ruling": "Any Weasley Character is a target for this card, even if \u0093Weasley\u0094 isn\u0092t in their name."
+                "ruling": "Any Weasley Character is a target for this card, even if Weasley isnt in their name."
             },
             {
                 "date": "2023-06-01",
@@ -5690,7 +5690,7 @@ export const cards = [
                 "ruling": "Refer to the official Uniqueness Chart for a full list of affected Characters."
             }
         ],
-        "imgSrc": "MollyWeasley.jpeg",
+        "imgSrc": "MollyWeasley.png",
         "horizontal": true
     },
     {
@@ -5720,7 +5720,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "NimbusTwoThousandAndOne.jpeg",
+        "imgSrc": "NimbusTwoThousandAndOne.png",
         "horizontal": true
     },
     {
@@ -5742,7 +5742,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "NoHands.jpeg",
+        "imgSrc": "NoHands.png",
         "horizontal": false
     },
     {
@@ -5760,7 +5760,7 @@ export const cards = [
         ],
         "dmgEachTurn": "7",
         "health": "5",
-        "flavorText": "'They're rare, ...' \u0097 Rubeus Hagrid",
+        "flavorText": "'They're rare, ...'  Rubeus Hagrid",
         "rarity": "Foil Premium",
         "artist": "Doug Chaffee",
         "effect": [
@@ -5769,7 +5769,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "NorwegianRidgeback.jpeg",
+        "imgSrc": "NorwegianRidgeback.png",
         "horizontal": true
     },
     {
@@ -5792,7 +5792,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "PercyWeasley.jpeg",
+        "imgSrc": "PercyWeasley.png",
         "horizontal": true
     },
     {
@@ -5814,7 +5814,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Petrified.jpg",
+        "imgSrc": "Petrified.png",
         "horizontal": false
     },
     {
@@ -5830,7 +5830,7 @@ export const cards = [
         "subTypes": [
             "Healing"
         ],
-        "flavorText": "'Fascinating creatures, phoenixes. They can carry immensely heavy loads, their tears have healing powers and they make highly faithful pets.' \u0097 Albus Dumbledore",
+        "flavorText": "'Fascinating creatures, phoenixes. They can carry immensely heavy loads, their tears have healing powers and they make highly faithful pets.'  Albus Dumbledore",
         "rarity": "Foil Premium",
         "artist": "Mark Romanoski",
         "effect": [
@@ -5839,7 +5839,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "PhoenixTears.jpeg",
+        "imgSrc": "PhoenixTears.png",
         "horizontal": false
     },
     {
@@ -5861,7 +5861,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "PotionsTest.jpeg",
+        "imgSrc": "PotionsTest.png",
         "horizontal": false
     },
     {
@@ -5890,7 +5890,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "ProfessorPomonaSprout.jpeg",
+        "imgSrc": "ProfessorPomonaSprout.png",
         "horizontal": true
     },
     {
@@ -5912,7 +5912,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Reparo.jpg",
+        "imgSrc": "Reparo.png",
         "horizontal": false
     },
     {
@@ -5933,7 +5933,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "RogueBludger.jpeg",
+        "imgSrc": "RogueBludger.png",
         "horizontal": true
     },
     {
@@ -5956,7 +5956,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "RonYoungestBrother.jpeg",
+        "imgSrc": "RonYoungestBrother.png",
         "horizontal": true
     },
     {
@@ -5978,7 +5978,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Serpensortia.jpg",
+        "imgSrc": "Serpensortia.png",
         "horizontal": false
     },
     {
@@ -6005,7 +6005,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SlytherinCommonRoom.jpeg",
+        "imgSrc": "SlytherinCommonRoom.png",
         "horizontal": true
     },
     {
@@ -6027,7 +6027,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SpidersExodus.jpeg",
+        "imgSrc": "SpidersExodus.png",
         "horizontal": false
     },
     {
@@ -6049,7 +6049,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "VenomousTentacularJuice.jpeg",
+        "imgSrc": "VenomousTentacularJuice.png",
         "horizontal": false
     },
     {
@@ -6072,7 +6072,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "TheWeasleyTwins.jpeg",
+        "imgSrc": "TheWeasleyTwins.png",
         "horizontal": true
     },
     {
@@ -6091,7 +6091,7 @@ export const cards = [
         ],
         "dmgEachTurn": "8",
         "health": "12",
-        "flavorText": "'Of all the trees we could've hit, we had to get one that hits back.' \u0097 Ron Weasley",
+        "flavorText": "'Of all the trees we could've hit, we had to get one that hits back.'  Ron Weasley",
         "rarity": "Foil Premium",
         "artist": "Ron Spencer",
         "effect": [
@@ -6100,7 +6100,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "WhompingWillow.jpeg",
+        "imgSrc": "WhompingWillow.png",
         "horizontal": true
     },
     {
@@ -6121,7 +6121,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "WizardChess.jpeg",
+        "imgSrc": "WizardChess.png",
         "horizontal": true
     },
     {
@@ -6142,7 +6142,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "AngelsTrumpetDraught.jpeg",
+        "imgSrc": "AngelsTrumpetDraught.png",
         "horizontal": false
     },
     {
@@ -6163,7 +6163,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Blocked.jpg",
+        "imgSrc": "Blocked.png",
         "horizontal": false
     },
     {
@@ -6184,7 +6184,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "BlockedBarrier.jpeg",
+        "imgSrc": "BlockedBarrier.png",
         "horizontal": true
     },
     {
@@ -6205,7 +6205,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "BundimunOoze.jpeg",
+        "imgSrc": "BundimunOoze.png",
         "horizontal": false
     },
     {
@@ -6226,7 +6226,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Caught.jpg",
+        "imgSrc": "Caught.png",
         "horizontal": false
     },
     {
@@ -6247,7 +6247,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "CaughtBySnape.jpeg",
+        "imgSrc": "CaughtBySnape.png",
         "horizontal": true
     },
     {
@@ -6268,7 +6268,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Checked.jpg",
+        "imgSrc": "Checked.png",
         "horizontal": false
     },
     {
@@ -6295,7 +6295,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "CleansweepFive.jpeg",
+        "imgSrc": "CleansweepFive.png",
         "horizontal": true
     },
     {
@@ -6317,7 +6317,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "CounterCurse.jpeg",
+        "imgSrc": "CounterCurse.png",
         "horizontal": false
     },
     {
@@ -6338,7 +6338,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DragonDungCompost.jpeg",
+        "imgSrc": "DragonDungCompost.png",
         "horizontal": true
     },
     {
@@ -6359,7 +6359,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Earmuffs.jpg",
+        "imgSrc": "Earmuffs.png",
         "horizontal": true
     },
     {
@@ -6381,7 +6381,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "EndlessSandwiches.jpeg",
+        "imgSrc": "EndlessSandwiches.png",
         "horizontal": false
     },
     {
@@ -6394,7 +6394,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'Floo powder's a lot quicker, dear, but goodness me, if you've never used it before \u0096 ' \u0096 Mrs Weasley",
+        "flavorText": "'Floo powder's a lot quicker, dear, but goodness me, if you've never used it before  '  Mrs Weasley",
         "rarity": "Uncommon",
         "artist": "David Day",
         "effect": [
@@ -6403,7 +6403,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "FlooPowder.jpeg",
+        "imgSrc": "FlooPowder.png",
         "horizontal": false
     },
     {
@@ -6416,7 +6416,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'I've been out here for hours. I couldn't remember the new password to get in to bed.' \u0096 Neville Longbottom",
+        "flavorText": "'I've been out here for hours. I couldn't remember the new password to get in to bed.'  Neville Longbottom",
         "rarity": "Uncommon",
         "artist": "Hugo Martin",
         "effect": [
@@ -6425,7 +6425,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "ForgottenPassword.jpeg",
+        "imgSrc": "ForgottenPassword.png",
         "horizontal": false
     },
     {
@@ -6447,7 +6447,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "InvisibilitySection.jpeg",
+        "imgSrc": "InvisibilitySection.png",
         "horizontal": false
     },
     {
@@ -6456,7 +6456,7 @@ export const cards = [
         "type": [
             "Adventure"
         ],
-        "flavorText": "'Er \u0096 I don't want to be rude or anything, but \u0096 this isn't a great time for me to have a house-elf in my bedroom.' \u0096 Harry Potter",
+        "flavorText": "'Er  I don't want to be rude or anything, but  this isn't a great time for me to have a house-elf in my bedroom.'  Harry Potter",
         "rarity": "Uncommon",
         "artist": [
             "Kevin McCann",
@@ -6472,7 +6472,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "KeepingDobbyQuiet.jpeg",
+        "imgSrc": "KeepingDobbyQuiet.png",
         "horizontal": true
     },
     {
@@ -6493,7 +6493,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "LockedIn.jpeg",
+        "imgSrc": "LockedIn.png",
         "horizontal": true
     },
     {
@@ -6514,7 +6514,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "LockhartsHairCarePotions.jpeg",
+        "imgSrc": "LockhartsHairCarePotions.png",
         "horizontal": true
     },
     {
@@ -6536,7 +6536,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "MagicalMessRemover.jpeg",
+        "imgSrc": "MagicalMessRemover.png",
         "horizontal": false
     },
     {
@@ -6559,7 +6559,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Manticore.jpg",
+        "imgSrc": "Manticore.png",
         "horizontal": true
     },
     {
@@ -6581,7 +6581,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "PotionsProject.jpeg",
+        "imgSrc": "PotionsProject.png",
         "horizontal": false
     },
     {
@@ -6607,7 +6607,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "PricklyPorcupine.jpeg",
+        "imgSrc": "PricklyPorcupine.png",
         "horizontal": true
     },
     {
@@ -6632,7 +6632,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "PureBlood.jpeg",
+        "imgSrc": "PureBlood.png",
         "horizontal": false
     },
     {
@@ -6654,7 +6654,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "RabbitSlippers.jpeg",
+        "imgSrc": "RabbitSlippers.png",
         "horizontal": false
     },
     {
@@ -6681,7 +6681,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "RainyDayMatch.jpeg",
+        "imgSrc": "RainyDayMatch.png",
         "horizontal": true
     },
     {
@@ -6695,7 +6695,7 @@ export const cards = [
             "Location"
         ],
         "note": "When you play this card, discard any other Location from play (yours or your opponent's).",
-        "flavorText": "'I expect we'll be able to pick up a lot of Ginny's things second-hand.' \u0096 Mrs Weasley",
+        "flavorText": "'I expect we'll be able to pick up a lot of Ginny's things second-hand.'  Mrs Weasley",
         "rarity": "Uncommon",
         "artist": "Thomas Gianni",
         "effect": [
@@ -6704,7 +6704,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SecondHandRobeShop.jpeg",
+        "imgSrc": "SecondHandRobeShop.png",
         "horizontal": true
     },
     {
@@ -6728,7 +6728,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SelfShufflingCards.jpeg",
+        "imgSrc": "SelfShufflingCards.png",
         "horizontal": true
     },
     {
@@ -6753,7 +6753,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SherbetLemon.jpeg",
+        "imgSrc": "SherbetLemon.png",
         "horizontal": false
     },
     {
@@ -6775,7 +6775,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SwellingSolution.jpeg",
+        "imgSrc": "SwellingSolution.png",
         "horizontal": false
     },
     {
@@ -6796,7 +6796,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "ThroughTheFloo.jpeg",
+        "imgSrc": "ThroughTheFloo.png",
         "horizontal": true
     },
     {
@@ -6818,7 +6818,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Twirl.jpg",
+        "imgSrc": "Twirl.png",
         "horizontal": false
     },
     {
@@ -6843,7 +6843,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "UmbrellaFlowers.jpeg",
+        "imgSrc": "UmbrellaFlowers.png",
         "horizontal": true
     },
     {
@@ -6861,7 +6861,7 @@ export const cards = [
         ],
         "dmgEachTurn": "2",
         "health": "1",
-        "flavorText": "'... be careful of the Venomous Tentacula, it's teething.' \u0096 Professor Sprout",
+        "flavorText": "'... be careful of the Venomous Tentacula, it's teething.'  Professor Sprout",
         "rarity": "Uncommon",
         "artist": "Tim Hildebrandt",
         "effect": [
@@ -6870,7 +6870,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "VenomousTentacula.jpeg",
+        "imgSrc": "VenomousTentacula.png",
         "horizontal": true
     },
     {
@@ -6898,7 +6898,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Wattlebird.jpg",
+        "imgSrc": "Wattlebird.png",
         "horizontal": false
     },
     {
@@ -6922,7 +6922,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "WindyDayMatch.jpeg",
+        "imgSrc": "WindyDayMatch.png",
         "horizontal": true
     },
     {
@@ -6944,7 +6944,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Aparecium.jpg",
+        "imgSrc": "Aparecium.png",
         "horizontal": false
     },
     {
@@ -6966,7 +6966,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Backfire.jpg",
+        "imgSrc": "Backfire.png",
         "horizontal": false
     },
     {
@@ -6988,7 +6988,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "BadgeredBoy.jpeg",
+        "imgSrc": "BadgeredBoy.png",
         "horizontal": false
     },
     {
@@ -7018,7 +7018,7 @@ export const cards = [
                 "ruling": "Discarding a card to use this ability will not count toward Muddy Practice's total."
             }
         ],
-        "imgSrc": "BeatersBat.jpeg",
+        "imgSrc": "BeatersBat.png",
         "horizontal": true
     },
     {
@@ -7040,7 +7040,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "BeetleButtons.jpeg",
+        "imgSrc": "BeetleButtons.png",
         "horizontal": false
     },
     {
@@ -7062,7 +7062,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "CatchingApples.jpeg",
+        "imgSrc": "CatchingApples.png",
         "horizontal": false
     },
     {
@@ -7083,7 +7083,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "ChudleyCannonsRobes.jpeg",
+        "imgSrc": "ChudleyCannonsRobes.png",
         "horizontal": true
     },
     {
@@ -7113,7 +7113,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "CopperCauldron.jpeg",
+        "imgSrc": "CopperCauldron.png",
         "horizontal": true
     },
     {
@@ -7134,7 +7134,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DeathCapDraught.jpeg",
+        "imgSrc": "DeathCapDraught.png",
         "horizontal": false
     },
     {
@@ -7156,7 +7156,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Deboning.jpg",
+        "imgSrc": "Deboning.png",
         "horizontal": false
     },
     {
@@ -7177,7 +7177,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DizzinessDraught.jpeg",
+        "imgSrc": "DizzinessDraught.png",
         "horizontal": false
     },
     {
@@ -7199,7 +7199,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "EngorgementCharm.jpeg",
+        "imgSrc": "EngorgementCharm.png",
         "horizontal": false
     },
     {
@@ -7221,7 +7221,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Evanesce.jpg",
+        "imgSrc": "Evanesce.png",
         "horizontal": false
     },
     {
@@ -7239,7 +7239,7 @@ export const cards = [
         ],
         "dmgEachTurn": "2",
         "health": "2",
-        "flavorText": "'... I'm right underneath the ghoul in the attic, he's always banging on the pipes and groaning ...' \u0097 Ron Weasley",
+        "flavorText": "'... I'm right underneath the ghoul in the attic, he's always banging on the pipes and groaning ...'  Ron Weasley",
         "rarity": "Common",
         "artist": "Jeff Laubenstein",
         "effect": [
@@ -7248,7 +7248,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "FamilyGhoul.jpeg",
+        "imgSrc": "FamilyGhoul.png",
         "horizontal": true
     },
     {
@@ -7269,7 +7269,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "FatiguingFusion.jpeg",
+        "imgSrc": "FatiguingFusion.png",
         "horizontal": false
     },
     {
@@ -7282,7 +7282,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'And there's the Keeper, too. He guards the goalposts.' \u0097 Harry Potter",
+        "flavorText": "'And there's the Keeper, too. He guards the goalposts.'  Harry Potter",
         "rarity": "Common",
         "artist": "Jeff Laubenstein",
         "effect": [
@@ -7291,7 +7291,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Flacking.jpg",
+        "imgSrc": "Flacking.png",
         "horizontal": false
     },
     {
@@ -7313,7 +7313,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "FreezingCharm.jpeg",
+        "imgSrc": "FreezingCharm.png",
         "horizontal": false
     },
     {
@@ -7339,7 +7339,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "GardenGnome.jpeg",
+        "imgSrc": "GardenGnome.png",
         "horizontal": true
     },
     {
@@ -7358,13 +7358,13 @@ export const cards = [
         ],
         "dmgEachTurn": "3",
         "health": "3",
-        "flavorText": "'Their daring, nerve and chivalry Set Gryffindors apart; ...' \u0097 The Sorting Hat",
+        "flavorText": "'Their daring, nerve and chivalry Set Gryffindors apart; ...'  The Sorting Hat",
         "rarity": "Common",
         "artist": "Tony Szczudlo",
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "GryffindorLion.jpeg",
+        "imgSrc": "GryffindorLion.png",
         "horizontal": true
     },
     {
@@ -7394,7 +7394,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "GuideToHouseholdPests.jpeg",
+        "imgSrc": "GuideToHouseholdPests.png",
         "horizontal": true
     },
     {
@@ -7416,7 +7416,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "HairRaisingPotion.jpeg",
+        "imgSrc": "HairRaisingPotion.png",
         "horizontal": false
     },
     {
@@ -7429,7 +7429,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'Three Chasers on each team throw the Quaffle to each other and try and get it through the goalposts at the end of the pitch \u0097 ...' \u0097 Harry Potter",
+        "flavorText": "'Three Chasers on each team throw the Quaffle to each other and try and get it through the goalposts at the end of the pitch  ...'  Harry Potter",
         "rarity": "Common",
         "artist": "Ken Steacy",
         "effect": [
@@ -7438,7 +7438,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "HawksheadFormation.jpeg",
+        "imgSrc": "HawksheadFormation.png",
         "horizontal": false
     },
     {
@@ -7451,7 +7451,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'Ron, he breathed, this is it. This is the answer.' \u0097 Harry Potter",
+        "flavorText": "'Ron, he breathed, this is it. This is the answer.'  Harry Potter",
         "rarity": "Common",
         "artist": "Alex Horley",
         "effect": [
@@ -7460,7 +7460,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "HermionesNote.jpeg",
+        "imgSrc": "HermionesNote.png",
         "horizontal": false
     },
     {
@@ -7482,7 +7482,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "HistoryOfMagicHomework.jpeg",
+        "imgSrc": "HistoryOfMagicHomework.png",
         "horizontal": false
     },
     {
@@ -7504,7 +7504,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "HoverCharm.jpeg",
+        "imgSrc": "HoverCharm.png",
         "horizontal": false
     },
     {
@@ -7517,7 +7517,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "''You'd better open it, Ron,' said Neville, in a timid whisper. 'It'll be worse if you don't. My Gran sent me one once, and I ignored it and' \u0097 he gulped, 'it was horrible.''",
+        "flavorText": "''You'd better open it, Ron,' said Neville, in a timid whisper. 'It'll be worse if you don't. My Gran sent me one once, and I ignored it and'  he gulped, 'it was horrible.''",
         "rarity": "Common",
         "artist": "Monte Michael Moore",
         "effect": [
@@ -7526,7 +7526,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Howler.jpg",
+        "imgSrc": "Howler.png",
         "horizontal": false
     },
     {
@@ -7545,13 +7545,13 @@ export const cards = [
         ],
         "dmgEachTurn": "1",
         "health": "3",
-        "flavorText": "'You might belong in Hufflepuff, Where they are just and loyal, ...' \u0097 The Sorting Hat",
+        "flavorText": "'You might belong in Hufflepuff, Where they are just and loyal, ...'  The Sorting Hat",
         "rarity": "Common",
         "artist": "Tony Szczudlo",
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "HufflepuffBadger.jpeg",
+        "imgSrc": "HufflepuffBadger.png",
         "horizontal": true
     },
     {
@@ -7573,7 +7573,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "InvisibleInk.jpeg",
+        "imgSrc": "InvisibleInk.png",
         "horizontal": false
     },
     {
@@ -7599,7 +7599,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "LeapingToadstools.jpeg",
+        "imgSrc": "LeapingToadstools.png",
         "horizontal": true
     },
     {
@@ -7620,7 +7620,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "OverdueHomework.jpeg",
+        "imgSrc": "OverdueHomework.png",
         "horizontal": false
     },
     {
@@ -7645,7 +7645,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "PepperupPotion.jpeg",
+        "imgSrc": "PepperupPotion.png",
         "horizontal": false
     },
     {
@@ -7666,7 +7666,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "PotionsHomework.jpeg",
+        "imgSrc": "PotionsHomework.png",
         "horizontal": false
     },
     {
@@ -7688,7 +7688,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Ransacked.jpg",
+        "imgSrc": "Ransacked.png",
         "horizontal": false
     },
     {
@@ -7707,13 +7707,13 @@ export const cards = [
         ],
         "dmgEachTurn": "2",
         "health": "2",
-        "flavorText": "'Or yet in wise old Ravenclaw, If you've a ready mind, ...' \u0097 The Sorting Hat",
+        "flavorText": "'Or yet in wise old Ravenclaw, If you've a ready mind, ...'  The Sorting Hat",
         "rarity": "Common",
         "artist": "Tony Szczudlo",
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "RavenclawEagle.jpeg",
+        "imgSrc": "RavenclawEagle.png",
         "horizontal": true
     },
     {
@@ -7734,7 +7734,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "RestorationPotion.jpeg",
+        "imgSrc": "RestorationPotion.png",
         "horizontal": false
     },
     {
@@ -7755,7 +7755,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Revealer.jpg",
+        "imgSrc": "Revealer.png",
         "horizontal": true
     },
     {
@@ -7776,7 +7776,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "RoseGrowth.jpeg",
+        "imgSrc": "RoseGrowth.png",
         "horizontal": false
     },
     {
@@ -7806,7 +7806,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "ShootingStar.jpeg",
+        "imgSrc": "ShootingStar.png",
         "horizontal": true
     },
     {
@@ -7832,7 +7832,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SlinkingFerret.jpeg",
+        "imgSrc": "SlinkingFerret.png",
         "horizontal": true
     },
     {
@@ -7853,7 +7853,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SlowActingVenom.jpeg",
+        "imgSrc": "SlowActingVenom.png",
         "horizontal": true
     },
     {
@@ -7872,13 +7872,13 @@ export const cards = [
         ],
         "dmgEachTurn": "3",
         "health": "1",
-        "flavorText": "'Those cunning folk use any means To achieve their ends.' \u0097 The Sorting Hat",
+        "flavorText": "'Those cunning folk use any means To achieve their ends.'  The Sorting Hat",
         "rarity": "Common",
         "artist": "Tony Szczudlo",
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SlytherinSerpent.jpeg",
+        "imgSrc": "SlytherinSerpent.png",
         "horizontal": true
     },
     {
@@ -7899,7 +7899,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SlytherinSteals.jpeg",
+        "imgSrc": "SlytherinSteals.png",
         "horizontal": false
     },
     {
@@ -7921,7 +7921,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "TrainingProgramme.jpeg",
+        "imgSrc": "TrainingProgramme.png",
         "horizontal": false
     },
     {
@@ -7934,7 +7934,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'That vanishing cabinet was extremely valuable!' \u0097 Argus Filch",
+        "flavorText": "'That vanishing cabinet was extremely valuable!'  Argus Filch",
         "rarity": "Common",
         "artist": "Thomas Gianni",
         "effect": [
@@ -7943,7 +7943,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "VanishingCabinet.jpeg",
+        "imgSrc": "VanishingCabinet.png",
         "horizontal": false
     },
     {
@@ -7965,7 +7965,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "ZigZag.jpeg",
+        "imgSrc": "ZigZag.png",
         "horizontal": false
     },
     {
@@ -8117,7 +8117,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "BeaterGrabsTheSnitch.jpeg",
+        "imgSrc": "BeaterGrabsTheSnitch.png",
         "horizontal": false
     },
     {
@@ -8138,7 +8138,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "BulgeyePotion.jpeg",
+        "imgSrc": "BulgeyePotion.png",
         "horizontal": true
     },
     {
@@ -8160,7 +8160,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "ChristmasFeast.jpeg",
+        "imgSrc": "ChristmasFeast.png",
         "horizontal": false
     },
     {
@@ -8181,7 +8181,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "ColourChangingInk.jpeg",
+        "imgSrc": "ColourChangingInk.png",
         "horizontal": true
     },
     {
@@ -8204,7 +8204,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "DracoMalfoySlytherin.jpeg",
+        "imgSrc": "DracoMalfoySlytherin.png",
         "horizontal": true
     },
     {
@@ -8228,15 +8228,15 @@ export const cards = [
             {
                 "date": "2002-03-20",
                 "source": "POJO",
-                "ruling": "This card will prevent 1 damage from each of your opponent\u0092s Creatures."
+                "ruling": "This card will prevent 1 damage from each of your opponents Creatures."
             },
             {
                 "date": "2002-06-12",
                 "source": "POJO",
-                "ruling": "First figure out any damage enhancers, then figure out any damage reducers. This effect would happen after Rubeus Hagrid\u0092s effect triggers."
+                "ruling": "First figure out any damage enhancers, then figure out any damage reducers. This effect would happen after Rubeus Hagrids effect triggers."
             }
         ],
-        "imgSrc": "DragonHideGloves.jpeg",
+        "imgSrc": "DragonHideGloves.png",
         "horizontal": true
     },
     {
@@ -8253,7 +8253,7 @@ export const cards = [
             "Unique"
         ],
         "note": "When you play this card, discard any other Location from play (yours or your opponent's).",
-        "flavorText": "'...Eeylops Owl Emporium \u0097 Tawny, Screech, Barn, Brown and Snowy.' - Shop sign in Diagon Alley",
+        "flavorText": "'...Eeylops Owl Emporium  Tawny, Screech, Barn, Brown and Snowy.' - Shop sign in Diagon Alley",
         "rarity": "Foil Premium",
         "artist": "Scott M. Fischer",
         "effect": [
@@ -8262,7 +8262,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "EeylopsOwlEmporium.jpeg",
+        "imgSrc": "EeylopsOwlEmporium.png",
         "horizontal": true
     },
     {
@@ -8288,7 +8288,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "FlourishAndBlotts.jpeg",
+        "imgSrc": "FlourishAndBlotts.png",
         "horizontal": true
     },
     {
@@ -8313,7 +8313,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "GoodNightsSleep.jpeg",
+        "imgSrc": "GoodNightsSleep.png",
         "horizontal": false
     },
     {
@@ -8330,7 +8330,7 @@ export const cards = [
             "Unique"
         ],
         "note": "When you play this card, discard any other Location from play (yours or your opponent's).",
-        "flavorText": "'Enter stranger, but take heed of what awaits the sin of greed, ...' \u0097 Gringotts engraving",
+        "flavorText": "'Enter stranger, but take heed of what awaits the sin of greed, ...'  Gringotts engraving",
         "rarity": "Foil Premium",
         "artist": "Tim Hildebrandt",
         "effect": [
@@ -8342,10 +8342,10 @@ export const cards = [
             {
                 "date": "2002-09-03",
                 "source": "POJO",
-                "ruling": "You figure out Actions during the \"Before your turn\" phase of your turn. This means if you discard \u0093Gringott\u0092s\u0094 during your turn using an Action, you still have 2 more Actions."
+                "ruling": "You figure out Actions during the \"Before your turn\" phase of your turn. This means if you discard Gringotts during your turn using an Action, you still have 2 more Actions."
             }
         ],
-        "imgSrc": "Gringotts.jpg",
+        "imgSrc": "Gringotts.png",
         "horizontal": true
     },
     {
@@ -8358,7 +8358,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'You have his key, sir?'' \u0097 Gringotts goblin",
+        "flavorText": "'You have his key, sir?''  Gringotts goblin",
         "rarity": "Foil Premium",
         "artist": "Thomas Gianni",
         "effect": [
@@ -8367,7 +8367,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "GringottsVaultKey.jpeg",
+        "imgSrc": "GringottsVaultKey.png",
         "horizontal": false
     },
     {
@@ -8389,7 +8389,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Griphook.jpg",
+        "imgSrc": "Griphook.png",
         "horizontal": true
     },
     {
@@ -8402,7 +8402,7 @@ export const cards = [
         "type": [
             "Match"
         ],
-        "flavorText": "\u0091... this year's team is going to be brilliant.\u0092 \u0097 Oliver Wood",
+        "flavorText": "... this year's team is going to be brilliant.  Oliver Wood",
         "rarity": "Foil Premium",
         "artist": "Greg Hildebrandt",
         "effect": [
@@ -8414,7 +8414,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "GryffindorMatch.jpeg",
+        "imgSrc": "GryffindorMatch.png",
         "horizontal": true
     },
     {
@@ -8426,7 +8426,7 @@ export const cards = [
         "subTypes": [
             "Unique"
         ],
-        "flavorText": "'...I haven't introduced meself. Rubeus Hagrid, Keeper of Keys and Grounds at Hogwarts' \u0097 Rubeus Hagrid",
+        "flavorText": "'...I haven't introduced meself. Rubeus Hagrid, Keeper of Keys and Grounds at Hogwarts'  Rubeus Hagrid",
         "rarity": "Holo Portrait Premium",
         "artist": "Greg Hildebrandt",
         "effect": [
@@ -8435,7 +8435,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "HagridKeeperOfKeys.jpeg",
+        "imgSrc": "HagridKeeperOfKeys.png",
         "horizontal": true
     },
     {
@@ -8466,7 +8466,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "HagridsUmbrella.jpeg",
+        "imgSrc": "HagridsUmbrella.png",
         "horizontal": true
     },
     {
@@ -8493,7 +8493,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "HebrideanBlackDragon.jpeg",
+        "imgSrc": "HebrideanBlackDragon.png",
         "horizontal": true
     },
     {
@@ -8522,7 +8522,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Hedwig.jpg",
+        "imgSrc": "Hedwig.png",
         "horizontal": true
     },
     {
@@ -8545,7 +8545,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "HermioneTopStudent.jpeg",
+        "imgSrc": "HermioneTopStudent.png",
         "horizontal": true
     },
     {
@@ -8568,7 +8568,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "LeeJordan.jpeg",
+        "imgSrc": "LeeJordan.png",
         "horizontal": true
     },
     {
@@ -8598,10 +8598,10 @@ export const cards = [
             {
                 "date": "2002-05-05",
                 "source": "POJO",
-                "ruling": "You can use Harry Potter\u0092s ability to draw 2 cards per Action instead of 1. His ability changes the number you draw only, not what you are using the Action for."
+                "ruling": "You can use Harry Potters ability to draw 2 cards per Action instead of 1. His ability changes the number you draw only, not what you are using the Action for."
             }
         ],
-        "imgSrc": "LettersFromNoOne.jpeg",
+        "imgSrc": "LettersFromNoOne.png",
         "horizontal": true
     },
     {
@@ -8623,7 +8623,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "MadamIrmaPince.jpeg",
+        "imgSrc": "MadamIrmaPince.png",
         "horizontal": true
     },
     {
@@ -8636,7 +8636,7 @@ export const cards = [
             "Wizard",
             "Unique"
         ],
-        "flavorText": "'Even Professor Quirrell was temblin' ter meet yeh \u0097 mind you, he's usually tremblin'.' \u0097 Rubeus Hagrid",
+        "flavorText": "'Even Professor Quirrell was temblin' ter meet yeh  mind you, he's usually tremblin'.'  Rubeus Hagrid",
         "rarity": "Holo Portrait Premium",
         "artist": "Kevin Dobler",
         "effect": [
@@ -8645,7 +8645,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "ProfessorQuirinusQuirrell.jpeg",
+        "imgSrc": "ProfessorQuirinusQuirrell.png",
         "horizontal": true
     },
     {
@@ -8675,7 +8675,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "SelfStirringCauldron.jpeg",
+        "imgSrc": "SelfStirringCauldron.png",
         "horizontal": true
     },
     {
@@ -8699,7 +8699,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "SilverUnicornHorn.jpeg",
+        "imgSrc": "SilverUnicornHorn.png",
         "horizontal": true
     },
     {
@@ -8720,7 +8720,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "TableTrouble.jpeg",
+        "imgSrc": "TableTrouble.png",
         "horizontal": false
     },
     {
@@ -8734,7 +8734,7 @@ export const cards = [
             "Gryffindor",
             "Unique"
         ],
-        "flavorText": "'I'm famous and I can't even remember what I'm famous for.' \u0097 Harry Potter",
+        "flavorText": "'I'm famous and I can't even remember what I'm famous for.'  Harry Potter",
         "rarity": "Holo Portrait Premium",
         "artist": "Greg Hildebrandt",
         "effect": [
@@ -8743,7 +8743,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "TheFamousHarryPotter.jpeg",
+        "imgSrc": "TheFamousHarryPotter.png",
         "horizontal": true
     },
     {
@@ -8772,10 +8772,10 @@ export const cards = [
             {
                 "date": "2001-01-01",
                 "source": "POJO",
-                "ruling": "You cannot pair this with Sorting Hat since Hat\u0092s 2 Action requirement is to search your deck, not play the Character."
+                "ruling": "You cannot pair this with Sorting Hat since Hats 2 Action requirement is to search your deck, not play the Character."
             }
         ],
-        "imgSrc": "TheLeakyCauldron.jpeg",
+        "imgSrc": "TheLeakyCauldron.png",
         "horizontal": true
     },
     {
@@ -8788,7 +8788,7 @@ export const cards = [
         "type": [
             "Match"
         ],
-        "flavorText": "'A game of Quidditch... can go on for ages...' \u0097 Oliver Wood",
+        "flavorText": "'A game of Quidditch... can go on for ages...'  Oliver Wood",
         "rarity": "Foil Premium",
         "artist": "Keith Garletts",
         "effect": [
@@ -8800,7 +8800,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "ThreeMonthLongMatch.jpeg",
+        "imgSrc": "ThreeMonthLongMatch.png",
         "horizontal": true
     },
     {
@@ -8822,7 +8822,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "ThroughTheArch.jpeg",
+        "imgSrc": "ThroughTheArch.png",
         "horizontal": true
     },
     {
@@ -8844,7 +8844,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "VanishingReferee.jpeg",
+        "imgSrc": "VanishingReferee.png",
         "horizontal": false
     },
     {
@@ -8868,7 +8868,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "AlihotsyDraught.jpeg",
+        "imgSrc": "AlihotsyDraught.png",
         "horizontal": false
     },
     {
@@ -8894,7 +8894,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "BarnOwl.jpeg",
+        "imgSrc": "BarnOwl.png",
         "horizontal": true
     },
     {
@@ -8921,10 +8921,10 @@ export const cards = [
             {
                 "date": "2002-03-20",
                 "source": "POJO",
-                "ruling": "If you use this card's ability to play Bulgeye Potion from your deck, you do NOT need to meet the Lesson requirement since the Eyes cards put \u0093Bulgeye Potion\u0094 into play."
+                "ruling": "If you use this card's ability to play Bulgeye Potion from your deck, you do NOT need to meet the Lesson requirement since the Eyes cards put Bulgeye Potion into play."
             }
         ],
-        "imgSrc": "BeetleEyes.jpeg",
+        "imgSrc": "BeetleEyes.png",
         "horizontal": true
     },
     {
@@ -8937,7 +8937,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "''So \u0097 after that obvious and disgusting bit of cheating \u0097' 'Jordan!' growled Professor McGonagall'",
+        "flavorText": "''So  after that obvious and disgusting bit of cheating ' 'Jordan!' growled Professor McGonagall'",
         "rarity": "Uncommon",
         "artist": "Chris Seaman",
         "effect": [
@@ -8946,7 +8946,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "BiasedCommentary.jpeg",
+        "imgSrc": "BiasedCommentary.png",
         "horizontal": false
     },
     {
@@ -8980,7 +8980,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "BluebottleBroom.jpeg",
+        "imgSrc": "BluebottleBroom.png",
         "horizontal": true
     },
     {
@@ -9002,7 +9002,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "CauldronShop.jpeg",
+        "imgSrc": "CauldronShop.png",
         "horizontal": true
     },
     {
@@ -9023,7 +9023,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Colloshoo.jpg",
+        "imgSrc": "Colloshoo.png",
         "horizontal": false
     },
     {
@@ -9050,10 +9050,10 @@ export const cards = [
             {
                 "date": "2002-03-20",
                 "source": "POJO",
-                "ruling": "If you use this card's ability to play Bulgeye Potion from your deck, you do NOT need to meet the Lesson requirement since the Eyes cards put \u0093Bulgeye Potion\u0094 into play."
+                "ruling": "If you use this card's ability to play Bulgeye Potion from your deck, you do NOT need to meet the Lesson requirement since the Eyes cards put Bulgeye Potion into play."
             }
         ],
-        "imgSrc": "EelEyes.jpeg",
+        "imgSrc": "EelEyes.png",
         "horizontal": true
     },
     {
@@ -9066,7 +9066,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'I was the only one who saw her for what she was \u0097 a freak!' \u0097 Petunia Dursley",
+        "flavorText": "'I was the only one who saw her for what she was  a freak!'  Petunia Dursley",
         "rarity": "Uncommon",
         "artist": "Dennis Calero",
         "effect": [
@@ -9075,7 +9075,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "FrogSpawn.jpeg",
+        "imgSrc": "FrogSpawn.png",
         "horizontal": false
     },
     {
@@ -9096,7 +9096,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Injured.jpg",
+        "imgSrc": "Injured.png",
         "horizontal": false
     },
     {
@@ -9120,7 +9120,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Lapifors.jpg",
+        "imgSrc": "Lapifors.png",
         "horizontal": false
     },
     {
@@ -9137,7 +9137,7 @@ export const cards = [
             "Unique"
         ],
         "note": "When you play this card, discard any other Location from play (yours or your opponent's).",
-        "flavorText": "'Madam Malkin stood Harry on a stool\u0085 slipped a long robe over his head and started to pin it to the right length.'",
+        "flavorText": "'Madam Malkin stood Harry on a stool slipped a long robe over his head and started to pin it to the right length.'",
         "rarity": "Uncommon",
         "artist": "Greg Hildebrandt",
         "effect": [
@@ -9146,7 +9146,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "MadamMalkinsRobes.jpeg",
+        "imgSrc": "MadamMalkinsRobes.png",
         "horizontal": true
     },
     {
@@ -9170,15 +9170,15 @@ export const cards = [
             {
                 "date": "2002-03-20",
                 "source": "POJO",
-                "ruling": "If you have Madam Malkin\u0092s Robe in play, it will prevent the 1 damage dealt by \u0093Porcupine Robe\u0094."
+                "ruling": "If you have Madam Malkins Robe in play, it will prevent the 1 damage dealt by Porcupine Robe."
             },
             {
                 "date": "2002-05-05",
                 "source": "POJO",
-                "ruling": "If you play Sloth Grip, you get to choose what 3 damage you prevent and then Robe will trigger based on what damage you let through. Creatures that don\u0092t do damage will not get damaged by Robe."
+                "ruling": "If you play Sloth Grip, you get to choose what 3 damage you prevent and then Robe will trigger based on what damage you let through. Creatures that dont do damage will not get damaged by Robe."
             }
         ],
-        "imgSrc": "PorcupineRobe.jpeg",
+        "imgSrc": "PorcupineRobe.png",
         "horizontal": true
     },
     {
@@ -9199,7 +9199,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "PracticalJoke.jpeg",
+        "imgSrc": "PracticalJoke.png",
         "horizontal": false
     },
     {
@@ -9224,7 +9224,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "QualityQuidditchSupplies.jpeg",
+        "imgSrc": "QualityQuidditchSupplies.png",
         "horizontal": true
     },
     {
@@ -9247,7 +9247,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Quintaped.jpg",
+        "imgSrc": "Quintaped.png",
         "horizontal": true
     },
     {
@@ -9272,7 +9272,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "SpiralDive.jpeg",
+        "imgSrc": "SpiralDive.png",
         "horizontal": false
     },
     {
@@ -9293,7 +9293,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Verdillious.jpg",
+        "imgSrc": "Verdillious.png",
         "horizontal": false
     },
     {
@@ -9307,7 +9307,7 @@ export const cards = [
             "Location"
         ],
         "note": "When you play this card, discard any other Location from play (yours or your opponent's).",
-        "flavorText": "'...Ollivanders: Makers of Fine Wands since 382 BC.' \u0097 shop sign in Diagon Alley",
+        "flavorText": "'...Ollivanders: Makers of Fine Wands since 382 BC.'  shop sign in Diagon Alley",
         "rarity": "Uncommon",
         "artist": "Kevin Dobler",
         "effect": [
@@ -9322,7 +9322,7 @@ export const cards = [
                 "ruling": "Only Lessons are affected by this card. Items, Wands, etc., are not."
             }
         ],
-        "imgSrc": "WandShop.jpeg",
+        "imgSrc": "WandShop.png",
         "horizontal": true
     },
     {
@@ -9348,7 +9348,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "WildBoar.jpeg",
+        "imgSrc": "WildBoar.png",
         "horizontal": true
     },
     {
@@ -9378,7 +9378,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "ABeginnersGuideToTransfiguration.jpeg",
+        "imgSrc": "ABeginnersGuideToTransfiguration.png",
         "horizontal": true
     },
     {
@@ -9399,7 +9399,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "BludgerInTheStands.jpeg",
+        "imgSrc": "BludgerInTheStands.png",
         "horizontal": false
     },
     {
@@ -9421,7 +9421,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "BlueWig.jpeg",
+        "imgSrc": "BlueWig.png",
         "horizontal": false
     },
     {
@@ -9445,7 +9445,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "ButterflyWeedBalm.jpeg",
+        "imgSrc": "ButterflyWeedBalm.png",
         "horizontal": false
     },
     {
@@ -9467,7 +9467,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "CancelledPractice.jpeg",
+        "imgSrc": "CancelledPractice.png",
         "horizontal": false
     },
     {
@@ -9488,7 +9488,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "DogbanePotion.jpeg",
+        "imgSrc": "DogbanePotion.png",
         "horizontal": false
     },
     {
@@ -9509,7 +9509,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "DogBiscuits.jpeg",
+        "imgSrc": "DogBiscuits.png",
         "horizontal": false
     },
     {
@@ -9539,7 +9539,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "FantasticBeasts&WhereToFindThem.jpeg",
+        "imgSrc": "FantasticBeasts&WhereToFindThem.png",
         "horizontal": true
     },
     {
@@ -9552,7 +9552,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'...no magic should be used between classes in the corridors.' \u0097 Albus Dumbledore",
+        "flavorText": "'...no magic should be used between classes in the corridors.'  Albus Dumbledore",
         "rarity": "Common",
         "artist": "David Day",
         "effect": [
@@ -9561,7 +9561,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Flipendo.jpg",
+        "imgSrc": "Flipendo.png",
         "horizontal": false
     },
     {
@@ -9582,7 +9582,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Freeze.jpg",
+        "imgSrc": "Freeze.png",
         "horizontal": false
     },
     {
@@ -9612,7 +9612,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "MagicalDraftsAndPotions.jpeg",
+        "imgSrc": "MagicalDraftsAndPotions.png",
         "horizontal": true
     },
     {
@@ -9642,7 +9642,7 @@ export const cards = [
                 "ruling": "If you have no card to discard, you cannot play this card. You must be able to do everything on a card to play it."
             }
         ],
-        "imgSrc": "MidAirCollision.jpeg",
+        "imgSrc": "MidAirCollision.png",
         "horizontal": false
     },
     {
@@ -9663,7 +9663,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "MoonseedPoison.jpeg",
+        "imgSrc": "MoonseedPoison.png",
         "horizontal": true
     },
     {
@@ -9685,7 +9685,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "PickingOnNeville.jpeg",
+        "imgSrc": "PickingOnNeville.png",
         "horizontal": false
     },
     {
@@ -9698,7 +9698,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'...I suppose he was so much like a pig anyway there wasn't much left ter do.' \u0097 Rubeus Hagrid",
+        "flavorText": "'...I suppose he was so much like a pig anyway there wasn't much left ter do.'  Rubeus Hagrid",
         "rarity": "Common",
         "artist": "Patrick Faricy",
         "effect": [
@@ -9707,7 +9707,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "PigleyDudley.jpeg",
+        "imgSrc": "PigleyDudley.png",
         "horizontal": false
     },
     {
@@ -9720,7 +9720,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'...Alicia Spinnet, a good friend of Oliver Wood's, last year only a reserve...'' \u0097 Lee Jordan, commentator",
+        "flavorText": "'...Alicia Spinnet, a good friend of Oliver Wood's, last year only a reserve...''  Lee Jordan, commentator",
         "rarity": "Common",
         "artist": [
             "Kevin McCann",
@@ -9732,7 +9732,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "QuickThinking.jpeg",
+        "imgSrc": "QuickThinking.png",
         "horizontal": false
     },
     {
@@ -9762,7 +9762,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "QuidditchThroughTheAges.jpeg",
+        "imgSrc": "QuidditchThroughTheAges.png",
         "horizontal": true
     },
     {
@@ -9789,7 +9789,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "RiverTroll.jpeg",
+        "imgSrc": "RiverTroll.png",
         "horizontal": true
     },
     {
@@ -9815,7 +9815,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "ScreechOwl.jpeg",
+        "imgSrc": "ScreechOwl.png",
         "horizontal": true
     },
     {
@@ -9828,7 +9828,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'...that's Chaser Katie Bell of Gryffindor there\u0085' \u0097 Lee Jordan, commentator",
+        "flavorText": "'...that's Chaser Katie Bell of Gryffindor there'  Lee Jordan, commentator",
         "rarity": "Common",
         "artist": [
             "Kevin McCann",
@@ -9840,7 +9840,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "SlothGrip.jpeg",
+        "imgSrc": "SlothGrip.png",
         "horizontal": false
     },
     {
@@ -9861,7 +9861,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Spongify.jpg",
+        "imgSrc": "Spongify.png",
         "horizontal": false
     },
     {
@@ -9882,7 +9882,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "SwellingPotion.jpeg",
+        "imgSrc": "SwellingPotion.png",
         "horizontal": false
     },
     {
@@ -9900,7 +9900,7 @@ export const cards = [
         ],
         "dmgEachTurn": "1",
         "health": "1",
-        "flavorText": "'All the kids want owls, they're dead useful...' \u0097 Rubeus Hagrid",
+        "flavorText": "'All the kids want owls, they're dead useful...'  Rubeus Hagrid",
         "rarity": "Common",
         "artist": "Lars Grant-West",
         "effect": [
@@ -9909,7 +9909,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "TawnyOwl.jpeg",
+        "imgSrc": "TawnyOwl.png",
         "horizontal": true
     },
     {
@@ -9922,7 +9922,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'Oh, she... came home every holiday... turning teacups into rats.' \u0097 Petunia Dursley",
+        "flavorText": "'Oh, she... came home every holiday... turning teacups into rats.'  Petunia Dursley",
         "rarity": "Common",
         "artist": "Darrell Riche",
         "effect": [
@@ -9931,7 +9931,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "TeacupToRat.jpeg",
+        "imgSrc": "TeacupToRat.png",
         "horizontal": false
     },
     {
@@ -9961,7 +9961,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "TheStandardBookOfSpellsGrade1.jpeg",
+        "imgSrc": "TheStandardBookOfSpellsGrade1.png",
         "horizontal": true
     },
     {
@@ -10124,7 +10124,7 @@ export const cards = [
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "If Buckbeak\u0092s Execution does not discard a Creature before your turn because there are no Creatures in play, Buckbeak\u0092s Execution will still be discarded from play."
+                "ruling": "If Buckbeaks Execution does not discard a Creature before your turn because there are no Creatures in play, Buckbeaks Execution will still be discarded from play."
             }
         ],
         "imgSrc": "BuckbeaksExecution.png",
@@ -10144,7 +10144,7 @@ export const cards = [
             "Unique"
         ],
         "rarity": "Rare",
-        "flavorText": "\u0091\u0093He\u0092s that tall, good-looking one, isn\u0092t he?\u0094 said Angelina.\u0093Strong and silent,\u0094 said Katie, and they started to giggle again.\u0092",
+        "flavorText": "Hes that tall, good-looking one, isnt he? said Angelina.Strong and silent, said Katie, and they started to giggle again.",
         "effect": [
             "Once per game, you may discard your hand and then draw 6 cards."
         ],
@@ -10168,7 +10168,7 @@ export const cards = [
             "Unique"
         ],
         "rarity": "Rare",
-        "flavorText": "\u0091She was undoubtedly a very good flier \u0097 she kept cutting across him, forcing him to change direction.\u0092",
+        "flavorText": "She was undoubtedly a very good flier  she kept cutting across him, forcing him to change direction.",
         "effect": [
             "At the end of each of your turns, if an opponent has more Lessons in play than you, you may search your deck. You may take up to 2 [Q] Lessons from your deck, reveal them, put 1 into play and the rest into your hand, and then shuffle your deck."
         ],
@@ -10200,7 +10200,7 @@ export const cards = [
         ],
         "cost": 9,
         "rarity": "Rare",
-        "flavorText": "\u0091Now was the moment to avenge his mother and father. He was going to kill Black. He had to kill Black.\u0092",
+        "flavorText": "Now was the moment to avenge his mother and father. He was going to kill Black. He had to kill Black.",
         "effect": [
             "Before each of your turns, count the number of Marauder cards that you have in your discard pile and in play. Do that much damage to an opponent."
         ],
@@ -10320,7 +10320,7 @@ export const cards = [
             "Unique"
         ],
         "rarity": "Rare",
-        "flavorText": "\u0091\u0093He\u0092s made some changes in the lineup and seems to be going for size rather than skill \u0097\u0094\u0092 \u0097 Lee Jordan",
+        "flavorText": "Hes made some changes in the lineup and seems to be going for size rather than skill   Lee Jordan",
         "effect": [
             "You may use an Action and discard a Lesson from your hand. If you do, choose an opponent. During their next turn, they get 1 fewer Action. (If this would mean your opponent has fewer than 1 Action, they still get 1 Action.)"
         ],
@@ -10345,7 +10345,7 @@ export const cards = [
         ],
         "cost": 7,
         "rarity": "Rare",
-        "flavorText": "\u0091... no amount of mud, wind, or rain could tarnish Harry\u0092s wonderful vision of finally winning the huge, silver Quidditch Cup.\u0092",
+        "flavorText": "... no amount of mud, wind, or rain could tarnish Harrys wonderful vision of finally winning the huge, silver Quidditch Cup.",
         "effect": [
             "If you have a Beater, Keeper, Chaser and Seeker in play, whenever you use an Action to play a Match, you win the Match."
         ],
@@ -10368,7 +10368,7 @@ export const cards = [
             "Unique"
         ],
         "rarity": "Rare",
-        "flavorText": "\u0091\u0093Is there any point asking how you\u0092re going to sit for two exams at once?\u0094\u0092 \u0097 Harry Potter",
+        "flavorText": "Is there any point asking how youre going to sit for two exams at once?  Harry Potter",
         "effect": [
             "Once per turn, if you have at least 5 Lessons in your discard pile, you may use an Action to put up to 2 non-Advanced Lessons from your discard pile into play."
         ],
@@ -10499,7 +10499,7 @@ export const cards = [
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "You may ignore Action, printed Power cost, and Power requirements when putting an Event from your hand into play using Padfoot\u0092s ability. You must, however, pay any additional costs. (.e.g \u0093When you play this card\u0085\u0094)"
+                "ruling": "You may ignore Action, printed Power cost, and Power requirements when putting an Event from your hand into play using Padfoots ability. You must, however, pay any additional costs. (.e.g When you play this card)"
             }
         ],
         "imgSrc": "Padfoot.png",
@@ -10556,7 +10556,7 @@ export const cards = [
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "You must immediately use the \u0093Once per game\u0094 ability if the chosen Character has one and the \u0093Once per game\u0094 ability has already been used."
+                "ruling": "You must immediately use the Once per game ability if the chosen Character has one and the Once per game ability has already been used."
             }
         ],
         "imgSrc": "PettigrewsTreachery.png",
@@ -10654,7 +10654,7 @@ export const cards = [
         ],
         "cost": 15,
         "rarity": "Rare",
-        "flavorText": "\u0091Harry and Ron both made furious moves toward Malfoy, but Hermione got there first ...\u0092",
+        "flavorText": "Harry and Ron both made furious moves toward Malfoy, but Hermione got there first ...",
         "effect": [
             "Choose an opponent. They may discard any number of their cards from play and/or from their hand. Then, count the number of cards they have in their hand and in play. Do twice that much damage to that opponent."
         ],
@@ -10664,7 +10664,7 @@ export const cards = [
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "Your opponent\u0092s starting Character counts toward this total."
+                "ruling": "Your opponents starting Character counts toward this total."
             }
         ],
         "imgSrc": "Smack.png",
@@ -10682,7 +10682,7 @@ export const cards = [
         ],
         "cost": 12,
         "rarity": "Rare",
-        "flavorText": "\u0091\u0093Miss Granger, three turns should do it. Good luck.\u0094\u0092 \u0097 Albus Dumbledore",
+        "flavorText": "Miss Granger, three turns should do it. Good luck.  Albus Dumbledore",
         "effect": [
             "Choose a non-Healing card in your discard pile other than Three Turns. Play that card without using any Actions."
         ],
@@ -10692,7 +10692,7 @@ export const cards = [
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "You still need to have the requisite Power to play the card, and you will still need to pay for any additional costs of the card (e.g., \u0093To play this card\u0085\u0094)."
+                "ruling": "You still need to have the requisite Power to play the card, and you will still need to pay for any additional costs of the card (e.g., To play this card)."
             }
         ],
         "imgSrc": "ThreeTurns.png",
@@ -10711,7 +10711,7 @@ export const cards = [
             "Unique"
         ],
         "rarity": "Rare",
-        "flavorText": "\u0091\u0093... an\u0092 the executioner, Macnair, he\u0092s an old pal o\u0092 Malfoy\u0092s ... but it\u0092ll be quick an\u0092 clean ... an\u0092 I\u0092ll be beside him ...\u0094\u0092 \u0097 Professor Rubeus Hagrid",
+        "flavorText": "... an the executioner, Macnair, hes an old pal o Malfoys ... but itll be quick an clean ... an Ill be beside him ...  Professor Rubeus Hagrid",
         "effect": [
             "Whenever a Creature does damage to you, you may prevent all but the first 1 damage."
         ],
@@ -10744,12 +10744,12 @@ export const cards = [
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "Your opponent may still activate card effects that don\u0092t require an Action, and your opponent\u0092s Creatures and other cards with triggered effects still occur."
+                "ruling": "Your opponent may still activate card effects that dont require an Action, and your opponents Creatures and other cards with triggered effects still occur."
             },
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "The Adventure is considered solved at the end of your opponent\u0092s turn, and it triggers along with other \u0093At the end of your turn...\u0094 effects."
+                "ruling": "The Adventure is considered solved at the end of your opponents turn, and it triggers along with other At the end of your turn... effects."
             }
         ],
         "imgSrc": "WatchingTheMap.png",
@@ -10778,7 +10778,7 @@ export const cards = [
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "The Event in play can be your Event or an opponent\u0092s."
+                "ruling": "The Event in play can be your Event or an opponents."
             },
             {
                 "date": "2023-06-01",
@@ -10799,7 +10799,7 @@ export const cards = [
             "Animagus"
         ],
         "rarity": "Uncommon",
-        "flavorText": "\u0091\u0093It takes years to become an Animagus, and then you have to register yourself and everything.\u0094\u0092 \u0097 Hermione Granger",
+        "flavorText": "It takes years to become an Animagus, and then you have to register yourself and everything.  Hermione Granger",
         "dmgEachTurn": 2,
         "health": 2,
         "effect": [
@@ -10863,7 +10863,7 @@ export const cards = [
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "If there are not 3 cards under this card, then you must put a card under Battered Old Suitcase whenever you discard 1 or more cards. You may choose the card if you discard more than 1. This can trigger more than once a turn, during any player\u0092s turn."
+                "ruling": "If there are not 3 cards under this card, then you must put a card under Battered Old Suitcase whenever you discard 1 or more cards. You may choose the card if you discard more than 1. This can trigger more than once a turn, during any players turn."
             },
             {
                 "date": "2023-06-01",
@@ -10913,7 +10913,7 @@ export const cards = [
         ],
         "cost": 4,
         "rarity": "Uncommon",
-        "flavorText": "\u0091\u0093Mars is bright tonight. Unusually bright.\u0094\u0092 \u0097 Ronan",
+        "flavorText": "Mars is bright tonight. Unusually bright.  Ronan",
         "dmgEachTurn": 2,
         "health": 1,
         "effect": [
@@ -10937,7 +10937,7 @@ export const cards = [
         ],
         "cost": 5,
         "rarity": "Uncommon",
-        "flavorText": "\u0091...  the class left for lunch, all grinning broadly \u0097 the Cheering Charms had left them with a feeling of great contentment.\u0092",
+        "flavorText": "...  the class left for lunch, all grinning broadly  the Cheering Charms had left them with a feeling of great contentment.",
         "effect": [
             "Put a non-Healing Spell from your discard pile into your hand."
         ],
@@ -11022,12 +11022,12 @@ export const cards = [
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "If your opponent plays the named card, their card entirely finishes resolving before Death Warrant\u0092s effect resolves."
+                "ruling": "If your opponent plays the named card, their card entirely finishes resolving before Death Warrants effect resolves."
             },
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "If Death Warrant is discarded before your opponent\u0092s card finishes resolving, Death\u0092s Warrant\u0092s effect still occurs."
+                "ruling": "If Death Warrant is discarded before your opponents card finishes resolving, Deaths Warrants effect still occurs."
             }
         ],
         "imgSrc": "DeathWarrant.png",
@@ -11049,7 +11049,7 @@ export const cards = [
         ],
         "cost": 5,
         "rarity": "Uncommon",
-        "flavorText": "\u0091He could feel them watching him, hear their rattling breath like an evil wind around him.\u0092",
+        "flavorText": "He could feel them watching him, hear their rattling breath like an evil wind around him.",
         "dmgEachTurn": 2,
         "health": 6,
         "effect": [
@@ -11061,7 +11061,7 @@ export const cards = [
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "If the played Characters has a \u0093When you play this card\u0094 effect, it still occurs, as this is a triggered ability, not an activated ability. Likewise, any effects that would trigger because of playing the card will still trigger."
+                "ruling": "If the played Characters has a When you play this card effect, it still occurs, as this is a triggered ability, not an activated ability. Likewise, any effects that would trigger because of playing the card will still trigger."
             }
         ],
         "imgSrc": "DementorSwarm.png",
@@ -11110,7 +11110,7 @@ export const cards = [
         ],
         "cost": 3,
         "rarity": "Common",
-        "flavorText": "\u0091He nodded toward an empty classroom to the left of the one-eyed statue. Harry followed Fred and George inside.\u0092",
+        "flavorText": "He nodded toward an empty classroom to the left of the one-eyed statue. Harry followed Fred and George inside.",
         "effect": [
             "Locations need 3 more Power to play."
         ],
@@ -11185,7 +11185,7 @@ export const cards = [
         ],
         "cost": 8,
         "rarity": "Rare",
-        "flavorText": "\u0091\u0093We\u0092ve checked for most of the usual curses, but Professor Flitwick believes the broom might be carrying a Hurling Hex.\u0094\u0092 \u0097 Professor McGonagall",
+        "flavorText": "Weve checked for most of the usual curses, but Professor Flitwick believes the broom might be carrying a Hurling Hex.  Professor McGonagall",
         "effect": [
             "Choose an Item in play. Draw cards equal to the chosen Item's printed Power cost. Then each other player draws cards equal to the chosen Item's printed Power cost."
         ],
@@ -11210,7 +11210,7 @@ export const cards = [
         ],
         "cost": 2,
         "rarity": "Uncommon",
-        "flavorText": "\u0091There were suddenly dim shadows on the ground. Their party was bathed in moonlight.\u0092",
+        "flavorText": "There were suddenly dim shadows on the ground. Their party was bathed in moonlight.",
         "provides": [
             {
                 "lesson": "Potions",
@@ -11244,7 +11244,7 @@ export const cards = [
         ],
         "cost": 7,
         "rarity": "Uncommon",
-        "flavorText": "\u0091\u0093It\u0092s called a Time-Turner,\u0094 Hermione whispered, \u0093and I got it from Professor McGonagall on our first day back.\u0094\u0092",
+        "flavorText": "Its called a Time-Turner, Hermione whispered, and I got it from Professor McGonagall on our first day back.",
         "effect": [
             "You may reveal any number of cards from your hand. For each card type revealed, do 2 damage to an opponent."
         ],
@@ -11329,7 +11329,7 @@ export const cards = [
         ],
         "cost": 5,
         "rarity": "Uncommon",
-        "flavorText": "\u0091\u0093Who\u0092d have thought it? That brings her total of real predictions up to two. I should offer her a pay raise. ...\u0094\u0092 \u0097 Albus Dumbledore",
+        "flavorText": "Whod have thought it? That brings her total of real predictions up to two. I should offer her a pay raise. ...  Albus Dumbledore",
         "effect": [
             "Whenever cards are put in an opponent's deck (even if they were already in the deck), do 2 damage to them."
         ],
@@ -11339,7 +11339,7 @@ export const cards = [
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "Incorrect Interpretations triggers on either player\u0092s turn, and can trigger for multiple reasons (e.g. looking at the top card of their deck and putting them back on top and/or bottom, putting cards on the bottom of their deck, etc.)."
+                "ruling": "Incorrect Interpretations triggers on either players turn, and can trigger for multiple reasons (e.g. looking at the top card of their deck and putting them back on top and/or bottom, putting cards on the bottom of their deck, etc.)."
             },
             {
                 "date": "2023-06-01",
@@ -11374,7 +11374,7 @@ export const cards = [
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "The Event in play can be your Event or an opponent\u0092s."
+                "ruling": "The Event in play can be your Event or an opponents."
             }
         ],
         "imgSrc": "MarauderShenanigans.png",
@@ -11404,7 +11404,7 @@ export const cards = [
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "You do not need to meet the Power requirements to play the card, but you must pay any additional costs (i.e. \u0093When you play this card\u0094 effects)."
+                "ruling": "You do not need to meet the Power requirements to play the card, but you must pay any additional costs (i.e. When you play this card effects)."
             }
         ],
         "imgSrc": "MoonlitTransformation.png",
@@ -11583,7 +11583,7 @@ export const cards = [
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "Your progress advances after the effect that increased an opponent\u0092s progress is fully resolved."
+                "ruling": "Your progress advances after the effect that increased an opponents progress is fully resolved."
             }
         ],
         "imgSrc": "BiasedReferee.png",
@@ -11604,7 +11604,7 @@ export const cards = [
         ],
         "cost": 3,
         "rarity": "Common",
-        "flavorText": "\u0091\u0093Ugh, no, Harry won\u0092t want one of those, they\u0092re for vampires, I expect.\u0094\u0092 \u0097 Hermione Granger",
+        "flavorText": "Ugh, no, Harry wont want one of those, theyre for vampires, I expect.  Hermione Granger",
         "effect": [
             "Discard the top card of your deck. If it shares a card type with a card an opponent has in play, you may choose 1 of those cards and discard it. Then draw a card."
         ],
@@ -11626,7 +11626,7 @@ export const cards = [
         ],
         "cost": 6,
         "rarity": "Common",
-        "flavorText": "\u0091\u0093We\u0092re not playing Slytherin!\u0094 he told them, looking very angry. \u0093Flint\u0092s just been to see me.\u0094\u0092",
+        "flavorText": "Were not playing Slytherin! he told them, looking very angry. Flints just been to see me.",
         "effect": [
             "Choose up to 2 Beaters, Chasers, Keepers, and/or Seekers in play and return them to their owners' hands."
         ],
@@ -11651,7 +11651,7 @@ export const cards = [
         ],
         "cost": 2,
         "rarity": "Common",
-        "flavorText": "\u0091... a pair of strong, clammy hands suddenly attached themselves around Harry\u0092s neck.\u0092",
+        "flavorText": "... a pair of strong, clammy hands suddenly attached themselves around Harrys neck.",
         "effect": [
             "Choose a non-Lesson card type. During your opponent's next turn, they cannot play cards of the chosen type."
         ],
@@ -11682,7 +11682,7 @@ export const cards = [
         ],
         "cost": 4,
         "rarity": "Common",
-        "flavorText": "\u0091And then the thing beneath the hood, whatever it was, drew a long, slow, rattling breath, as though it were trying to suck something more than air from its surroundings.\u0092",
+        "flavorText": "And then the thing beneath the hood, whatever it was, drew a long, slow, rattling breath, as though it were trying to suck something more than air from its surroundings.",
         "effect": [
             "Do 1 damage to each Creature in play (even your own)."
         ],
@@ -11782,7 +11782,7 @@ export const cards = [
         ],
         "cost": 2,
         "rarity": "Common",
-        "flavorText": "\u0091Full of determination, the team started training sessions, three evenings a week.\u0092",
+        "flavorText": "Full of determination, the team started training sessions, three evenings a week.",
         "effect": [
             "Discard any number of cards from your hand. Draw that many cards plus 1."
         ],
@@ -11804,7 +11804,7 @@ export const cards = [
         ],
         "cost": 7,
         "rarity": "Common",
-        "flavorText": "\u0091\u0093We attacked a teacher. ... We attacked a teacher ... ,\u0094 Hermione whimpered, staring at the lifeless Snape with frightened eyes.\u0092",
+        "flavorText": "We attacked a teacher. ... We attacked a teacher ... , Hermione whimpered, staring at the lifeless Snape with frightened eyes.",
         "effect": [
             "Do 6 damage to an opponent or choose a Character in play and discard it."
         ],
@@ -11826,7 +11826,7 @@ export const cards = [
         ],
         "cost": 3,
         "rarity": "Common",
-        "flavorText": "\u0091\u0093She was usually last to leave the common room at night, first to arrive at the library the next morning ...\u0094\u0092",
+        "flavorText": "She was usually last to leave the common room at night, first to arrive at the library the next morning ...",
         "effect": [
             "Count the number of Lessons in your discard pile. Until the end of your turn, your cards needs that much less Power to play. (You still need at least 1 Power that matches.)"
         ],
@@ -11880,7 +11880,7 @@ export const cards = [
         ],
         "cost": 5,
         "rarity": "Common",
-        "flavorText": "\u0091\u0093Oooooo, Professor Trelawney, I\u0092ve just remembered! You saw her leaving, didn\u0092t you?\u0094\u0092 \u0097 Lavender Brown",
+        "flavorText": "Oooooo, Professor Trelawney, Ive just remembered! You saw her leaving, didnt you?  Lavender Brown",
         "effect": [
             "Choose an opponent's card in play and return it to its owner's hand. If you have at least 3 [T] Lessons in your discard pile, instead shuffle it into its owner's deck."
         ],
@@ -11902,7 +11902,7 @@ export const cards = [
         ],
         "cost": 4,
         "rarity": "Uncommon",
-        "flavorText": "\u0091He nodded toward an empty classroom to the left of the one-eyed statue. Harry followed Fred and George inside.\u0092",
+        "flavorText": "He nodded toward an empty classroom to the left of the one-eyed statue. Harry followed Fred and George inside.",
         "effect": [
             "When you play this card, name a Character card. Cards that share Uniqueness with the named card cannot be played. You may use 2 Actions and discard this card from play to search your deck. You may take the named card from your deck and put it into play. Then shuffle your deck."
         ],
@@ -12012,7 +12012,7 @@ export const cards = [
         ],
         "cost": 3,
         "rarity": "Common",
-        "flavorText": "\u0091\u0093Lures travellers into bogs. You notice the lantern dangling from his hand? Hops ahead \u0097 people follow the light ...\u0094\u0092 \u0097 Professor Remus Lupin",
+        "flavorText": "Lures travellers into bogs. You notice the lantern dangling from his hand? Hops ahead  people follow the light ...  Professor Remus Lupin",
         "dmgEachTurn": 1,
         "health": 1,
         "effect": [
@@ -12039,7 +12039,7 @@ export const cards = [
         ],
         "cost": 8,
         "rarity": "Common",
-        "flavorText": "\u0091They had the bodies, hind legs, and tails of horses, but the front legs, wings, and heads of what seemed to be giant eagles ...\u0092",
+        "flavorText": "They had the bodies, hind legs, and tails of horses, but the front legs, wings, and heads of what seemed to be giant eagles ...",
         "dmgEachTurn": 3,
         "health": 4,
         "effect": [
@@ -12051,12 +12051,12 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "If a card reduces damage per card (such as Madam Malkin\u0092s Robes) then it will decrease the overall damage done by this card by 1; it will not decrease each instance of damage."
+                "ruling": "If a card reduces damage per card (such as Madam Malkins Robes) then it will decrease the overall damage done by this card by 1; it will not decrease each instance of damage."
             },
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "Hippogriff\u0092s effect of placing damage counters on itself does not do damage to itself. Effects that would increase damage Creatures do will not increase the number of damage counters placed on Hippogriff, and damage counters can be placed on Hippogriff even if an effect would prevent damage dealt to Creatures."
+                "ruling": "Hippogriffs effect of placing damage counters on itself does not do damage to itself. Effects that would increase damage Creatures do will not increase the number of damage counters placed on Hippogriff, and damage counters can be placed on Hippogriff even if an effect would prevent damage dealt to Creatures."
             }
         ],
         "imgSrc": "Hippogriff.png",
@@ -12074,7 +12074,7 @@ export const cards = [
         ],
         "cost": 7,
         "rarity": "Common",
-        "flavorText": "\u0091\u0093Can't nothing interfere with a broomstick except powerful Dark magic ...\u0094\u0092 \u0097 Rubeus Hagrid",
+        "flavorText": "Can't nothing interfere with a broomstick except powerful Dark magic ...  Rubeus Hagrid",
         "effect": [
             "Do 4 damage to your opponent. You may also choose a Creature in play and do 4 damage to it."
         ],
@@ -12096,7 +12096,7 @@ export const cards = [
         ],
         "cost": 1,
         "rarity": "Common",
-        "flavorText": "\u0091They walked out onto the field to a tidal wave of noise.\u0092",
+        "flavorText": "They walked out onto the field to a tidal wave of noise.",
         "effect": [
             "to win: Whenever a player takes damage, they may discard any number of cards from their hand. They prevent that much damage.  To win: Prevent 8 damage.",
             "prize: The winner may draw 2 cards. The loser takes 8 damage."
@@ -12109,7 +12109,7 @@ export const cards = [
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "Damage prevention doesn\u0092t need to be from the Match\u0092s effect."
+                "ruling": "Damage prevention doesnt need to be from the Matchs effect."
             },
             {
                 "date": "2023-06-01",
@@ -12119,7 +12119,7 @@ export const cards = [
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "Once a Match is won, its effects cannot be used. Neither player may continue to use the Match\u0092s effect to prevent damage."
+                "ruling": "Once a Match is won, its effects cannot be used. Neither player may continue to use the Matchs effect to prevent damage."
             }
         ],
         "imgSrc": "InterhouseFinal.png",
@@ -12137,7 +12137,7 @@ export const cards = [
         ],
         "cost": 3,
         "rarity": "Common",
-        "flavorText": "\u0091\u0093This time tomorrow, the owls will start arriving from parents. . . . They will not want a werewolf teaching their children, Harry.\u0094\u0092 \u0097 Professor Remus Lupin",
+        "flavorText": "This time tomorrow, the owls will start arriving from parents. . . . They will not want a werewolf teaching their children, Harry.  Professor Remus Lupin",
         "effect": [
             "If at least 1 of your Creatures dealt damage to an opponent this turn, choose a non-Healing Character in play and shuffle it into its owner's deck."
         ],
@@ -12255,7 +12255,7 @@ export const cards = [
         ],
         "cost": 4,
         "rarity": "Common",
-        "flavorText": "\u0091He slithered between the battering branches like a snake and placed his front paws upon a knot on the trunk.\u0092",
+        "flavorText": "He slithered between the battering branches like a snake and placed his front paws upon a knot on the trunk.",
         "effect": [
             "Do 4 damage to an opponent. During that opponent's next turn, they can't use Actions to play Creatures."
         ],
@@ -12302,7 +12302,7 @@ export const cards = [
         ],
         "cost": 2,
         "rarity": "Uncommon",
-        "flavorText": "\u0091\u0093BLOOD!\u0094 Ron yelled into the stunned silence. \u0093HE\u0092S GONE!\u0094\u0092",
+        "flavorText": "BLOOD! Ron yelled into the stunned silence. HES GONE!",
         "effect": [
             "Once during each of your turns, whenever 1 of your Creatures does damage to an opponent, you may discard it from play. If you do, do 4 damage to that opponent."
         ],
@@ -12324,7 +12324,7 @@ export const cards = [
         ],
         "cost": 5,
         "rarity": "Common",
-        "flavorText": "\u0093It\u0092s okay, Scabbers!\u0094 said Ron. \u0093No cats! There\u0092s nothing here to hurt you!\u0094",
+        "flavorText": "Its okay, Scabbers! said Ron. No cats! Theres nothing here to hurt you!",
         "effect": [
             "You may put a Creature from your discard pile into your hand. If you have at least 3 [F] Lessons in your discard pile, you may play that Creature without using an Action."
         ],
@@ -12334,7 +12334,7 @@ export const cards = [
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "You must pay any additional costs (e.g., \u0093To play this card\u0085\u0094)."
+                "ruling": "You must pay any additional costs (e.g., To play this card)."
             }
         ],
         "imgSrc": "ScabbersReturn.png",
@@ -12415,7 +12415,7 @@ export const cards = [
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "If multiple of these are in play before your turn, each of them will trigger. This is not a \u0091may\u0092 ability. You must discard the Lesson, but you may choose to not search your deck for a Lesson and put it into play. If you do not search your deck, you will not shuffle your deck."
+                "ruling": "If multiple of these are in play before your turn, each of them will trigger. This is not a may ability. You must discard the Lesson, but you may choose to not search your deck for a Lesson and put it into play. If you do not search your deck, you will not shuffle your deck."
             },
             {
                 "date": "2023-06-01",
@@ -12476,7 +12476,7 @@ export const cards = [
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "If multiple of these are in play before your turn, each of them will trigger. This is not a \u0091may\u0092 ability. You must discard the Lesson, but you may choose to not search your deck for a Lesson and put it into play. If you do not search your deck, you will not shuffle your deck."
+                "ruling": "If multiple of these are in play before your turn, each of them will trigger. This is not a may ability. You must discard the Lesson, but you may choose to not search your deck for a Lesson and put it into play. If you do not search your deck, you will not shuffle your deck."
             },
             {
                 "date": "2023-06-01",
@@ -12517,7 +12517,7 @@ export const cards = [
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "If multiple of these are in play before your turn, each of them will trigger. This is not a \u0091may\u0092 ability. You must discard the Lesson, but you may choose to not search your deck for a Lesson and put it into play. If you do not search your deck, you will not shuffle your deck."
+                "ruling": "If multiple of these are in play before your turn, each of them will trigger. This is not a may ability. You must discard the Lesson, but you may choose to not search your deck for a Lesson and put it into play. If you do not search your deck, you will not shuffle your deck."
             },
             {
                 "date": "2023-06-01",
@@ -12558,7 +12558,7 @@ export const cards = [
             {
                 "date": "2023-06-01",
                 "source": "Revival",
-                "ruling": "If multiple of these are in play before your turn, each of them will trigger. This is not a \u0091may\u0092 ability. You must discard the Lesson, but you may choose to not search your deck for a Lesson and put it into play. If you do not search your deck, you will not shuffle your deck."
+                "ruling": "If multiple of these are in play before your turn, each of them will trigger. This is not a may ability. You must discard the Lesson, but you may choose to not search your deck for a Lesson and put it into play. If you do not search your deck, you will not shuffle your deck."
             },
             {
                 "date": "2023-06-01",
@@ -12581,7 +12581,7 @@ export const cards = [
             "Chaser",
             "Unique"
         ],
-        "flavorText": "'... A penalty to Gryffindor, taken by Spinnet, who puts it away, no trouble ...' \u0097 Lee Jordan, commentator",
+        "flavorText": "'... A penalty to Gryffindor, taken by Spinnet, who puts it away, no trouble ...'  Lee Jordan, commentator",
         "rarity": "Rare",
         "artist": "UpTheHill",
         "effect": [
@@ -12598,7 +12598,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "When you win a Match, you resolve its effect before discarding it from play. This means if the Match\u0092s prize does damage, Alicia will see that it is still in play and give the Match +1 damage (unless the Match is discarded by another card first)."
+                "ruling": "When you win a Match, you resolve its effect before discarding it from play. This means if the Matchs prize does damage, Alicia will see that it is still in play and give the Match +1 damage (unless the Match is discarded by another card first)."
             }
         ],
         "imgSrc": "AliciaSpinnet.png",
@@ -12620,7 +12620,7 @@ export const cards = [
         ],
         "dmgEachTurn": "2",
         "health": "8",
-        "flavorText": "'A traveler gave me to Hagrid when I was an egg. Hagrid was only a boy, but he cared for me ...' \u0097 Aragog",
+        "flavorText": "'A traveler gave me to Hagrid when I was an egg. Hagrid was only a boy, but he cared for me ...'  Aragog",
         "rarity": "Rare",
         "artist": "Piotr Siwerski",
         "effect": [
@@ -12696,7 +12696,7 @@ export const cards = [
             "Unique"
         ],
         "note": "When you play this card, discard any other Location from play (yours or your opponent's).",
-        "flavorText": "'Naturally, the school has been searched for evidence of such a chamber ... It does not exist.' \u0097 Professor Binns",
+        "flavorText": "'Naturally, the school has been searched for evidence of such a chamber ... It does not exist.'  Professor Binns",
         "rarity": "Rare",
         "artist": "EpicLoop",
         "effect": [
@@ -12736,7 +12736,7 @@ export const cards = [
             {
                 "date": "2020-007-31",
                 "source": "Revival",
-                "ruling": "If Dobby is the only card in play (on either your or an opponent\u0092s side) and you prevent any damage with Dobby\u0092s effect, your opponent has no legal targets to choose for Dobby\u0092s effect. You can still prevent damage with Dobby, but your opponent will get no benefit from Dobby."
+                "ruling": "If Dobby is the only card in play (on either your or an opponents side) and you prevent any damage with Dobbys effect, your opponent has no legal targets to choose for Dobbys effect. You can still prevent damage with Dobby, but your opponent will get no benefit from Dobby."
             },
             {
                 "date": "2020-07-31",
@@ -12778,7 +12778,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'Only a true Gryffindor could have pulled that out of the hat, Harry.' \u0097 Albus Dumbledore",
+        "flavorText": "'Only a true Gryffindor could have pulled that out of the hat, Harry.'  Albus Dumbledore",
         "rarity": "Rare",
         "artist": "Sophia Del Plato",
         "effect": [
@@ -12795,7 +12795,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "If a card reduces damage per card (such as Madam Malkin\u0092s Robes) then it will decrease the overall damage done by this card by 1; it will not decrease each instance of damage."
+                "ruling": "If a card reduces damage per card (such as Madam Malkins Robes) then it will decrease the overall damage done by this card by 1; it will not decrease each instance of damage."
             }
         ],
         "imgSrc": "DrawingTheSword.png",
@@ -12812,7 +12812,7 @@ export const cards = [
             "Location"
         ],
         "note": "When you play this card, discard any other Location from play (yours or your opponent's).",
-        "flavorText": "'I wouldn't mind dueling lessons; they might come in handy one of these days ...' \u0097 Seamus Finnigan",
+        "flavorText": "'I wouldn't mind dueling lessons; they might come in handy one of these days ...'  Seamus Finnigan",
         "rarity": "Rare",
         "artist": "Drew Winchester",
         "effect": [
@@ -12873,7 +12873,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "If an effect prevents damage done to Creatures (such as Frog-Spawn) any damage directed at protected Creatures will be prevented and Immobulus\u0092s second effect will not discard the Creature from play. "
+                "ruling": "If an effect prevents damage done to Creatures (such as Frog-Spawn) any damage directed at protected Creatures will be prevented and Immobuluss second effect will not discard the Creature from play. "
             }
         ],
         "imgSrc": "Immobulus.png",
@@ -12891,7 +12891,7 @@ export const cards = [
             "Chaser",
             "Unique"
         ],
-        "flavorText": "'... nice dive around Flint, up off the field ...' \u0097 Lee Jordan, commentator",
+        "flavorText": "'... nice dive around Flint, up off the field ...'  Lee Jordan, commentator",
         "rarity": "Rare",
         "artist": "UpTheHill",
         "effect": [
@@ -12903,7 +12903,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "When you win a Match, you resolve its effect before discarding it from play. This means if the Match\u0092s prize does damage, Katie will see that it is still in play and make the damage you take 1 less."
+                "ruling": "When you win a Match, you resolve its effect before discarding it from play. This means if the Matchs prize does damage, Katie will see that it is still in play and make the damage you take 1 less."
             },
             {
                 "date": "2020-07-31",
@@ -12943,7 +12943,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "If you don\u0092t have 5 cards of different card types in your discard pile, you cannot complete everything on Loyalty\u0092s Reward and so you cannot play it."
+                "ruling": "If you dont have 5 cards of different card types in your discard pile, you cannot complete everything on Loyaltys Reward and so you cannot play it."
             }
         ],
         "imgSrc": "LoyaltysReward.png",
@@ -13018,7 +13018,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "If you decide to search your deck with Lucius\u0092 effect, you must take a card and complete the entire card effect. Lucius\u0092s may clause is a conditional for the entire effect unlike the other cards that search your deck, such as Gringotts Vault Key. With Lucius, you must either do his effect to completion or not do it at all."
+                "ruling": "If you decide to search your deck with Lucius effect, you must take a card and complete the entire card effect. Luciuss may clause is a conditional for the entire effect unlike the other cards that search your deck, such as Gringotts Vault Key. With Lucius, you must either do his effect to completion or not do it at all."
             }
         ],
         "imgSrc": "LuciusMalfoy.png",
@@ -13069,7 +13069,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "If the chosen card leaves play without being discarded (such as with Hover Charm), Myrtle\u0092s effect will not trigger."
+                "ruling": "If the chosen card leaves play without being discarded (such as with Hover Charm), Myrtles effect will not trigger."
             },
             {
                 "date": "2020-07-31",
@@ -13090,7 +13090,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'I think I'm the one attacking everyone, Tom!'\u0094 \u0097 Ginny Weasley",
+        "flavorText": "'I think I'm the one attacking everyone, Tom!'  Ginny Weasley",
         "rarity": "Rare",
         "artist": "HogwartsHorror",
         "effect": [
@@ -13153,7 +13153,7 @@ export const cards = [
             "Wizard",
             "Unique"
         ],
-        "flavorText": "'Fame's a fickle friend, Harry ... Celebrity is as celebrity does. Remember that.' \u0097 Professor Gilderoy Lockhart",
+        "flavorText": "'Fame's a fickle friend, Harry ... Celebrity is as celebrity does. Remember that.'  Professor Gilderoy Lockhart",
         "rarity": "Rare",
         "artist": "Vladislav Pantic",
         "effect": [
@@ -13209,12 +13209,12 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "If Slytherin\u0092s Basilisk loses its ability, then Petrification Counters don\u0092t have any effect. Petrification Counters will remain on cards, however, unless they are removed in some other way."
+                "ruling": "If Slytherins Basilisk loses its ability, then Petrification Counters dont have any effect. Petrification Counters will remain on cards, however, unless they are removed in some other way."
             },
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "If Slytherin\u0092s Basilisk loses its abilities (via something such as Vera Verto) and then leaves play, all Petrification Counters will remain on the field, though they will have no effect until another Slytherin\u0092s Basilisk is played. "
+                "ruling": "If Slytherins Basilisk loses its abilities (via something such as Vera Verto) and then leaves play, all Petrification Counters will remain on the field, though they will have no effect until another Slytherins Basilisk is played. "
             },
             {
                 "date": "2020-07-31",
@@ -13246,7 +13246,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "You must discard all cards in your hand when you activate this card\u0092s effect, even if you have more than 4 cards in your hand."
+                "ruling": "You must discard all cards in your hand when you activate this cards effect, even if you have more than 4 cards in your hand."
             }
         ],
         "imgSrc": "SwallowedSnitch.png",
@@ -13263,7 +13263,7 @@ export const cards = [
             "Slytherin",
             "Unique"
         ],
-        "flavorText": "'Brilliant. Of course, he was probably the most brilliant student Hogwarts has ever seen.' \u0097 Albus Dumbledore",
+        "flavorText": "'Brilliant. Of course, he was probably the most brilliant student Hogwarts has ever seen.'  Albus Dumbledore",
         "rarity": "Rare",
         "artist": "Paolo Maria Breda",
         "effect": [
@@ -13275,7 +13275,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "Tom\u0092s ability only triggers when a Lesson is played, not when a card that provides Power is played. For example, Tom\u0092s ability will not trigger with Borrowed Wand."
+                "ruling": "Toms ability only triggers when a Lesson is played, not when a card that provides Power is played. For example, Toms ability will not trigger with Borrowed Wand."
             },
             {
                 "date": "2020-07-31",
@@ -13285,7 +13285,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "Since there is no difference between playing a card and putting a card into play, if a card like History of Magic Homework puts a Lesson into play, Tom\u0092s ability will trigger. However, no matter how many Lessons are put into play, such as with Strategy Session, Tom will only add 1 Power per turn."
+                "ruling": "Since there is no difference between playing a card and putting a card into play, if a card like History of Magic Homework puts a Lesson into play, Toms ability will trigger. However, no matter how many Lessons are put into play, such as with Strategy Session, Tom will only add 1 Power per turn."
             }
         ],
         "imgSrc": "TomMarvoloRiddle.png",
@@ -13402,7 +13402,7 @@ export const cards = [
             "Plant"
         ],
         "health": "1",
-        "flavorText": "'I just happen to have met several of these exotic plants on my travels ...' \u0097 Professor Gilderoy Lockhart",
+        "flavorText": "'I just happen to have met several of these exotic plants on my travels ...'  Professor Gilderoy Lockhart",
         "rarity": "Uncommon",
         "artist": "eorzaart",
         "effect": [
@@ -13459,7 +13459,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "If a card would increase the cost of a card beyond 2, you may still choose the card, as Lockhart\u0092s Books look at the printed Power cost of the chosen card, not altered cost. "
+                "ruling": "If a card would increase the cost of a card beyond 2, you may still choose the card, as Lockharts Books look at the printed Power cost of the chosen card, not altered cost. "
             }
         ],
         "imgSrc": "BreakWithABanshee.png",
@@ -13549,7 +13549,7 @@ export const cards = [
             {
                 "date": "2001-01-01",
                 "source": "POJO",
-                "ruling": "You must give your opponent a reasonable amount of time to say \u0093Brilliant\u0094. If you go too fast, your opponent can ask you to wait."
+                "ruling": "You must give your opponent a reasonable amount of time to say Brilliant. If you go too fast, your opponent can ask you to wait."
             },
             {
                 "date": "2001-01-01",
@@ -13570,7 +13570,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'Everyone's just been admiring the brooms my father's bought our team.' \u0097 Draco Malfoy",
+        "flavorText": "'Everyone's just been admiring the brooms my father's bought our team.'  Draco Malfoy",
         "rarity": "Uncommon",
         "artist": "Vladislav Pantic",
         "effect": [
@@ -13659,7 +13659,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "If a card would increase the cost of a card beyond 2, you may still choose the card, as Lockhart\u0092s Books look at the printed Power cost of the chosen card, not altered cost. "
+                "ruling": "If a card would increase the cost of a card beyond 2, you may still choose the card, as Lockharts Books look at the printed Power cost of the chosen card, not altered cost. "
             }
         ],
         "imgSrc": "GaddingWithGhouls.png",
@@ -13676,7 +13676,7 @@ export const cards = [
             "Location"
         ],
         "note": "When you play this card, discard any other Location from play (yours or your opponent's).",
-        "flavorText": "'But how's the basilisk been getting around the place?' \u0097 Ron Weasley",
+        "flavorText": "'But how's the basilisk been getting around the place?'  Ron Weasley",
         "rarity": "Uncommon",
         "artist": "Ranivius",
         "effect": [
@@ -13693,7 +13693,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "Hogwarts Pipes\u0092 ability is not optional. Any damage taken must be taken from the bottom of your deck."
+                "ruling": "Hogwarts Pipes ability is not optional. Any damage taken must be taken from the bottom of your deck."
             }
         ],
         "imgSrc": "HogwartsPipes.png",
@@ -13744,7 +13744,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "If a card would increase the cost of a card beyond 2, you may still choose the card, as Lockhart\u0092s Books look at the printed Power cost of the chosen card, not altered cost. "
+                "ruling": "If a card would increase the cost of a card beyond 2, you may still choose the card, as Lockharts Books look at the printed Power cost of the chosen card, not altered cost. "
             }
         ],
         "imgSrc": "HolidaysWithHags.png",
@@ -13771,12 +13771,12 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "When you play a Location using Kheshakhassa, you will still discard any Location that is already in play, as you will need to follow the effect on the Location you play to discard any other Location in play (yours or an opponent\u0092s)."
+                "ruling": "When you play a Location using Kheshakhassa, you will still discard any Location that is already in play, as you will need to follow the effect on the Location you play to discard any other Location in play (yours or an opponents)."
             },
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "If a card prevents you from playing Locations (such as Blocked Barrier), you may still activate Kheshakhassa since the activation and Action use is discarding a Potions Lesson and searching your deck, while playing a Location is a \u0093may\u0094 that follows."
+                "ruling": "If a card prevents you from playing Locations (such as Blocked Barrier), you may still activate Kheshakhassa since the activation and Action use is discarding a Potions Lesson and searching your deck, while playing a Location is a may that follows."
             }
         ],
         "imgSrc": "Kheshakhassa.png",
@@ -13853,7 +13853,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "If a card would increase the cost of a card beyond 2, you may still choose the card, as Lockhart\u0092s Books look at the printed Power cost of the chosen card, not altered cost. "
+                "ruling": "If a card would increase the cost of a card beyond 2, you may still choose the card, as Lockharts Books look at the printed Power cost of the chosen card, not altered cost. "
             }
         ],
         "imgSrc": "MagicalMe.png",
@@ -13883,7 +13883,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "Even if a card increases the number of Actions needed to use a Character\u0092s ability, Mandrake Draught will eliminate all need for Actions to use that ability."
+                "ruling": "Even if a card increases the number of Actions needed to use a Characters ability, Mandrake Draught will eliminate all need for Actions to use that ability."
             }
         ],
         "imgSrc": "MandrakeDraught.png",
@@ -13952,7 +13952,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "Spellotape only triggers when an opponent\u0092s card effect would discard one of your Items from play. If your Item is returned to your hand, Spellotape does nothing."
+                "ruling": "Spellotape only triggers when an opponents card effect would discard one of your Items from play. If your Item is returned to your hand, Spellotape does nothing."
             },
             {
                 "date": "2020-07-31",
@@ -13962,7 +13962,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "If a card such as Bundimun Ooze were to discard another of your Items from play and Spellotape replaces your Item and is discarded instead, Bundimun Ooze looks at the card that is discarded, not the initial target. This would mean you would use Spellotape\u0092s stats to resolve Bundimun Ooze. Similarly, if Spellotape replaces a Wand that Expelliarmus discards, Expelliarmus would look at Spellotape\u0092s keywords, since Spellotape is the card that was discarded."
+                "ruling": "If a card such as Bundimun Ooze were to discard another of your Items from play and Spellotape replaces your Item and is discarded instead, Bundimun Ooze looks at the card that is discarded, not the initial target. This would mean you would use Spellotapes stats to resolve Bundimun Ooze. Similarly, if Spellotape replaces a Wand that Expelliarmus discards, Expelliarmus would look at Spellotapes keywords, since Spellotape is the card that was discarded."
             },
             {
                 "date": "2020-07-31",
@@ -13972,7 +13972,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "If Spellotape is in play and one of your Items would be discarded from play, you must discard Spellotape instead. This is not a \u0093may\u0094 ability."
+                "ruling": "If Spellotape is in play and one of your Items would be discarded from play, you must discard Spellotape instead. This is not a may ability."
             },
             {
                 "date": "2020-07-31",
@@ -14060,7 +14060,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "If a card would increase the cost of a card beyond 2, you may still choose the card, as Lockhart\u0092s Books look at the printed Power cost of the chosen card, not altered cost. "
+                "ruling": "If a card would increase the cost of a card beyond 2, you may still choose the card, as Lockharts Books look at the printed Power cost of the chosen card, not altered cost. "
             }
         ],
         "imgSrc": "VoyagesWithVampires.png",
@@ -14103,7 +14103,7 @@ export const cards = [
         "type": [
             "Match"
         ],
-        "flavorText": "'I haven't been properly dry since August' \u0097 George Weasley",
+        "flavorText": "'I haven't been properly dry since August'  George Weasley",
         "rarity": "Uncommon",
         "artist": "Piotr Siwerski",
         "effect": [
@@ -14123,7 +14123,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "Healing cards may be returned to their owner\u0092s hand from the discard pile with this effect."
+                "ruling": "Healing cards may be returned to their owners hand from the discard pile with this effect."
             },
             {
                 "date": "2020-07-31",
@@ -14149,7 +14149,7 @@ export const cards = [
         ],
         "dmgEachTurn": "1",
         "health": "1",
-        "flavorText": "'... I cannot deny them fresh meat, when it wanders so willingly into our midst.' \u0097 Aragog",
+        "flavorText": "'... I cannot deny them fresh meat, when it wanders so willingly into our midst.'  Aragog",
         "rarity": "Common",
         "artist": "Piotr Siwerski",
         "effect": [
@@ -14182,7 +14182,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "If a card reduces damage per card (such as Madam Malkin\u0092s Robes) then it will decrease the overall damage done by this card by 1; it will not decrease each instance of damage."
+                "ruling": "If a card reduces damage per card (such as Madam Malkins Robes) then it will decrease the overall damage done by this card by 1; it will not decrease each instance of damage."
             },
             {
                 "date": "2020-07-31",
@@ -14462,7 +14462,7 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "You may play New Slytherin Seeker even if there isn\u0092t a Match in play, but when the card checks for a Match, you will not be able to make your opponent discard one of their Creatures unless there is a Match in play."
+                "ruling": "You may play New Slytherin Seeker even if there isnt a Match in play, but when the card checks for a Match, you will not be able to make your opponent discard one of their Creatures unless there is a Match in play."
             }
         ],
         "imgSrc": "NewSlytherinSeeker.png",
@@ -14503,7 +14503,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'A Parselmouth! You can talk to snakes!' \u0097 Ron Weasley",
+        "flavorText": "'A Parselmouth! You can talk to snakes!'  Ron Weasley",
         "rarity": "Common",
         "artist": "Kiwi from Outer Space",
         "effect": [
@@ -14547,7 +14547,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'But no one\u0092s died \u0097 because no one looked it straight in the eye.' \u0097 Harry Potter",
+        "flavorText": "'But no ones died  because no one looked it straight in the eye.'  Harry Potter",
         "rarity": "Common",
         "artist": "grim1978",
         "effect": [
@@ -14777,7 +14777,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'Now, don't forget that nice wrist movement we've been practicing!' \u0097 Professor Filius Flitwick",
+        "flavorText": "'Now, don't forget that nice wrist movement we've been practicing!'  Professor Filius Flitwick",
         "rarity": "Common",
         "artist": "Dina M. Nealey",
         "effect": [
@@ -14839,7 +14839,7 @@ export const cards = [
             {
                 "date": "2023-12-21",
                 "source": "Revival",
-                "ruling": "Godric\u0092s effect triggers only on the 3rd card you draw, not on every 3rd card in a turn."
+                "ruling": "Godrics effect triggers only on the 3rd card you draw, not on every 3rd card in a turn."
             }
         ],
         "imgSrc": "GodricGryffindor.png",
@@ -15105,7 +15105,7 @@ export const cards = [
         ],
         "cost": 5,
         "rarity": "Uncommon",
-        "flavorText": "\"Er \u0097 I don\u0092t think we\u0092re allowed in the girls\u0092 dormitories\"' - Ron Weasley",
+        "flavorText": "\"Er  I dont think were allowed in the girls dormitories\"' - Ron Weasley",
         "effect": [
             "Choose an opponent's non-Lesson card in play they played during their last turn. Discard that card."
         ],
@@ -15328,7 +15328,7 @@ export const cards = [
         "subTypes": [
             "Dark"
         ],
-        "flavorText": "'A crater in the middle of the street, so deep it had cracked the sewer below. Bodies everywhere. Muggles screaming.' \u0097 Cornelius Fudge",
+        "flavorText": "'A crater in the middle of the street, so deep it had cracked the sewer below. Bodies everywhere. Muggles screaming.'  Cornelius Fudge",
         "effect": [
             "Do 12 damage to an opponent."
         ],
@@ -15354,7 +15354,7 @@ export const cards = [
             "Dark",
             "Unique"
         ],
-        "flavorText": "'The fortress is set on a tiny island, way out to sea, but they don\u0092t need walls and water to keep the prisoners in ...' \u0097 Professor Remus Lupin",
+        "flavorText": "'The fortress is set on a tiny island, way out to sea, but they dont need walls and water to keep the prisoners in ...'  Professor Remus Lupin",
         "note": "When you play this card, discard any other Location from play (yours or your opponent's).",
         "effect": [
             "When you play this card, choose a non-Lesson card type. When any player uses an Action to play a card of the chosen type, they use 1 more Action to play that card."
@@ -15438,7 +15438,7 @@ export const cards = [
         ],
         "flavorText": "'That's Dad's boss,' Ron breathed. 'The Minister of Magic!'",
         "effect": [
-            "Before each of your turns, you get 1 more Action for every Action each opponent used beyond their second on their last turn. You can\u0092t gain Actions from cards other than this card."
+            "Before each of your turns, you get 1 more Action for every Action each opponent used beyond their second on their last turn. You cant gain Actions from cards other than this card."
         ],
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
@@ -15471,7 +15471,7 @@ export const cards = [
         "dmgEachTurn": 1,
         "health": 3,
         "effect": [
-            "When you play this card, you may discard 1 of your Lessons from play to choose an opponent\u0092s Character in play (other than their starting Character) and put it on top of its owner\u0092s deck. During that opponent\u0092s next turn, they can't use Actions to play Characters."
+            "When you play this card, you may discard 1 of your Lessons from play to choose an opponents Character in play (other than their starting Character) and put it on top of its owners deck. During that opponents next turn, they can't use Actions to play Characters."
         ],
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
@@ -15500,7 +15500,7 @@ export const cards = [
             {
                 "date": "2022-11-03",
                 "source": "Revival",
-                "ruling": "You may use Filch\u0092s ability to discard one of your own Events from play."
+                "ruling": "You may use Filchs ability to discard one of your own Events from play."
             }
         ],
         "imgSrc": "FilchHogwartsCaretaker.png",
@@ -15550,7 +15550,7 @@ export const cards = [
             "Unique",
             "Gryffindor"
         ],
-        "flavorText": "'We\u0092ve got two unbeatable Beaters.\u0092 \u0097 Oliver Wood",
+        "flavorText": "'Weve got two unbeatable Beaters.  Oliver Wood",
         "effect": [
             "Before each of your turns, if you have a Quidditch Item in play, do 2 damage to an opponent."
         ],
@@ -15574,7 +15574,7 @@ export const cards = [
             "Wizard",
             "Gryffindor"
         ],
-        "flavorText": "'How extraordinarily like your father you are, Potter ... The resemblance between you is uncanny.' \u0097 Professor Severus Snape",
+        "flavorText": "'How extraordinarily like your father you are, Potter ... The resemblance between you is uncanny.'  Professor Severus Snape",
         "effect": [
             "Once per game, you may search your deck. You may take an Event from your deck, reveal it, and put it into your hand. Then shuffle your deck. Until the end of your turn, Events do not require Power that matches their Lesson type to play."
         ],
@@ -15631,7 +15631,7 @@ export const cards = [
     {
         "number": "13",
         "name": "Nightly Practices",
-        "artist": "Sara Ortega Ram\u00edrez",
+        "artist": "Sara Ortega Ramírez",
         "type": [
             "Event"
         ],
@@ -15686,7 +15686,7 @@ export const cards = [
             "Wizard",
             "Unique"
         ],
-        "flavorText": "'Yer in my firs\u0092 ever lesson! Right after lunch! Bin up since five gettin\u0092 everythin\u0092 ready.' \u0097 Professor Rubeus Hagrid",
+        "flavorText": "'Yer in my firs ever lesson! Right after lunch! Bin up since five gettin everythin ready.'  Professor Rubeus Hagrid",
         "provides": [
             {
                 "lesson": "Care of Magical Creatures",
@@ -15721,7 +15721,7 @@ export const cards = [
             "Witch",
             "Unique"
         ],
-        "flavorText": "'I have been crystal gazing \u0085 and to my astonishment, I saw myself abandoning my solitary luncheon and coming to join you. Who am I to refuse the promptings of fate?' \u0097 Professor Sybill Trelawney",
+        "flavorText": "'I have been crystal gazing  and to my astonishment, I saw myself abandoning my solitary luncheon and coming to join you. Who am I to refuse the promptings of fate?'  Professor Sybill Trelawney",
         "effect": [
             "Before each of your turns, you may look at the top 2 cards of your deck and put them on the top and/or bottom of your deck in any order."
         ],
@@ -15762,12 +15762,12 @@ export const cards = [
             {
                 "date": "2022-11-03",
                 "source": "Revival",
-                "ruling": "If you would take damage (or draw cards, or discard cards from the top of your deck, or any other effect that causes cards to leave your deck), you will do so until you have only one card left in your deck, and then Secret-Keeper\u0092s effect will activate."
+                "ruling": "If you would take damage (or draw cards, or discard cards from the top of your deck, or any other effect that causes cards to leave your deck), you will do so until you have only one card left in your deck, and then Secret-Keepers effect will activate."
             },
             {
                 "date": "2022-11-03",
                 "source": "Revival",
-                "ruling": "After Secret-Keeper\u0092s effect activates, card cannot leave your deck, meaning you cannot take damage, draw cards, or discard cards from your deck. Any card that would move cards in any way from your deck cannot be activated until the next turn."
+                "ruling": "After Secret-Keepers effect activates, card cannot leave your deck, meaning you cannot take damage, draw cards, or discard cards from your deck. Any card that would move cards in any way from your deck cannot be activated until the next turn."
             },
             {
                 "date": "2022-11-03",
@@ -15777,12 +15777,12 @@ export const cards = [
             {
                 "date": "2022-11-03",
                 "source": "Revival",
-                "ruling": "This is a replacement effect for when you would lose the game by your last card leaving your deck for any reason. Because this is a replacement effect, it will trigger in the middle of other cards\u0092 resolution that make you draw, discard, take damage, or make the last card leave your deck in any way. Once this effect triggers, stop doing any other card\u0092s effect, resolve this card entirely, and then finish resolving other cards. No cards may leave your deck until the next turn begins."
+                "ruling": "This is a replacement effect for when you would lose the game by your last card leaving your deck for any reason. Because this is a replacement effect, it will trigger in the middle of other cards resolution that make you draw, discard, take damage, or make the last card leave your deck in any way. Once this effect triggers, stop doing any other cards effect, resolve this card entirely, and then finish resolving other cards. No cards may leave your deck until the next turn begins."
             },
             {
                 "date": "2022-11-03",
                 "source": "Revival",
-                "ruling": "Regarding an interaction with Errol: You may reveal the top card of your deck, since revealing isn\u0092t a card leaving your deck. If it fulfills Errol\u0092s condition of being a Lesson, and it is the last card in your deck, then Secret-Keeper\u0092s ability triggers and Errol will be unable to put the Lesson into play. Otherwise, the card stays on top of your deck and Secret-Keeper will not trigger."
+                "ruling": "Regarding an interaction with Errol: You may reveal the top card of your deck, since revealing isnt a card leaving your deck. If it fulfills Errols condition of being a Lesson, and it is the last card in your deck, then Secret-Keepers ability triggers and Errol will be unable to put the Lesson into play. Otherwise, the card stays on top of your deck and Secret-Keeper will not trigger."
             },
             {
                 "date": "2022-11-03",
@@ -15792,7 +15792,7 @@ export const cards = [
             {
                 "date": "2022-11-03",
                 "source": "Revival",
-                "ruling": "The specific part of the card effect that caused your last card to leave your deck is considered finished when Secret-Keeper\u0092s ability triggers, but any other parts of the effect unrelated to that still resolve. (e.g. Blue Wig will still let you draw a card even if Secret-Keeper stops the damage when you have 1 card left in your deck.)"
+                "ruling": "The specific part of the card effect that caused your last card to leave your deck is considered finished when Secret-Keepers ability triggers, but any other parts of the effect unrelated to that still resolve. (e.g. Blue Wig will still let you draw a card even if Secret-Keeper stops the damage when you have 1 card left in your deck.)"
             }
         ],
         "imgSrc": "SecretKeeper.png",
@@ -15810,7 +15810,7 @@ export const cards = [
             "Unique",
             "Gryffindor"
         ],
-        "flavorText": "'Come follow me, dear friends, and we shall find our goal, or else shall perish bravely in the charge!' \u0097 Sir Cadogan",
+        "flavorText": "'Come follow me, dear friends, and we shall find our goal, or else shall perish bravely in the charge!'  Sir Cadogan",
         "effect": [
             "Once during each of your turns, when you play a card with an even printed Power cost, you may draw a card, and then you may put a Lesson from your hand into play."
         ],
@@ -15820,7 +15820,7 @@ export const cards = [
             {
                 "date": "2022-11-03",
                 "source": "Revival",
-                "ruling": "Sir Cadogan sees printed Power cost, not Power cost. Sir Cadogan doesn\u0092t care if a card (such as Bravado) adjusts the Power of a card. As long as the number printed on the card is even, Sir Cadogan will trigger."
+                "ruling": "Sir Cadogan sees printed Power cost, not Power cost. Sir Cadogan doesnt care if a card (such as Bravado) adjusts the Power of a card. As long as the number printed on the card is even, Sir Cadogan will trigger."
             }
         ],
         "imgSrc": "SirCadogan.png",
@@ -15838,7 +15838,7 @@ export const cards = [
             "Unique",
             "Wizard"
         ],
-        "flavorText": "'. . . He was clever enough to escape from Azkaban, and that\u0092s supposed to be impossible.' \u0097 Arthur Weasley",
+        "flavorText": "'. . . He was clever enough to escape from Azkaban, and thats supposed to be impossible.'  Arthur Weasley",
         "effect": [
             "For every 3 different card types in your discard pile, your opponents' cards require 1 more Power to play."
         ],
@@ -15848,7 +15848,7 @@ export const cards = [
             {
                 "date": "2022-11-03",
                 "source": "Revival",
-                "ruling": "Sirius Black\u0092s effect only increases Power requirements to cards that require Power to play."
+                "ruling": "Sirius Blacks effect only increases Power requirements to cards that require Power to play."
             },
             {
                 "date": "2022-11-03",
@@ -15988,7 +15988,7 @@ export const cards = [
             {
                 "date": "2022-11-03",
                 "source": "Revival",
-                "ruling": "If you would lose the game during the resolution of the card\u0092s effect, At the Three Broomsticks will not save you by adding another card to your deck."
+                "ruling": "If you would lose the game during the resolution of the cards effect, At the Three Broomsticks will not save you by adding another card to your deck."
             }
         ],
         "imgSrc": "AtTheThreeBroomsticks.png",
@@ -16009,7 +16009,7 @@ export const cards = [
         "subTypes": [
             "Dark"
         ],
-        "flavorText": "'Never been a breakout from Azkaban before, \u0092as there, Ern?' \u0097 Stan Shunpike",
+        "flavorText": "'Never been a breakout from Azkaban before, as there, Ern?'  Stan Shunpike",
         "effect": [
             "To play this card, discard 1 of your Potions Lessons from play. Put up to 3 non-Healing Characters from your discard pile into your hand."
         ],
@@ -16034,7 +16034,7 @@ export const cards = [
         "subTypes": [
             "Boggart"
         ],
-        "flavorText": "'It\u0092s a shapeshifter. It can take the shape of whatever it thinks will frighten us most.' \u0097 Hermione Granger",
+        "flavorText": "'Its a shapeshifter. It can take the shape of whatever it thinks will frighten us most.'  Hermione Granger",
         "dmgEachTurn": -1,
         "health": 1,
         "effect": [
@@ -16064,7 +16064,7 @@ export const cards = [
         "lesson": [
             "Potions"
         ],
-        "flavorText": "'May I?' said Professor McGonagall, but she didn\u0092t wait for an answer before pulling the Firebolt out of their hands.'",
+        "flavorText": "'May I?' said Professor McGonagall, but she didnt wait for an answer before pulling the Firebolt out of their hands.'",
         "effect": [
             "Look at an opponent's hand. You may choose a non-Lesson card from it. Discard each of their cards in play and in their hand with the same name as the chosen card."
         ],
@@ -16143,7 +16143,7 @@ export const cards = [
         "subTypes": [
             "Unique"
         ],
-        "flavorText": "'I don\u0092t think Egypt agreed with him.' \u0097 Ron Weasley",
+        "flavorText": "'I dont think Egypt agreed with him.'  Ron Weasley",
         "effect": [
             "Whenever an opponent uses a third Action in a turn, do 5 damage to them."
         ],
@@ -16153,7 +16153,7 @@ export const cards = [
             {
                 "date": "2022-11-03",
                 "source": "Revival",
-                "ruling": "Your opponent must use Actions beyond 2 for this card to trigger. If your opponent gets extra Actions beyond 2, but doesn\u0092t use them, then this card will not trigger."
+                "ruling": "Your opponent must use Actions beyond 2 for this card to trigger. If your opponent gets extra Actions beyond 2, but doesnt use them, then this card will not trigger."
             },
             {
                 "date": "2022-11-03",
@@ -16282,7 +16282,7 @@ export const cards = [
         "subTypes": [
             "Unique"
         ],
-        "flavorText": "'Righ\u0092 then, Harry,' said Hagrid. 'I reckon he might\u0092 let yeh ride him!'",
+        "flavorText": "'Righ then, Harry,' said Hagrid. 'I reckon he might let yeh ride him!'",
         "effect": [
             "At the end of each of your turns, if at least 1 of your Creatures did damage this turn, draw 2 cards. When any of your Creatures are discarded from play, discard this card from play."
         ],
@@ -16310,7 +16310,7 @@ export const cards = [
         "lesson": [
             "Quidditch"
         ],
-        "flavorText": "Harry was still numb with cold, still wetter than he\u0092d ever been in his life, but he could see.",
+        "flavorText": "Harry was still numb with cold, still wetter than hed ever been in his life, but he could see.",
         "effect": [
             "Choose an opponent. During their next turn, prevent the first 3 damage done to you. Before your next turn, draw a card for each damage prevented in this way."
         ],
@@ -16356,7 +16356,7 @@ export const cards = [
         "lesson": [
             "Transfiguration"
         ],
-        "flavorText": "'Anyway, we know it by heart,' said George. 'We bequeath it to you. We don\u0092t really need it anymore.'",
+        "flavorText": "'Anyway, we know it by heart,' said George. 'We bequeath it to you. We dont really need it anymore.'",
         "effect": [
             "Search your deck. You may take an Item or Spell from your deck, reveal it, and put it into your hand. Then shuffle your deck. You may use an Action to repeat this Spell."
         ],
@@ -16371,7 +16371,7 @@ export const cards = [
             {
                 "date": "2022-11-03",
                 "source": "Revival",
-                "ruling": "Using an Action to repeat this effect is part of the Spell. When you are done repeating this effect, you then put the Spell card into your discard pile. You cannot use this Spell\u0092s effect later unless you play it again."
+                "ruling": "Using an Action to repeat this effect is part of the Spell. When you are done repeating this effect, you then put the Spell card into your discard pile. You cannot use this Spells effect later unless you play it again."
             }
         ],
         "imgSrc": "InheritingTheMap.png",
@@ -16571,7 +16571,7 @@ export const cards = [
             {
                 "date": "2022-11-03",
                 "source": "Revival",
-                "ruling": "Each card your opponent plays is considered a choice. For example, cards that do damage or that say, \u0093Choose an opponent\u0085\u0094 will force your opponent to choose Security Troll before your other Creatures in play. Your opponent can still choose their own Creatures."
+                "ruling": "Each card your opponent plays is considered a choice. For example, cards that do damage or that say, Choose an opponent will force your opponent to choose Security Troll before your other Creatures in play. Your opponent can still choose their own Creatures."
             }
         ],
         "imgSrc": "SecurityTroll.png",
@@ -16681,7 +16681,7 @@ export const cards = [
         "lesson": [
             "Quidditch"
         ],
-        "flavorText": "Harry knew better than to think the match would be canceled; Quidditch matches weren\u0092t called off for trifles like thunderstorms.",
+        "flavorText": "Harry knew better than to think the match would be canceled; Quidditch matches werent called off for trifles like thunderstorms.",
         "effect": [
             "to win: Use Actions to play Creatures 3 times.",
             "prize: The winner chooses up to 2 Lessons in their discard pile and puts them into play."
@@ -16792,7 +16792,7 @@ export const cards = [
         "lesson": [
             "Quidditch"
         ],
-        "flavorText": "... by the time they hit the ground again, Wood didn\u0092t have a single criticism to make, which, as George Weasley pointed out, was a first.",
+        "flavorText": "... by the time they hit the ground again, Wood didnt have a single criticism to make, which, as George Weasley pointed out, was a first.",
         "effect": [
             "Count the number of Beaters, Chasers, Keepers, and Seekers you have in play. Do that much damage to an opponent."
         ],
@@ -16814,7 +16814,7 @@ export const cards = [
         "lesson": [
             "Care of Magical Creatures"
         ],
-        "flavorText": "'Tha\u0092s it,' said Hagrid. 'Tha\u0092s it, Harry ... now, bow ...'",
+        "flavorText": "'Thas it,' said Hagrid. 'Thas it, Harry ... now, bow ...'",
         "effect": [
             "The next Creature you play this turn requires 3 less Power to play. ( You still need at least 1 Power that matches.)"
         ],
@@ -16880,7 +16880,7 @@ export const cards = [
             {
                 "date": "2022-11-03",
                 "source": "Revival",
-                "ruling": "Using an Action to repeat this effect is part of the Spell. When you are done repeating this effect, you then put the Spell card into your discard pile. You cannot use this Spell\u0092s effect later unless you play it again."
+                "ruling": "Using an Action to repeat this effect is part of the Spell. When you are done repeating this effect, you then put the Spell card into your discard pile. You cannot use this Spells effect later unless you play it again."
             }
         ],
         "imgSrc": "BroadenYourMinds.png",
@@ -16922,7 +16922,7 @@ export const cards = [
         "subTypes": [
             "Candy"
         ],
-        "flavorText": "'So we\u0092ve finally got a Defense Against the Dark Arts teacher who knows his remedies?' \u0097 Madam Pomfrey",
+        "flavorText": "'So weve finally got a Defense Against the Dark Arts teacher who knows his remedies?'  Madam Pomfrey",
         "effect": [
             "Put 1 of your Characters discarded during an opponent's last turn from your discard pile into your hand. Then draw a card."
         ],
@@ -16944,7 +16944,7 @@ export const cards = [
         "lesson": [
             "Potions"
         ],
-        "flavorText": "Slowly, she reached down for a bag at her feet, turned it upside down, and tipped a dozen bits of splintered wood and twig onto the bed, the only remains of Harry\u0092s faithful, finally beaten broomstick.",
+        "flavorText": "Slowly, she reached down for a bag at her feet, turned it upside down, and tipped a dozen bits of splintered wood and twig onto the bed, the only remains of Harrys faithful, finally beaten broomstick.",
         "effect": [
             "Do 4 damage to an opponent. During their next turn, their non-Lesson cards do not provide Power."
         ],
@@ -17006,7 +17006,7 @@ export const cards = [
     {
         "number": "61",
         "name": "Flibbertigibbet",
-        "artist": "Katerina Cupov\u00e1",
+        "artist": "Katerina Cupová",
         "type": [
             "Spell"
         ],
@@ -17063,9 +17063,9 @@ export const cards = [
         "lesson": [
             "Quidditch"
         ],
-        "flavorText": "'Gryffindor in possession, no, Slytherin in possession \u0097 no! \u0097 Gryffindor back in possession \u0085' \u0097 Lee Jordan, commentator",
+        "flavorText": "'Gryffindor in possession, no, Slytherin in possession  no!  Gryffindor back in possession '  Lee Jordan, commentator",
         "effect": [
-            "Do 4 damage to an opponent. Then, if that opponent has any Lessons in play, they choose 1 of them and put it on top of its owner\u0092s deck."
+            "Do 4 damage to an opponent. Then, if that opponent has any Lessons in play, they choose 1 of them and put it on top of its owners deck."
         ],
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
@@ -17100,7 +17100,7 @@ export const cards = [
     {
         "number": "65",
         "name": "Hooch Watches Practice",
-        "artist": "Am\u00e9lie S. Lebel",
+        "artist": "Amélie S. Lebel",
         "type": [
             "Event"
         ],
@@ -17114,7 +17114,7 @@ export const cards = [
         ],
         "flavorText": "Undaunted, the Gryffindor team was training harder than ever under the eye of Madam Hooch.",
         "effect": [
-            "When a Match is discarded from play, you may return it to play under its owner\u0092s control. If you do, discard this card."
+            "When a Match is discarded from play, you may return it to play under its owners control. If you do, discard this card."
         ],
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
@@ -17168,7 +17168,7 @@ export const cards = [
             "Divination",
             "Unique"
         ],
-        "flavorText": "'One hopes, however, that one might have mistaken the Signs. ... The Inner Eye can be a burden, you know.'  \u0097 Professor Sybill Trelawney",
+        "flavorText": "'One hopes, however, that one might have mistaken the Signs. ... The Inner Eye can be a burden, you know.'   Professor Sybill Trelawney",
         "effect": [
             "Before each of your turns, your opponent may reveal a Lesson from their hand. If they do not, you may put a Lesson from your hand into play."
         ],
@@ -17190,7 +17190,7 @@ export const cards = [
         "lesson": [
             "Transfiguration"
         ],
-        "flavorText": "'I bet you\u0092re not dangerous at all, are you?' he said to the hippogriff. 'Are you, you great ugly brute?'",
+        "flavorText": "'I bet youre not dangerous at all, are you?' he said to the hippogriff. 'Are you, you great ugly brute?'",
         "effect": [
             "Play this card only if you have a Creature in play. Choose an opponent's Character in play ( other than their starting Character) and discard it."
         ],
@@ -17262,7 +17262,7 @@ export const cards = [
             "Charms"
         ],
         "effect": [
-            "Choose two of the following, then shuffle this card into your deck: Do 1 damage to an opponent. Look at an opponent\u0092s hand. Draw a card."
+            "Choose two of the following, then shuffle this card into your deck: Do 1 damage to an opponent. Look at an opponents hand. Draw a card."
         ],
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
@@ -17293,7 +17293,7 @@ export const cards = [
         "lesson": [
             "Potions"
         ],
-        "flavorText": "But it wasn\u0092t Professor Lupin who looked up at him from the teacher\u0092s desk; it was Snape.",
+        "flavorText": "But it wasnt Professor Lupin who looked up at him from the teachers desk; it was Snape.",
         "effect": [
             "Do 5 damage to an opponent or to a Creature of your choice. Your opponent may prevent this damage by revealing a Creature from their hand."
         ],
@@ -17378,7 +17378,7 @@ export const cards = [
             {
                 "date": "2022-11-03",
                 "source": "Revival",
-                "ruling": "Power from cards that are not Lessons do not count toward this card\u0092s total."
+                "ruling": "Power from cards that are not Lessons do not count toward this cards total."
             }
         ],
         "imgSrc": "OverloadedSchedule.png",
@@ -17486,7 +17486,7 @@ export const cards = [
         "subTypes": [
             "Spider"
         ],
-        "flavorText": "'C\u0092mon \u0085 gotta get yeh outta here \u0085 c\u0092mon now \u0085 in the box \u0085' \u0097 Rubeus Hagrid",
+        "flavorText": "'Cmon  gotta get yeh outta here  cmon now  in the box '  Rubeus Hagrid",
         "dmgEachTurn": 1,
         "health": 2,
         "effect": [
@@ -17546,7 +17546,7 @@ export const cards = [
             {
                 "date": "2022-11-03",
                 "source": "Revival",
-                "ruling": "The ability is not a \u0091may\u0092 ability. If this is in play and at least one of your Creatures with printed Power cost of 3 or less is discarded from play, this will trigger and be discarded instead."
+                "ruling": "The ability is not a may ability. If this is in play and at least one of your Creatures with printed Power cost of 3 or less is discarded from play, this will trigger and be discarded instead."
             },
             {
                 "date": "2022-11-03",
@@ -17596,7 +17596,7 @@ export const cards = [
         "lesson": [
             "Quidditch"
         ],
-        "flavorText": "'We\u0092re not playing Slytherin!' he told them, looking very angry. 'Flint\u0092s just been to see me. We\u0092re playing Hufflepuff instead.\u0092'",
+        "flavorText": "'Were not playing Slytherin!' he told them, looking very angry. 'Flints just been to see me. Were playing Hufflepuff instead.'",
         "effect": [
             "Discard a Match in play, then you may put a non-Healing Match from your discard pile into play. If you do, do 3 damage to an opponent."
         ],
@@ -17652,7 +17652,7 @@ export const cards = [
         "subTypes": [
             "Book"
         ],
-        "flavorText": "'Oh, how silly we\u0092ve all been! We should have stroked them! Why didn\u0092t we guess!' \u0097 Draco Malfoy",
+        "flavorText": "'Oh, how silly weve all been! We should have stroked them! Why didnt we guess!'  Draco Malfoy",
         "dmgEachTurn": 1,
         "health": 1,
         "provides": [
@@ -17740,7 +17740,7 @@ export const cards = [
         "lesson": [
             "Charms"
         ],
-        "flavorText": "'Cool, sir!' \u0097 Dean Thomas",
+        "flavorText": "'Cool, sir!'  Dean Thomas",
         "effect": [
             "Do 3 damage to an opponent. You may discard 1 of your Items in play. If you do, do damage to that opponent equal to the Item's printed Power cost."
         ],
@@ -17790,7 +17790,7 @@ export const cards = [
         "subTypes": [
             "Healing"
         ],
-        "flavorText": "'I am able to curl up in my office, a harmless wolf, and wait for the moon to wane again.'  \u0097 Professor Remus Lupin",
+        "flavorText": "'I am able to curl up in my office, a harmless wolf, and wait for the moon to wane again.'   Professor Remus Lupin",
         "effect": [
             "To play this card, return 1 of your Potions Lessons from play to your hand. Shuffle up to 8 non-Healing cards from your discard pile into your deck."
         ],
@@ -17914,7 +17914,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Bludger.jpg",
+        "imgSrc": "Bludger.png",
         "horizontal": true
     },
     {
@@ -17936,7 +17936,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "CatchTheSnitch.jpeg",
+        "imgSrc": "CatchTheSnitch.png",
         "horizontal": false
     },
     {
@@ -17964,7 +17964,7 @@ export const cards = [
                 "ruling": "If a card states, \"A player may draw any number of cards\", they must choose how many cards to draw, then draw them all at once. Players cannot draw-look-decide-draw-again-repeat."
             }
         ],
-        "imgSrc": "CharmsExam.jpeg",
+        "imgSrc": "CharmsExam.png",
         "horizontal": false
     },
     {
@@ -17995,7 +17995,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Fluffy.jpg",
+        "imgSrc": "Fluffy.png",
         "horizontal": true
     },
     {
@@ -18020,10 +18020,10 @@ export const cards = [
             {
                 "date": "2001-01-01",
                 "source": "POJO",
-                "ruling": "If you replace an Adventure in play with another Adventure, then your opponent must restart solving the Adventure since it\u0092s a brand new Adventure."
+                "ruling": "If you replace an Adventure in play with another Adventure, then your opponent must restart solving the Adventure since its a brand new Adventure."
             }
         ],
-        "imgSrc": "Fred&GeorgeWeasley.jpeg",
+        "imgSrc": "Fred&GeorgeWeasley.png",
         "horizontal": true
     },
     {
@@ -18045,7 +18045,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "GazeIntoTheMirror.jpeg",
+        "imgSrc": "GazeIntoTheMirror.png",
         "horizontal": true
     },
     {
@@ -18075,7 +18075,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "GoldCauldron.jpeg",
+        "imgSrc": "GoldCauldron.png",
         "horizontal": true
     },
     {
@@ -18096,7 +18096,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "GoldenSnitch.jpeg",
+        "imgSrc": "GoldenSnitch.png",
         "horizontal": true
     },
     {
@@ -18120,12 +18120,12 @@ export const cards = [
             {
                 "date": "2001-11-28",
                 "source": "POJO",
-                "ruling": "If your opponent begins their turn with \u0093Hagrid Needs Help\u0094 stealing one of their Actions, they don\u0092t get that Action back the turn they solve this Adventure."
+                "ruling": "If your opponent begins their turn with Hagrid Needs Help stealing one of their Actions, they dont get that Action back the turn they solve this Adventure."
             },
             {
                 "date": "2002-09-03",
                 "source": "POJO",
-                "ruling": "You can prevent the 8 damage you take to solve this Adventure with cards like Hospital Dormitory. First you assign damage to yourself, then you area free to prevent any of the damage possible (with cards like \u0093Hospital Dormitory\u0094). The 4 damage prevented will count toward the 8 damage Hagrid Needs Help is dealing to you."
+                "ruling": "You can prevent the 8 damage you take to solve this Adventure with cards like Hospital Dormitory. First you assign damage to yourself, then you area free to prevent any of the damage possible (with cards like Hospital Dormitory). The 4 damage prevented will count toward the 8 damage Hagrid Needs Help is dealing to you."
             },
             {
                 "date": "2020-07-03",
@@ -18133,7 +18133,7 @@ export const cards = [
                 "ruling": "If there is a Match in play, then the damage your opponent takes to solve this card counts toward the Match for your opponent."
             }
         ],
-        "imgSrc": "HagridNeedsHelp.jpeg",
+        "imgSrc": "HagridNeedsHelp.png",
         "horizontal": true
     },
     {
@@ -18155,7 +18155,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "HalloweenFeast.jpeg",
+        "imgSrc": "HalloweenFeast.png",
         "horizontal": false
     },
     {
@@ -18179,7 +18179,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "HarryTheSeeker.jpeg",
+        "imgSrc": "HarryTheSeeker.png",
         "horizontal": true
     },
     {
@@ -18200,7 +18200,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "HospitalBed.jpeg",
+        "imgSrc": "HospitalBed.png",
         "horizontal": true
     },
     {
@@ -18228,7 +18228,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "MadamRolandaHooch.jpeg",
+        "imgSrc": "MadamRolandaHooch.png",
         "horizontal": true
     },
     {
@@ -18243,7 +18243,7 @@ export const cards = [
             "Chaser",
             "Unique"
         ],
-        "flavorText": "'... Slytherin captain Marcus Flint gains the Quaffle and off he goes \u0097 Flint flying like an eagle up there...' - Lee Jordan, Commentator",
+        "flavorText": "'... Slytherin captain Marcus Flint gains the Quaffle and off he goes  Flint flying like an eagle up there...' - Lee Jordan, Commentator",
         "rarity": "Holo Portrait Premium",
         "artist": "David A. Roach",
         "effect": [
@@ -18252,7 +18252,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "MarcusFlint.jpeg",
+        "imgSrc": "MarcusFlint.png",
         "horizontal": true
     },
     {
@@ -18281,10 +18281,10 @@ export const cards = [
             {
                 "date": "2002-03-06",
                 "source": "POJO",
-                "ruling": "Any damage done \u0093Before your turn\u0094 counts toward Neville\u0092s prevention ability. Before your turn is still your turn."
+                "ruling": "Any damage done Before your turn counts toward Nevilles prevention ability. Before your turn is still your turn."
             }
         ],
-        "imgSrc": "NevilleLongbottom.jpeg",
+        "imgSrc": "NevilleLongbottom.png",
         "horizontal": true
     },
     {
@@ -18310,7 +18310,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "NimbusTwoThousand.jpeg",
+        "imgSrc": "NimbusTwoThousand.png",
         "horizontal": true
     },
     {
@@ -18331,7 +18331,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "NoTimeToPlay.jpeg",
+        "imgSrc": "NoTimeToPlay.png",
         "horizontal": false
     },
     {
@@ -18361,10 +18361,10 @@ export const cards = [
             {
                 "date": "2001-11-28",
                 "source": "POJO",
-                "ruling": "If your opponent has Potion Ingredient, they first get to choose whether or not they use Potion Ingredient to prevent Spell damage before you decide to apply Oliver Wood\u0092s ability."
+                "ruling": "If your opponent has Potion Ingredient, they first get to choose whether or not they use Potion Ingredient to prevent Spell damage before you decide to apply Oliver Woods ability."
             }
         ],
-        "imgSrc": "OliverWood.jpeg",
+        "imgSrc": "OliverWood.png",
         "horizontal": true
     },
     {
@@ -18385,7 +18385,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "OutOfControl.jpeg",
+        "imgSrc": "OutOfControl.png",
         "horizontal": false
     },
     {
@@ -18406,7 +18406,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "PotionsClassDisaster.jpeg",
+        "imgSrc": "PotionsClassDisaster.png",
         "horizontal": false
     },
     {
@@ -18434,7 +18434,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "ProfMinervaMcgonagall.jpeg",
+        "imgSrc": "ProfMinervaMcgonagall.png",
         "horizontal": true
     },
     {
@@ -18455,7 +18455,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "PutOuter.jpeg",
+        "imgSrc": "PutOuter.png",
         "horizontal": true
     },
     {
@@ -18479,7 +18479,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "RavenclawMatch.jpeg",
+        "imgSrc": "RavenclawMatch.png",
         "horizontal": true
     },
     {
@@ -18507,7 +18507,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Scabbers.jpg",
+        "imgSrc": "Scabbers.png",
         "horizontal": true
     },
     {
@@ -18533,7 +18533,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "SeamusFinnigan.jpeg",
+        "imgSrc": "SeamusFinnigan.png",
         "horizontal": true
     },
     {
@@ -18560,7 +18560,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "SlytherinMatch.jpeg",
+        "imgSrc": "SlytherinMatch.png",
         "horizontal": true
     },
     {
@@ -18581,7 +18581,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "StartOfTermFeast.jpeg",
+        "imgSrc": "StartOfTermFeast.png",
         "horizontal": false
     },
     {
@@ -18602,7 +18602,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "SupportBanner.jpeg",
+        "imgSrc": "SupportBanner.png",
         "horizontal": true
     },
     {
@@ -18623,7 +18623,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "TheSortingHat.jpeg",
+        "imgSrc": "TheSortingHat.png",
         "horizontal": true
     },
     {
@@ -18650,7 +18650,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Trevor.jpg",
+        "imgSrc": "Trevor.png",
         "horizontal": true
     },
     {
@@ -18672,7 +18672,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "ChocolateFrogs.jpeg",
+        "imgSrc": "ChocolateFrogs.png",
         "horizontal": false
     },
     {
@@ -18708,7 +18708,7 @@ export const cards = [
                 "ruling": "While your opponent chooses the order of cards that are active, you always get to choose what damage you prevent unless a card says so."
             }
         ],
-        "imgSrc": "CometTwoSixty.jpeg",
+        "imgSrc": "CometTwoSixty.png",
         "horizontal": true
     },
     {
@@ -18729,7 +18729,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Defence.jpg",
+        "imgSrc": "Defence.png",
         "horizontal": false
     },
     {
@@ -18755,7 +18755,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "DevilsSnare.jpeg",
+        "imgSrc": "DevilsSnare.png",
         "horizontal": true
     },
     {
@@ -18776,7 +18776,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Diffindo.jpg",
+        "imgSrc": "Diffindo.png",
         "horizontal": false
     },
     {
@@ -18802,7 +18802,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Doxy.jpg",
+        "imgSrc": "Doxy.png",
         "horizontal": true
     },
     {
@@ -18833,7 +18833,7 @@ export const cards = [
                 "ruling": "The winner must draw either 0 or 5. Nothing inbetween."
             }
         ],
-        "imgSrc": "HufflepuffMatch.jpeg",
+        "imgSrc": "HufflepuffMatch.png",
         "horizontal": true
     },
     {
@@ -18855,7 +18855,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "InTheStands.jpeg",
+        "imgSrc": "InTheStands.png",
         "horizontal": true
     },
     {
@@ -18885,10 +18885,10 @@ export const cards = [
             {
                 "date": "2001-11-14",
                 "source": "POJO",
-                "ruling": "If you have Into the Forbidden Forest and Rubeus Hagrid in play, you can first have the Adventure trigger, then Rubeus Hagrid. This means a Creature that normally does 2 damage would do 1 additional damage from the Adventure, and then Hagrid\u0092s effect would trigger."
+                "ruling": "If you have Into the Forbidden Forest and Rubeus Hagrid in play, you can first have the Adventure trigger, then Rubeus Hagrid. This means a Creature that normally does 2 damage would do 1 additional damage from the Adventure, and then Hagrids effect would trigger."
             }
         ],
-        "imgSrc": "IntoTheForbiddenForest.jpeg",
+        "imgSrc": "IntoTheForbiddenForest.png",
         "horizontal": true
     },
     {
@@ -18909,7 +18909,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "JawbindPotion.jpeg",
+        "imgSrc": "JawbindPotion.png",
         "horizontal": false
     },
     {
@@ -18930,7 +18930,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "MissingParchment.jpeg",
+        "imgSrc": "MissingParchment.png",
         "horizontal": false
     },
     {
@@ -18951,7 +18951,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "PenaltyShot.jpeg",
+        "imgSrc": "PenaltyShot.png",
         "horizontal": false
     },
     {
@@ -18979,7 +18979,7 @@ export const cards = [
                 "ruling": "Your opponent can solve this Adventure before their first Action, meaning they get 2 normal Actions."
             }
         ],
-        "imgSrc": "PepTalk.jpeg",
+        "imgSrc": "PepTalk.png",
         "horizontal": true
     },
     {
@@ -19003,7 +19003,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "PetrificusTotalus.jpeg",
+        "imgSrc": "PetrificusTotalus.png",
         "horizontal": false
     },
     {
@@ -19024,7 +19024,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "PowerPlay.jpeg",
+        "imgSrc": "PowerPlay.png",
         "horizontal": false
     },
     {
@@ -19046,7 +19046,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "RaceForTheSnitch.jpeg",
+        "imgSrc": "RaceForTheSnitch.png",
         "horizontal": true
     },
     {
@@ -19074,7 +19074,7 @@ export const cards = [
                 "ruling": "You can discard a Book to draw cards, as the Action is discarding the Book, not drawing cards."
             }
         ],
-        "imgSrc": "SnapesBias.jpeg",
+        "imgSrc": "SnapesBias.png",
         "horizontal": true
     },
     {
@@ -19096,7 +19096,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "StickingUpForNeville.jpeg",
+        "imgSrc": "StickingUpForNeville.png",
         "horizontal": true
     },
     {
@@ -19117,7 +19117,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "StrategySession.jpeg",
+        "imgSrc": "StrategySession.png",
         "horizontal": false
     },
     {
@@ -19138,7 +19138,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "WeaknessPotion.jpeg",
+        "imgSrc": "WeaknessPotion.png",
         "horizontal": false
     },
     {
@@ -19159,7 +19159,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "BloodrootPoison.jpeg",
+        "imgSrc": "BloodrootPoison.png",
         "horizontal": false
     },
     {
@@ -19180,7 +19180,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Bravado.jpg",
+        "imgSrc": "Bravado.png",
         "horizontal": false
     },
     {
@@ -19204,7 +19204,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "BruisewortBalm.jpeg",
+        "imgSrc": "BruisewortBalm.png",
         "horizontal": false
     },
     {
@@ -19234,7 +19234,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "CleansweepSeven.jpeg",
+        "imgSrc": "CleansweepSeven.png",
         "horizontal": true
     },
     {
@@ -19258,10 +19258,10 @@ export const cards = [
             {
                 "date": "2002-06-12",
                 "source": "POJO",
-                "ruling": "If you play Cobbing and the 4 damage wins you the Match in play, but your opponent has played the Match, you must wait for the entire Spell to resolve before you see if the Match is won. This means your opponent can choose to discard the Match so you can\u0092t get the prize (since it is no longer on the table)."
+                "ruling": "If you play Cobbing and the 4 damage wins you the Match in play, but your opponent has played the Match, you must wait for the entire Spell to resolve before you see if the Match is won. This means your opponent can choose to discard the Match so you cant get the prize (since it is no longer on the table)."
             }
         ],
-        "imgSrc": "Cobbing.jpg",
+        "imgSrc": "Cobbing.png",
         "horizontal": false
     },
     {
@@ -19287,7 +19287,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "CobraLily.jpeg",
+        "imgSrc": "CobraLily.png",
         "horizontal": true
     },
     {
@@ -19310,7 +19310,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "CunningFox.jpeg",
+        "imgSrc": "CunningFox.png",
         "horizontal": true
     },
     {
@@ -19332,7 +19332,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "DeskIntoPig.jpeg",
+        "imgSrc": "DeskIntoPig.png",
         "horizontal": false
     },
     {
@@ -19353,7 +19353,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "DrowsinessDraught.jpeg",
+        "imgSrc": "DrowsinessDraught.png",
         "horizontal": false
     },
     {
@@ -19375,7 +19375,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Fouled.jpg",
+        "imgSrc": "Fouled.png",
         "horizontal": false
     },
     {
@@ -19396,7 +19396,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Gone.jpg",
+        "imgSrc": "Gone.png",
         "horizontal": false
     },
     {
@@ -19417,7 +19417,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "MiceToSnuffboxes.jpeg",
+        "imgSrc": "MiceToSnuffboxes.png",
         "horizontal": false
     },
     {
@@ -19438,7 +19438,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "MopsusPotion.jpeg",
+        "imgSrc": "MopsusPotion.png",
         "horizontal": false
     },
     {
@@ -19462,10 +19462,10 @@ export const cards = [
             {
                 "date": "2002-03-20",
                 "source": "POJO",
-                "ruling": "Since the second part of the card says \u0093if\u0094, you can play this card even if your opponent doesn\u0092t have a card to discard."
+                "ruling": "Since the second part of the card says if, you can play this card even if your opponent doesnt have a card to discard."
             }
         ],
-        "imgSrc": "Ouch.jpg",
+        "imgSrc": "Ouch.png",
         "horizontal": false
     },
     {
@@ -19489,7 +19489,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "PracticeMatch.jpeg",
+        "imgSrc": "PracticeMatch.png",
         "horizontal": true
     },
     {
@@ -19510,7 +19510,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "PullingUp.jpeg",
+        "imgSrc": "PullingUp.png",
         "horizontal": false
     },
     {
@@ -19532,7 +19532,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Research.jpg",
+        "imgSrc": "Research.png",
         "horizontal": false
     },
     {
@@ -19556,7 +19556,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "RopeBind.jpeg",
+        "imgSrc": "RopeBind.png",
         "horizontal": false
     },
     {
@@ -19578,7 +19578,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "SearchingForTheSnitch.jpeg",
+        "imgSrc": "SearchingForTheSnitch.png",
         "horizontal": false
     },
     {
@@ -19599,7 +19599,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Smash.jpg",
+        "imgSrc": "Smash.png",
         "horizontal": false
     },
     {
@@ -19623,7 +19623,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "StreamOfFlames.jpeg",
+        "imgSrc": "StreamOfFlames.png",
         "horizontal": false
     },
     {
@@ -19649,7 +19649,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Streeler.jpg",
+        "imgSrc": "Streeler.png",
         "horizontal": true
     },
     {
@@ -19670,7 +19670,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Swarm.jpg",
+        "imgSrc": "Swarm.png",
         "horizontal": false
     },
     {
@@ -19692,7 +19692,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "TimeOut.jpeg",
+        "imgSrc": "TimeOut.png",
         "horizontal": false
     },
     {
@@ -19713,7 +19713,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Vanish.jpg",
+        "imgSrc": "Vanish.png",
         "horizontal": false
     },
     {
@@ -19870,7 +19870,7 @@ export const cards = [
         "setName": "Streets of Hogsmeade",
         "releaseDate": "11-2022",
         "rulings": [],
-        "imgSrc": "DervishAndBanges.jpg",
+        "imgSrc": "DervishAndBanges.png",
         "horizontal": true
     },
     {
@@ -19902,7 +19902,7 @@ export const cards = [
                 "ruling": "If you play the chosen card type for your third, fourth, etc., Action, as long as the card played is 1) played using an action and 2) the second of that type of card played that turn, you get an extra Action as long as you have not triggered this ability this turn. The first card of that type does not need to be played using an action, and the card played which triggers this effect does not need to be the second action of the turn."
             }
         ],
-        "imgSrc": "HogsmeadeStation.jpg",
+        "imgSrc": "HogsmeadeStation.png",
         "horizontal": true
     },
     {
@@ -19935,7 +19935,7 @@ export const cards = [
                 "ruling": "You must have the proper amount of Power and the proper Lesson type to play a Candy card from your discard pile. "
             }
         ],
-        "imgSrc": "Honeydukes.jpg",
+        "imgSrc": "Honeydukes.png",
         "horizontal": true
     },
     {
@@ -19975,7 +19975,7 @@ export const cards = [
                 "ruling": "Madam Rosmerta triggers during any opponents' turn."
             }
         ],
-        "imgSrc": "MadamRosmerta.jpg",
+        "imgSrc": "MadamRosmerta.png",
         "horizontal": true
     },
     {
@@ -20005,7 +20005,7 @@ export const cards = [
         "setName": "Streets of Hogsmeade",
         "releaseDate": "11-2022",
         "rulings": [],
-        "imgSrc": "CometTwoNinety.jpg",
+        "imgSrc": "CometTwoNinety.png",
         "horizontal": true
     },
     {
@@ -20021,7 +20021,7 @@ export const cards = [
         "note": "Play this card only if a non-Hogsmeade Location is in play.",
         "flavorText": "''See you in Honeydukes,' said George, winking.'",
         "rarity": "Uncommon",
-        "artist": "Mary GrandPr\u00e9",
+        "artist": "Mary GrandPré",
         "effect": [
             "Search your deck. You may take a Hogsmeade Location from your deck and put it into play. Then shuffle your deck."
         ],
@@ -20031,10 +20031,10 @@ export const cards = [
             {
                 "date": "2020-07-31",
                 "source": "Revival",
-                "ruling": "When you play a Location using Kheshakhassa, you will still discard any Location that is already in play, as you will need to follow the effect on the Location you play to discard any other Location in play (yours or an opponent\u0092s)."
+                "ruling": "When you play a Location using Kheshakhassa, you will still discard any Location that is already in play, as you will need to follow the effect on the Location you play to discard any other Location in play (yours or an opponents)."
             }
         ],
-        "imgSrc": "Dissendium.jpg",
+        "imgSrc": "Dissendium.png",
         "horizontal": false
     },
     {
@@ -20064,7 +20064,7 @@ export const cards = [
                 "ruling": "Using one Action to play two cards of the chosen type triggers On the Hogwarts Express. E.G. If you use Hermione, Potion Maker to put two different Lessons into play, you gain an extra Action from On the Hogwarts Express if you have chosen Lesson as your card type."
             }
         ],
-        "imgSrc": "OnTheHogwartsExpress.jpg",
+        "imgSrc": "OnTheHogwartsExpress.png",
         "horizontal": true
     },
     {
@@ -20091,7 +20091,7 @@ export const cards = [
         "setName": "Streets of Hogsmeade",
         "releaseDate": "11-2022",
         "rulings": [],
-        "imgSrc": "TheShriekingShack.jpg",
+        "imgSrc": "TheShriekingShack.png",
         "horizontal": true
     },
     {
@@ -20109,9 +20109,9 @@ export const cards = [
             "Unique"
         ],
         "note": "When you play this card, discard any other Location from play (yours or an opponent's).",
-        "flavorText": "'Shall we go for a butterbeer in the Three Broomsticks?' \u0097 Ron Weasley",
+        "flavorText": "'Shall we go for a butterbeer in the Three Broomsticks?'  Ron Weasley",
         "rarity": "Uncommon",
-        "artist": "Mary GrandPr\u00e9",
+        "artist": "Mary GrandPré",
         "effect": [
             "At the end of each player's turn, if they put any number of cards into their deck, they may prevent up to 4 damage done to them during their opponent's next turn."
         ],
@@ -20121,10 +20121,10 @@ export const cards = [
             {
                 "date": "2022-11-01",
                 "source": "Revival",
-                "ruling": "This card creates a lingering effect that remains until either you\u0092ve prevented 4 damage during your opponent\u0092s next turn, or it is the end of your opponent\u0092s next turn, even if The Three Broomsticks Inn is discarded from play."
+                "ruling": "This card creates a lingering effect that remains until either youve prevented 4 damage during your opponents next turn, or it is the end of your opponents next turn, even if The Three Broomsticks Inn is discarded from play."
             }
         ],
-        "imgSrc": "TheThreeBroomsticksInn.jpg",
+        "imgSrc": "TheThreeBroomsticksInn.png",
         "horizontal": true
     },
     {
@@ -20140,7 +20140,7 @@ export const cards = [
         "subTypes": [
             "Candy"
         ],
-        "flavorText": "'Breathe fire for your friends!' \u0097 Pepper Imps",
+        "flavorText": "'Breathe fire for your friends!'  Pepper Imps",
         "rarity": "Common",
         "artist": "TonyBWizardly",
         "effect": [
@@ -20149,7 +20149,7 @@ export const cards = [
         "setName": "Streets of Hogsmeade",
         "releaseDate": "11-2022",
         "rulings": [],
-        "imgSrc": "AcidPops.jpg",
+        "imgSrc": "AcidPops.png",
         "horizontal": false
     },
     {
@@ -20185,7 +20185,7 @@ export const cards = [
         "subTypes": [
             "Healing"
         ],
-        "flavorText": "'Butterbeer! Yeah, I like that stuff!' \u0097 Harry Potter",
+        "flavorText": "'Butterbeer! Yeah, I like that stuff!'  Harry Potter",
         "rarity": "Common",
         "artist": "Poiv",
         "effect": [
@@ -20200,7 +20200,7 @@ export const cards = [
                 "ruling": "You cannot play cards that require you to draw after playing this card. E.g., If you play Butterbeer, you may not then play Rose Growth because you cannot draw a card."
             }
         ],
-        "imgSrc": "Butterbeer.jpg",
+        "imgSrc": "Butterbeer.png",
         "horizontal": false
     },
     {
@@ -20213,7 +20213,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'The villagers heard the noise and the screaming and thought they were hearing particularly violent spirits.' \u0097 Professor Remus Lupin",
+        "flavorText": "'The villagers heard the noise and the screaming and thought they were hearing particularly violent spirits.'  Professor Remus Lupin",
         "rarity": "Common",
         "artist": "Danikatze",
         "effect": [
@@ -20222,7 +20222,7 @@ export const cards = [
         "setName": "Streets of Hogsmeade",
         "releaseDate": "11-2022",
         "rulings": [],
-        "imgSrc": "HauntingScreams.jpg",
+        "imgSrc": "HauntingScreams.png",
         "horizontal": false
     },
     {
@@ -20235,7 +20235,7 @@ export const cards = [
         "type": [
             "Spell"
         ],
-        "flavorText": "'Please give the enclosed permission form to your parent or guardian to sign.' \u0097 Professor McGonagall",
+        "flavorText": "'Please give the enclosed permission form to your parent or guardian to sign.'  Professor McGonagall",
         "rarity": "Common",
         "artist": "CaptainJackHarkness",
         "effect": [
@@ -20247,10 +20247,10 @@ export const cards = [
             {
                 "date": "2022-11-01",
                 "source": "Revival",
-                "ruling": "If you don\u0092t have a Lesson in your hand to put into play, you cannot play Permission Form."
+                "ruling": "If you dont have a Lesson in your hand to put into play, you cannot play Permission Form."
             }
         ],
-        "imgSrc": "PermissionForm.jpg",
+        "imgSrc": "PermissionForm.png",
         "horizontal": false
     },
     {
@@ -20267,7 +20267,7 @@ export const cards = [
             "Candy",
             "Healing"
         ],
-        "flavorText": "'Mum and Dad would really love those Toothflossing Stringmints from Honeydukes!' \u0097 Hermione Granger",
+        "flavorText": "'Mum and Dad would really love those Toothflossing Stringmints from Honeydukes!'  Hermione Granger",
         "rarity": "Common",
         "artist": "mechinism",
         "effect": [
@@ -20276,7 +20276,7 @@ export const cards = [
         "setName": "Streets of Hogsmeade",
         "releaseDate": "11-2022",
         "rulings": [],
-        "imgSrc": "ToothflossingStringmints.jpg",
+        "imgSrc": "ToothflossingStringmints.png",
         "horizontal": false
     },
     {
@@ -20303,7 +20303,7 @@ export const cards = [
         "setName": "Streets of Hogsmeade",
         "releaseDate": "11-2022",
         "rulings": [],
-        "imgSrc": "Werewolf.jpg",
+        "imgSrc": "Werewolf.png",
         "horizontal": true
     }
 ]
