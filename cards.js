@@ -16456,7 +16456,7 @@ export const cards = [
                 "ruling": "This card only sees card types played when it enters and afterwards. It does not count card types played before it entered play."
             }
         ],
-        "imgSrc": "McgonagallsOffice.png",
+        "imgSrc": "McGonagallsOffice.png",
         "horizontal": true
     },
     {
