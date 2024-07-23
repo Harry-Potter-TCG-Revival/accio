@@ -2512,7 +2512,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "TrollintheBathroom.png",
+        "imgSrc": "TrollInTheBathroom.png",
         "horizontal": true
     },
     {
@@ -11865,7 +11865,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "DoubleendedNewt.png",
+        "imgSrc": "DoubleEndedNewt.png",
         "horizontal": true
     },
     {
@@ -12122,7 +12122,7 @@ export const cards = [
                 "ruling": "Once a Match is won, its effects cannot be used. Neither player may continue to use the Matchs effect to prevent damage."
             }
         ],
-        "imgSrc": "InterhouseFinal.png",
+        "imgSrc": "InterHouseFinal.png",
         "horizontal": true
     },
     {
@@ -14409,7 +14409,7 @@ export const cards = [
                 "ruling": "A card that loses all abilities means that card retains its card type, name, and keywords but loses everything else (such as effects and Power provided). Creatures, however, retain health and damage per turn."
             }
         ],
-        "imgSrc": "Mis-brewedPolyjuice.png",
+        "imgSrc": "Mis-BrewedPolyjuice.png",
         "horizontal": false
     },
     {
@@ -14584,7 +14584,7 @@ export const cards = [
                 "ruling": "Your opponents do not need to take a Lesson from their deck. This is optional. They do, however, still need to shuffle their deck as they were required to search through it."
             }
         ],
-        "imgSrc": "Pre-matchHandshake.png",
+        "imgSrc": "Pre-MatchHandshake.png",
         "horizontal": false
     },
     {
@@ -14713,7 +14713,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "Skele-gro.png",
+        "imgSrc": "Skele-Gro.png",
         "horizontal": false
     },
     {
@@ -18434,7 +18434,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "ProfMinervaMcgonagall.png",
+        "imgSrc": "ProfMinervaMcGonagall.png",
         "horizontal": true
     },
     {
