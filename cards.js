@@ -168,7 +168,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "EndofyearFeast.jpg",
+        "imgSrc": "EndOfYearFeast.jpg",
         "horizontal": false
     },
     {
@@ -1287,7 +1287,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "AnticheatingSpell.jpg",
+        "imgSrc": "AntiCheatingSpell.jpg",
         "horizontal": false
     },
     {
@@ -1481,7 +1481,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "EveryflavourBeans.jpg",
+        "imgSrc": "EveryFlavourBeans.jpg",
         "horizontal": false
     },
     {
@@ -1600,7 +1600,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "Looptheloops.jpg",
+        "imgSrc": "LoopTheLoops.jpg",
         "horizontal": false
     },
     {
@@ -3523,7 +3523,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "PomfreysPickmeup.png",
+        "imgSrc": "PomfreysPickMeUp.png",
         "horizontal": false
     },
     {
@@ -4996,7 +4996,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DegnomingTheGarden.jpeg",
+        "imgSrc": "DeGnomingTheGarden.jpeg",
         "horizontal": true
     },
     {
@@ -5062,7 +5062,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DoublebeaterDefence.jpeg",
+        "imgSrc": "DoubleBeaterDefence.jpeg",
         "horizontal": false
     },
     {
@@ -5542,7 +5542,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "JustinFinchfletchley.jpeg",
+        "imgSrc": "JustinFinchFletchley.jpeg",
         "horizontal": true
     },
     {
@@ -6338,7 +6338,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DragondungCompost.jpeg",
+        "imgSrc": "DragonDungCompost.jpeg",
         "horizontal": true
     },
     {
@@ -6514,7 +6514,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "LockhartsHaircarePotions.jpeg",
+        "imgSrc": "LockhartsHairCarePotions.jpeg",
         "horizontal": true
     },
     {
@@ -6632,7 +6632,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Pureblood.jpeg",
+        "imgSrc": "PureBlood.jpeg",
         "horizontal": false
     },
     {
@@ -6681,7 +6681,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "RainydayMatch.jpeg",
+        "imgSrc": "RainyDayMatch.jpeg",
         "horizontal": true
     },
     {
@@ -6704,7 +6704,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SecondhandRobeShop.jpeg",
+        "imgSrc": "SecondHandRobeShop.jpeg",
         "horizontal": true
     },
     {
@@ -6728,7 +6728,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SelfshufflingCards.jpeg",
+        "imgSrc": "SelfShufflingCards.jpeg",
         "horizontal": true
     },
     {
@@ -6922,7 +6922,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "WindydayMatch.jpeg",
+        "imgSrc": "WindyDayMatch.jpeg",
         "horizontal": true
     },
     {
@@ -7134,7 +7134,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DeathcapDraught.jpeg",
+        "imgSrc": "DeathCapDraught.jpeg",
         "horizontal": false
     },
     {
@@ -7416,7 +7416,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "HairraisingPotion.jpeg",
+        "imgSrc": "HairRaisingPotion.jpeg",
         "horizontal": false
     },
     {
@@ -7853,7 +7853,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SlowactingVenom.jpeg",
+        "imgSrc": "SlowActingVenom.jpeg",
         "horizontal": true
     },
     {
@@ -8181,7 +8181,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "ColourchangingInk.jpeg",
+        "imgSrc": "ColourChangingInk.jpeg",
         "horizontal": true
     },
     {
@@ -8236,7 +8236,7 @@ export const cards = [
                 "ruling": "First figure out any damage enhancers, then figure out any damage reducers. This effect would happen after Rubeus Hagrid\u0092s effect triggers."
             }
         ],
-        "imgSrc": "DragonhideGloves.jpeg",
+        "imgSrc": "DragonHideGloves.jpeg",
         "horizontal": true
     },
     {
@@ -8675,7 +8675,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "SelfstirringCauldron.jpeg",
+        "imgSrc": "SelfStirringCauldron.jpeg",
         "horizontal": true
     },
     {
@@ -8800,7 +8800,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "ThreemonthlongMatch.jpeg",
+        "imgSrc": "ThreeMonthLongMatch.jpeg",
         "horizontal": true
     },
     {
@@ -9075,7 +9075,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Frogspawn.jpeg",
+        "imgSrc": "FrogSpawn.jpeg",
         "horizontal": false
     },
     {
@@ -9642,7 +9642,7 @@ export const cards = [
                 "ruling": "If you have no card to discard, you cannot play this card. You must be able to do everything on a card to play it."
             }
         ],
-        "imgSrc": "MidairCollision.jpeg",
+        "imgSrc": "MidAirCollision.jpeg",
         "horizontal": false
     },
     {
@@ -15386,7 +15386,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "BlacksBreakin.png",
+        "imgSrc": "BlacksBreakIn.png",
         "horizontal": false
     },
     {
@@ -15795,7 +15795,7 @@ export const cards = [
                 "ruling": "The specific part of the card effect that caused your last card to leave your deck is considered finished when Secret-Keeper\u0092s ability triggers, but any other parts of the effect unrelated to that still resolve. (e.g. Blue Wig will still let you draw a card even if Secret-Keeper stops the damage when you have 1 card left in your deck.)"
             }
         ],
-        "imgSrc": "Secretkeeper.png",
+        "imgSrc": "SecretKeeper.png",
         "horizontal": true
     },
     {
@@ -16237,7 +16237,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "HandbookOfDoityourselfBroomcare.png",
+        "imgSrc": "HandbookOfDoItYourselfBroomcare.png",
         "horizontal": true
     },
     {
@@ -18455,7 +18455,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Putouter.jpeg",
+        "imgSrc": "PutOuter.jpeg",
         "horizontal": true
     },
     {
@@ -18581,7 +18581,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "StartoftermFeast.jpeg",
+        "imgSrc": "StartOfTermFeast.jpeg",
         "horizontal": false
     },
     {
