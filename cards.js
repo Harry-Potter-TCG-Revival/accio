@@ -7965,7 +7965,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Zigzag.jpeg",
+        "imgSrc": "ZigZag.jpeg",
         "horizontal": false
     },
     {
