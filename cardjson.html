@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convert Cards to JSON</title>
+</head>
+<body>
+  <h1>Convert Cards to JSON</h1>
+  <button id="downloadBtn">Download cards.json</button>
+  <script type="module">
+    import { cards } from './cards.js';
+
+    function downloadJSON(data, filename) {
+      const jsonData = JSON.stringify(data, null, 2);
+      const blob = new Blob([jsonData], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    document.getElementById('downloadBtn').addEventListener('click', () => {
+      downloadJSON(cards, 'cards.json');
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      downloadJSON(cards, 'cards.json');
+    });
+  </script>
+</body>
+</html>
