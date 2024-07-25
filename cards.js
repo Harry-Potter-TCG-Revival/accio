@@ -24,7 +24,7 @@ export const cards = [
                 "ruling": "His effect will only take effect if you have at least 4 Lesson cards in play. Cards that provide power will not count toward Dumbeldores effect."
             }
         ],
-        "imgSrc": "AlbusDumbledore.png",
+        "imgSrc": "albus-dumbledore.png",
         "horizontal": true
     },
     {
@@ -45,7 +45,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "ArgusFilch.png",
+        "imgSrc": "argus-filch.png",
         "horizontal": true
     },
     {
@@ -68,7 +68,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "CrabbeAndGoyle.png",
+        "imgSrc": "crabbe-and-goyle.png",
         "horizontal": true
     },
     {
@@ -89,7 +89,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "Detention!.png",
+        "imgSrc": "detention.png",
         "horizontal": true
     },
     {
@@ -111,7 +111,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "DragonsBlood.png",
+        "imgSrc": "dragons-blood.png",
         "horizontal": false
     },
     {
@@ -146,7 +146,7 @@ export const cards = [
                 "ruling": "If it is your turn when this card activates, then you choose what order things happen."
             }
         ],
-        "imgSrc": "DumbledoresWatch.png",
+        "imgSrc": "dumbledores-watch.png",
         "horizontal": true
     },
     {
@@ -168,7 +168,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "EndOfYearFeast.png",
+        "imgSrc": "end-of-year-feast.png",
         "horizontal": false
     },
     {
@@ -196,7 +196,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "Fang.png",
+        "imgSrc": "fang.png",
         "horizontal": true
     },
     {
@@ -217,7 +217,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "FindingThePlatform.png",
+        "imgSrc": "finding-the-platform.png",
         "horizontal": true
     },
     {
@@ -247,7 +247,7 @@ export const cards = [
                 "ruling": "If this card is in play Before your turn, you must discard it and add the extra Actions to your Action count for the turn (this is not optional)."
             }
         ],
-        "imgSrc": "Galleon.png",
+        "imgSrc": "galleon.png",
         "horizontal": true
     },
     {
@@ -273,7 +273,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "GreatHall.png",
+        "imgSrc": "great-hall.png",
         "horizontal": true
     },
     {
@@ -305,7 +305,7 @@ export const cards = [
                 "ruling": "If you must discard this and a similar Lesson at the same time, and it is your turn, you choose the order. If it's your opponents turn, they choose the order of how things are discarded."
             }
         ],
-        "imgSrc": "HagridsHouse.png",
+        "imgSrc": "hagrids-house.png",
         "horizontal": true
     },
     {
@@ -329,7 +329,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "HarryTriumphant.png",
+        "imgSrc": "harry-triumphant.png",
         "horizontal": true
     },
     {
@@ -358,7 +358,7 @@ export const cards = [
                 "ruling": "In regards to Hagrid Needs Help: read the Adventure as Assign 8 damage to yourself. So after you assign the damage, then you can choose to prevent the damage, but all 8 counts toward solving the Adventure, even if this card this card prevents 4 of that damage."
             }
         ],
-        "imgSrc": "HospitalDormitory.png",
+        "imgSrc": "hospital-dormitory.png",
         "horizontal": true
     },
     {
@@ -380,7 +380,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "HutOnTheRock.png",
+        "imgSrc": "hut-on-the-rock.png",
         "horizontal": true
     },
     {
@@ -403,7 +403,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "MadamPomfrey.png",
+        "imgSrc": "madam-pomfrey.png",
         "horizontal": true
     },
     {
@@ -436,7 +436,7 @@ export const cards = [
                 "ruling": "Your opponent cannot solve this unless they have at least 3 cards in play (not including their starting Character)."
             }
         ],
-        "imgSrc": "MeetingFluffy.png",
+        "imgSrc": "meeting-fluffy.png",
         "horizontal": true
     },
     {
@@ -464,7 +464,7 @@ export const cards = [
                 "ruling": "If your opponent doesnt have a second card in their hand, they cannot play a Creature or Spell card."
             }
         ],
-        "imgSrc": "MidnightDuel.png",
+        "imgSrc": "midnight-duel.png",
         "horizontal": true
     },
     {
@@ -488,7 +488,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "MirrorOfErised.png",
+        "imgSrc": "mirror-of-erised.png",
         "horizontal": true
     },
     {
@@ -521,7 +521,7 @@ export const cards = [
                 "ruling": "You can use this card even if you dont have any cards in your hand."
             }
         ],
-        "imgSrc": "Peeves.png",
+        "imgSrc": "peeves.png",
         "horizontal": true
     },
     {
@@ -557,7 +557,7 @@ export const cards = [
                 "ruling": "If you are under an effect that says you cant use Actions to play Lesson cards, then you cannot use Stones effect. You must do everything a card says or you cannot play the card."
             }
         ],
-        "imgSrc": "PhilosophersStone.png",
+        "imgSrc": "philosophers-stone.png",
         "horizontal": true
     },
     {
@@ -589,7 +589,7 @@ export const cards = [
                 "ruling": "If you must discard this and a similar Lesson at the same time, and it is your turn, you choose the order. If it's your opponents turn, they choose the order of how things are discarded."
             }
         ],
-        "imgSrc": "PotionsDungeon.png",
+        "imgSrc": "potions-dungeon.png",
         "horizontal": true
     },
     {
@@ -613,7 +613,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "QuidditchCup.png",
+        "imgSrc": "quidditch-cup.png",
         "horizontal": true
     },
     {
@@ -636,7 +636,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "QuidditchPitch.png",
+        "imgSrc": "quidditch-pitch.png",
         "horizontal": true
     },
     {
@@ -663,7 +663,7 @@ export const cards = [
                 "ruling": "Your opponent can solve this before their Creatures do damage."
             }
         ],
-        "imgSrc": "RidingTheCentaur.png",
+        "imgSrc": "riding-the-centaur.png",
         "horizontal": true
     },
     {
@@ -686,7 +686,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "RonTheBrave.png",
+        "imgSrc": "ron-the-brave.png",
         "horizontal": true
     },
     {
@@ -713,7 +713,7 @@ export const cards = [
                 "ruling": "Healing cards in play can have their effects activated, as playing a card only counts when the card enters the field."
             }
         ],
-        "imgSrc": "StoatSandwiches.png",
+        "imgSrc": "stoat-sandwiches.png",
         "horizontal": true
     },
     {
@@ -735,7 +735,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "TheFatLady.png",
+        "imgSrc": "the-fat-lady.png",
         "horizontal": true
     },
     {
@@ -756,7 +756,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "VoldemortRevealed.png",
+        "imgSrc": "voldemort-revealed.png",
         "horizontal": true
     },
     {
@@ -783,7 +783,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "WelshGreenDragon.png",
+        "imgSrc": "welsh-green-dragon.png",
         "horizontal": true
     },
     {
@@ -805,7 +805,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "5PointsFromGryffindor.png",
+        "imgSrc": "5-points-from-gryffindor.png",
         "horizontal": true
     },
     {
@@ -827,7 +827,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "Alohomora.png",
+        "imgSrc": "alohomora.png",
         "horizontal": false
     },
     {
@@ -848,7 +848,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "BaneberryPotion.png",
+        "imgSrc": "baneberry-potion.png",
         "horizontal": false
     },
     {
@@ -873,7 +873,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "BludgerBop.png",
+        "imgSrc": "bludger-bop.png",
         "horizontal": false
     },
     {
@@ -895,7 +895,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "CandyCart.png",
+        "imgSrc": "candy-cart.png",
         "horizontal": true
     },
     {
@@ -925,7 +925,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "CollapsibleCauldron.png",
+        "imgSrc": "collapsible-cauldron.png",
         "horizontal": true
     },
     {
@@ -947,7 +947,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "FlyingMotorbike.png",
+        "imgSrc": "flying-motorbike.png",
         "horizontal": false
     },
     {
@@ -968,7 +968,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "FlyingPractice.png",
+        "imgSrc": "flying-practice.png",
         "horizontal": true
     },
     {
@@ -994,7 +994,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "ForbiddenCorridor.png",
+        "imgSrc": "forbidden-corridor.png",
         "horizontal": true
     },
     {
@@ -1017,7 +1017,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "GiantSquid.png",
+        "imgSrc": "giant-squid.png",
         "horizontal": true
     },
     {
@@ -1038,7 +1038,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "LookingForTrevor.png",
+        "imgSrc": "looking-for-trevor.png",
         "horizontal": true
     },
     {
@@ -1071,7 +1071,7 @@ export const cards = [
                 "ruling": "If you play a card like Dog Bite when your opponent has no Creatures in play, Dog Bite says that the Creatures do damage, so their bonus damage will trigger."
             }
         ],
-        "imgSrc": "MarbleGargoyle.png",
+        "imgSrc": "marble-gargoyle.png",
         "horizontal": true
     },
     {
@@ -1102,7 +1102,7 @@ export const cards = [
                 "ruling": "You must discard a card with the intent of discarding for this Match. You cannot discard a card for another reason and count it toward this Matchs progress. (See Beaters Bat)"
             }
         ],
-        "imgSrc": "MuddyPractice.png",
+        "imgSrc": "muddy-practice.png",
         "horizontal": true
     },
     {
@@ -1124,7 +1124,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "PurpleFirecrackers.png",
+        "imgSrc": "purple-firecrackers.png",
         "horizontal": false
     },
     {
@@ -1146,7 +1146,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "RunningFromFilch.png",
+        "imgSrc": "running-from-filch.png",
         "horizontal": true
     },
     {
@@ -1176,7 +1176,7 @@ export const cards = [
                 "ruling": "If this card is in play Before your turn, you must discard it and add the extra Actions to your Action count for the turn (this is not optional)."
             }
         ],
-        "imgSrc": "Sickle.png",
+        "imgSrc": "sickle.png",
         "horizontal": true
     },
     {
@@ -1200,7 +1200,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "StarGrassSalve.png",
+        "imgSrc": "star-grass-salve.png",
         "horizontal": false
     },
     {
@@ -1221,7 +1221,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "ThroughTheTrapdoor.png",
+        "imgSrc": "through-the-trapdoor.png",
         "horizontal": true
     },
     {
@@ -1243,7 +1243,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "WinterHoliday.png",
+        "imgSrc": "winter-holiday.png",
         "horizontal": false
     },
     {
@@ -1265,7 +1265,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "WoodenFlute.png",
+        "imgSrc": "wooden-flute.png",
         "horizontal": false
     },
     {
@@ -1287,7 +1287,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "AntiCheatingSpell.png",
+        "imgSrc": "anti-cheating-spell.png",
         "horizontal": false
     },
     {
@@ -1309,7 +1309,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "BewitchedSnowballs.png",
+        "imgSrc": "bewitched-snowballs.png",
         "horizontal": false
     },
     {
@@ -1341,7 +1341,7 @@ export const cards = [
                 "ruling": "For the When you play this cardeffect, Black Bat is doing the damage, not you."
             }
         ],
-        "imgSrc": "BlackBat.png",
+        "imgSrc": "black-bat.png",
         "horizontal": true
     },
     {
@@ -1363,7 +1363,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "BuckingBroomstick.png",
+        "imgSrc": "bucking-broomstick.png",
         "horizontal": false
     },
     {
@@ -1389,7 +1389,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "CauldronCakes.png",
+        "imgSrc": "cauldron-cakes.png",
         "horizontal": false
     },
     {
@@ -1411,7 +1411,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "CharmsAccident.png",
+        "imgSrc": "charms-accident.png",
         "horizontal": false
     },
     {
@@ -1434,7 +1434,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "Chimaera.png",
+        "imgSrc": "chimaera.png",
         "horizontal": true
     },
     {
@@ -1456,7 +1456,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "DogBite.jpg",
+        "imgSrc": "dog-bite.png",
         "horizontal": false
     },
     {
@@ -1481,7 +1481,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "EveryFlavourBeans.png",
+        "imgSrc": "every-flavour-beans.png",
         "horizontal": false
     },
     {
@@ -1503,7 +1503,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "FireProtectionPotion.png",
+        "imgSrc": "fire-protection-potion.png",
         "horizontal": false
     },
     {
@@ -1524,7 +1524,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "FungifacePotion.png",
+        "imgSrc": "fungiface-potion.png",
         "horizontal": false
     },
     {
@@ -1554,7 +1554,7 @@ export const cards = [
                 "ruling": "If this card is in play Before your turn, you must discard it and add the extra Actions to your Action count for the turn (this is not optional)."
             }
         ],
-        "imgSrc": "Knut.png",
+        "imgSrc": "knut.png",
         "horizontal": true
     },
     {
@@ -1578,7 +1578,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "LiquoriceWand.png",
+        "imgSrc": "liquorice-wand.png",
         "horizontal": false
     },
     {
@@ -1600,7 +1600,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "LoopTheLoops.png",
+        "imgSrc": "loop-the-loops.png",
         "horizontal": false
     },
     {
@@ -1621,7 +1621,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "ManegroPotion.png",
+        "imgSrc": "manegro-potion.png",
         "horizontal": false
     },
     {
@@ -1642,7 +1642,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "MufflingDraught.png",
+        "imgSrc": "muffling-draught.png",
         "horizontal": false
     },
     {
@@ -1664,7 +1664,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "OwlPost.png",
+        "imgSrc": "owl-post.png",
         "horizontal": false
     },
     {
@@ -1686,7 +1686,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "PhotoAlbum.png",
+        "imgSrc": "photo-album.png",
         "horizontal": true
     },
     {
@@ -1719,7 +1719,7 @@ export const cards = [
                 "ruling": "If you play a card like Dog Bite when your opponent has no Creatures in play, Dog Bite says that the Creatures do damage, so their bonus damage will trigger."
             }
         ],
-        "imgSrc": "SandstoneGargoyle.png",
+        "imgSrc": "sandstone-gargoyle.png",
         "horizontal": true
     },
     {
@@ -1743,7 +1743,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "SchoolBroom.png",
+        "imgSrc": "school-broom.png",
         "horizontal": true
     },
     {
@@ -1764,7 +1764,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "Scribblifors.png",
+        "imgSrc": "scribblifors.png",
         "horizontal": false
     },
     {
@@ -1785,7 +1785,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "SleepingPotion.png",
+        "imgSrc": "sleeping-potion.png",
         "horizontal": false
     },
     {
@@ -1807,7 +1807,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "SwitchingSpell.png",
+        "imgSrc": "switching-spell.png",
         "horizontal": false
     },
     {
@@ -1829,7 +1829,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "TrollBogies.png",
+        "imgSrc": "troll-bogies.png",
         "horizontal": false
     },
     {
@@ -1851,7 +1851,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "VanishingStep.png",
+        "imgSrc": "vanishing-step.png",
         "horizontal": false
     },
     {
@@ -1877,7 +1877,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "CareOfMagicalCreatures.png",
+        "imgSrc": "care-of-magical-creatures.png",
         "horizontal": true
     },
     {
@@ -1903,7 +1903,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "Charms.png",
+        "imgSrc": "charms.png",
         "horizontal": true
     },
     {
@@ -1929,7 +1929,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "Potions.png",
+        "imgSrc": "potions.png",
         "horizontal": true
     },
     {
@@ -1955,7 +1955,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "Quidditch.png",
+        "imgSrc": "quidditch.png",
         "horizontal": true
     },
     {
@@ -1981,7 +1981,7 @@ export const cards = [
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
         "rulings": [],
-        "imgSrc": "Transfiguration.png",
+        "imgSrc": "transfiguration.png",
         "horizontal": true
     },
     {
@@ -2004,7 +2004,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "DeanThomas.png",
+        "imgSrc": "dean-thomas.png",
         "horizontal": true
     },
     {
@@ -2033,7 +2033,7 @@ export const cards = [
                 "ruling": "If a card states \"You may use an Action to...\" you may use that ability as many times as you have Actions."
             }
         ],
-        "imgSrc": "DracoMalfoy.png",
+        "imgSrc": "draco-malfoy.png",
         "horizontal": true
     },
     {
@@ -2062,7 +2062,7 @@ export const cards = [
                 "ruling": "If a card states \"You may use an Action to...\" you may use that ability as many times as you have Actions."
             }
         ],
-        "imgSrc": "DracoMalfoyV2.png",
+        "imgSrc": "draco-malfoy-v2.png",
         "horizontal": true
     },
     {
@@ -2091,7 +2091,7 @@ export const cards = [
                 "ruling": "If a card states \"You may use an Action to...\" you may use that ability as many times as you have Actions."
             }
         ],
-        "imgSrc": "DracoMalfoyV3.png",
+        "imgSrc": "draco-malfoy-v3.png",
         "horizontal": true
     },
     {
@@ -2112,7 +2112,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "DragonsEscape.png",
+        "imgSrc": "dragons-escape.png",
         "horizontal": true
     },
     {
@@ -2137,7 +2137,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "ElixirOfLife.png",
+        "imgSrc": "elixir-of-life.png",
         "horizontal": false
     },
     {
@@ -2159,7 +2159,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "GringottsCartRide.png",
+        "imgSrc": "gringotts-cart-ride.png",
         "horizontal": true
     },
     {
@@ -2182,7 +2182,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "HannahAbbott.png",
+        "imgSrc": "hannah-abbott.png",
         "horizontal": true
     },
     {
@@ -2211,7 +2211,7 @@ export const cards = [
                 "ruling": "This ability changes the number of cards you draw, not what you are using the Action for."
             }
         ],
-        "imgSrc": "HarryPotter.png",
+        "imgSrc": "harry-potter.png",
         "horizontal": true
     },
     {
@@ -2234,7 +2234,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "HermioneGranger.png",
+        "imgSrc": "hermione-granger.png",
         "horizontal": true
     },
     {
@@ -2257,7 +2257,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "HermioneGrangerV2.png",
+        "imgSrc": "hermione-granger-v2.png",
         "horizontal": true
     },
     {
@@ -2280,7 +2280,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "HermioneGrangerV3.png",
+        "imgSrc": "hermione-granger-v3.png",
         "horizontal": true
     },
     {
@@ -2301,7 +2301,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "HumanChessGame.png",
+        "imgSrc": "human-chess-game.png",
         "horizontal": true
     },
     {
@@ -2326,7 +2326,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "InvisibilityCloak.png",
+        "imgSrc": "invisibility-cloak.png",
         "horizontal": true
     },
     {
@@ -2349,7 +2349,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "NearlyHeadlessNick.png",
+        "imgSrc": "nearly-headless-nick.png",
         "horizontal": true
     },
     {
@@ -2371,7 +2371,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Obliviate.png",
+        "imgSrc": "obliviate.png",
         "horizontal": false
     },
     {
@@ -2400,7 +2400,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "ProfessorFiliusFlitwick.png",
+        "imgSrc": "professor-filius-flitwick.png",
         "horizontal": true
     },
     {
@@ -2430,7 +2430,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "ProfessorSeverusSnape.png",
+        "imgSrc": "professor-severus-snape.png",
         "horizontal": true
     },
     {
@@ -2453,7 +2453,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "RonWeasley.png",
+        "imgSrc": "ron-weasley.png",
         "horizontal": true
     },
     {
@@ -2490,7 +2490,7 @@ export const cards = [
                 "ruling": "If you have Into the Forbidden Forest and Rubeus Hagrid in play, you can first have the Adventure trigger, then Rubeus Hagrid. This means a Creature that normally does 2 damage would do 1 additional damage from the Adventure, and then Hagrids effect would trigger."
             }
         ],
-        "imgSrc": "RubeusHagrid.png",
+        "imgSrc": "rubeus-hagrid.png",
         "horizontal": true
     },
     {
@@ -2512,7 +2512,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "TrollInTheBathroom.png",
+        "imgSrc": "troll-in-the-bathroom.png",
         "horizontal": true
     },
     {
@@ -2538,7 +2538,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Unicorn.png",
+        "imgSrc": "unicorn.png",
         "horizontal": true
     },
     {
@@ -2564,7 +2564,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "DeliveryOwl.png",
+        "imgSrc": "delivery-owl.png",
         "horizontal": true
     },
     {
@@ -2586,7 +2586,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "DraughtOfLivingDeath.png",
+        "imgSrc": "draught-of-living-death.png",
         "horizontal": false
     },
     {
@@ -2607,7 +2607,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "HarryHunting.png",
+        "imgSrc": "harry-hunting.png",
         "horizontal": true
     },
     {
@@ -2629,7 +2629,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "HistoryOfMagic.png",
+        "imgSrc": "history-of-magic.png",
         "horizontal": false
     },
     {
@@ -2650,7 +2650,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Incendio.png",
+        "imgSrc": "incendio.png",
         "horizontal": false
     },
     {
@@ -2671,7 +2671,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "MalevolentMixture.png",
+        "imgSrc": "malevolent-mixture.png",
         "horizontal": false
     },
     {
@@ -2693,7 +2693,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "MeetTheCentaurs.png",
+        "imgSrc": "meet-the-centaurs.png",
         "horizontal": true
     },
     {
@@ -2717,7 +2717,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "MountainTroll.png",
+        "imgSrc": "mountain-troll.png",
         "horizontal": true
     },
     {
@@ -2744,7 +2744,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "MrsNorris.png",
+        "imgSrc": "mrs-norris.png",
         "horizontal": true
     },
     {
@@ -2772,7 +2772,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Norbert.png",
+        "imgSrc": "norbert.png",
         "horizontal": true
     },
     {
@@ -2802,7 +2802,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "PhoenixFeatherWand.png",
+        "imgSrc": "phoenix-feather-wand.png",
         "horizontal": true
     },
     {
@@ -2824,7 +2824,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Platform934.png",
+        "imgSrc": "platform-9-34.png",
         "horizontal": false
     },
     {
@@ -2845,7 +2845,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "PotionIngredients.png",
+        "imgSrc": "potion-ingredients.png",
         "horizontal": true
     },
     {
@@ -2866,7 +2866,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "RavenToWritingDesk.png",
+        "imgSrc": "raven-to-writing-desk.png",
         "horizontal": false
     },
     {
@@ -2887,7 +2887,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "ShrinkingPotion.png",
+        "imgSrc": "shrinking-potion.png",
         "horizontal": false
     },
     {
@@ -2908,7 +2908,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Titillando.png",
+        "imgSrc": "titillando.png",
         "horizontal": false
     },
     {
@@ -2929,7 +2929,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "TransfigurationExam.png",
+        "imgSrc": "transfiguration-exam.png",
         "horizontal": false
     },
     {
@@ -2950,7 +2950,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "TransfigurationTest.png",
+        "imgSrc": "transfiguration-test.png",
         "horizontal": false
     },
     {
@@ -2972,7 +2972,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "4PrivetDrive.png",
+        "imgSrc": "4-privet-drive.png",
         "horizontal": true
     },
     {
@@ -2994,7 +2994,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Alchemy.png",
+        "imgSrc": "alchemy.png",
         "horizontal": false
     },
     {
@@ -3015,7 +3015,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Apothecary.png",
+        "imgSrc": "apothecary.png",
         "horizontal": false
     },
     {
@@ -3036,7 +3036,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Apparate.png",
+        "imgSrc": "apparate.png",
         "horizontal": false
     },
     {
@@ -3063,7 +3063,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "BabyDragon.png",
+        "imgSrc": "baby-dragon.png",
         "horizontal": true
     },
     {
@@ -3085,7 +3085,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "BluebellFlames.png",
+        "imgSrc": "bluebell-flames.png",
         "horizontal": false
     },
     {
@@ -3109,7 +3109,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "BurningBitterrootBalm.png",
+        "imgSrc": "burning-bitterroot-balm.png",
         "horizontal": false
     },
     {
@@ -3136,7 +3136,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Cage.png",
+        "imgSrc": "cage.png",
         "horizontal": true
     },
     {
@@ -3157,7 +3157,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Confundus.png",
+        "imgSrc": "confundus.png",
         "horizontal": false
     },
     {
@@ -3185,7 +3185,7 @@ export const cards = [
                 "ruling": "If a card states, \"A player may draw any number of cards\", they must choose how many cards to draw, then draw them all at once. Players cannot draw-look-decide-draw-again-repeat."
             }
         ],
-        "imgSrc": "DiagonAlley.png",
+        "imgSrc": "diagon-alley.png",
         "horizontal": true
     },
     {
@@ -3206,7 +3206,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "DogbreathPotion.png",
+        "imgSrc": "dogbreath-potion.png",
         "horizontal": false
     },
     {
@@ -3227,7 +3227,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "DracosTrick.png",
+        "imgSrc": "dracos-trick.png",
         "horizontal": false
     },
     {
@@ -3257,7 +3257,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "DragonHeartWand.png",
+        "imgSrc": "dragon-heart-wand.png",
         "horizontal": true
     },
     {
@@ -3278,7 +3278,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Fumos.png",
+        "imgSrc": "fumos.png",
         "horizontal": false
     },
     {
@@ -3302,7 +3302,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "GuardDog.png",
+        "imgSrc": "guard-dog.png",
         "horizontal": true
     },
     {
@@ -3323,7 +3323,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "HidingFromSnape.png",
+        "imgSrc": "hiding-from-snape.png",
         "horizontal": true
     },
     {
@@ -3350,7 +3350,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Kelpie.png",
+        "imgSrc": "kelpie.png",
         "horizontal": true
     },
     {
@@ -3372,7 +3372,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "LogicPuzzle.png",
+        "imgSrc": "logic-puzzle.png",
         "horizontal": false
     },
     {
@@ -3394,7 +3394,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "MysteriousEgg.png",
+        "imgSrc": "mysterious-egg.png",
         "horizontal": false
     },
     {
@@ -3416,7 +3416,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Nurture.png",
+        "imgSrc": "nurture.png",
         "horizontal": false
     },
     {
@@ -3438,7 +3438,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Ollivanders.png",
+        "imgSrc": "ollivanders.png",
         "horizontal": false
     },
     {
@@ -3466,7 +3466,7 @@ export const cards = [
                 "ruling": "Your opponent only takes 1 damage regardless of how many cards they draw."
             }
         ],
-        "imgSrc": "PeevesCausesTrouble.png",
+        "imgSrc": "peeves-causes-trouble.png",
         "horizontal": true
     },
     {
@@ -3498,7 +3498,7 @@ export const cards = [
                 "ruling": "This Creature absorbs all damage from a Spell, even if \"Pet Toad\" doesn't have enough health left. Excess damage disappears and \"Pet Toad\" is discarded."
             }
         ],
-        "imgSrc": "PetToad.png",
+        "imgSrc": "pet-toad.png",
         "horizontal": true
     },
     {
@@ -3523,7 +3523,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "PomfreysPickMeUp.png",
+        "imgSrc": "pomfreys-pick-me-up.png",
         "horizontal": false
     },
     {
@@ -3544,7 +3544,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "PotionsExam.png",
+        "imgSrc": "potions-exam.png",
         "horizontal": false
     },
     {
@@ -3566,7 +3566,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "ReptileHouse.png",
+        "imgSrc": "reptile-house.png",
         "horizontal": true
     },
     {
@@ -3596,7 +3596,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "SilverCauldron.png",
+        "imgSrc": "silver-cauldron.png",
         "horizontal": true
     },
     {
@@ -3617,7 +3617,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "SnufflingPotion.png",
+        "imgSrc": "snuffling-potion.png",
         "horizontal": false
     },
     {
@@ -3639,7 +3639,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Stupefy.png",
+        "imgSrc": "stupefy.png",
         "horizontal": false
     },
     {
@@ -3660,7 +3660,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "TakeRoot.png",
+        "imgSrc": "take-root.png",
         "horizontal": false
     },
     {
@@ -3681,7 +3681,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Transmogrify.png",
+        "imgSrc": "transmogrify.png",
         "horizontal": false
     },
     {
@@ -3704,7 +3704,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "UnusualPets.png",
+        "imgSrc": "unusual-pets.png",
         "horizontal": true
     },
     {
@@ -3725,7 +3725,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "VanishingGlass.png",
+        "imgSrc": "vanishing-glass.png",
         "horizontal": false
     },
     {
@@ -3746,7 +3746,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "WingedKeys.png",
+        "imgSrc": "winged-keys.png",
         "horizontal": true
     },
     {
@@ -3768,7 +3768,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Accio.png",
+        "imgSrc": "accio.png",
         "horizontal": false
     },
     {
@@ -3789,7 +3789,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Avifors.png",
+        "imgSrc": "avifors.png",
         "horizontal": false
     },
     {
@@ -3810,7 +3810,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Baubillious.png",
+        "imgSrc": "baubillious.png",
         "horizontal": false
     },
     {
@@ -3834,7 +3834,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "BoaConstrictor.png",
+        "imgSrc": "boa-constrictor.png",
         "horizontal": true
     },
     {
@@ -3859,7 +3859,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "BoilCure.png",
+        "imgSrc": "boil-cure.png",
         "horizontal": false
     },
     {
@@ -3889,7 +3889,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "BorrowedWand.png",
+        "imgSrc": "borrowed-wand.png",
         "horizontal": true
     },
     {
@@ -3910,7 +3910,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "CauldronToSieve.png",
+        "imgSrc": "cauldron-to-sieve.png",
         "horizontal": false
     },
     {
@@ -3933,7 +3933,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "CuriousRaven.png",
+        "imgSrc": "curious-raven.png",
         "horizontal": true
     },
     {
@@ -3961,7 +3961,7 @@ export const cards = [
                 "ruling": "This card will prevent \"Before your turn\" damage."
             }
         ],
-        "imgSrc": "Dungbomb.png",
+        "imgSrc": "dungbomb.png",
         "horizontal": false
     },
     {
@@ -3982,7 +3982,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Epoximise.png",
+        "imgSrc": "epoximise.png",
         "horizontal": false
     },
     {
@@ -4003,7 +4003,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "ErumpentPotion.png",
+        "imgSrc": "erumpent-potion.png",
         "horizontal": false
     },
     {
@@ -4025,7 +4025,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "FluffyFallsAsleep.png",
+        "imgSrc": "fluffy-falls-asleep.png",
         "horizontal": false
     },
     {
@@ -4052,7 +4052,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "ForestTroll.png",
+        "imgSrc": "forest-troll.png",
         "horizontal": true
     },
     {
@@ -4074,7 +4074,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "ForgetfullnessPotion.png",
+        "imgSrc": "forgetfulness-potion.png",
         "horizontal": false
     },
     {
@@ -4096,7 +4096,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "FoulBrew.png",
+        "imgSrc": "foul-brew.png",
         "horizontal": false
     },
     {
@@ -4123,7 +4123,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "GiantTarantula.png",
+        "imgSrc": "giant-tarantula.png",
         "horizontal": true
     },
     {
@@ -4145,7 +4145,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "HagridAndTheStranger.png",
+        "imgSrc": "hagrid-and-the-stranger.png",
         "horizontal": false
     },
     {
@@ -4167,7 +4167,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Homework.png",
+        "imgSrc": "homework.png",
         "horizontal": false
     },
     {
@@ -4191,7 +4191,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "HospitalWing.png",
+        "imgSrc": "hospital-wing.png",
         "horizontal": false
     },
     {
@@ -4212,7 +4212,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Illegibilus.png",
+        "imgSrc": "illegibilus.png",
         "horizontal": false
     },
     {
@@ -4234,7 +4234,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Incarcifors.png",
+        "imgSrc": "incarcifors.png",
         "horizontal": false
     },
     {
@@ -4255,7 +4255,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "LostNotes.png",
+        "imgSrc": "lost-notes.png",
         "horizontal": false
     },
     {
@@ -4277,7 +4277,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "MagicalMishap.png",
+        "imgSrc": "magical-mishap.png",
         "horizontal": false
     },
     {
@@ -4299,7 +4299,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "NoxiousPoison.png",
+        "imgSrc": "noxious-poison.png",
         "horizontal": false
     },
     {
@@ -4321,7 +4321,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "OutOfTheWoods.png",
+        "imgSrc": "out-of-the-woods.png",
         "horizontal": false
     },
     {
@@ -4348,7 +4348,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "PetRat.png",
+        "imgSrc": "pet-rat.png",
         "horizontal": true
     },
     {
@@ -4378,7 +4378,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "PewterCauldron.png",
+        "imgSrc": "pewter-cauldron.png",
         "horizontal": true
     },
     {
@@ -4400,7 +4400,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "PotionsMistake.png",
+        "imgSrc": "potions-mistake.png",
         "horizontal": false
     },
     {
@@ -4421,7 +4421,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Remembrall.png",
+        "imgSrc": "remembrall.png",
         "horizontal": true
     },
     {
@@ -4443,7 +4443,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "RestrictedSection.png",
+        "imgSrc": "restricted-section.png",
         "horizontal": false
     },
     {
@@ -4467,7 +4467,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "ScottishStag.png",
+        "imgSrc": "scottish-stag.png",
         "horizontal": true
     },
     {
@@ -4489,7 +4489,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "SnapesQuestion.png",
+        "imgSrc": "snapes-question.png",
         "horizontal": false
     },
     {
@@ -4510,7 +4510,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "SquiggleQuill.png",
+        "imgSrc": "squiggle-quill.png",
         "horizontal": false
     },
     {
@@ -4531,7 +4531,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Steelclaw.png",
+        "imgSrc": "steelclaw.png",
         "horizontal": false
     },
     {
@@ -4555,7 +4555,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "SurlyHound.png",
+        "imgSrc": "surly-hound.png",
         "horizontal": true
     },
     {
@@ -4576,7 +4576,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "ToeBiter.png",
+        "imgSrc": "toe-biter.png",
         "horizontal": false
     },
     {
@@ -4597,7 +4597,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Vermillious.png",
+        "imgSrc": "vermillious.png",
         "horizontal": false
     },
     {
@@ -4620,7 +4620,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "ViciousWolf.png",
+        "imgSrc": "vicious-wolf.png",
         "horizontal": true
     },
     {
@@ -4642,7 +4642,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "WingardiumLeviosa.png",
+        "imgSrc": "wingardium-leviosa.png",
         "horizontal": false
     },
     {
@@ -4664,7 +4664,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "WizardCrackers.png",
+        "imgSrc": "wizard-crackers.png",
         "horizontal": false
     },
     {
@@ -4690,7 +4690,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "CareOfMagicalCreatures.png",
+        "imgSrc": "care-of-magical-creatures.png",
         "horizontal": true
     },
     {
@@ -4716,7 +4716,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Charms.png",
+        "imgSrc": "charms.png",
         "horizontal": true
     },
     {
@@ -4742,7 +4742,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Potions.png",
+        "imgSrc": "potions.png",
         "horizontal": true
     },
     {
@@ -4768,7 +4768,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "Transfiguration.png",
+        "imgSrc": "transfiguration.png",
         "horizontal": true
     },
     {
@@ -4798,7 +4798,7 @@ export const cards = [
                 "ruling": "If you win the Match before you take any Actions, you still get extra Actions. Actions are the first thing you decide each turn."
             }
         ],
-        "imgSrc": "AngelinaJohnson.png",
+        "imgSrc": "angelina-johnson.png",
         "horizontal": true
     },
     {
@@ -4826,7 +4826,7 @@ export const cards = [
                 "ruling": "Even if another card reduces the cost to play a card, Arthur only cares about the Printed power cost on the card."
             }
         ],
-        "imgSrc": "ArthurWeasley.png",
+        "imgSrc": "arthur-weasley.png",
         "horizontal": true
     },
     {
@@ -4848,7 +4848,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Blagging.png",
+        "imgSrc": "blagging.png",
         "horizontal": false
     },
     {
@@ -4869,7 +4869,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "BodyBlow.png",
+        "imgSrc": "body-blow.png",
         "horizontal": false
     },
     {
@@ -4899,7 +4899,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "BrokenWand.png",
+        "imgSrc": "broken-wand.png",
         "horizontal": true
     },
     {
@@ -4925,7 +4925,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "TheBurrow.png",
+        "imgSrc": "the-burrow.png",
         "horizontal": true
     },
     {
@@ -4948,7 +4948,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "ColinCreevey.png",
+        "imgSrc": "colin-creevey.png",
         "horizontal": true
     },
     {
@@ -4974,7 +4974,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "CrazedCapybara.png",
+        "imgSrc": "crazed-capybara.png",
         "horizontal": true
     },
     {
@@ -4996,7 +4996,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DeGnomingTheGarden.png",
+        "imgSrc": "de-gnoming-the-garden.png",
         "horizontal": true
     },
     {
@@ -5018,7 +5018,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DobbysDisappearance.png",
+        "imgSrc": "dobbys-disappearance.png",
         "horizontal": false
     },
     {
@@ -5040,7 +5040,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DobbysHelp.png",
+        "imgSrc": "dobbys-help.png",
         "horizontal": false
     },
     {
@@ -5062,7 +5062,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DoubleBeaterDefence.png",
+        "imgSrc": "double-beater-defence.png",
         "horizontal": false
     },
     {
@@ -5086,7 +5086,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DracoTheSeeker.png",
+        "imgSrc": "draco-the-seeker.png",
         "horizontal": true
     },
     {
@@ -5107,7 +5107,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DragonPoison.png",
+        "imgSrc": "dragon-poison.png",
         "horizontal": false
     },
     {
@@ -5133,7 +5133,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DumbledoresOffice.png",
+        "imgSrc": "dumbledores-office.png",
         "horizontal": true
     },
     {
@@ -5155,7 +5155,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "EntrancingEnchantments.png",
+        "imgSrc": "entrancing-enchantments.png",
         "horizontal": false
     },
     {
@@ -5183,7 +5183,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Errol.png",
+        "imgSrc": "errol.png",
         "horizontal": true
     },
     {
@@ -5207,7 +5207,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "EscapingTheDursleys.png",
+        "imgSrc": "escaping-the-dursleys.png",
         "horizontal": true
     },
     {
@@ -5231,7 +5231,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "FatFriar.png",
+        "imgSrc": "fat-friar.png",
         "horizontal": true
     },
     {
@@ -5258,7 +5258,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Fawkes.png",
+        "imgSrc": "fawkes.png",
         "horizontal": true
     },
     {
@@ -5280,7 +5280,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "FightingTheBasilisk.png",
+        "imgSrc": "fighting-the-basilisk.png",
         "horizontal": true
     },
     {
@@ -5301,7 +5301,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "FlyingCar.png",
+        "imgSrc": "flying-car.png",
         "horizontal": true
     },
     {
@@ -5323,7 +5323,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "FlyingLaps.png",
+        "imgSrc": "flying-laps.png",
         "horizontal": false
     },
     {
@@ -5344,7 +5344,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "FlyingToHogwarts.png",
+        "imgSrc": "flying-to-hogwarts.png",
         "horizontal": true
     },
     {
@@ -5367,7 +5367,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "GinnyWeasley.png",
+        "imgSrc": "ginny-weasley.png",
         "horizontal": true
     },
     {
@@ -5393,7 +5393,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "GreenhouseThree.png",
+        "imgSrc": "greenhouse-three.png",
         "horizontal": true
     },
     {
@@ -5420,7 +5420,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "GryffindorCommonRoom.png",
+        "imgSrc": "gryffindor-common-room.png",
         "horizontal": true
     },
     {
@@ -5453,7 +5453,7 @@ export const cards = [
                 "ruling": "If your opponent plays the card your wrote down with Harry, Second Year more than once, you can reveal the card you wrote down each time and repeatedly heal 20."
             }
         ],
-        "imgSrc": "HarrySecondYear.png",
+        "imgSrc": "harry-second-year.png",
         "horizontal": true
     },
     {
@@ -5476,7 +5476,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "HermionePotionMaker.png",
+        "imgSrc": "hermione-potion-maker.png",
         "horizontal": true
     },
     {
@@ -5498,7 +5498,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "ImpersonatingGoyle.png",
+        "imgSrc": "impersonating-goyle.png",
         "horizontal": false
     },
     {
@@ -5519,7 +5519,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "InTheSpidersLair.png",
+        "imgSrc": "in-the-spiders-lair.png",
         "horizontal": true
     },
     {
@@ -5542,7 +5542,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "JustinFinchFletchley.png",
+        "imgSrc": "justin-finch-fletchley.png",
         "horizontal": true
     },
     {
@@ -5582,7 +5582,7 @@ export const cards = [
                 "ruling": "If your opponent is physically unable to comply with the directions, they do not need to speak, and will not take damage."
             }
         ],
-        "imgSrc": "LockhartsLecture.png",
+        "imgSrc": "lockharts-lecture.png",
         "horizontal": true
     },
     {
@@ -5609,7 +5609,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Mandrake.png",
+        "imgSrc": "mandrake.png",
         "horizontal": true
     },
     {
@@ -5631,7 +5631,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "MemoryCharm.png",
+        "imgSrc": "memory-charm.png",
         "horizontal": false
     },
     {
@@ -5657,7 +5657,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "MoaningMyrtlesBathroom.png",
+        "imgSrc": "moaning-myrtles-bathroom.png",
         "horizontal": true
     },
     {
@@ -5690,7 +5690,7 @@ export const cards = [
                 "ruling": "Refer to the official Uniqueness Chart for a full list of affected Characters."
             }
         ],
-        "imgSrc": "MollyWeasley.png",
+        "imgSrc": "molly-weasley.png",
         "horizontal": true
     },
     {
@@ -5720,7 +5720,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "NimbusTwoThousandAndOne.png",
+        "imgSrc": "nimbus-two-thousand-and-one.png",
         "horizontal": true
     },
     {
@@ -5742,7 +5742,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "NoHands.png",
+        "imgSrc": "no-hands.png",
         "horizontal": false
     },
     {
@@ -5769,7 +5769,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "NorwegianRidgeback.png",
+        "imgSrc": "norwegian-ridgeback.png",
         "horizontal": true
     },
     {
@@ -5792,7 +5792,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "PercyWeasley.png",
+        "imgSrc": "percy-weasley.png",
         "horizontal": true
     },
     {
@@ -5814,7 +5814,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Petrified.png",
+        "imgSrc": "petrified.png",
         "horizontal": false
     },
     {
@@ -5839,7 +5839,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "PhoenixTears.png",
+        "imgSrc": "phoenix-tears.png",
         "horizontal": false
     },
     {
@@ -5861,7 +5861,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "PotionsTest.png",
+        "imgSrc": "potions-test.png",
         "horizontal": false
     },
     {
@@ -5890,7 +5890,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "ProfessorPomonaSprout.png",
+        "imgSrc": "professor-pomona-sprout.png",
         "horizontal": true
     },
     {
@@ -5912,7 +5912,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Reparo.png",
+        "imgSrc": "reparo.png",
         "horizontal": false
     },
     {
@@ -5933,7 +5933,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "RogueBludger.png",
+        "imgSrc": "rogue-bludger.png",
         "horizontal": true
     },
     {
@@ -5956,7 +5956,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "RonYoungestBrother.png",
+        "imgSrc": "ron-youngest-brother.png",
         "horizontal": true
     },
     {
@@ -5978,7 +5978,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Serpensortia.png",
+        "imgSrc": "serpensortia.png",
         "horizontal": false
     },
     {
@@ -6005,7 +6005,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SlytherinCommonRoom.png",
+        "imgSrc": "slytherin-common-room.png",
         "horizontal": true
     },
     {
@@ -6027,7 +6027,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SpidersExodus.png",
+        "imgSrc": "spiders-exodus.png",
         "horizontal": false
     },
     {
@@ -6049,7 +6049,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "VenomousTentacularJuice.png",
+        "imgSrc": "venomous-tentacular-juice.png",
         "horizontal": false
     },
     {
@@ -6072,7 +6072,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "TheWeasleyTwins.png",
+        "imgSrc": "the-weasley-twins.png",
         "horizontal": true
     },
     {
@@ -6100,7 +6100,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "WhompingWillow.png",
+        "imgSrc": "whomping-willow.png",
         "horizontal": true
     },
     {
@@ -6121,7 +6121,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "WizardChess.png",
+        "imgSrc": "wizard-chess.png",
         "horizontal": true
     },
     {
@@ -6142,7 +6142,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "AngelsTrumpetDraught.png",
+        "imgSrc": "angels-trumpet-draught.png",
         "horizontal": false
     },
     {
@@ -6163,7 +6163,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Blocked.png",
+        "imgSrc": "blocked.png",
         "horizontal": false
     },
     {
@@ -6184,7 +6184,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "BlockedBarrier.png",
+        "imgSrc": "blocked-barrier.png",
         "horizontal": true
     },
     {
@@ -6205,7 +6205,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "BundimunOoze.png",
+        "imgSrc": "bundimun-ooze.png",
         "horizontal": false
     },
     {
@@ -6226,7 +6226,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Caught.png",
+        "imgSrc": "caught.png",
         "horizontal": false
     },
     {
@@ -6247,7 +6247,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "CaughtBySnape.png",
+        "imgSrc": "caught-by-snape.png",
         "horizontal": true
     },
     {
@@ -6268,7 +6268,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Checked.png",
+        "imgSrc": "checked.png",
         "horizontal": false
     },
     {
@@ -6295,7 +6295,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "CleansweepFive.png",
+        "imgSrc": "cleansweep-five.png",
         "horizontal": true
     },
     {
@@ -6317,7 +6317,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "CounterCurse.png",
+        "imgSrc": "counter-curse.png",
         "horizontal": false
     },
     {
@@ -6338,7 +6338,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DragonDungCompost.png",
+        "imgSrc": "dragon-dung-compost.png",
         "horizontal": true
     },
     {
@@ -6359,7 +6359,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Earmuffs.png",
+        "imgSrc": "earmuffs.png",
         "horizontal": true
     },
     {
@@ -6381,7 +6381,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "EndlessSandwiches.png",
+        "imgSrc": "endless-sandwiches.png",
         "horizontal": false
     },
     {
@@ -6403,7 +6403,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "FlooPowder.png",
+        "imgSrc": "floo-powder.png",
         "horizontal": false
     },
     {
@@ -6425,7 +6425,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "ForgottenPassword.png",
+        "imgSrc": "forgotten-password.png",
         "horizontal": false
     },
     {
@@ -6447,7 +6447,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "InvisibilitySection.png",
+        "imgSrc": "invisibility-section.png",
         "horizontal": false
     },
     {
@@ -6472,7 +6472,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "KeepingDobbyQuiet.png",
+        "imgSrc": "keeping-dobby-quiet.png",
         "horizontal": true
     },
     {
@@ -6493,7 +6493,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "LockedIn.png",
+        "imgSrc": "locked-in.png",
         "horizontal": true
     },
     {
@@ -6514,7 +6514,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "LockhartsHairCarePotions.png",
+        "imgSrc": "lockharts-hair-care-potions.png",
         "horizontal": true
     },
     {
@@ -6536,7 +6536,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "MagicalMessRemover.png",
+        "imgSrc": "magical-mess-remover.png",
         "horizontal": false
     },
     {
@@ -6559,7 +6559,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Manticore.png",
+        "imgSrc": "manticore.png",
         "horizontal": true
     },
     {
@@ -6581,7 +6581,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "PotionsProject.png",
+        "imgSrc": "potions-project.png",
         "horizontal": false
     },
     {
@@ -6607,7 +6607,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "PricklyPorcupine.png",
+        "imgSrc": "prickly-porcupine.png",
         "horizontal": true
     },
     {
@@ -6632,7 +6632,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "PureBlood.png",
+        "imgSrc": "pure-blood.png",
         "horizontal": false
     },
     {
@@ -6654,7 +6654,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "RabbitSlippers.png",
+        "imgSrc": "rabbit-slippers.png",
         "horizontal": false
     },
     {
@@ -6681,7 +6681,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "RainyDayMatch.png",
+        "imgSrc": "rainy-day-match.png",
         "horizontal": true
     },
     {
@@ -6704,7 +6704,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SecondHandRobeShop.png",
+        "imgSrc": "second-hand-robe-shop.png",
         "horizontal": true
     },
     {
@@ -6728,7 +6728,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SelfShufflingCards.png",
+        "imgSrc": "self-shuffling-cards.png",
         "horizontal": true
     },
     {
@@ -6753,7 +6753,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SherbetLemon.png",
+        "imgSrc": "sherbet-lemon.png",
         "horizontal": false
     },
     {
@@ -6775,7 +6775,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SwellingSolution.png",
+        "imgSrc": "swelling-solution.png",
         "horizontal": false
     },
     {
@@ -6796,7 +6796,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "ThroughTheFloo.png",
+        "imgSrc": "through-the-floo.png",
         "horizontal": true
     },
     {
@@ -6818,7 +6818,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Twirl.png",
+        "imgSrc": "twirl.png",
         "horizontal": false
     },
     {
@@ -6843,7 +6843,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "UmbrellaFlowers.png",
+        "imgSrc": "umbrella-flowers.png",
         "horizontal": true
     },
     {
@@ -6870,7 +6870,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "VenomousTentacula.png",
+        "imgSrc": "venomous-tentacula.png",
         "horizontal": true
     },
     {
@@ -6898,7 +6898,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Wattlebird.png",
+        "imgSrc": "wattlebird.png",
         "horizontal": false
     },
     {
@@ -6922,7 +6922,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "WindyDayMatch.png",
+        "imgSrc": "windy-day-match.png",
         "horizontal": true
     },
     {
@@ -6944,7 +6944,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Aparecium.png",
+        "imgSrc": "aparecium.png",
         "horizontal": false
     },
     {
@@ -6966,7 +6966,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Backfire.png",
+        "imgSrc": "backfire.png",
         "horizontal": false
     },
     {
@@ -6988,7 +6988,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "BadgeredBoy.png",
+        "imgSrc": "badgered-boy.png",
         "horizontal": false
     },
     {
@@ -7018,7 +7018,7 @@ export const cards = [
                 "ruling": "Discarding a card to use this ability will not count toward Muddy Practice's total."
             }
         ],
-        "imgSrc": "BeatersBat.png",
+        "imgSrc": "beaters-bat.png",
         "horizontal": true
     },
     {
@@ -7040,7 +7040,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "BeetleButtons.png",
+        "imgSrc": "beetle-buttons.png",
         "horizontal": false
     },
     {
@@ -7062,7 +7062,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "CatchingApples.png",
+        "imgSrc": "catching-apples.png",
         "horizontal": false
     },
     {
@@ -7083,7 +7083,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "ChudleyCannonsRobes.png",
+        "imgSrc": "chudley-cannons-robes.png",
         "horizontal": true
     },
     {
@@ -7113,7 +7113,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "CopperCauldron.png",
+        "imgSrc": "copper-cauldron.png",
         "horizontal": true
     },
     {
@@ -7134,7 +7134,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DeathCapDraught.png",
+        "imgSrc": "death-cap-draught.png",
         "horizontal": false
     },
     {
@@ -7156,7 +7156,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Deboning.png",
+        "imgSrc": "deboning.png",
         "horizontal": false
     },
     {
@@ -7177,7 +7177,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "DizzinessDraught.png",
+        "imgSrc": "dizziness-draught.png",
         "horizontal": false
     },
     {
@@ -7199,7 +7199,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "EngorgementCharm.png",
+        "imgSrc": "engorgement-charm.png",
         "horizontal": false
     },
     {
@@ -7221,7 +7221,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Evanesce.png",
+        "imgSrc": "evanesce.png",
         "horizontal": false
     },
     {
@@ -7248,7 +7248,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "FamilyGhoul.png",
+        "imgSrc": "family-ghoul.png",
         "horizontal": true
     },
     {
@@ -7269,7 +7269,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "FatiguingFusion.png",
+        "imgSrc": "fatiguing-fusion.png",
         "horizontal": false
     },
     {
@@ -7291,7 +7291,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Flacking.png",
+        "imgSrc": "flacking.png",
         "horizontal": false
     },
     {
@@ -7313,7 +7313,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "FreezingCharm.png",
+        "imgSrc": "freezing-charm.png",
         "horizontal": false
     },
     {
@@ -7339,7 +7339,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "GardenGnome.png",
+        "imgSrc": "garden-gnome.png",
         "horizontal": true
     },
     {
@@ -7364,7 +7364,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "GryffindorLion.png",
+        "imgSrc": "gryffindor-lion.png",
         "horizontal": true
     },
     {
@@ -7394,7 +7394,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "GuideToHouseholdPests.png",
+        "imgSrc": "guide-to-household-pests.png",
         "horizontal": true
     },
     {
@@ -7416,7 +7416,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "HairRaisingPotion.png",
+        "imgSrc": "hair-raising-potion.png",
         "horizontal": false
     },
     {
@@ -7438,7 +7438,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "HawksheadFormation.png",
+        "imgSrc": "hawkshead-formation.png",
         "horizontal": false
     },
     {
@@ -7460,7 +7460,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "HermionesNote.png",
+        "imgSrc": "hermiones-note.png",
         "horizontal": false
     },
     {
@@ -7482,7 +7482,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "HistoryOfMagicHomework.png",
+        "imgSrc": "history-of-magic-homework.png",
         "horizontal": false
     },
     {
@@ -7504,7 +7504,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "HoverCharm.png",
+        "imgSrc": "hover-charm.png",
         "horizontal": false
     },
     {
@@ -7526,7 +7526,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Howler.png",
+        "imgSrc": "howler.png",
         "horizontal": false
     },
     {
@@ -7551,7 +7551,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "HufflepuffBadger.png",
+        "imgSrc": "hufflepuff-badger.png",
         "horizontal": true
     },
     {
@@ -7573,7 +7573,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "InvisibleInk.png",
+        "imgSrc": "invisible-ink.png",
         "horizontal": false
     },
     {
@@ -7599,7 +7599,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "LeapingToadstools.png",
+        "imgSrc": "leaping-toadstools.png",
         "horizontal": true
     },
     {
@@ -7620,7 +7620,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "OverdueHomework.png",
+        "imgSrc": "overdue-homework.png",
         "horizontal": false
     },
     {
@@ -7645,7 +7645,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "PepperupPotion.png",
+        "imgSrc": "pepperup-potion.png",
         "horizontal": false
     },
     {
@@ -7666,7 +7666,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "PotionsHomework.png",
+        "imgSrc": "potions-homework.png",
         "horizontal": false
     },
     {
@@ -7688,7 +7688,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Ransacked.png",
+        "imgSrc": "ransacked.png",
         "horizontal": false
     },
     {
@@ -7713,7 +7713,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "RavenclawEagle.png",
+        "imgSrc": "ravenclaw-eagle.png",
         "horizontal": true
     },
     {
@@ -7734,7 +7734,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "RestorationPotion.png",
+        "imgSrc": "restoration-potion.png",
         "horizontal": false
     },
     {
@@ -7755,7 +7755,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Revealer.png",
+        "imgSrc": "revealer.png",
         "horizontal": true
     },
     {
@@ -7776,7 +7776,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "RoseGrowth.png",
+        "imgSrc": "rose-growth.png",
         "horizontal": false
     },
     {
@@ -7806,7 +7806,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "ShootingStar.png",
+        "imgSrc": "shooting-star.png",
         "horizontal": true
     },
     {
@@ -7832,7 +7832,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SlinkingFerret.png",
+        "imgSrc": "slinking-ferret.png",
         "horizontal": true
     },
     {
@@ -7853,7 +7853,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SlowActingVenom.png",
+        "imgSrc": "slow-acting-venom.png",
         "horizontal": true
     },
     {
@@ -7878,7 +7878,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SlytherinSerpent.png",
+        "imgSrc": "slytherin-serpent.png",
         "horizontal": true
     },
     {
@@ -7899,7 +7899,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "SlytherinSteals.png",
+        "imgSrc": "slytherin-steals.png",
         "horizontal": false
     },
     {
@@ -7921,7 +7921,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "TrainingProgramme.png",
+        "imgSrc": "training-programme.png",
         "horizontal": false
     },
     {
@@ -7943,7 +7943,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "VanishingCabinet.png",
+        "imgSrc": "vanishing-cabinet.png",
         "horizontal": false
     },
     {
@@ -7965,7 +7965,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "ZigZag.png",
+        "imgSrc": "zig-zag.png",
         "horizontal": false
     },
     {
@@ -7991,7 +7991,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "CareOfMagicalCreatures.png",
+        "imgSrc": "care-of-magical-creatures.png",
         "horizontal": true
     },
     {
@@ -8017,7 +8017,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Charms.png",
+        "imgSrc": "charms.png",
         "horizontal": true
     },
     {
@@ -8043,7 +8043,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Potions.png",
+        "imgSrc": "potions.png",
         "horizontal": true
     },
     {
@@ -8069,7 +8069,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Quidditch.png",
+        "imgSrc": "quidditch.png",
         "horizontal": true
     },
     {
@@ -8095,7 +8095,7 @@ export const cards = [
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
         "rulings": [],
-        "imgSrc": "Transfiguration.png",
+        "imgSrc": "transfiguration.png",
         "horizontal": true
     },
     {
@@ -8117,7 +8117,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "BeaterGrabsTheSnitch.png",
+        "imgSrc": "beater-grabs-the-snitch.png",
         "horizontal": false
     },
     {
@@ -8138,7 +8138,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "BulgeyePotion.png",
+        "imgSrc": "bulgeye-potion.png",
         "horizontal": true
     },
     {
@@ -8160,7 +8160,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "ChristmasFeast.png",
+        "imgSrc": "christmas-feast.png",
         "horizontal": false
     },
     {
@@ -8181,7 +8181,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "ColourChangingInk.png",
+        "imgSrc": "colour-changing-ink.png",
         "horizontal": true
     },
     {
@@ -8204,7 +8204,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "DracoMalfoySlytherin.png",
+        "imgSrc": "draco-malfoy-slytherin.png",
         "horizontal": true
     },
     {
@@ -8236,7 +8236,7 @@ export const cards = [
                 "ruling": "First figure out any damage enhancers, then figure out any damage reducers. This effect would happen after Rubeus Hagrids effect triggers."
             }
         ],
-        "imgSrc": "DragonHideGloves.png",
+        "imgSrc": "dragon-hide-gloves.png",
         "horizontal": true
     },
     {
@@ -8262,7 +8262,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "EeylopsOwlEmporium.png",
+        "imgSrc": "eeylops-owl-emporium.png",
         "horizontal": true
     },
     {
@@ -8288,7 +8288,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "FlourishAndBlotts.png",
+        "imgSrc": "flourish-and-blotts.png",
         "horizontal": true
     },
     {
@@ -8313,7 +8313,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "GoodNightsSleep.png",
+        "imgSrc": "good-nights-sleep.png",
         "horizontal": false
     },
     {
@@ -8345,7 +8345,7 @@ export const cards = [
                 "ruling": "You figure out Actions during the \"Before your turn\" phase of your turn. This means if you discard Gringotts during your turn using an Action, you still have 2 more Actions."
             }
         ],
-        "imgSrc": "Gringotts.png",
+        "imgSrc": "gringotts.png",
         "horizontal": true
     },
     {
@@ -8367,7 +8367,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "GringottsVaultKey.png",
+        "imgSrc": "gringotts-vault-key.png",
         "horizontal": false
     },
     {
@@ -8389,7 +8389,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Griphook.png",
+        "imgSrc": "griphook.png",
         "horizontal": true
     },
     {
@@ -8414,7 +8414,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "GryffindorMatch.png",
+        "imgSrc": "gryffindor-match.png",
         "horizontal": true
     },
     {
@@ -8435,7 +8435,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "HagridKeeperOfKeys.png",
+        "imgSrc": "hagrid-keeper-of-keys.png",
         "horizontal": true
     },
     {
@@ -8466,7 +8466,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "HagridsUmbrella.png",
+        "imgSrc": "hagrids-umbrella.png",
         "horizontal": true
     },
     {
@@ -8493,7 +8493,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "HebrideanBlackDragon.png",
+        "imgSrc": "hebridean-black-dragon.png",
         "horizontal": true
     },
     {
@@ -8522,7 +8522,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Hedwig.png",
+        "imgSrc": "hedwig.png",
         "horizontal": true
     },
     {
@@ -8545,7 +8545,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "HermioneTopStudent.png",
+        "imgSrc": "hermione-top-student.png",
         "horizontal": true
     },
     {
@@ -8568,7 +8568,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "LeeJordan.png",
+        "imgSrc": "lee-jordan.png",
         "horizontal": true
     },
     {
@@ -8601,7 +8601,7 @@ export const cards = [
                 "ruling": "You can use Harry Potters ability to draw 2 cards per Action instead of 1. His ability changes the number you draw only, not what you are using the Action for."
             }
         ],
-        "imgSrc": "LettersFromNoOne.png",
+        "imgSrc": "letters-from-no-one.png",
         "horizontal": true
     },
     {
@@ -8623,7 +8623,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "MadamIrmaPince.png",
+        "imgSrc": "madam-irma-pince.png",
         "horizontal": true
     },
     {
@@ -8645,7 +8645,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "ProfessorQuirinusQuirrell.png",
+        "imgSrc": "professor-quirinus-quirrell.png",
         "horizontal": true
     },
     {
@@ -8675,7 +8675,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "SelfStirringCauldron.png",
+        "imgSrc": "self-stirring-cauldron.png",
         "horizontal": true
     },
     {
@@ -8699,7 +8699,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "SilverUnicornHorn.png",
+        "imgSrc": "silver-unicorn-horn.png",
         "horizontal": true
     },
     {
@@ -8720,7 +8720,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "TableTrouble.png",
+        "imgSrc": "table-trouble.png",
         "horizontal": false
     },
     {
@@ -8743,7 +8743,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "TheFamousHarryPotter.png",
+        "imgSrc": "the-famous-harry-potter.png",
         "horizontal": true
     },
     {
@@ -8775,7 +8775,7 @@ export const cards = [
                 "ruling": "You cannot pair this with Sorting Hat since Hats 2 Action requirement is to search your deck, not play the Character."
             }
         ],
-        "imgSrc": "TheLeakyCauldron.png",
+        "imgSrc": "the-leaky-cauldron.png",
         "horizontal": true
     },
     {
@@ -8800,7 +8800,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "ThreeMonthLongMatch.png",
+        "imgSrc": "three-month-long-match.png",
         "horizontal": true
     },
     {
@@ -8822,7 +8822,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "ThroughTheArch.png",
+        "imgSrc": "through-the-arch.png",
         "horizontal": true
     },
     {
@@ -8844,7 +8844,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "VanishingReferee.png",
+        "imgSrc": "vanishing-referee.png",
         "horizontal": false
     },
     {
@@ -8868,7 +8868,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "AlihotsyDraught.png",
+        "imgSrc": "alihotsy-draught.png",
         "horizontal": false
     },
     {
@@ -8894,7 +8894,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "BarnOwl.png",
+        "imgSrc": "barn-owl.png",
         "horizontal": true
     },
     {
@@ -8924,7 +8924,7 @@ export const cards = [
                 "ruling": "If you use this card's ability to play Bulgeye Potion from your deck, you do NOT need to meet the Lesson requirement since the Eyes cards put Bulgeye Potion into play."
             }
         ],
-        "imgSrc": "BeetleEyes.png",
+        "imgSrc": "beetle-eyes.png",
         "horizontal": true
     },
     {
@@ -8946,7 +8946,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "BiasedCommentary.png",
+        "imgSrc": "biased-commentary.png",
         "horizontal": false
     },
     {
@@ -8980,7 +8980,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "BluebottleBroom.png",
+        "imgSrc": "bluebottle-broom.png",
         "horizontal": true
     },
     {
@@ -9002,7 +9002,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "CauldronShop.png",
+        "imgSrc": "cauldron-shop.png",
         "horizontal": true
     },
     {
@@ -9023,7 +9023,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Colloshoo.png",
+        "imgSrc": "colloshoo.png",
         "horizontal": false
     },
     {
@@ -9053,7 +9053,7 @@ export const cards = [
                 "ruling": "If you use this card's ability to play Bulgeye Potion from your deck, you do NOT need to meet the Lesson requirement since the Eyes cards put Bulgeye Potion into play."
             }
         ],
-        "imgSrc": "EelEyes.png",
+        "imgSrc": "eel-eyes.png",
         "horizontal": true
     },
     {
@@ -9075,7 +9075,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "FrogSpawn.png",
+        "imgSrc": "frog-spawn.png",
         "horizontal": false
     },
     {
@@ -9096,7 +9096,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Injured.png",
+        "imgSrc": "injured.png",
         "horizontal": false
     },
     {
@@ -9120,7 +9120,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Lapifors.png",
+        "imgSrc": "lapifors.png",
         "horizontal": false
     },
     {
@@ -9146,7 +9146,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "MadamMalkinsRobes.png",
+        "imgSrc": "madam-malkins-robes.png",
         "horizontal": true
     },
     {
@@ -9178,7 +9178,7 @@ export const cards = [
                 "ruling": "If you play Sloth Grip, you get to choose what 3 damage you prevent and then Robe will trigger based on what damage you let through. Creatures that dont do damage will not get damaged by Robe."
             }
         ],
-        "imgSrc": "PorcupineRobe.png",
+        "imgSrc": "porcupine-robe.png",
         "horizontal": true
     },
     {
@@ -9199,7 +9199,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "PracticalJoke.png",
+        "imgSrc": "practical-joke.png",
         "horizontal": false
     },
     {
@@ -9224,7 +9224,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "QualityQuidditchSupplies.png",
+        "imgSrc": "quality-quidditch-supplies.png",
         "horizontal": true
     },
     {
@@ -9247,7 +9247,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Quintaped.png",
+        "imgSrc": "quintaped.png",
         "horizontal": true
     },
     {
@@ -9272,7 +9272,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "SpiralDive.png",
+        "imgSrc": "spiral-dive.png",
         "horizontal": false
     },
     {
@@ -9293,7 +9293,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Verdillious.png",
+        "imgSrc": "verdillious.png",
         "horizontal": false
     },
     {
@@ -9322,7 +9322,7 @@ export const cards = [
                 "ruling": "Only Lessons are affected by this card. Items, Wands, etc., are not."
             }
         ],
-        "imgSrc": "WandShop.png",
+        "imgSrc": "wand-shop.png",
         "horizontal": true
     },
     {
@@ -9348,7 +9348,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "WildBoar.png",
+        "imgSrc": "wild-boar.png",
         "horizontal": true
     },
     {
@@ -9378,7 +9378,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "ABeginnersGuideToTransfiguration.png",
+        "imgSrc": "a-beginners-guide-to-transfiguration.png",
         "horizontal": true
     },
     {
@@ -9399,7 +9399,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "BludgerInTheStands.png",
+        "imgSrc": "bludger-in-the-stands.png",
         "horizontal": false
     },
     {
@@ -9421,7 +9421,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "BlueWig.png",
+        "imgSrc": "blue-wig.png",
         "horizontal": false
     },
     {
@@ -9445,7 +9445,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "ButterflyWeedBalm.png",
+        "imgSrc": "butterfly-weed-balm.png",
         "horizontal": false
     },
     {
@@ -9467,7 +9467,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "CancelledPractice.png",
+        "imgSrc": "cancelled-practice.png",
         "horizontal": false
     },
     {
@@ -9488,7 +9488,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "DogbanePotion.png",
+        "imgSrc": "dogbane-potion.png",
         "horizontal": false
     },
     {
@@ -9509,7 +9509,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "DogBiscuits.png",
+        "imgSrc": "dog-biscuits.png",
         "horizontal": false
     },
     {
@@ -9539,7 +9539,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "FantasticBeasts&WhereToFindThem.png",
+        "imgSrc": "fantastic-beasts--where-to-find-them.png",
         "horizontal": true
     },
     {
@@ -9561,7 +9561,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Flipendo.png",
+        "imgSrc": "flipendo.png",
         "horizontal": false
     },
     {
@@ -9582,7 +9582,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Freeze.png",
+        "imgSrc": "freeze.png",
         "horizontal": false
     },
     {
@@ -9612,7 +9612,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "MagicalDraftsAndPotions.png",
+        "imgSrc": "magical-drafts-and-potions.png",
         "horizontal": true
     },
     {
@@ -9642,7 +9642,7 @@ export const cards = [
                 "ruling": "If you have no card to discard, you cannot play this card. You must be able to do everything on a card to play it."
             }
         ],
-        "imgSrc": "MidAirCollision.png",
+        "imgSrc": "mid-air-collision.png",
         "horizontal": false
     },
     {
@@ -9663,7 +9663,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "MoonseedPoison.png",
+        "imgSrc": "moonseed-poison.png",
         "horizontal": true
     },
     {
@@ -9685,7 +9685,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "PickingOnNeville.png",
+        "imgSrc": "picking-on-neville.png",
         "horizontal": false
     },
     {
@@ -9707,7 +9707,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "PigleyDudley.png",
+        "imgSrc": "pigley-dudley.png",
         "horizontal": false
     },
     {
@@ -9732,7 +9732,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "QuickThinking.png",
+        "imgSrc": "quick-thinking.png",
         "horizontal": false
     },
     {
@@ -9762,7 +9762,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "QuidditchThroughTheAges.png",
+        "imgSrc": "quidditch-through-the-ages.png",
         "horizontal": true
     },
     {
@@ -9789,7 +9789,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "RiverTroll.png",
+        "imgSrc": "river-troll.png",
         "horizontal": true
     },
     {
@@ -9815,7 +9815,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "ScreechOwl.png",
+        "imgSrc": "screech-owl.png",
         "horizontal": true
     },
     {
@@ -9840,7 +9840,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "SlothGrip.png",
+        "imgSrc": "sloth-grip.png",
         "horizontal": false
     },
     {
@@ -9861,7 +9861,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Spongify.png",
+        "imgSrc": "spongify.png",
         "horizontal": false
     },
     {
@@ -9882,7 +9882,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "SwellingPotion.png",
+        "imgSrc": "swelling-potion.png",
         "horizontal": false
     },
     {
@@ -9909,7 +9909,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "TawnyOwl.png",
+        "imgSrc": "tawny-owl.png",
         "horizontal": true
     },
     {
@@ -9931,7 +9931,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "TeacupToRat.png",
+        "imgSrc": "teacup-to-rat.png",
         "horizontal": false
     },
     {
@@ -9961,7 +9961,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "TheStandardBookOfSpellsGrade1.png",
+        "imgSrc": "the-standard-book-of-spells-grade-1.png",
         "horizontal": true
     },
     {
@@ -9987,7 +9987,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "CareOfMagicalCreatures.png",
+        "imgSrc": "care-of-magical-creatures.png",
         "horizontal": true
     },
     {
@@ -10013,7 +10013,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Charms.png",
+        "imgSrc": "charms.png",
         "horizontal": true
     },
     {
@@ -10039,7 +10039,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Potions.png",
+        "imgSrc": "potions.png",
         "horizontal": true
     },
     {
@@ -10065,7 +10065,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Quidditch.png",
+        "imgSrc": "quidditch.png",
         "horizontal": true
     },
     {
@@ -10091,7 +10091,7 @@ export const cards = [
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
         "rulings": [],
-        "imgSrc": "Transfiguration.png",
+        "imgSrc": "transfiguration.png",
         "horizontal": true
     },
     {
@@ -10127,7 +10127,7 @@ export const cards = [
                 "ruling": "If Buckbeaks Execution does not discard a Creature before your turn because there are no Creatures in play, Buckbeaks Execution will still be discarded from play."
             }
         ],
-        "imgSrc": "BuckbeaksExecution.png",
+        "imgSrc": "buckbeaks-execution.png",
         "horizontal": true
     },
     {
@@ -10151,7 +10151,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "CedricDiggory.png",
+        "imgSrc": "cedric-diggory.png",
         "horizontal": true
     },
     {
@@ -10181,7 +10181,7 @@ export const cards = [
                 "ruling": "If you choose to only search for 1 Lesson, it will go into play. If you search for 2 Lessons, 1 must go into play and the other must go into your hand."
             }
         ],
-        "imgSrc": "ChoChang.png",
+        "imgSrc": "cho-chang.png",
         "horizontal": true
     },
     {
@@ -10207,7 +10207,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "ConfrontingBlack.png",
+        "imgSrc": "confronting-black.png",
         "horizontal": true
     },
     {
@@ -10228,7 +10228,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "ConfusingConcoction.png",
+        "imgSrc": "confusing-concoction.png",
         "horizontal": false
     },
     {
@@ -10262,7 +10262,7 @@ export const cards = [
                 "ruling": "If the chosen player has 0 cards in their hand, they still shuffle their deck and then draw 4 cards."
             }
         ],
-        "imgSrc": "Crookshanks.png",
+        "imgSrc": "crookshanks.png",
         "horizontal": true
     },
     {
@@ -10303,7 +10303,7 @@ export const cards = [
                 "ruling": "No Characters that share Uniqueness with the chosen Character may be played. (i.e,. if you choose Harry the Seeker, no variations of Harry may be played.) See our Uniqueness Chart for a full list of affected cards."
             }
         ],
-        "imgSrc": "DementorsKiss.png",
+        "imgSrc": "dementors-kiss.png",
         "horizontal": true
     },
     {
@@ -10327,7 +10327,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "DerrickAndBole.png",
+        "imgSrc": "derrick-and-bole.png",
         "horizontal": true
     },
     {
@@ -10352,7 +10352,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "DreamingOfTheCup.png",
+        "imgSrc": "dreaming-of-the-cup.png",
         "horizontal": true
     },
     {
@@ -10381,7 +10381,7 @@ export const cards = [
                 "ruling": "While Hermione, Overworked Student cannot put Advanced Lessons into play, Advanced Lessons still count as Lessons in the discard pile to allow you to use her ability."
             }
         ],
-        "imgSrc": "HermioneOverworkedStudent.png",
+        "imgSrc": "hermione-overworked-student.png",
         "horizontal": true
     },
     {
@@ -10405,7 +10405,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "HermionesTimeTurner.png",
+        "imgSrc": "hermiones-time-turner.png",
         "horizontal": true
     },
     {
@@ -10428,7 +10428,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "Moony.png",
+        "imgSrc": "moony.png",
         "horizontal": true
     },
     {
@@ -10449,7 +10449,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "OliversLastPlay.png",
+        "imgSrc": "olivers-last-play.png",
         "horizontal": false
     },
     {
@@ -10473,7 +10473,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "OliverTheCaptain.png",
+        "imgSrc": "oliver-the-captain.png",
         "horizontal": true
     },
     {
@@ -10502,7 +10502,7 @@ export const cards = [
                 "ruling": "You may ignore Action, printed Power cost, and Power requirements when putting an Event from your hand into play using Padfoots ability. You must, however, pay any additional costs. (.e.g When you play this card)"
             }
         ],
-        "imgSrc": "Padfoot.png",
+        "imgSrc": "padfoot.png",
         "horizontal": true
     },
     {
@@ -10529,7 +10529,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "Patronus.png",
+        "imgSrc": "patronus.png",
         "horizontal": true
     },
     {
@@ -10559,7 +10559,7 @@ export const cards = [
                 "ruling": "You must immediately use the Once per game ability if the chosen Character has one and the Once per game ability has already been used."
             }
         ],
-        "imgSrc": "PettigrewsTreachery.png",
+        "imgSrc": "pettigrews-treachery.png",
         "horizontal": false
     },
     {
@@ -10587,7 +10587,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "Pigwidgeon.png",
+        "imgSrc": "pigwidgeon.png",
         "horizontal": true
     },
     {
@@ -10616,7 +10616,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "ProfFlitwickCharmsMaster.png",
+        "imgSrc": "professor-flitwick-charms-master.png",
         "horizontal": true
     },
     {
@@ -10639,7 +10639,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "RogerDavies.png",
+        "imgSrc": "roger-davies.png",
         "horizontal": true
     },
     {
@@ -10667,7 +10667,7 @@ export const cards = [
                 "ruling": "Your opponents starting Character counts toward this total."
             }
         ],
-        "imgSrc": "Smack.png",
+        "imgSrc": "smack.png",
         "horizontal": false
     },
     {
@@ -10695,7 +10695,7 @@ export const cards = [
                 "ruling": "You still need to have the requisite Power to play the card, and you will still need to pay for any additional costs of the card (e.g., To play this card)."
             }
         ],
-        "imgSrc": "ThreeTurns.png",
+        "imgSrc": "three-turns.png",
         "horizontal": false
     },
     {
@@ -10718,7 +10718,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "WaldenMacnair.png",
+        "imgSrc": "walden-macnair.png",
         "horizontal": true
     },
     {
@@ -10752,7 +10752,7 @@ export const cards = [
                 "ruling": "The Adventure is considered solved at the end of your opponents turn, and it triggers along with other At the end of your turn... effects."
             }
         ],
-        "imgSrc": "WatchingTheMap.png",
+        "imgSrc": "watching-the-map.png",
         "horizontal": true
     },
     {
@@ -10786,7 +10786,7 @@ export const cards = [
                 "ruling": "If you choose an Event, and the Event is not discarded, you will still deal damage to an opponent."
             }
         ],
-        "imgSrc": "Wormtail.png",
+        "imgSrc": "wormtail.png",
         "horizontal": true
     },
     {
@@ -10808,7 +10808,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "Animagus.png",
+        "imgSrc": "animagus.png",
         "horizontal": true
     },
     {
@@ -10839,7 +10839,7 @@ export const cards = [
                 "ruling": "Adventures, Characters, and Lessons have no printed Power cost, and thus cannot be chosen for this card."
             }
         ],
-        "imgSrc": "AstronomyHomework.png",
+        "imgSrc": "astronomy-homework.png",
         "horizontal": false
     },
     {
@@ -10871,7 +10871,7 @@ export const cards = [
                 "ruling": "If you have more Battered Old Suitcases with less than 3 cards under it than the amount of cards you discard, the turn player will choose which Battered Old Suitcase(s) the card(s) will go under."
             }
         ],
-        "imgSrc": "BatteredOldSuitcase.png",
+        "imgSrc": "battered-old-suitcase.png",
         "horizontal": true
     },
     {
@@ -10893,7 +10893,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "BeatersRetribution.png",
+        "imgSrc": "beaters-retribution.png",
         "horizontal": false
     },
     {
@@ -10922,7 +10922,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "Centaur.png",
+        "imgSrc": "centaur.png",
         "horizontal": true
     },
     {
@@ -10944,7 +10944,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "CheeringCharm.png",
+        "imgSrc": "cheering-charm.png",
         "horizontal": false
     },
     {
@@ -10976,7 +10976,7 @@ export const cards = [
                 "ruling": "You may still discard more cards from your hand than required, up to 4."
             }
         ],
-        "imgSrc": "ConfiscatedMap.png",
+        "imgSrc": "confiscated-map.png",
         "horizontal": true
     },
     {
@@ -10998,7 +10998,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "DeadlyPrank.png",
+        "imgSrc": "deadly-prank.png",
         "horizontal": true
     },
     {
@@ -11030,7 +11030,7 @@ export const cards = [
                 "ruling": "If Death Warrant is discarded before your opponents card finishes resolving, Deaths Warrants effect still occurs."
             }
         ],
-        "imgSrc": "DeathWarrant.png",
+        "imgSrc": "death-warrant.png",
         "horizontal": true
     },
     {
@@ -11064,7 +11064,7 @@ export const cards = [
                 "ruling": "If the played Characters has a When you play this card effect, it still occurs, as this is a triggered ability, not an activated ability. Likewise, any effects that would trigger because of playing the card will still trigger."
             }
         ],
-        "imgSrc": "DementorSwarm.png",
+        "imgSrc": "dementor-swarm.png",
         "horizontal": true
     },
     {
@@ -11095,7 +11095,7 @@ export const cards = [
                 "ruling": "The effect does not reduce the number of Actions required to play the card. This card gives you a third Action after playing it."
             }
         ],
-        "imgSrc": "DementorsOnTheLake.png",
+        "imgSrc": "dementors-on-the-lake.png",
         "horizontal": true
     },
     {
@@ -11118,7 +11118,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "EmptyClassroom.png",
+        "imgSrc": "empty-classroom.png",
         "horizontal": true
     },
     {
@@ -11145,7 +11145,7 @@ export const cards = [
                 "ruling": "The card counts the amount of Charms Power you have from all sources, including but not limited to Lessons, Items, and Characters."
             }
         ],
-        "imgSrc": "ExplodingCharm.png",
+        "imgSrc": "exploding-charm.png",
         "horizontal": false
     },
     {
@@ -11170,7 +11170,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "FireOmens.png",
+        "imgSrc": "fire-omens.png",
         "horizontal": false
     },
     {
@@ -11192,7 +11192,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "FlitwicksInspection.png",
+        "imgSrc": "flitwicks-inspection.png",
         "horizontal": false
     },
     {
@@ -11229,7 +11229,7 @@ export const cards = [
                 "ruling": "Full Moon will increase the damage that your Creatures do to all players and Creatures, not just an opponent."
             }
         ],
-        "imgSrc": "FullMoon.png",
+        "imgSrc": "full-moon.png",
         "horizontal": true
     },
     {
@@ -11257,7 +11257,7 @@ export const cards = [
                 "ruling": "You do not need to reveal your entire hand, more than 1 card of each card type, nor every card type you have. You may reveal 0 or any number of the card types you have in your hand."
             }
         ],
-        "imgSrc": "HermionesSecret.png",
+        "imgSrc": "hermiones-secret.png",
         "horizontal": false
     },
     {
@@ -11283,7 +11283,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "ImmaculateConcoction.png",
+        "imgSrc": "immaculate-concoction.png",
         "horizontal": false
     },
     {
@@ -11310,7 +11310,7 @@ export const cards = [
                 "ruling": "If your opponent discards a Lesson with the first part of this card, it does not count as them choosing to discard a Lesson to activate the second part of this card."
             }
         ],
-        "imgSrc": "ImminentCollision.png",
+        "imgSrc": "imminent-collision.png",
         "horizontal": false
     },
     {
@@ -11347,7 +11347,7 @@ export const cards = [
                 "ruling": "Shuffling does not trigger Incorrect Interpretations."
             }
         ],
-        "imgSrc": "IncorrectInterpretations.png",
+        "imgSrc": "incorrect-interpretations.png",
         "horizontal": true
     },
     {
@@ -11377,7 +11377,7 @@ export const cards = [
                 "ruling": "The Event in play can be your Event or an opponents."
             }
         ],
-        "imgSrc": "MarauderShenanigans.png",
+        "imgSrc": "marauder-shenanigans.png",
         "horizontal": true
     },
     {
@@ -11407,7 +11407,7 @@ export const cards = [
                 "ruling": "You do not need to meet the Power requirements to play the card, but you must pay any additional costs (i.e. When you play this card effects)."
             }
         ],
-        "imgSrc": "MoonlitTransformation.png",
+        "imgSrc": "moonlit-transformation.png",
         "horizontal": false
     },
     {
@@ -11428,7 +11428,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "PumpkinPatch.png",
+        "imgSrc": "pumpkin-patch.png",
         "horizontal": true
     },
     {
@@ -11453,7 +11453,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "StarCharts.png",
+        "imgSrc": "star-charts.png",
         "horizontal": false
     },
     {
@@ -11478,7 +11478,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "TheMaraudersLegacy.png",
+        "imgSrc": "the-marauders-legacy.png",
         "horizontal": true
     },
     {
@@ -11500,7 +11500,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "TimeTravelHijinks.png",
+        "imgSrc": "time-travel-hijinks.png",
         "horizontal": true
     },
     {
@@ -11524,7 +11524,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "TrelawneysPrediction.png",
+        "imgSrc": "trelawneys-prediction.png",
         "horizontal": false
     },
     {
@@ -11551,7 +11551,7 @@ export const cards = [
                 "ruling": "If you have won a Match this turn, you may play Victory Party even if there is an effect that does not allow you to use Actions to play Spells."
             }
         ],
-        "imgSrc": "VictoryParty.png",
+        "imgSrc": "victory-party.png",
         "horizontal": false
     },
     {
@@ -11586,7 +11586,7 @@ export const cards = [
                 "ruling": "Your progress advances after the effect that increased an opponents progress is fully resolved."
             }
         ],
-        "imgSrc": "BiasedReferee.png",
+        "imgSrc": "biased-referee.png",
         "horizontal": true
     },
     {
@@ -11611,7 +11611,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "BloodPops.png",
+        "imgSrc": "blood-pops.png",
         "horizontal": false
     },
     {
@@ -11633,7 +11633,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "CancelledMatch.png",
+        "imgSrc": "cancelled-match.png",
         "horizontal": false
     },
     {
@@ -11664,7 +11664,7 @@ export const cards = [
                 "ruling": "Your opponent also may not put into play any cards of the chosen card type."
             }
         ],
-        "imgSrc": "CaughtByDementors.png",
+        "imgSrc": "caught-by-dementors.png",
         "horizontal": false
     },
     {
@@ -11689,7 +11689,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "ChillingFog.png",
+        "imgSrc": "chilling-fog.png",
         "horizontal": false
     },
     {
@@ -11719,7 +11719,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "ChosComet.png",
+        "imgSrc": "chos-comet.png",
         "horizontal": true
     },
     {
@@ -11743,7 +11743,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "CrookshanksAid.png",
+        "imgSrc": "crookshanks-aid.png",
         "horizontal": false
     },
     {
@@ -11767,7 +11767,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "CrystalBall.png",
+        "imgSrc": "crystal-ball.png",
         "horizontal": true
     },
     {
@@ -11789,7 +11789,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "DeterminedTraining.png",
+        "imgSrc": "determined-training.png",
         "horizontal": false
     },
     {
@@ -11811,7 +11811,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "DisarmingSnape.png",
+        "imgSrc": "disarming-snape.png",
         "horizontal": false
     },
     {
@@ -11839,7 +11839,7 @@ export const cards = [
                 "ruling": "If more Lessons enter your discard pile after you play this card, the Power cost reduction will not change."
             }
         ],
-        "imgSrc": "DizzyingWorkload.png",
+        "imgSrc": "dizzying-workload.png",
         "horizontal": false
     },
     {
@@ -11865,7 +11865,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "DoubleEndedNewt.png",
+        "imgSrc": "double-ended-newt.png",
         "horizontal": true
     },
     {
@@ -11887,7 +11887,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "DroppingDivination.png",
+        "imgSrc": "dropping-divination.png",
         "horizontal": false
     },
     {
@@ -11925,7 +11925,7 @@ export const cards = [
                 "ruling": "If there is already a version of the named Character in play, you cannot put a Character from your deck into play."
             }
         ],
-        "imgSrc": "EmptyFrame.png",
+        "imgSrc": "empty-frame.png",
         "horizontal": true
     },
     {
@@ -11949,7 +11949,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "ExecutionersAxe.png",
+        "imgSrc": "executioners-axe.png",
         "horizontal": true
     },
     {
@@ -11973,7 +11973,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "Ferula.png",
+        "imgSrc": "ferula.png",
         "horizontal": false
     },
     {
@@ -11994,7 +11994,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "Glacius.png",
+        "imgSrc": "glacius.png",
         "horizontal": false
     },
     {
@@ -12021,7 +12021,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "Hinkypunk.png",
+        "imgSrc": "hinkypunk.png",
         "horizontal": true
     },
     {
@@ -12059,7 +12059,7 @@ export const cards = [
                 "ruling": "Hippogriffs effect of placing damage counters on itself does not do damage to itself. Effects that would increase damage Creatures do will not increase the number of damage counters placed on Hippogriff, and damage counters can be placed on Hippogriff even if an effect would prevent damage dealt to Creatures."
             }
         ],
-        "imgSrc": "Hippogriff.png",
+        "imgSrc": "hippogriff.png",
         "horizontal": true
     },
     {
@@ -12081,7 +12081,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "HurlingHex.png",
+        "imgSrc": "hurling-hex.png",
         "horizontal": false
     },
     {
@@ -12122,7 +12122,7 @@ export const cards = [
                 "ruling": "Once a Match is won, its effects cannot be used. Neither player may continue to use the Matchs effect to prevent damage."
             }
         ],
-        "imgSrc": "InterHouseFinal.png",
+        "imgSrc": "inter-house-final.png",
         "horizontal": true
     },
     {
@@ -12144,7 +12144,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "LupinsResignation.png",
+        "imgSrc": "lupins-resignation.png",
         "horizontal": false
     },
     {
@@ -12166,7 +12166,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "MarkingTheSeeker.png",
+        "imgSrc": "marking-the-seeker.png",
         "horizontal": false
     },
     {
@@ -12198,7 +12198,7 @@ export const cards = [
                 "ruling": "You must complete both chosen options before shuffling this card back into your deck."
             }
         ],
-        "imgSrc": "Nox.png",
+        "imgSrc": "nox.png",
         "horizontal": false
     },
     {
@@ -12219,7 +12219,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "PatronusPractice.png",
+        "imgSrc": "patronus-practice.png",
         "horizontal": false
     },
     {
@@ -12240,7 +12240,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "PocketSneakoscope.png",
+        "imgSrc": "pocket-sneakoscope.png",
         "horizontal": true
     },
     {
@@ -12262,7 +12262,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "PressingTheKnot.png",
+        "imgSrc": "pressing-the-knot.png",
         "horizontal": false
     },
     {
@@ -12283,7 +12283,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "RedSparks.png",
+        "imgSrc": "red-sparks.png",
         "horizontal": false
     },
     {
@@ -12309,7 +12309,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "ScabbersDisappearance.png",
+        "imgSrc": "scabbers-disappearance.png",
         "horizontal": true
     },
     {
@@ -12337,7 +12337,7 @@ export const cards = [
                 "ruling": "You must pay any additional costs (e.g., To play this card)."
             }
         ],
-        "imgSrc": "ScabbersReturn.png",
+        "imgSrc": "scabbers-return.png",
         "horizontal": false
     },
     {
@@ -12361,7 +12361,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "SiriusLetter.png",
+        "imgSrc": "siriuss-letter.png",
         "horizontal": true
     },
     {
@@ -12382,7 +12382,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "WizardsDesk.png",
+        "imgSrc": "wizards-desk.png",
         "horizontal": true
     },
     {
@@ -12423,7 +12423,7 @@ export const cards = [
                 "ruling": "You may only have 4 of each of these Lessons in your deck since these are named cards and not generic Lessons."
             }
         ],
-        "imgSrc": "AncientRunesThirdYear.png",
+        "imgSrc": "ancient-runes-third-year.png",
         "horizontal": true
     },
     {
@@ -12443,7 +12443,7 @@ export const cards = [
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
         "rulings": [],
-        "imgSrc": "ArithmancyThirdYear.png",
+        "imgSrc": "arithmancy-third-year.png",
         "horizontal": true
     },
     {
@@ -12484,7 +12484,7 @@ export const cards = [
                 "ruling": "You may only have 4 of each of these Lessons in your deck since these are named cards and not generic Lessons."
             }
         ],
-        "imgSrc": "HerbologyThirdYear.png",
+        "imgSrc": "herbology-third-year.png",
         "horizontal": true
     },
     {
@@ -12525,7 +12525,7 @@ export const cards = [
                 "ruling": "You may only have 4 of each of these Lessons in your deck since these are named cards and not generic Lessons."
             }
         ],
-        "imgSrc": "HistoryOfMagicThirdYear.png",
+        "imgSrc": "history-of-magic-third-year.png",
         "horizontal": true
     },
     {
@@ -12566,7 +12566,7 @@ export const cards = [
                 "ruling": "You may only have 4 of each of these Lessons in your deck since these are named cards and not generic Lessons."
             }
         ],
-        "imgSrc": "MuggleStudiesThirdYear.png",
+        "imgSrc": "muggle-studies-third-year.png",
         "horizontal": true
     },
     {
@@ -12601,7 +12601,7 @@ export const cards = [
                 "ruling": "When you win a Match, you resolve its effect before discarding it from play. This means if the Matchs prize does damage, Alicia will see that it is still in play and give the Match +1 damage (unless the Match is discarded by another card first)."
             }
         ],
-        "imgSrc": "AliciaSpinnet.png",
+        "imgSrc": "alicia-spinnet.png",
         "horizontal": true
     },
     {
@@ -12629,7 +12629,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "Aragog.png",
+        "imgSrc": "aragog.png",
         "horizontal": true
     },
     {
@@ -12657,7 +12657,7 @@ export const cards = [
                 "ruling": "Armando only triggers once each turn, and only at the end of your turn, regardless of how many House cards you play."
             }
         ],
-        "imgSrc": "ArmandoDippet.png",
+        "imgSrc": "armando-dippet.png",
         "horizontal": true
     },
     {
@@ -12679,7 +12679,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "CancelledExams.png",
+        "imgSrc": "cancelled-exams.png",
         "horizontal": false
     },
     {
@@ -12711,7 +12711,7 @@ export const cards = [
                 "ruling": "No card in the discard pile may leave the discard pile, be played from the discard pile, or be chosen as a target by another card. Cards like Reparo, Remembrall, and Healing cards would not be able to be played/activated since you cannot complete everything on the card."
             }
         ],
-        "imgSrc": "ChamberOfSecrets.png",
+        "imgSrc": "chamber-of-secrets.png",
         "horizontal": true
     },
     {
@@ -12744,7 +12744,7 @@ export const cards = [
                 "ruling": "An opponent choosing to return a card if you prevent damage with Dobby is optional. They can choose to return nothing."
             }
         ],
-        "imgSrc": "Dobby.png",
+        "imgSrc": "dobby.png",
         "horizontal": true
     },
     {
@@ -12765,7 +12765,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "DobbyIsFree.png",
+        "imgSrc": "dobby-is-free.png",
         "horizontal": true
     },
     {
@@ -12798,7 +12798,7 @@ export const cards = [
                 "ruling": "If a card reduces damage per card (such as Madam Malkins Robes) then it will decrease the overall damage done by this card by 1; it will not decrease each instance of damage."
             }
         ],
-        "imgSrc": "DrawingTheSword.png",
+        "imgSrc": "drawing-the-sword.png",
         "horizontal": false
     },
     {
@@ -12821,7 +12821,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "DuelingClub.png",
+        "imgSrc": "dueling-club.png",
         "horizontal": true
     },
     {
@@ -12849,7 +12849,7 @@ export const cards = [
                 "ruling": "A card that loses all abilities means that card retains its card type, name, and keywords but loses everything else (such as effects and Power provided). Creatures, however, retain health and damage per turn."
             }
         ],
-        "imgSrc": "DumbledoresSuspension.png",
+        "imgSrc": "dumbledores-suspension.png",
         "horizontal": true
     },
     {
@@ -12876,7 +12876,7 @@ export const cards = [
                 "ruling": "If an effect prevents damage done to Creatures (such as Frog-Spawn) any damage directed at protected Creatures will be prevented and Immobuluss second effect will not discard the Creature from play. "
             }
         ],
-        "imgSrc": "Immobulus.png",
+        "imgSrc": "immobulus.png",
         "horizontal": false
     },
     {
@@ -12911,7 +12911,7 @@ export const cards = [
                 "ruling": "Katie checks for a Match in play for each instance of you taking damage, not at the beginning of your turn. If a Match is discarded from play and then you take damage, Katie will not reduce damage by 1."
             }
         ],
-        "imgSrc": "KatieBell.png",
+        "imgSrc": "katie-bell.png",
         "horizontal": true
     },
     {
@@ -12946,7 +12946,7 @@ export const cards = [
                 "ruling": "If you dont have 5 cards of different card types in your discard pile, you cannot complete everything on Loyaltys Reward and so you cannot play it."
             }
         ],
-        "imgSrc": "LoyaltysReward.png",
+        "imgSrc": "loyaltys-reward.png",
         "horizontal": false
     },
     {
@@ -12983,7 +12983,7 @@ export const cards = [
                 "ruling": "To see what \"Using an Action\" means, refer to the Official HPTCG Revival rules."
             }
         ],
-        "imgSrc": "LuciusCane.png",
+        "imgSrc": "lucius-cane.png",
         "horizontal": true
     },
     {
@@ -13021,7 +13021,7 @@ export const cards = [
                 "ruling": "If you decide to search your deck with Lucius effect, you must take a card and complete the entire card effect. Luciuss may clause is a conditional for the entire effect unlike the other cards that search your deck, such as Gringotts Vault Key. With Lucius, you must either do his effect to completion or not do it at all."
             }
         ],
-        "imgSrc": "LuciusMalfoy.png",
+        "imgSrc": "lucius-malfoy.png",
         "horizontal": true
     },
     {
@@ -13044,7 +13044,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "MillicentBulstrode.png",
+        "imgSrc": "millicent-bulstrode.png",
         "horizontal": true
     },
     {
@@ -13077,7 +13077,7 @@ export const cards = [
                 "ruling": "If Myrtle leaves play before the chosen card is discarded, no damage will be dealt when the card leaves play. "
             }
         ],
-        "imgSrc": "MoaningMyrtle.png",
+        "imgSrc": "moaning-myrtle.png",
         "horizontal": true
     },
     {
@@ -13110,7 +13110,7 @@ export const cards = [
                 "ruling": "If you choose a card that requires more than 2 Actions to play, your opponent must use as many Actions as required to play that card, and must use the first available Actions to play that card, if they have enough Actions to play the card."
             }
         ],
-        "imgSrc": "MuddledMemories.png",
+        "imgSrc": "muddled-memories.png",
         "horizontal": false
     },
     {
@@ -13140,7 +13140,7 @@ export const cards = [
                 "ruling": "Gaining abilities means to take on any text in the text box other than flavor text, including activated and passive abilities, as well as Lessons provided, but does not take on keywords, card types, or card names."
             }
         ],
-        "imgSrc": "PolyjuicePotion.png",
+        "imgSrc": "polyjuice-potion.png",
         "horizontal": false
     },
     {
@@ -13173,7 +13173,7 @@ export const cards = [
                 "ruling": "Lockhart triggers at the end of all player's turns if you discarded a card that turn."
             }
         ],
-        "imgSrc": "ProfGilderoyLockhart.png",
+        "imgSrc": "prof-gilderoy-lockhart.png",
         "horizontal": true
     },
     {
@@ -13222,7 +13222,7 @@ export const cards = [
                 "ruling": "You may put multiple Petrification Counters on the same card. Multiple Petrification Counters will have no additional effect, but that card will now be super petrified."
             }
         ],
-        "imgSrc": "SlytherinsBasilisk.png",
+        "imgSrc": "slytherins-basilisk.png",
         "horizontal": true
     },
     {
@@ -13249,7 +13249,7 @@ export const cards = [
                 "ruling": "You must discard all cards in your hand when you activate this cards effect, even if you have more than 4 cards in your hand."
             }
         ],
-        "imgSrc": "SwallowedSnitch.png",
+        "imgSrc": "swallowed-snitch.png",
         "horizontal": true
     },
     {
@@ -13288,7 +13288,7 @@ export const cards = [
                 "ruling": "Since there is no difference between playing a card and putting a card into play, if a card like History of Magic Homework puts a Lesson into play, Toms ability will trigger. However, no matter how many Lessons are put into play, such as with Strategy Session, Tom will only add 1 Power per turn."
             }
         ],
-        "imgSrc": "TomMarvoloRiddle.png",
+        "imgSrc": "tom-marvolo-riddle.png",
         "horizontal": true
     },
     {
@@ -13316,7 +13316,7 @@ export const cards = [
                 "ruling": "Wandering Knockturn discards the card after it is played and enters the field, so any card that has an ability that triggers when it enters, such as Pewter Cauldron, will activate before Wandering Knockturn discards it."
             }
         ],
-        "imgSrc": "WanderingKnockturn.png",
+        "imgSrc": "wandering-knockturn.png",
         "horizontal": true
     },
     {
@@ -13342,7 +13342,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "AragogsLair.png",
+        "imgSrc": "aragogs-lair.png",
         "horizontal": true
     },
     {
@@ -13364,7 +13364,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "AraniaExumai.png",
+        "imgSrc": "arania-exumai.png",
         "horizontal": false
     },
     {
@@ -13385,7 +13385,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "BasiliskFang.png",
+        "imgSrc": "basilisk-fang.png",
         "horizontal": true
     },
     {
@@ -13411,7 +13411,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "Bowtruckle.png",
+        "imgSrc": "bowtruckle.png",
         "horizontal": true
     },
     {
@@ -13462,7 +13462,7 @@ export const cards = [
                 "ruling": "If a card would increase the cost of a card beyond 2, you may still choose the card, as Lockharts Books look at the printed Power cost of the chosen card, not altered cost. "
             }
         ],
-        "imgSrc": "BreakWithABanshee.png",
+        "imgSrc": "break-with-a-banshee.png",
         "horizontal": true
     },
     {
@@ -13483,7 +13483,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "CirclingTheGoalPosts.png",
+        "imgSrc": "circling-the-goal-posts.png",
         "horizontal": false
     },
     {
@@ -13525,7 +13525,7 @@ export const cards = [
                 "ruling": "All players may look at the chosen card once it is beneath this card."
             }
         ],
-        "imgSrc": "CornishPixie.png",
+        "imgSrc": "cornish-pixie.png",
         "horizontal": true
     },
     {
@@ -13557,7 +13557,7 @@ export const cards = [
                 "ruling": "If your opponent is physically unable to comply with the directions, they do not need to speak, and will not take damage."
             }
         ],
-        "imgSrc": "DeathdayParty.png",
+        "imgSrc": "deathday-party.png",
         "horizontal": true
     },
     {
@@ -13579,7 +13579,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "DracosSuperiority.png",
+        "imgSrc": "dracos-superiority.png",
         "horizontal": false
     },
     {
@@ -13611,7 +13611,7 @@ export const cards = [
                 "ruling": "With Essential Knowledge Test in play, you may still play cards that require you to draw. The draw effect may be prevented by Essential Knowledge Test, if you choose, but the effect will count as having happened. "
             }
         ],
-        "imgSrc": "EssentialKnowledgeTest.png",
+        "imgSrc": "essential-knowledge-test.png",
         "horizontal": true
     },
     {
@@ -13662,7 +13662,7 @@ export const cards = [
                 "ruling": "If a card would increase the cost of a card beyond 2, you may still choose the card, as Lockharts Books look at the printed Power cost of the chosen card, not altered cost. "
             }
         ],
-        "imgSrc": "GaddingWithGhouls.png",
+        "imgSrc": "gadding-with-ghouls.png",
         "horizontal": true
     },
     {
@@ -13696,7 +13696,7 @@ export const cards = [
                 "ruling": "Hogwarts Pipes ability is not optional. Any damage taken must be taken from the bottom of your deck."
             }
         ],
-        "imgSrc": "HogwartsPipes.png",
+        "imgSrc": "hogwarts-pipes.png",
         "horizontal": true
     },
     {
@@ -13747,7 +13747,7 @@ export const cards = [
                 "ruling": "If a card would increase the cost of a card beyond 2, you may still choose the card, as Lockharts Books look at the printed Power cost of the chosen card, not altered cost. "
             }
         ],
-        "imgSrc": "HolidaysWithHags.png",
+        "imgSrc": "holidays-with-hags.png",
         "horizontal": true
     },
     {
@@ -13779,7 +13779,7 @@ export const cards = [
                 "ruling": "If a card prevents you from playing Locations (such as Blocked Barrier), you may still activate Kheshakhassa since the activation and Action use is discarding a Potions Lesson and searching your deck, while playing a Location is a may that follows."
             }
         ],
-        "imgSrc": "Kheshakhassa.png",
+        "imgSrc": "kheshakhassa.png",
         "horizontal": false
     },
     {
@@ -13805,7 +13805,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "LockhartsOffice.png",
+        "imgSrc": "lockharts-office.png",
         "horizontal": true
     },
     {
@@ -13856,7 +13856,7 @@ export const cards = [
                 "ruling": "If a card would increase the cost of a card beyond 2, you may still choose the card, as Lockharts Books look at the printed Power cost of the chosen card, not altered cost. "
             }
         ],
-        "imgSrc": "MagicalMe.png",
+        "imgSrc": "magical-me.png",
         "horizontal": true
     },
     {
@@ -13886,7 +13886,7 @@ export const cards = [
                 "ruling": "Even if a card increases the number of Actions needed to use a Characters ability, Mandrake Draught will eliminate all need for Actions to use that ability."
             }
         ],
-        "imgSrc": "MandrakeDraught.png",
+        "imgSrc": "mandrake-draught.png",
         "horizontal": false
     },
     {
@@ -13907,7 +13907,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "QuidditchPlaque.png",
+        "imgSrc": "quidditch-plaque.png",
         "horizontal": true
     },
     {
@@ -13928,7 +13928,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "Skurge.png",
+        "imgSrc": "skurge.png",
         "horizontal": false
     },
     {
@@ -13980,7 +13980,7 @@ export const cards = [
                 "ruling": "If you have multiple Spellotapes in play and another of your Items is discarded by an opponent, only 1 Spellotape will be discarded."
             }
         ],
-        "imgSrc": "Spellotape.png",
+        "imgSrc": "spellotape.png",
         "horizontal": true
     },
     {
@@ -14012,7 +14012,7 @@ export const cards = [
                 "ruling": "Vera Verto keeps the Uniqueness of what is played, meaning if a Hedwig or other Unique creature is chosen, another Hedwig or copy of that Unique Creature cannot be played."
             }
         ],
-        "imgSrc": "VeraVerto.png",
+        "imgSrc": "vera-verto.png",
         "horizontal": false
     },
     {
@@ -14063,7 +14063,7 @@ export const cards = [
                 "ruling": "If a card would increase the cost of a card beyond 2, you may still choose the card, as Lockharts Books look at the printed Power cost of the chosen card, not altered cost. "
             }
         ],
-        "imgSrc": "VoyagesWithVampires.png",
+        "imgSrc": "voyages-with-vampires.png",
         "horizontal": true
     },
     {
@@ -14090,7 +14090,7 @@ export const cards = [
                 "ruling": "If you have a card that reduces the damage from Whispers from the Pipes to 0 (such as Madam Malkin's Robes), you can still do everything the card says since you took the damage (even though it was 0 damage)."
             }
         ],
-        "imgSrc": "WhispersFromThePipes.png",
+        "imgSrc": "whispers-from-the-pipes.png",
         "horizontal": true
     },
     {
@@ -14131,7 +14131,7 @@ export const cards = [
                 "ruling": "No matter how many cards you draw at once, that draw will only count as 1 of the 7 instances of drawing you need."
             }
         ],
-        "imgSrc": "WinterMatch.png",
+        "imgSrc": "winter-match.png",
         "horizontal": true
     },
     {
@@ -14158,7 +14158,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "BabyAcromantula.png",
+        "imgSrc": "baby-acromantula.png",
         "horizontal": true
     },
     {
@@ -14195,7 +14195,7 @@ export const cards = [
                 "ruling": "Cauldron Calamity does damage to each target you choose once, in the order you choose. "
             }
         ],
-        "imgSrc": "CauldronCalamity.png",
+        "imgSrc": "cauldron-calamity.png",
         "horizontal": false
     },
     {
@@ -14219,7 +14219,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "ColinsCamera.png",
+        "imgSrc": "colins-camera.png",
         "horizontal": true
     },
     {
@@ -14241,7 +14241,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "DodgingTheBludger.png",
+        "imgSrc": "dodging-the-bludger.png",
         "horizontal": false
     },
     {
@@ -14263,7 +14263,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "DuelingPractice.png",
+        "imgSrc": "dueling-practice.png",
         "horizontal": false
     },
     {
@@ -14285,7 +14285,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "EatSlugs.png",
+        "imgSrc": "eat-slugs.png",
         "horizontal": false
     },
     {
@@ -14306,7 +14306,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "EnemiesOfTheHeirBeware.png",
+        "imgSrc": "enemies-of-the-heir-beware.png",
         "horizontal": false
     },
     {
@@ -14328,7 +14328,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "Expelliarmus.png",
+        "imgSrc": "expelliarmus.png",
         "horizontal": false
     },
     {
@@ -14355,7 +14355,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "ForestSpider.png",
+        "imgSrc": "forest-spider.png",
         "horizontal": true
     },
     {
@@ -14382,7 +14382,7 @@ export const cards = [
                 "ruling": "Your opponent will be able to use any Action other than their first to play Spells. This means their second Action (if they have one) and any Action beyond that (if they gain more than 2 Actions) may be used to play Spells."
             }
         ],
-        "imgSrc": "Mimblewimble.png",
+        "imgSrc": "mimblewimble.png",
         "horizontal": false
     },
     {
@@ -14409,7 +14409,7 @@ export const cards = [
                 "ruling": "A card that loses all abilities means that card retains its card type, name, and keywords but loses everything else (such as effects and Power provided). Creatures, however, retain health and damage per turn."
             }
         ],
-        "imgSrc": "Mis-BrewedPolyjuice.png",
+        "imgSrc": "mis-brewed-polyjuice.png",
         "horizontal": false
     },
     {
@@ -14437,7 +14437,7 @@ export const cards = [
                 "ruling": "Both Creatures do damage at the same time, and they deal damage only once."
             }
         ],
-        "imgSrc": "MortalEnemies.png",
+        "imgSrc": "mortal-enemies.png",
         "horizontal": false
     },
     {
@@ -14465,7 +14465,7 @@ export const cards = [
                 "ruling": "You may play New Slytherin Seeker even if there isnt a Match in play, but when the card checks for a Match, you will not be able to make your opponent discard one of their Creatures unless there is a Match in play."
             }
         ],
-        "imgSrc": "NewSlytherinSeeker.png",
+        "imgSrc": "new-slytherin-seeker.png",
         "horizontal": false
     },
     {
@@ -14490,7 +14490,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "OldSock.png",
+        "imgSrc": "old-sock.png",
         "horizontal": true
     },
     {
@@ -14512,7 +14512,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "Parseltongue.png",
+        "imgSrc": "parseltongue.png",
         "horizontal": false
     },
     {
@@ -14534,7 +14534,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "PeskipiksiPesternomi.png",
+        "imgSrc": "peskipiksi-pesternomi.png",
         "horizontal": false
     },
     {
@@ -14556,7 +14556,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "PetrifyingStare.png",
+        "imgSrc": "petrifying-stare.png",
         "horizontal": false
     },
     {
@@ -14584,7 +14584,7 @@ export const cards = [
                 "ruling": "Your opponents do not need to take a Lesson from their deck. This is optional. They do, however, still need to shuffle their deck as they were required to search through it."
             }
         ],
-        "imgSrc": "Pre-MatchHandshake.png",
+        "imgSrc": "pre-match-handshake.png",
         "horizontal": false
     },
     {
@@ -14611,7 +14611,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "Quaffle.png",
+        "imgSrc": "quaffle.png",
         "horizontal": true
     },
     {
@@ -14643,7 +14643,7 @@ export const cards = [
                 "ruling": "You must switch progress if you play this card. Do everything on the card, in order. You cannot play this card just to do 4 damage."
             }
         ],
-        "imgSrc": "QuidditchConfidence.png",
+        "imgSrc": "quidditch-confidence.png",
         "horizontal": false
     },
     {
@@ -14670,7 +14670,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "Rooster.png",
+        "imgSrc": "rooster.png",
         "horizontal": true
     },
     {
@@ -14692,7 +14692,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "SinkPassageway.png",
+        "imgSrc": "sink-passageway.png",
         "horizontal": false
     },
     {
@@ -14713,7 +14713,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "Skele-Gro.png",
+        "imgSrc": "skele-gro.png",
         "horizontal": false
     },
     {
@@ -14737,7 +14737,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "SlowerBrooms.png",
+        "imgSrc": "slower-brooms.png",
         "horizontal": true
     },
     {
@@ -14764,7 +14764,7 @@ export const cards = [
                 "ruling": "Substitute Cat only counts the number of Lessons in play, not the amount of Power in play. This means Substitute Cat will not count Power provided from cards such as Wands, Books, or Professors."
             }
         ],
-        "imgSrc": "SubstituteCat.png",
+        "imgSrc": "substitute-cat.png",
         "horizontal": false
     },
     {
@@ -14786,7 +14786,7 @@ export const cards = [
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
         "rulings": [],
-        "imgSrc": "SwishAndFlick.png",
+        "imgSrc": "swish-and-flick.png",
         "horizontal": false
     },
     {
@@ -14813,7 +14813,7 @@ export const cards = [
                 "ruling": "If no card is discarded from the top of your deck, the printed Power cost is considered 0."
             }
         ],
-        "imgSrc": "WizardDuel.png",
+        "imgSrc": "wizard-duel.png",
         "horizontal": false
     },
     {
@@ -14842,7 +14842,7 @@ export const cards = [
                 "ruling": "Godrics effect triggers only on the 3rd card you draw, not on every 3rd card in a turn."
             }
         ],
-        "imgSrc": "GodricGryffindor.png",
+        "imgSrc": "godric-gryffindor.png",
         "horizontal": true
     },
     {
@@ -14865,7 +14865,7 @@ export const cards = [
         "setName": "Hogwarts A History",
         "releaseDate": "12-2023",
         "rulings": [],
-        "imgSrc": "HelgaHufflepuff.png",
+        "imgSrc": "helga-hufflepuff.png",
         "horizontal": true
     },
     {
@@ -14895,7 +14895,7 @@ export const cards = [
         "setName": "Hogwarts A History",
         "releaseDate": "12-2023",
         "rulings": [],
-        "imgSrc": "HogwartsAHistory.png",
+        "imgSrc": "hogwarts-a-history.png",
         "horizontal": true
     },
     {
@@ -14918,7 +14918,7 @@ export const cards = [
         "setName": "Hogwarts A History",
         "releaseDate": "12-2023",
         "rulings": [],
-        "imgSrc": "RowenaRavenclaw.png",
+        "imgSrc": "rowena-ravenclaw.png",
         "horizontal": true
     },
     {
@@ -14941,7 +14941,7 @@ export const cards = [
         "setName": "Hogwarts A History",
         "releaseDate": "12-2023",
         "rulings": [],
-        "imgSrc": "SalazarSlytherin.png",
+        "imgSrc": "salazar-slytherin.png",
         "horizontal": true
     },
     {
@@ -14966,7 +14966,7 @@ export const cards = [
         "setName": "Hogwarts A History",
         "releaseDate": "12-2023",
         "rulings": [],
-        "imgSrc": "TheGrandStaircase.png",
+        "imgSrc": "the-grand-staircase.png",
         "horizontal": true
     },
     {
@@ -14987,7 +14987,7 @@ export const cards = [
         "setName": "Hogwarts A History",
         "releaseDate": "12-2023",
         "rulings": [],
-        "imgSrc": "CockatriceAttack.png",
+        "imgSrc": "cockatrice-attack.png",
         "horizontal": true
     },
     {
@@ -15012,7 +15012,7 @@ export const cards = [
         "setName": "Hogwarts A History",
         "releaseDate": "12-2023",
         "rulings": [],
-        "imgSrc": "HogwartsFirstMatch.png",
+        "imgSrc": "hogwarts-first-match.png",
         "horizontal": true
     },
     {
@@ -15037,7 +15037,7 @@ export const cards = [
         "setName": "Hogwarts A History",
         "releaseDate": "12-2023",
         "rulings": [],
-        "imgSrc": "HogwartsKitchens.png",
+        "imgSrc": "hogwarts-kitchens.png",
         "horizontal": true
     },
     {
@@ -15064,7 +15064,7 @@ export const cards = [
         "setName": "Hogwarts A History",
         "releaseDate": "12-2023",
         "rulings": [],
-        "imgSrc": "HufflepuffCommonRoom.png",
+        "imgSrc": "hufflepuff-common-room.png",
         "horizontal": true
     },
     {
@@ -15090,7 +15090,7 @@ export const cards = [
         "setName": "Hogwarts A History",
         "releaseDate": "12-2023",
         "rulings": [],
-        "imgSrc": "RavenclawCommonRoom.png",
+        "imgSrc": "ravenclaw-common-room.png",
         "horizontal": true
     },
     {
@@ -15112,7 +15112,7 @@ export const cards = [
         "setName": "Hogwarts A History",
         "releaseDate": "12-2023",
         "rulings": [],
-        "imgSrc": "StairsIntoSlides.png",
+        "imgSrc": "stairs-into-slides.png",
         "horizontal": false
     },
     {
@@ -15133,7 +15133,7 @@ export const cards = [
         "setName": "Hogwarts A History",
         "releaseDate": "12-2023",
         "rulings": [],
-        "imgSrc": "TheFirstTriwizardTournament.png",
+        "imgSrc": "the-first-triwizard-tournament.png",
         "horizontal": true
     },
     {
@@ -15159,7 +15159,7 @@ export const cards = [
         "setName": "Hogwarts A History",
         "releaseDate": "12-2023",
         "rulings": [],
-        "imgSrc": "AnimatedArmour.png",
+        "imgSrc": "animated-armour.png",
         "horizontal": true
     },
     {
@@ -15191,7 +15191,7 @@ export const cards = [
                 "ruling": "Lessons, Characters and Adventures do not have a Lesson type. If one of those is discarded, Bewitched Ceiling does not provide power."
             }
         ],
-        "imgSrc": "BewitchedCeiling.png",
+        "imgSrc": "bewitched-ceiling.png",
         "horizontal": true
     },
     {
@@ -15218,7 +15218,7 @@ export const cards = [
                 "ruling": "Adventures, Characters, and Lessons have no printed Power cost, and thus cannot be chosen for this card."
             }
         ],
-        "imgSrc": "Depulso.png",
+        "imgSrc": "depulso.png",
         "horizontal": false
     },
     {
@@ -15239,7 +15239,7 @@ export const cards = [
         "setName": "Hogwarts A History",
         "releaseDate": "12-2023",
         "rulings": [],
-        "imgSrc": "InvisibilityPotion.png",
+        "imgSrc": "invisibility-potion.png",
         "horizontal": false
     },
     {
@@ -15263,7 +15263,7 @@ export const cards = [
         "setName": "Hogwarts A History",
         "releaseDate": "12-2023",
         "rulings": [],
-        "imgSrc": "MidnightSnacks.png",
+        "imgSrc": "midnight-snacks.png",
         "horizontal": false
     },
     {
@@ -15284,7 +15284,7 @@ export const cards = [
         "setName": "Hogwarts A History",
         "releaseDate": "12-2023",
         "rulings": [],
-        "imgSrc": "StoogingPenalty.png",
+        "imgSrc": "stooging-penalty.png",
         "horizontal": false
     },
     {
@@ -15310,7 +15310,7 @@ export const cards = [
         "setName": "Hogwarts A History",
         "releaseDate": "12-2023",
         "rulings": [],
-        "imgSrc": "WildCockatrice.png",
+        "imgSrc": "wild-cockatrice.png",
         "horizontal": true
     },
     {
@@ -15335,7 +15335,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "AlleyBlast.png",
+        "imgSrc": "alley-blast.png",
         "horizontal": false
     },
     {
@@ -15362,7 +15362,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "Azkaban.png",
+        "imgSrc": "azkaban.png",
         "horizontal": true
     },
     {
@@ -15386,7 +15386,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "BlacksBreakIn.png",
+        "imgSrc": "blacks-break-in.png",
         "horizontal": false
     },
     {
@@ -15420,7 +15420,7 @@ export const cards = [
                 "ruling": "Both Creatures do damage at the same time, and they deal damage only once."
             }
         ],
-        "imgSrc": "Buckbeak.png",
+        "imgSrc": "buckbeak.png",
         "horizontal": true
     },
     {
@@ -15449,7 +15449,7 @@ export const cards = [
                 "ruling": "You get 1 extra Action for each Action your opponent uses beyond their second. (You get 1 extra Action if they used 1 extra Action; you get 2 extra Actions if they used 2 extra Actions; etc.)"
             }
         ],
-        "imgSrc": "CorneliusFudge.png",
+        "imgSrc": "cornelius-fudge.png",
         "horizontal": true
     },
     {
@@ -15476,7 +15476,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "Dementor.png",
+        "imgSrc": "dementor.png",
         "horizontal": true
     },
     {
@@ -15503,7 +15503,7 @@ export const cards = [
                 "ruling": "You may use Filchs ability to discard one of your own Events from play."
             }
         ],
-        "imgSrc": "FilchHogwartsCaretaker.png",
+        "imgSrc": "filch-hogwarts-caretaker.png",
         "horizontal": true
     },
     {
@@ -15533,7 +15533,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "Firebolt.png",
+        "imgSrc": "firebolt.png",
         "horizontal": true
     },
     {
@@ -15557,7 +15557,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "FredGeorgeBeaters.png",
+        "imgSrc": "fred--george-beaters.png",
         "horizontal": true
     },
     {
@@ -15581,7 +15581,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "HarryYoungMarauder.png",
+        "imgSrc": "harry-young-marauder.png",
         "horizontal": true
     },
     {
@@ -15604,7 +15604,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "HomeworkByWandlight.png",
+        "imgSrc": "homework-by-wandlight.png",
         "horizontal": true
     },
     {
@@ -15625,7 +15625,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "KnightBus.png",
+        "imgSrc": "knight-bus.png",
         "horizontal": false
     },
     {
@@ -15650,7 +15650,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "NightlyPractices.png",
+        "imgSrc": "nightly-practices.png",
         "horizontal": true
     },
     {
@@ -15671,7 +15671,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "ProfessorRemusLupin.png",
+        "imgSrc": "professor-remus-lupin.png",
         "horizontal": true
     },
     {
@@ -15705,7 +15705,7 @@ export const cards = [
                 "ruling": "If you decide to draw a card, you must also be able to put 1 COMC Lesson from your discard pile into your hand. You cannot choose to do only 1 of these parts of the ability."
             }
         ],
-        "imgSrc": "ProfessorRubeusHagrid.png",
+        "imgSrc": "professor-rubeus-hagrid.png",
         "horizontal": true
     },
     {
@@ -15734,7 +15734,7 @@ export const cards = [
                 "ruling": "You may put both cards back on top, both cards on bottom, or 1 on top and 1 on bottom."
             }
         ],
-        "imgSrc": "ProfessorSybillTrelawney.png",
+        "imgSrc": "professor-sybill-trelawney.png",
         "horizontal": true
     },
     {
@@ -15795,7 +15795,7 @@ export const cards = [
                 "ruling": "The specific part of the card effect that caused your last card to leave your deck is considered finished when Secret-Keepers ability triggers, but any other parts of the effect unrelated to that still resolve. (e.g. Blue Wig will still let you draw a card even if Secret-Keeper stops the damage when you have 1 card left in your deck.)"
             }
         ],
-        "imgSrc": "SecretKeeper.png",
+        "imgSrc": "secret-keeper.png",
         "horizontal": true
     },
     {
@@ -15823,7 +15823,7 @@ export const cards = [
                 "ruling": "Sir Cadogan sees printed Power cost, not Power cost. Sir Cadogan doesnt care if a card (such as Bravado) adjusts the Power of a card. As long as the number printed on the card is even, Sir Cadogan will trigger."
             }
         ],
-        "imgSrc": "SirCadogan.png",
+        "imgSrc": "sir-cadogan.png",
         "horizontal": true
     },
     {
@@ -15856,7 +15856,7 @@ export const cards = [
                 "ruling": "Cards with multiple card types count as each different card type they are (such as The Monster Book of Monsters counting as both an Item and a Creature)."
             }
         ],
-        "imgSrc": "SiriusBlack.png",
+        "imgSrc": "sirius-black.png",
         "horizontal": true
     },
     {
@@ -15884,7 +15884,7 @@ export const cards = [
                 "ruling": "You may use any Location in play, even ones owned by your opponents."
             }
         ],
-        "imgSrc": "StanShunpike.png",
+        "imgSrc": "stan-shunpike.png",
         "horizontal": true
     },
     {
@@ -15909,7 +15909,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "TheMaraudersMap.png",
+        "imgSrc": "the-marauders-map.png",
         "horizontal": true
     },
     {
@@ -15956,7 +15956,7 @@ export const cards = [
                 "ruling": "You may choose to prevent 0, 1, or 2 damage."
             }
         ],
-        "imgSrc": "12YearsInAzkaban.png",
+        "imgSrc": "12-years-in-azkaban.png",
         "horizontal": true
     },
     {
@@ -15991,7 +15991,7 @@ export const cards = [
                 "ruling": "If you would lose the game during the resolution of the cards effect, At the Three Broomsticks will not save you by adding another card to your deck."
             }
         ],
-        "imgSrc": "AtTheThreeBroomsticks.png",
+        "imgSrc": "at-the-three-broomsticks.png",
         "horizontal": true
     },
     {
@@ -16016,7 +16016,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "AzkabanBreakout.png",
+        "imgSrc": "azkaban-breakout.png",
         "horizontal": false
     },
     {
@@ -16049,7 +16049,7 @@ export const cards = [
                 "ruling": "Cards with multiple card types count as each different card type they are (such as The Monster Book of Monsters counting as both an Item and a Creature)."
             }
         ],
-        "imgSrc": "Boggart.png",
+        "imgSrc": "boggart.png",
         "horizontal": true
     },
     {
@@ -16077,7 +16077,7 @@ export const cards = [
                 "ruling": "This card only discards cards with the exact same name. If you choose Draco Malfoy, and your opponent has both Draco Malfoy and Draco the Seeker in their hand, they will only discard Draco Malfoy."
             }
         ],
-        "imgSrc": "Confiscated.png",
+        "imgSrc": "confiscated.png",
         "horizontal": false
     },
     {
@@ -16098,7 +16098,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "DementorsOnThePitch.png",
+        "imgSrc": "dementors-on-the-pitch.png",
         "horizontal": true
     },
     {
@@ -16125,7 +16125,7 @@ export const cards = [
                 "ruling": "Any source of damage from a card with the same name as the named card will not be prevented, whether they have 1 or 4 of them."
             }
         ],
-        "imgSrc": "EavesdroppingOnTheWeasleys.png",
+        "imgSrc": "eavesdropping-on-the-weasleys.png",
         "horizontal": true
     },
     {
@@ -16161,7 +16161,7 @@ export const cards = [
                 "ruling": "This card only deals damage for the 3rd Action used. It will not trigger for Action #4 and beyond."
             }
         ],
-        "imgSrc": "EgyptianHoliday.png",
+        "imgSrc": "egyptian-holiday.png",
         "horizontal": true
     },
     {
@@ -16182,7 +16182,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "FlightOfTheFatLady.png",
+        "imgSrc": "flight-of-the-fat-lady.png",
         "horizontal": false
     },
     {
@@ -16207,7 +16207,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "GrimSighting.png",
+        "imgSrc": "grim-sighting.png",
         "horizontal": true
     },
     {
@@ -16237,7 +16237,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "HandbookOfDoItYourselfBroomcare.png",
+        "imgSrc": "handbook-of-do-it-yourself-broomcare.png",
         "horizontal": true
     },
     {
@@ -16264,7 +16264,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "Hermes.png",
+        "imgSrc": "hermes.png",
         "horizontal": true
     },
     {
@@ -16295,7 +16295,7 @@ export const cards = [
                 "ruling": "The Creature damage to trigger this ability can be done during any step of your turn that a card or game state has a Creature do damage during (Creature damage step, Action step with cards such as Steelclaw, etc.)."
             }
         ],
-        "imgSrc": "HippogriffRide.png",
+        "imgSrc": "hippogriff-ride.png",
         "horizontal": true
     },
     {
@@ -16317,7 +16317,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "Impervius.png",
+        "imgSrc": "impervius.png",
         "horizontal": false
     },
     {
@@ -16341,7 +16341,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "ImpromptuInspection.png",
+        "imgSrc": "impromptu-inspection.png",
         "horizontal": true
     },
     {
@@ -16374,7 +16374,7 @@ export const cards = [
                 "ruling": "Using an Action to repeat this effect is part of the Spell. When you are done repeating this effect, you then put the Spell card into your discard pile. You cannot use this Spells effect later unless you play it again."
             }
         ],
-        "imgSrc": "InheritingTheMap.png",
+        "imgSrc": "inheriting-the-map.png",
         "horizontal": false
     },
     {
@@ -16404,7 +16404,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "IntermediateTransfiguration.png",
+        "imgSrc": "intermediate-transfiguration.png",
         "horizontal": true
     },
     {
@@ -16425,7 +16425,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "ListOfPasswords.png",
+        "imgSrc": "list-of-passwords.png",
         "horizontal": true
     },
     {
@@ -16456,7 +16456,7 @@ export const cards = [
                 "ruling": "This card only sees card types played when it enters and afterwards. It does not count card types played before it entered play."
             }
         ],
-        "imgSrc": "McGonagallsOffice.png",
+        "imgSrc": "mcgonagalls-office.png",
         "horizontal": true
     },
     {
@@ -16477,7 +16477,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "Mobiliarbus.png",
+        "imgSrc": "mobiliarbus.png",
         "horizontal": false
     },
     {
@@ -16499,7 +16499,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "QuidditchChangingRoom.png",
+        "imgSrc": "quidditch-changing-room.png",
         "horizontal": true
     },
     {
@@ -16541,7 +16541,7 @@ export const cards = [
                 "ruling": "If your opponent has a card in their hand that they can play (they have the required Power and Lesson type in play) then you must choose a card for them to play. This is not optional."
             }
         ],
-        "imgSrc": "Riddikulus.png",
+        "imgSrc": "riddikulus.png",
         "horizontal": false
     },
     {
@@ -16574,7 +16574,7 @@ export const cards = [
                 "ruling": "Each card your opponent plays is considered a choice. For example, cards that do damage or that say, Choose an opponent will force your opponent to choose Security Troll before your other Creatures in play. Your opponent can still choose their own Creatures."
             }
         ],
-        "imgSrc": "SecurityTroll.png",
+        "imgSrc": "security-troll.png",
         "horizontal": true
     },
     {
@@ -16604,7 +16604,7 @@ export const cards = [
                 "ruling": "If a card fits into more than one category that would trigger an effect, then it triggers each effect into which the card fits."
             }
         ],
-        "imgSrc": "TeacupsAndTeaLeaves.png",
+        "imgSrc": "teacups-and-tea-leaves.png",
         "horizontal": true
     },
     {
@@ -16636,7 +16636,7 @@ export const cards = [
                 "ruling": "No matter how many cards a player draws at once, their opponents will only draw 2 cards."
             }
         ],
-        "imgSrc": "TheNorthTower.png",
+        "imgSrc": "the-north-tower.png",
         "horizontal": true
     },
     {
@@ -16666,7 +16666,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "TheStandardBookOfSpellsGrade3.png",
+        "imgSrc": "the-standard-book-of-spells-grade-3.png",
         "horizontal": true
     },
     {
@@ -16691,7 +16691,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "ThunderstormMatch.png",
+        "imgSrc": "thunderstorm-match.png",
         "horizontal": true
     },
     {
@@ -16728,7 +16728,7 @@ export const cards = [
                 "ruling": "This card will shuffle Healing cards back into your deck, if they are part of the damage your opponent took from this card."
             }
         ],
-        "imgSrc": "UnworthyTrick.png",
+        "imgSrc": "unworthy-trick.png",
         "horizontal": false
     },
     {
@@ -16755,7 +16755,7 @@ export const cards = [
                 "ruling": "If you name the same card with multiple Wanted Posters, the named card will require 1 more Action to play for each Wanted Poster you play and name that card with."
             }
         ],
-        "imgSrc": "WantedPoster.png",
+        "imgSrc": "wanted-poster.png",
         "horizontal": true
     },
     {
@@ -16777,7 +16777,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "BallooningAunt.png",
+        "imgSrc": "ballooning-aunt.png",
         "horizontal": false
     },
     {
@@ -16799,7 +16799,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "BestPracticeEver.png",
+        "imgSrc": "best-practice-ever.png",
         "horizontal": false
     },
     {
@@ -16821,7 +16821,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "BowingToAHippogriff.png",
+        "imgSrc": "bowing-to-a-hippogriff.png",
         "horizontal": false
     },
     {
@@ -16848,7 +16848,7 @@ export const cards = [
                 "ruling": "You must have the requisite Actions as well as the requisite Power and proper Lesson type in play to play the card."
             }
         ],
-        "imgSrc": "BrassScales.png",
+        "imgSrc": "brass-scales.png",
         "horizontal": true
     },
     {
@@ -16883,7 +16883,7 @@ export const cards = [
                 "ruling": "Using an Action to repeat this effect is part of the Spell. When you are done repeating this effect, you then put the Spell card into your discard pile. You cannot use this Spells effect later unless you play it again."
             }
         ],
-        "imgSrc": "BroadenYourMinds.png",
+        "imgSrc": "broaden-your-minds.png",
         "horizontal": false
     },
     {
@@ -16904,7 +16904,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "BroomstickCompass.png",
+        "imgSrc": "broomstick-compass.png",
         "horizontal": true
     },
     {
@@ -16929,7 +16929,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "Chocolate.png",
+        "imgSrc": "chocolate.png",
         "horizontal": false
     },
     {
@@ -16951,7 +16951,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "DestroyedBroom.png",
+        "imgSrc": "destroyed-broom.png",
         "horizontal": false
     },
     {
@@ -16973,7 +16973,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "DirtyGame.png",
+        "imgSrc": "dirty-game.png",
         "horizontal": false
     },
     {
@@ -17000,7 +17000,7 @@ export const cards = [
                 "ruling": "This card checks for total damage prevented. If the total is more than 3, no matter how many instances of 1 or 2 damage were prevented, this card will not return to your hand."
             }
         ],
-        "imgSrc": "FastSwerve.png",
+        "imgSrc": "fast-swerve.png",
         "horizontal": false
     },
     {
@@ -17024,7 +17024,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "Flibbertigibbet.png",
+        "imgSrc": "flibbertigibbet.png",
         "horizontal": false
     },
     {
@@ -17048,7 +17048,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "FortunaMajor.png",
+        "imgSrc": "fortuna-major.png",
         "horizontal": false
     },
     {
@@ -17070,7 +17070,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "GryffindorSteals.png",
+        "imgSrc": "gryffindor-steals.png",
         "horizontal": false
     },
     {
@@ -17094,7 +17094,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "HogwartsQuidditchRobes.png",
+        "imgSrc": "hogwarts-quidditch-robes.png",
         "horizontal": true
     },
     {
@@ -17125,7 +17125,7 @@ export const cards = [
                 "ruling": "Any discarded card will go into the discard pile as part of the resolution of the effect that discards it. Once it is in the discard pile, other cards that move it elsewhere will try to activate their effects. With Chamber of Secrets in play, it will stop Hooch Watches Practice from returning a discarded Match to play."
             }
         ],
-        "imgSrc": "HoochWatchesPractice.png",
+        "imgSrc": "hooch-watches-practice.png",
         "horizontal": true
     },
     {
@@ -17149,7 +17149,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "ISolemnlySwear.png",
+        "imgSrc": "i-solemnly-swear.png",
         "horizontal": false
     },
     {
@@ -17175,7 +17175,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "InnerEye.png",
+        "imgSrc": "inner-eye.png",
         "horizontal": true
     },
     {
@@ -17197,7 +17197,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "InsultingAHippogriff.png",
+        "imgSrc": "insulting-a-hippogriff.png",
         "horizontal": false
     },
     {
@@ -17219,7 +17219,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "KnightBusRide.png",
+        "imgSrc": "knight-bus-ride.png",
         "horizontal": false
     },
     {
@@ -17246,7 +17246,7 @@ export const cards = [
                 "ruling": "This Spell counts all of the damage that Creature dealt to you since your last turn. This means if your opponent played a Welsh Green Dragon to do 6 damage, and then played Steelclaw to do another 6 damage with Welsh Green Dragon, this Spell will do 12 damage to an opponent if you choose the Welsh Green Dragon that did damage to you with this card."
             }
         ],
-        "imgSrc": "LaughingAtABoggart.png",
+        "imgSrc": "laughing-at-a-boggart.png",
         "horizontal": false
     },
     {
@@ -17278,7 +17278,7 @@ export const cards = [
                 "ruling": "You must complete both chosen options before shuffling this card back into your deck."
             }
         ],
-        "imgSrc": "Lumos.png",
+        "imgSrc": "lumos.png",
         "horizontal": false
     },
     {
@@ -17300,7 +17300,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "MaliciousSubstitute.png",
+        "imgSrc": "malicious-substitute.png",
         "horizontal": false
     },
     {
@@ -17330,7 +17330,7 @@ export const cards = [
                 "ruling": "A card that loses all abilities means that card retains its card type, name, and keywords but loses everything else (such as effects and Power provided). Creatures, however, retain health and damage per turn."
             }
         ],
-        "imgSrc": "MischiefManaged.png",
+        "imgSrc": "mischief-managed.png",
         "horizontal": false
     },
     {
@@ -17354,7 +17354,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "Oddsbodikins.png",
+        "imgSrc": "oddsbodikins.png",
         "horizontal": false
     },
     {
@@ -17381,7 +17381,7 @@ export const cards = [
                 "ruling": "Power from cards that are not Lessons do not count toward this cards total."
             }
         ],
-        "imgSrc": "OverloadedSchedule.png",
+        "imgSrc": "overloaded-schedule.png",
         "horizontal": false
     },
     {
@@ -17416,7 +17416,7 @@ export const cards = [
                 "ruling": "You only need to reveal 1 card with at least 1 matching card type. You do not need to reveal a card that matches each card type."
             }
         ],
-        "imgSrc": "Palmistry.png",
+        "imgSrc": "palmistry.png",
         "horizontal": false
     },
     {
@@ -17441,7 +17441,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "PerfumedSmoke.png",
+        "imgSrc": "perfumed-smoke.png",
         "horizontal": false
     },
     {
@@ -17468,7 +17468,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "PetCat.png",
+        "imgSrc": "pet-cat.png",
         "horizontal": true
     },
     {
@@ -17501,7 +17501,7 @@ export const cards = [
                 "ruling": "Aragog increases the damage Spiders do whenever they do damage, no matter the turn."
             }
         ],
-        "imgSrc": "PetSpider.png",
+        "imgSrc": "pet-spider.png",
         "horizontal": true
     },
     {
@@ -17522,7 +17522,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "PotionExperimentNo7.png",
+        "imgSrc": "potion-experiment-no-7.png",
         "horizontal": false
     },
     {
@@ -17554,7 +17554,7 @@ export const cards = [
                 "ruling": "If you have multiple Rat Tonic in play and one of your Creatures with printed Power cost of 3 or less is discarded from play, you will only discard one of the Rat Tonics, and the other will have lost its ability to replace an effect, as that effect no longer exists."
             }
         ],
-        "imgSrc": "RatTonic.png",
+        "imgSrc": "rat-tonic.png",
         "horizontal": true
     },
     {
@@ -17581,7 +17581,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "RedCap.png",
+        "imgSrc": "red-cap.png",
         "horizontal": true
     },
     {
@@ -17609,7 +17609,7 @@ export const cards = [
                 "ruling": "The Match that you put into play can be the same Match you discarded, as long as that Match is non-Healing. There does not need to be a Match in your discard pile when you play this card."
             }
         ],
-        "imgSrc": "RescheduledMatch.png",
+        "imgSrc": "rescheduled-match.png",
         "horizontal": false
     },
     {
@@ -17633,7 +17633,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "ScurvyCur.png",
+        "imgSrc": "scurvy-cur.png",
         "horizontal": false
     },
     {
@@ -17670,7 +17670,7 @@ export const cards = [
                 "ruling": "The Monster Book of Monsters is affected by anything that affects Items or Creatures. The Monster Book of Monsters can be chosen as targets for cards such as Smash, Beetle Buttons, and Stream of Flames."
             }
         ],
-        "imgSrc": "TheMonsterBookOfMonsters.png",
+        "imgSrc": "the-monster-book-of-monsters.png",
         "horizontal": true
     },
     {
@@ -17694,7 +17694,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "TrelawneysReading.png",
+        "imgSrc": "trelawneys-reading.png",
         "horizontal": false
     },
     {
@@ -17725,7 +17725,7 @@ export const cards = [
                 "ruling": "You use activated abilities at any point during your turn after your draw step but before the end of turn step."
             }
         ],
-        "imgSrc": "UnfoggingTheFuture.png",
+        "imgSrc": "unfogging-the-future.png",
         "horizontal": true
     },
     {
@@ -17747,7 +17747,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "Waddiwasi.png",
+        "imgSrc": "waddiwasi.png",
         "horizontal": false
     },
     {
@@ -17772,7 +17772,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "WingedBoar.png",
+        "imgSrc": "winged-boar.png",
         "horizontal": true
     },
     {
@@ -17797,7 +17797,7 @@ export const cards = [
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
         "rulings": [],
-        "imgSrc": "WolfsbanePotion.png",
+        "imgSrc": "wolfsbane-potion.png",
         "horizontal": false
     },
     {
@@ -17821,7 +17821,7 @@ export const cards = [
         "setName": "Promotional",
         "releaseDate": "11-2023",
         "rulings": [],
-        "imgSrc": "HousePointsV1.png",
+        "imgSrc": "house-points-v1.png",
         "horizontal": false
     },
     {
@@ -17845,7 +17845,7 @@ export const cards = [
         "setName": "Promotional",
         "releaseDate": "11-2023",
         "rulings": [],
-        "imgSrc": "HousePointsV2.png",
+        "imgSrc": "house-points-v2.png",
         "horizontal": false
     },
     {
@@ -17869,7 +17869,7 @@ export const cards = [
         "setName": "Promotional",
         "releaseDate": "11-2023",
         "rulings": [],
-        "imgSrc": "HousePointsV3.png",
+        "imgSrc": "house-points-v3.png",
         "horizontal": false
     },
     {
@@ -17893,7 +17893,7 @@ export const cards = [
         "setName": "Promotional",
         "releaseDate": "11-2023",
         "rulings": [],
-        "imgSrc": "HousePointsV4.png",
+        "imgSrc": "house-points-v4.png",
         "horizontal": false
     },
     {
@@ -17914,7 +17914,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Bludger.png",
+        "imgSrc": "bludger.png",
         "horizontal": true
     },
     {
@@ -17936,7 +17936,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "CatchTheSnitch.png",
+        "imgSrc": "catch-the-snitch.png",
         "horizontal": false
     },
     {
@@ -17964,7 +17964,7 @@ export const cards = [
                 "ruling": "If a card states, \"A player may draw any number of cards\", they must choose how many cards to draw, then draw them all at once. Players cannot draw-look-decide-draw-again-repeat."
             }
         ],
-        "imgSrc": "CharmsExam.png",
+        "imgSrc": "charms-exam.png",
         "horizontal": false
     },
     {
@@ -17995,7 +17995,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Fluffy.png",
+        "imgSrc": "fluffy.png",
         "horizontal": true
     },
     {
@@ -18023,7 +18023,7 @@ export const cards = [
                 "ruling": "If you replace an Adventure in play with another Adventure, then your opponent must restart solving the Adventure since its a brand new Adventure."
             }
         ],
-        "imgSrc": "Fred&GeorgeWeasley.png",
+        "imgSrc": "fred--george-weasley.png",
         "horizontal": true
     },
     {
@@ -18045,7 +18045,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "GazeIntoTheMirror.png",
+        "imgSrc": "gaze-into-the-mirror.png",
         "horizontal": true
     },
     {
@@ -18075,7 +18075,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "GoldCauldron.png",
+        "imgSrc": "gold-cauldron.png",
         "horizontal": true
     },
     {
@@ -18096,7 +18096,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "GoldenSnitch.png",
+        "imgSrc": "golden-snitch.png",
         "horizontal": true
     },
     {
@@ -18133,7 +18133,7 @@ export const cards = [
                 "ruling": "If there is a Match in play, then the damage your opponent takes to solve this card counts toward the Match for your opponent."
             }
         ],
-        "imgSrc": "HagridNeedsHelp.png",
+        "imgSrc": "hagrid-needs-help.png",
         "horizontal": true
     },
     {
@@ -18155,7 +18155,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "HalloweenFeast.png",
+        "imgSrc": "halloween-feast.png",
         "horizontal": false
     },
     {
@@ -18179,7 +18179,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "HarryTheSeeker.png",
+        "imgSrc": "harry-the-seeker.png",
         "horizontal": true
     },
     {
@@ -18200,7 +18200,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "HospitalBed.png",
+        "imgSrc": "hospital-bed.png",
         "horizontal": true
     },
     {
@@ -18228,7 +18228,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "MadamRolandaHooch.png",
+        "imgSrc": "madam-rolanda-hooch.png",
         "horizontal": true
     },
     {
@@ -18252,7 +18252,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "MarcusFlint.png",
+        "imgSrc": "marcus-flint.png",
         "horizontal": true
     },
     {
@@ -18284,7 +18284,7 @@ export const cards = [
                 "ruling": "Any damage done Before your turn counts toward Nevilles prevention ability. Before your turn is still your turn."
             }
         ],
-        "imgSrc": "NevilleLongbottom.png",
+        "imgSrc": "neville-longbottom.png",
         "horizontal": true
     },
     {
@@ -18310,7 +18310,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "NimbusTwoThousand.png",
+        "imgSrc": "nimbus-two-thousand.png",
         "horizontal": true
     },
     {
@@ -18331,7 +18331,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "NoTimeToPlay.png",
+        "imgSrc": "no-time-to-play.png",
         "horizontal": false
     },
     {
@@ -18364,7 +18364,7 @@ export const cards = [
                 "ruling": "If your opponent has Potion Ingredient, they first get to choose whether or not they use Potion Ingredient to prevent Spell damage before you decide to apply Oliver Woods ability."
             }
         ],
-        "imgSrc": "OliverWood.png",
+        "imgSrc": "oliver-wood.png",
         "horizontal": true
     },
     {
@@ -18385,7 +18385,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "OutOfControl.png",
+        "imgSrc": "out-of-control.png",
         "horizontal": false
     },
     {
@@ -18406,7 +18406,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "PotionsClassDisaster.png",
+        "imgSrc": "potions-class-disaster.png",
         "horizontal": false
     },
     {
@@ -18434,7 +18434,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "ProfMinervaMcGonagall.png",
+        "imgSrc": "prof-minerva-mcgonagall.png",
         "horizontal": true
     },
     {
@@ -18455,7 +18455,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "PutOuter.png",
+        "imgSrc": "put-outer.png",
         "horizontal": true
     },
     {
@@ -18479,7 +18479,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "RavenclawMatch.png",
+        "imgSrc": "ravenclaw-match.png",
         "horizontal": true
     },
     {
@@ -18507,7 +18507,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Scabbers.png",
+        "imgSrc": "scabbers.png",
         "horizontal": true
     },
     {
@@ -18533,7 +18533,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "SeamusFinnigan.png",
+        "imgSrc": "seamus-finnigan.png",
         "horizontal": true
     },
     {
@@ -18560,7 +18560,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "SlytherinMatch.png",
+        "imgSrc": "slytherin-match.png",
         "horizontal": true
     },
     {
@@ -18581,7 +18581,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "StartOfTermFeast.png",
+        "imgSrc": "start-of-term-feast.png",
         "horizontal": false
     },
     {
@@ -18602,7 +18602,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "SupportBanner.png",
+        "imgSrc": "support-banner.png",
         "horizontal": true
     },
     {
@@ -18623,7 +18623,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "TheSortingHat.png",
+        "imgSrc": "the-sorting-hat.png",
         "horizontal": true
     },
     {
@@ -18650,7 +18650,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Trevor.png",
+        "imgSrc": "trevor.png",
         "horizontal": true
     },
     {
@@ -18672,7 +18672,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "ChocolateFrogs.png",
+        "imgSrc": "chocolate-frogs.png",
         "horizontal": false
     },
     {
@@ -18708,7 +18708,7 @@ export const cards = [
                 "ruling": "While your opponent chooses the order of cards that are active, you always get to choose what damage you prevent unless a card says so."
             }
         ],
-        "imgSrc": "CometTwoSixty.png",
+        "imgSrc": "comet-two-sixty.png",
         "horizontal": true
     },
     {
@@ -18729,7 +18729,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Defence.png",
+        "imgSrc": "defence.png",
         "horizontal": false
     },
     {
@@ -18755,7 +18755,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "DevilsSnare.png",
+        "imgSrc": "devils-snare.png",
         "horizontal": true
     },
     {
@@ -18776,7 +18776,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Diffindo.png",
+        "imgSrc": "diffindo.png",
         "horizontal": false
     },
     {
@@ -18802,7 +18802,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Doxy.png",
+        "imgSrc": "doxy.png",
         "horizontal": true
     },
     {
@@ -18833,7 +18833,7 @@ export const cards = [
                 "ruling": "The winner must draw either 0 or 5. Nothing inbetween."
             }
         ],
-        "imgSrc": "HufflepuffMatch.png",
+        "imgSrc": "hufflepuff-match.png",
         "horizontal": true
     },
     {
@@ -18855,7 +18855,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "InTheStands.png",
+        "imgSrc": "in-the-stands.png",
         "horizontal": true
     },
     {
@@ -18888,7 +18888,7 @@ export const cards = [
                 "ruling": "If you have Into the Forbidden Forest and Rubeus Hagrid in play, you can first have the Adventure trigger, then Rubeus Hagrid. This means a Creature that normally does 2 damage would do 1 additional damage from the Adventure, and then Hagrids effect would trigger."
             }
         ],
-        "imgSrc": "IntoTheForbiddenForest.png",
+        "imgSrc": "into-the-forbidden-forest.png",
         "horizontal": true
     },
     {
@@ -18909,7 +18909,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "JawbindPotion.png",
+        "imgSrc": "jawbind-potion.png",
         "horizontal": false
     },
     {
@@ -18930,7 +18930,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "MissingParchment.png",
+        "imgSrc": "missing-parchment.png",
         "horizontal": false
     },
     {
@@ -18951,7 +18951,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "PenaltyShot.png",
+        "imgSrc": "penalty-shot.png",
         "horizontal": false
     },
     {
@@ -18979,7 +18979,7 @@ export const cards = [
                 "ruling": "Your opponent can solve this Adventure before their first Action, meaning they get 2 normal Actions."
             }
         ],
-        "imgSrc": "PepTalk.png",
+        "imgSrc": "pep-talk.png",
         "horizontal": true
     },
     {
@@ -19003,7 +19003,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "PetrificusTotalus.png",
+        "imgSrc": "petrificus-totalus.png",
         "horizontal": false
     },
     {
@@ -19024,7 +19024,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "PowerPlay.png",
+        "imgSrc": "power-play.png",
         "horizontal": false
     },
     {
@@ -19046,7 +19046,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "RaceForTheSnitch.png",
+        "imgSrc": "race-for-the-snitch.png",
         "horizontal": true
     },
     {
@@ -19074,7 +19074,7 @@ export const cards = [
                 "ruling": "You can discard a Book to draw cards, as the Action is discarding the Book, not drawing cards."
             }
         ],
-        "imgSrc": "SnapesBias.png",
+        "imgSrc": "snapes-bias.png",
         "horizontal": true
     },
     {
@@ -19096,7 +19096,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "StickingUpForNeville.png",
+        "imgSrc": "sticking-up-for-neville.png",
         "horizontal": true
     },
     {
@@ -19117,7 +19117,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "StrategySession.png",
+        "imgSrc": "strategy-session.png",
         "horizontal": false
     },
     {
@@ -19138,7 +19138,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "WeaknessPotion.png",
+        "imgSrc": "weakness-potion.png",
         "horizontal": false
     },
     {
@@ -19159,7 +19159,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "BloodrootPoison.png",
+        "imgSrc": "bloodroot-poison.png",
         "horizontal": false
     },
     {
@@ -19180,7 +19180,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Bravado.png",
+        "imgSrc": "bravado.png",
         "horizontal": false
     },
     {
@@ -19204,7 +19204,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "BruisewortBalm.png",
+        "imgSrc": "bruisewort-balm.png",
         "horizontal": false
     },
     {
@@ -19234,7 +19234,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "CleansweepSeven.png",
+        "imgSrc": "cleansweep-seven.png",
         "horizontal": true
     },
     {
@@ -19261,7 +19261,7 @@ export const cards = [
                 "ruling": "If you play Cobbing and the 4 damage wins you the Match in play, but your opponent has played the Match, you must wait for the entire Spell to resolve before you see if the Match is won. This means your opponent can choose to discard the Match so you cant get the prize (since it is no longer on the table)."
             }
         ],
-        "imgSrc": "Cobbing.png",
+        "imgSrc": "cobbing.png",
         "horizontal": false
     },
     {
@@ -19287,7 +19287,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "CobraLily.png",
+        "imgSrc": "cobra-lily.png",
         "horizontal": true
     },
     {
@@ -19310,7 +19310,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "CunningFox.png",
+        "imgSrc": "cunning-fox.png",
         "horizontal": true
     },
     {
@@ -19332,7 +19332,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "DeskIntoPig.png",
+        "imgSrc": "desk-into-pig.png",
         "horizontal": false
     },
     {
@@ -19353,7 +19353,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "DrowsinessDraught.png",
+        "imgSrc": "drowsiness-draught.png",
         "horizontal": false
     },
     {
@@ -19375,7 +19375,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Fouled.png",
+        "imgSrc": "fouled.png",
         "horizontal": false
     },
     {
@@ -19396,7 +19396,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Gone.png",
+        "imgSrc": "gone.png",
         "horizontal": false
     },
     {
@@ -19417,7 +19417,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "MiceToSnuffboxes.png",
+        "imgSrc": "mice-to-snuffboxes.png",
         "horizontal": false
     },
     {
@@ -19438,7 +19438,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "MopsusPotion.png",
+        "imgSrc": "mopsus-potion.png",
         "horizontal": false
     },
     {
@@ -19465,7 +19465,7 @@ export const cards = [
                 "ruling": "Since the second part of the card says if, you can play this card even if your opponent doesnt have a card to discard."
             }
         ],
-        "imgSrc": "Ouch.png",
+        "imgSrc": "ouch.png",
         "horizontal": false
     },
     {
@@ -19489,7 +19489,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "PracticeMatch.png",
+        "imgSrc": "practice-match.png",
         "horizontal": true
     },
     {
@@ -19510,7 +19510,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "PullingUp.png",
+        "imgSrc": "pulling-up.png",
         "horizontal": false
     },
     {
@@ -19532,7 +19532,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Research.png",
+        "imgSrc": "research.png",
         "horizontal": false
     },
     {
@@ -19556,7 +19556,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "RopeBind.png",
+        "imgSrc": "rope-bind.png",
         "horizontal": false
     },
     {
@@ -19578,7 +19578,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "SearchingForTheSnitch.png",
+        "imgSrc": "searching-for-the-snitch.png",
         "horizontal": false
     },
     {
@@ -19599,7 +19599,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Smash.png",
+        "imgSrc": "smash.png",
         "horizontal": false
     },
     {
@@ -19623,7 +19623,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "StreamOfFlames.png",
+        "imgSrc": "stream-of-flames.png",
         "horizontal": false
     },
     {
@@ -19649,7 +19649,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Streeler.png",
+        "imgSrc": "streeler.png",
         "horizontal": true
     },
     {
@@ -19670,7 +19670,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Swarm.png",
+        "imgSrc": "swarm.png",
         "horizontal": false
     },
     {
@@ -19692,7 +19692,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "TimeOut.png",
+        "imgSrc": "time-out.png",
         "horizontal": false
     },
     {
@@ -19713,7 +19713,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Vanish.png",
+        "imgSrc": "vanish.png",
         "horizontal": false
     },
     {
@@ -19739,7 +19739,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "CareOfMagicalCreatures.png",
+        "imgSrc": "care-of-magical-creatures.png",
         "horizontal": true
     },
     {
@@ -19765,7 +19765,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Charms.png",
+        "imgSrc": "charms.png",
         "horizontal": true
     },
     {
@@ -19791,7 +19791,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Potions.png",
+        "imgSrc": "potions.png",
         "horizontal": true
     },
     {
@@ -19817,7 +19817,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Quidditch.png",
+        "imgSrc": "quidditch.png",
         "horizontal": true
     },
     {
@@ -19843,7 +19843,7 @@ export const cards = [
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
         "rulings": [],
-        "imgSrc": "Transfiguration.png",
+        "imgSrc": "transfiguration.png",
         "horizontal": true
     },
     {
@@ -19870,7 +19870,7 @@ export const cards = [
         "setName": "Streets of Hogsmeade",
         "releaseDate": "11-2022",
         "rulings": [],
-        "imgSrc": "DervishAndBanges.png",
+        "imgSrc": "dervish-and-banges.png",
         "horizontal": true
     },
     {
@@ -19902,7 +19902,7 @@ export const cards = [
                 "ruling": "If you play the chosen card type for your third, fourth, etc., Action, as long as the card played is 1) played using an action and 2) the second of that type of card played that turn, you get an extra Action as long as you have not triggered this ability this turn. The first card of that type does not need to be played using an action, and the card played which triggers this effect does not need to be the second action of the turn."
             }
         ],
-        "imgSrc": "HogsmeadeStation.png",
+        "imgSrc": "hogsmeade-station.png",
         "horizontal": true
     },
     {
@@ -19935,7 +19935,7 @@ export const cards = [
                 "ruling": "You must have the proper amount of Power and the proper Lesson type to play a Candy card from your discard pile. "
             }
         ],
-        "imgSrc": "Honeydukes.png",
+        "imgSrc": "honeydukes.png",
         "horizontal": true
     },
     {
@@ -19975,7 +19975,7 @@ export const cards = [
                 "ruling": "Madam Rosmerta triggers during any opponents' turn."
             }
         ],
-        "imgSrc": "MadamRosmerta.png",
+        "imgSrc": "madam-rosmerta.png",
         "horizontal": true
     },
     {
@@ -20005,7 +20005,7 @@ export const cards = [
         "setName": "Streets of Hogsmeade",
         "releaseDate": "11-2022",
         "rulings": [],
-        "imgSrc": "CometTwoNinety.png",
+        "imgSrc": "comet-two-ninety.png",
         "horizontal": true
     },
     {
@@ -20034,7 +20034,7 @@ export const cards = [
                 "ruling": "When you play a Location using Kheshakhassa, you will still discard any Location that is already in play, as you will need to follow the effect on the Location you play to discard any other Location in play (yours or an opponents)."
             }
         ],
-        "imgSrc": "Dissendium.png",
+        "imgSrc": "dissendium.png",
         "horizontal": false
     },
     {
@@ -20064,7 +20064,7 @@ export const cards = [
                 "ruling": "Using one Action to play two cards of the chosen type triggers On the Hogwarts Express. E.G. If you use Hermione, Potion Maker to put two different Lessons into play, you gain an extra Action from On the Hogwarts Express if you have chosen Lesson as your card type."
             }
         ],
-        "imgSrc": "OnTheHogwartsExpress.png",
+        "imgSrc": "on-the-hogwarts-express.png",
         "horizontal": true
     },
     {
@@ -20091,7 +20091,7 @@ export const cards = [
         "setName": "Streets of Hogsmeade",
         "releaseDate": "11-2022",
         "rulings": [],
-        "imgSrc": "TheShriekingShack.png",
+        "imgSrc": "the-shrieking-shack.png",
         "horizontal": true
     },
     {
@@ -20124,7 +20124,7 @@ export const cards = [
                 "ruling": "This card creates a lingering effect that remains until either youve prevented 4 damage during your opponents next turn, or it is the end of your opponents next turn, even if The Three Broomsticks Inn is discarded from play."
             }
         ],
-        "imgSrc": "TheThreeBroomsticksInn.png",
+        "imgSrc": "the-three-broomsticks-inn.png",
         "horizontal": true
     },
     {
@@ -20149,7 +20149,7 @@ export const cards = [
         "setName": "Streets of Hogsmeade",
         "releaseDate": "11-2022",
         "rulings": [],
-        "imgSrc": "AcidPops.png",
+        "imgSrc": "acid-pops.png",
         "horizontal": false
     },
     {
@@ -20169,7 +20169,7 @@ export const cards = [
         "setName": "Streets of Hogsmeade",
         "releaseDate": "11-2022",
         "rulings": [],
-        "imgSrc": "BrokenItem.png",
+        "imgSrc": "broken-item.png",
         "horizontal": true
     },
     {
@@ -20200,7 +20200,7 @@ export const cards = [
                 "ruling": "You cannot play cards that require you to draw after playing this card. E.g., If you play Butterbeer, you may not then play Rose Growth because you cannot draw a card."
             }
         ],
-        "imgSrc": "Butterbeer.png",
+        "imgSrc": "butterbeer.png",
         "horizontal": false
     },
     {
@@ -20222,7 +20222,7 @@ export const cards = [
         "setName": "Streets of Hogsmeade",
         "releaseDate": "11-2022",
         "rulings": [],
-        "imgSrc": "HauntingScreams.png",
+        "imgSrc": "haunting-screams.png",
         "horizontal": false
     },
     {
@@ -20250,7 +20250,7 @@ export const cards = [
                 "ruling": "If you dont have a Lesson in your hand to put into play, you cannot play Permission Form."
             }
         ],
-        "imgSrc": "PermissionForm.png",
+        "imgSrc": "permission-form.png",
         "horizontal": false
     },
     {
@@ -20276,7 +20276,7 @@ export const cards = [
         "setName": "Streets of Hogsmeade",
         "releaseDate": "11-2022",
         "rulings": [],
-        "imgSrc": "ToothflossingStringmints.png",
+        "imgSrc": "toothflossing-stringmints.png",
         "horizontal": false
     },
     {
@@ -20303,7 +20303,7 @@ export const cards = [
         "setName": "Streets of Hogsmeade",
         "releaseDate": "11-2022",
         "rulings": [],
-        "imgSrc": "Werewolf.png",
+        "imgSrc": "werewolf.png",
         "horizontal": true
     }
 ]
