@@ -5,6 +5,7 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 0;
+    min-width: 400px;
 }
 
 
@@ -122,30 +123,50 @@ html, body {
     overflow: hidden;
 }
 
+.Sets_Page_Body_Titles p
+{
+    color: rgba(33, 33, 33, 1);
+    font-weight: bold;
+    background-color: rgba(232, 232, 228, 1); /* Set the background color */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(10px,1.5vw,30px);
+}
+
 .Sets_Page_Body_Titles_Name
 {
+    min-width: 140px;
     width: 20vw;    
 } 
 .Sets_Page_Body_Titles_Cards
 {
+    min-width: 40px;
     width: 5vw;
 }
 
 .Sets_Page_Body_Titles_Release_Date 
 {
+    min-width: 80px;
     width: 10vw;
 }
 
 .Sets_Page_Body_Titles_Languages
 {
+    min-width: 80px;
     width: 20vw;
 }
+
 .Sets_Page_Body_Grid_Sets_Languages_Box
 {
     min-height: 10px;
     max-height: 100%;
     height: 80%;
     aspect-ratio: 1/1;
+    margin-right: 10px;
 }
 
 .Sets_Page_Body_Grid_Sets_Languages_Box p
@@ -161,23 +182,13 @@ html, body {
     background-color: #fff;
     border: solid 1px #6b63b5;
     border-radius: 2px;
-    font-size: clamp(8px,2vw,16px);
+    font-size: clamp(10px,1.35vw,30px);
     padding: 1px;
     margin: 0;
+    
 }
 
-.Sets_Page_Body_Titles p
-{
-    color: rgba(33, 33, 33, 1);
-    font-weight: bold;
-    background-color: rgba(232, 232, 228, 1); /* Set the background color */
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 /* ------------------------------------------------------------------------------------------- */
 /* ------------------------------------------ Sets Grid -------------------------------------- */
@@ -188,6 +199,7 @@ html, body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    min-width: 400px;
     color: rgba(33, 33, 33, 1);;
     background-color: rgba(232, 232, 228, 1); /* Set the background color */
     padding-top: 5vh;
@@ -199,6 +211,7 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-width: 400px;
     margin: 0;
 
 }
@@ -211,6 +224,8 @@ html, body {
     padding: 5px; /* Adjust as needed */
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
 }
+
+
 
 /* -----------------------------------Sets Rows----------------------------------------- */
 .Sets_Page_Body_Grid_GOF,
@@ -242,6 +257,7 @@ html, body {
 /* -----------------------------------Column Contents----------------------------------------- */
 .Sets_Page_Body_Grid_Sets_Symbols
 {
+    min-width: 40px;
     width: 5vw;
     height: 5vh;
     margin: 0;
@@ -252,30 +268,38 @@ html, body {
 .Sets_Page_Body_Grid_Sets_Name
 {
     height: 5vh;
+    min-width: 100px;
     width: 15vw;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: left;
+    font-size: clamp(10px,1.35vw,30px);
+
 } 
 .Sets_Page_Body_Grid_Sets_Cards
 {
     height: 5vh;
+    min-width: 40px;
     width: 5vw;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: clamp(10px,1.35vw,30px);
 }
 
-.Sets_Page_Body_Grid_Sets_Release_Date 
+.Sets_Page_Body_Grid_Sets_Release_Date, .Sets_Page_Body_Grid_Sets_Release_Date p 
 {
     height: 5vh;
+    min-width: 80px;
     width: 10vw;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: nowrap;
+    font-size: clamp(10px,1.35vw,30px); ;
 }
 
 .Sets_Page_Body_Grid_Sets_Languages
