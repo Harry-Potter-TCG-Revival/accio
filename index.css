@@ -7,43 +7,6 @@ html, body {
     flex-direction: column;
 }
 
-/* Ensure all images have the same size */
-.Floating_Card img {
-    border-radius: 10px; /* Optional: rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow for better visual */
-    transition: transform 0.3s ease 0.3s; /* Adds a 0.3 second delay before rotating */
-}
-
-/* Ensure individual card containers don't clip the rotated image */
-.Floating_Card {
-    overflow: visible;
-}
-
-/* Hover effect for horizontal cards */
-.horizontal img:hover {
-    transform: rotate(90deg);
-}
-
-/* Different sizes for different cards */
-.size1 img { width: 150px; height: 225px; }
-.size2 img { width: 250px; height: 375px; }
-.size3 img { width: 200px; height: 300px; }
-.size4 img { width: 210px; height: 315px; }
-.size5 img { width: 180px; height: 270px; }
-.size6 img { width: 200px; height: 300px; }
-.size7 img { width: 200px; height: 300px; }
-.size8 img { width: 225px; height: 350px; }
-
-/* Fixed positions for each card */
-#card1 { top: -80%; left: 10%; }
-#card2 { top: -40%; left: 20%; }
-#card3 { top: 0%; left: 5%; }
-#card4 { top: 2.5%; left: 37.5%; }
-#card5 { top: 17.5%; left: 52.5%; }
-#card6 { top: 17.5%; left: 85%; }
-#card7 { top: -5%; left: 65%; }
-#card8 { top: -80%; left: 77.5%; }
-
 /* Other existing styles */
 a {
     text-decoration: none;
@@ -69,6 +32,10 @@ a {
     background-color: rgba(0, 0, 0, 0.5); /* 50% opacity */
     z-index: 1;
 }
+
+/*****************************************************************************************************************/
+/******************************************* First Body: Footer **************************************************/
+/*****************************************************************************************************************/
 
 #Home_Header {
     width: 100%;
@@ -104,11 +71,11 @@ a {
     margin-left: 80px;
 }
 
-.All-Sets {
-    width: 51px;
-    height: 24px;
-}
 
+
+/*****************************************************************************************************************/
+/******************************************** Second Body: Body **************************************************/
+/*****************************************************************************************************************/
 #Home_Body {
     width: 100%;
     height: 71vh;
@@ -153,6 +120,7 @@ a {
 .Home_Page_Search_Bar {
     position: relative;
     display: flex;
+    min-width: 400px;
     width: 25vw;
     height: 6vh;
     margin: 20px 13px 16px;
@@ -200,25 +168,9 @@ a {
     outline: none;
 }
 
-/* Floating card styles */
-.Floating_Cards {
-    position: relative;
-    width: 100%;
-    height: calc(100vh - 20vh); /* Ensure cards are above the footer */
-}
-
-.Floating_Card {
-    position: absolute; /* Use absolute positioning for each card */
-    animation: float 7s ease-in-out infinite;
-}
-
-@keyframes float {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
-    100% { transform: translateY(0); }
-}
-
-/*************************************** Footer Content Section *************************************************/
+/*****************************************************************************************************************/
+/********************************************** Third Body: Footer *****************************************************/
+/*****************************************************************************************************************/
 #Home_Footer {
     background-image: url('Images//Temp_Images/feathers@3x.png');
     background-repeat: no-repeat;
@@ -227,9 +179,9 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height: fit-content;
     height: 20vh;
     position: relative;
-    overflow: hidden;
     z-index: 1;
 }
 
@@ -247,6 +199,7 @@ a {
 .Home_Footer_Links {
     display: flex;
     flex-direction: row;
+    height: fit-content;
     z-index: 2;
     color: #e8e8e4;
 }
@@ -261,7 +214,8 @@ a {
 
 .Home_Footer_Find_Cards, .Home_Footer_Accio, .Home_Footer_Socials {
     width: 12vw;
-    height: 10vh;
+    min-height: fit-content;
+    
     margin: 0 2vw;
     font-family: Literata;
     font-size: 16px;
@@ -284,6 +238,7 @@ a {
 }
 
 .Home_Footer_Copyright_Disclosure, .Home_Footer_Copyright_Disclosure p {
+    min-width: 400px;
     width: 50vw;
     align-items: center;
     justify-content: center;
@@ -293,5 +248,68 @@ a {
     margin: 0;
     color: #e8e8e4;
     z-index: 2;
-    overflow: hidden;
+    overflow:auto;
 }
+
+
+/* Ensure all images have the same size 
+.Floating_Card img {
+    border-radius: 10px; /* Optional: rounded corners 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow for better visual 
+    transition: transform 0.3s ease 0.3s; /* Adds a 0.3 second delay before rotating 
+}
+
+/* Ensure individual card containers don't clip the rotated image 
+.Floating_Card {
+    overflow: visible;
+}
+
+/* Hover effect for horizontal cards 
+.horizontal img:hover {
+    transform: rotate(90deg);
+}
+
+/* Different sizes for different cards
+.size1 img { width: 150px; height: 225px; }
+.size2 img { width: 250px; height: 375px; }
+.size3 img { width: 200px; height: 300px; }
+.size4 img { width: 210px; height: 315px; }
+.size5 img { width: 180px; height: 270px; }
+.size6 img { width: 200px; height: 300px; }
+.size7 img { width: 200px; height: 300px; }
+.size8 img { width: 225px; height: 350px; }
+
+/* Fixed positions for each card */
+/* #card1 { top: -80%; left: 10%; }
+#card2 { top: -40%; left: 20%; }
+#card3 { top: 0%; left: 5%; }
+#card4 { top: 2.5%; left: 37.5%; }
+#card5 { top: 17.5%; left: 52.5%; }
+#card6 { top: 17.5%; left: 85%; }
+#card7 { top: -5%; left: 65%; }
+#card8 { top: -80%; left: 77.5%; } */ 
+
+/* Floating card styles */
+/* .Floating_Cards {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 20vh); /* Ensure cards are above the footer 
+}
+
+.Floating_Card {
+    position: absolute; /* Use absolute positioning for each card 
+    animation: float 7s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+} 
+    
+.All-Sets {
+    width: 51px;
+    height: 24px;
+}
+
+*/
