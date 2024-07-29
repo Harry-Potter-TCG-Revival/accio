@@ -171,7 +171,7 @@ html, body {
 }
 
 /* Media query for mobile devices */
-@media only screen and (max-width: 768px) {
+@media (pointer:none), (pointer:coarse) {
     .Card_Display_Body_Card_Display {
         flex-direction: column;
         align-items: center;
