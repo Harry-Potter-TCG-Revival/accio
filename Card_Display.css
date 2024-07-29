@@ -112,7 +112,7 @@ html, body {
 .Card_Display_Body_Card_Display {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     width: 100%;
     min-height: 74vh;
@@ -122,6 +122,7 @@ html, body {
     border-radius: 8px;
     overflow: hidden;
     padding: 20px;
+    gap: 20px; /* Add gap between the card image and info */
 }
 
 .Card_Display_Body_Card_Display_Side {
@@ -148,8 +149,8 @@ html, body {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 }
 
 .Card_Display_Body_Card_Display_Info h2 {
@@ -167,6 +168,35 @@ html, body {
 .Card_Display_Body_Card_Display_Info span {
     font-weight: bold;
     color: #333;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+    .Card_Display_Body_Card_Display {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Card_Display_Body_Card_Display_Info {
+        flex: 2;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+
+
+    .Card_Info_Card
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
 }
 
 /*****************************************************************************************************************/
@@ -272,38 +302,6 @@ html, body {
     overflow: hidden;
 }
 
-.Card_Display_Body_Card_Display {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    width: 100%;
-    padding: 20px;
-    gap: 20px; /* Add gap between the card image and info */
-}
-
-.Card_Display_Body_Card_Display_Side {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-}
-
-.Card_Display_Body_Card_Display_Image img {
-    height: 50vh;
-    width: auto;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-}
-
-.Card_Display_Body_Card_Display_Info {
-    flex: 2;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 20px;
-}
 
 .Card_Info_Card {
     background-color: #fff;
