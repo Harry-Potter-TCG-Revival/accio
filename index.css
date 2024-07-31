@@ -125,11 +125,11 @@ a {
     width: 25vw;
     height: 6vh;
     margin: 20px 13px 16px;
-    background-color: rgba(98, 90, 165, 0.25);
+    background-color: rgba(98, 90, 165, 0.75);
     border-radius: 8px;
     border: 0;
     overflow: hidden;
-    opacity: 0.5;
+    opacity: 0.75;
 }
 
 .Home_Page_Search_Bar::before {
