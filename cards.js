@@ -21049,7 +21049,7 @@ export const cards = [
         ],
         "cost": 1,
         "rarity": "Uncommon",
-        "flavorText": "\u2018\u201c\u201cHang on, I\u2019ll get my Firebolt.\u201d\u2019 \u2014 Harry Potter",
+        "flavorText": "\u201cHang on, I\u2019ll get my Firebolt.\u201d \u2014 Harry Potter",
         "effect": [
             "Whenever you win a Match by completing it's \"To Win,\" you get 1 more Action this turn."
         ],
