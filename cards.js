@@ -20388,7 +20388,7 @@ export const cards = [
         "rarity": "Rare",
         "flavorText": "Play now reached a level of ferocity beyond anything they had yet seen. The Beaters on both sides were acting without mercy....\"",
         "effect": [
-            "Count the number of Q Items you have in play. Do 3 times that much damage to an opponent."
+            "Count the number of [Q] Items you have in play. Do 3 times that much damage to an opponent."
         ],
         "setName": "Goblet of Fire",
         "imgSrc": "Bumphing.png",
@@ -21378,7 +21378,7 @@ export const cards = [
         "cost": 4,
         "rarity": "Uncommon",
         "effect": [
-            "Once during each player's turn, when they use an Action to play a Quidditch card, they may search their deck for a Q Lesson and put it into play, then shuffle their deck."
+            "Once during each player's turn, when they use an Action to play a Quidditch card, they may search their deck for a [Q] Lesson and put it into play, then shuffle their deck."
         ],
         "note": "When you play this card, discard any other Location from play (yours or an opponent's).",
         "setName": "Goblet of Fire",
@@ -21512,7 +21512,7 @@ export const cards = [
         "cost": 5,
         "rarity": "Uncommon",
         "effect": [
-            "Whenever one of your Q Spells does damage, you may discard this card from play. If you do, it does 5 more damage."
+            "Whenever one of your [Q] Spells does damage, you may discard this card from play. If you do, it does 5 more damage."
         ],
         "provides": [
             {
