@@ -107,11 +107,15 @@ function filterCardsBySearchString(cards, searchString) {
                         case 'pl':
                         case 'provideslesson':
                         case 'provides.lesson':
-                            return andConditions.every(cond => card.provides && card.provides.lesson && card.provides.lesson.toLowerCase().includes(cond));
+                            return andConditions.every(cond => card.provides && card.provides.some((item) => {
+                                return item.lesson && item.lesson.toLowerCase().includes(cond);
+                            }));
                         case 'pa':
                         case 'providesamount':
                         case 'provides.amount':
-                            return andConditions.every(cond => card.provides && card.provides.amount && card.provides.amount.toString().toLowerCase().includes(cond));
+                            return andConditions.every(cond => card.provides && card.provides.some((item) => {
+                                return item.amount && item.amount.toString().toLowerCase().includes(cond);
+                            }));
                         case 'tw':
                         case 'towin':
                             return andConditions.every(cond => card.toWin && card.toWin.toLowerCase().includes(cond));
@@ -183,11 +187,15 @@ function filterCardsBySearchString(cards, searchString) {
                         case 'pl':
                         case 'provideslesson':
                         case 'provides.lesson':
-                            return orConditions.some(cond => card.provides && card.provides.lesson && card.provides.lesson.toLowerCase().includes(cond));
+                            return orConditions.some(cond => card.provides && card.provides.some((item) => {
+                                return item.lesson && item.lesson.toLowerCase().includes(cond);
+                            }));
                         case 'pa':
                         case 'providesamount':
                         case 'provides.amount':
-                            return orConditions.some(cond => card.provides && card.provides.amount && card.provides.amount.toString().toLowerCase().includes(cond));
+                            return orConditions.some(cond => card.provides && card.provides.some((item) => {
+                                return item.amount && item.amount.toString().toLowerCase().includes(cond);
+                            }));
                         case 'tw':
                         case 'towin':
                             return orConditions.some(cond => card.toWin && card.toWin.toLowerCase().includes(cond));
@@ -258,11 +266,15 @@ function filterCardsBySearchString(cards, searchString) {
                         case 'pl':
                         case 'provideslesson':
                         case 'provides.lesson':
-                            return card.provides && card.provides.lesson && card.provides.lesson.toLowerCase().includes(query);
+                            return card.provides && card.provides.some((item) => {
+                                return item.lesson && item.lesson.toLowerCase().includes(query);
+                            });
                         case 'pa':
                         case 'providesamount':
                         case 'provides.amount':
-                            return card.provides && card.provides.amount && card.provides.amount.toString().toLowerCase().includes(query);
+                            return card.provides && card.provides.some((item) => {
+                                return item.amount && item.amount.toString().toLowerCase().includes(query);
+                            });
                         case 'tw':
                         case 'towin':
                             return card.toWin && card.toWin.toLowerCase().includes(query);
