@@ -3,14 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Convert Cards to JSON</title>
+  <title>Merge Cards and Rules JSON</title>
+  <style>
+    .file-list { margin-top: 10px; }
+    .file-item { margin-bottom: 5px; display: flex; align-items: center; }
+    .remove-file { cursor: pointer; margin-left: 10px; color: red; font-weight: bold; }
+  </style>
 </head>
 <body>
-  <h1>Convert Cards to JSON</h1>
-  <button id="downloadBtn">Download cards.json</button>
-  <script type="module">
-    import { cards } from './cards.js';
+  <h1>Merge Cards and Rules JSON</h1>
 
+  <!-- File input for uploading JSON files one by one -->
+  <input type="file" id="fileInput" accept=".json">
+  
+  <!-- Buttons -->
+  <button id="mergeBtn" disabled>Merge Files</button>
+  <button id="downloadBtn" disabled>Download Merged JSON</button>
+  
+  <p id="statusMessage">Please upload one or more card files and a rules file.</p>
+  
+  <!-- File list -->
+  <div class="file-list" id="fileList"></div>
+
+  <script type="module">
+    let cardFilesList = [];
+    let rulesData = null;
+    let mergedData = [];
+
+    // Function to render the file list
+    function renderFileList() {
+      const fileListDiv = document.getElementById('fileList');
+      fileListDiv.innerHTML = '';
+
+      if (rulesData) {
+        const ruleFileDiv = document.createElement('div');
+        ruleFileDiv.classList.add('file-item');
+        ruleFileDiv.innerHTML = `rules.json <span class="remove-file" data-type="rules">×</span>`;
+        fileListDiv.appendChild(ruleFileDiv);
+      }
+
+      cardFilesList.forEach((fileData, index) => {
+        const fileItemDiv = document.createElement('div');
+        fileItemDiv.classList.add('file-item');
+        fileItemDiv.innerHTML = `${fileData.fileName} <span class="remove-file" data-index="${index}">×</span>`;
+        fileListDiv.appendChild(fileItemDiv);
+      });
+
+      // Add event listeners to the remove icons
+      document.querySelectorAll('.remove-file').forEach(item => {
+        item.addEventListener('click', (event) => {
+          const type = event.target.getAttribute('data-type');
+          const index = event.target.getAttribute('data-index');
+
+          if (type === 'rules') {
+            removeFile('rules');
+          } else if (index !== null) {
+            removeFile(parseInt(index));
+          }
+        });
+      });
+
+      console.log("Current file list:", cardFilesList);
+    }
+
+    // Function to remove a file from the list
+    function removeFile(indexOrType) {
+      if (indexOrType === 'rules') {
+        rulesData = null;
+      } else {
+        cardFilesList.splice(indexOrType, 1);
+      }
+
+      // Re-render the file list
+      renderFileList();
+
+      // Disable buttons if needed
+      if (cardFilesList.length === 0 || !rulesData) {
+        document.getElementById('mergeBtn').disabled = true;
+        document.getElementById('downloadBtn').disabled = true;
+      }
+
+      document.getElementById('statusMessage').textContent = "File removed.";
+    }
+
+    // Function to download merged JSON file
     function downloadJSON(data, filename) {
       const jsonData = JSON.stringify(data, null, 2);
       const blob = new Blob([jsonData], { type: 'application/json' });
@@ -24,12 +100,106 @@
       URL.revokeObjectURL(url);
     }
 
-    document.getElementById('downloadBtn').addEventListener('click', () => {
-      downloadJSON(cards, 'cards.json');
+    // Function to merge cards and rules into one dataset
+    function mergeFiles() {
+      mergedData = [];  // Reset merged data
+
+      cardFilesList.forEach(fileData => {
+        const setName = fileData.setName;
+        const releaseDate = fileData.releaseDate;
+        const cards = fileData.cards;
+
+        // Process each card
+        cards.forEach(card => {
+          card.setName = setName;
+          card.releaseDate = releaseDate;
+
+          // Create imgSrc from card name
+          const formattedName = card.name.replace(/[\s\-!]/g, '').split(' ')
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1)).join('');
+          card.imgSrc = `${formattedName}.png`;
+
+          // Add horizontal property for specific card types
+          const horizontalTypes = ['adventure', 'character', 'creature', 'event', 'location', 'item', 'match', 'lesson'];
+          if (typeof card.type === 'string' && horizontalTypes.includes(card.type.toLowerCase())) {
+            card.horizontal = true;
+          }
+
+          // Apply applicable rules
+          if (rulesData && rulesData.rules) {
+            const applicableRules = rulesData.rules.filter(rule => rule.appliesTo.includes(card.name));
+            if (applicableRules.length > 0) {
+              card.rules = applicableRules;
+            }
+          }
+
+          // Add card to merged dataset
+          mergedData.push(card);
+        });
+      });
+
+      // Sort merged data by setName alphabetically, then by number within each set
+      mergedData.sort((a, b) => {
+        if (a.setName === b.setName) {
+          return a.number - b.number;
+        }
+        return a.setName.localeCompare(b.setName);
+      });
+
+      // Enable the download button after merging
+      document.getElementById('downloadBtn').disabled = false;
+      document.getElementById('statusMessage').textContent = "Files merged. Ready to download.";
+    }
+
+    // Handle file input change
+    document.getElementById('fileInput').addEventListener('change', (event) => {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        try {
+          const fileData = JSON.parse(e.target.result);
+          fileData.fileName = file.name; // Save the file name for display
+
+          if (file.name === 'rules.json') {
+            // Process the rules.json file
+            rulesData = fileData;
+            document.getElementById('statusMessage').textContent = "rules.json loaded.";
+          } else {
+            // Assume any other file is a card file and add it to the list
+            cardFilesList.push(fileData);
+            document.getElementById('statusMessage').textContent = `${file.name} loaded.`;
+          }
+
+          // Re-render the file list
+          renderFileList();
+
+          // Enable the "Merge" button if at least one card file is uploaded and rules.json is present
+          if (cardFilesList.length > 0 && rulesData) {
+            document.getElementById('mergeBtn').disabled = false;
+          }
+
+        } catch (error) {
+          alert(`Error processing ${file.name}: Invalid JSON format.`);
+        }
+      };
+
+      reader.readAsText(file);
     });
 
-    document.addEventListener('DOMContentLoaded', () => {
-      downloadJSON(cards, 'cards.json');
+    // Handle merge button click
+    document.getElementById('mergeBtn').addEventListener('click', () => {
+      if (cardFilesList.length > 0 && rulesData) {
+        mergeFiles();
+      }
+    });
+
+    // Handle download button click
+    document.getElementById('downloadBtn').addEventListener('click', () => {
+      if (mergedData.length > 0) {
+        downloadJSON(mergedData, 'merged_cards.json');
+      }
     });
   </script>
 </body>
