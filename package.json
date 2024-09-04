@@ -1,0 +1,12 @@
+{
+  "name": "accio",
+  "version": "1.0.0",
+  "description": "To search for cards using various criteria, you can use the following prefixes and terms. Each prefix can be shortened to 1 to 3 letters for convenience.",
+  "type":"module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
