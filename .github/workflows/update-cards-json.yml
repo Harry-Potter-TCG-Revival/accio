@@ -1,0 +1,33 @@
+name: Update cards.json
+
+on:
+  push:
+    paths:
+      - 'cards.js'
+  pull_request:
+    paths:
+      - 'cards.js'
+
+jobs:
+  update_cards_json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18' # Specify the Node.js version you want to use
+
+      - name: Run script to update cards.json
+        run: node .github/scripts/updateCardsJson.js
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add cards.json
+          git commit -m "Update cards.json based on changes in cards.js"
+          git push
