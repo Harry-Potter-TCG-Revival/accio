@@ -15,17 +15,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const cardName = urlParams.get('card');
 
     if (cardName && cardName.toLowerCase().startsWith('random')) {
-        // If 'random' followed by a number is present in the URL
-        const randomIndex = parseInt(cardName.replace('random', '').trim());
+        // Extract the number following 'random'
+        const randomIndex = parseInt(cardName.replace('random', '').trim(), 10);
 
-        // Check if randomIndex is valid and within bounds of the cards array
+        // Check if randomIndex is a valid number and within bounds of the cards array
         if (!isNaN(randomIndex) && randomIndex >= 0 && randomIndex < cards.length) {
             const card = cards[randomIndex];
-
-            // Load the card as usual
+            // Load and display the card
             displayCard(card);
         } else {
-            window.location.href = 'Error_Page.html'; // Redirect to the error page if the index is invalid
+            // Redirect to the error page if the index is invalid
+            window.location.href = 'Error_Page.html';
         }
     } else if (cardName) {
         // Find and display the card by name
