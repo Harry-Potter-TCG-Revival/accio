@@ -18,6 +18,24 @@
             <nav><a href="Advanced_Search.html">Advanced Search</a></nav>
             <img src="Images/Icons/book.svg" class="Book">
             <nav><a href="Sets_Page.html">Sets</a></nav>
+            <img src="Images/Icons/magic.svg" class="Book">
+            <nav>
+                <a href="#" id="Random_Card_Link">Random Card</a>
+            </nav>
+            
+            <script type="module">
+                import { cards } from './cards.js';
+            
+                document.getElementById('Random_Card_Link').addEventListener('click', function(event) {
+                    event.preventDefault(); // Prevent the default anchor behavior
+            
+                    // Generate a random number between 1 and the length of the cards array
+                    const randomIndex = Math.floor(Math.random() * cards.length);
+            
+                    // Redirect to the Card_Display page with the random card number
+                    window.location.href = `Card_Display.html?card=random${randomIndex}`;
+                });
+            </script>
         </div>
     </div>
 
