@@ -3,6 +3,22 @@ import { cards } from './cards.js';
 let currentPage = 1;
 const cardsPerPage = 20;
 
+const setAbbreviations = {
+    "HAH": "Hogwarts a History",
+    "GOF": "Goblet of Fire",
+    "QC": "Quidditch Cup",
+    "B": "Base",
+    "DA": "Diagon Alley",
+    "AAH": "Adventures at Hogwarts",
+    "COS": "Chamber of Secrets",
+    "HOS": "Heir of Slytherin",
+    "POA": "Prisoner of Azkaban",
+    "SOH": "Streets of HogsMeade",
+    "EOTP": "Echoes of the Past",
+    "PRO": "Promotional"
+};
+
+
 document.addEventListener('DOMContentLoaded', function() {
     // Get the URL parameters
     const urlParams = new URLSearchParams(window.location.search);
@@ -70,14 +86,22 @@ function filterCardsBySearchString(cards, searchString) {
                             return andConditions.every(cond => card.rarity && card.rarity.toLowerCase().includes(cond));
                         case 'a':
                         case 'artist':
-                            return andConditions.every(cond => card.artist && card.artist.toLowerCase().includes(cond));
+                            return andConditions.every(cond => card.artist && (
+                                Array.isArray(card.artist)
+                                ? card.artist.join(', ').toLowerCase().includes(cond) // Join array of artists into a string
+                                : card.artist.toLowerCase().includes(cond) // Handle single string artist
+                            ));                                
                         case 'e':
                         case 'effect':
                             return andConditions.every(cond => card.effect && card.effect.some(effect => effect.toLowerCase().includes(cond)));
                         case 's':
                         case 'set':
                         case 'setname':
-                            return andConditions.every(cond => card.setName && card.setName.toLowerCase().includes(cond));
+                            return andConditions.every(cond => {
+                                const setName = card.setName && card.setName.toLowerCase();
+                                const abbreviation = Object.keys(setAbbreviations).find(abbr => setAbbreviations[abbr].toLowerCase() === setName);
+                                return (setName && setName.includes(cond)) || (abbreviation && abbreviation.toLowerCase().includes(cond));
+                            });                                
                         case 'd':
                         case 'date':
                         case 'releasedate':
@@ -94,6 +118,8 @@ function filterCardsBySearchString(cards, searchString) {
                             return andConditions.every(cond => card.lesson && card.lesson.some(lesson => lesson.toLowerCase().includes(cond)));
                         case 'c':
                         case 'cost':
+                        case 'power':
+                        case 'pow':
                             return andConditions.every(cond => card.cost && card.cost.toString().toLowerCase() === query);
                         case 'dmg':
                         case 'damage':
@@ -150,14 +176,22 @@ function filterCardsBySearchString(cards, searchString) {
                             return orConditions.some(cond => card.rarity && card.rarity.toLowerCase().includes(cond));
                         case 'a':
                         case 'artist':
-                            return orConditions.some(cond => card.artist && card.artist.toLowerCase().includes(cond));
+                            return orConditions.some(cond => card.artist && (
+                                Array.isArray(card.artist)
+                                ? card.artist.join(', ').toLowerCase().includes(cond) // Join array of artists into a string
+                                : card.artist.toLowerCase().includes(cond) // Handle single string artist
+                            ));                                
                         case 'e':
                         case 'effect':
                             return orConditions.some(cond => card.effect && card.effect.some(effect => effect.toLowerCase().includes(cond)));
                         case 's':
                         case 'set':
                         case 'setname':
-                            return orConditions.some(cond => card.setName && card.setName.toLowerCase().includes(cond));
+                            return orConditions.some(cond => {
+                                const setName = card.setName && card.setName.toLowerCase();
+                                const abbreviation = Object.keys(setAbbreviations).find(abbr => setAbbreviations[abbr].toLowerCase() === setName);
+                                return (setName && setName.includes(cond)) || (abbreviation && abbreviation.toLowerCase().includes(cond));
+                            });                                
                         case 'd':
                         case 'date':
                         case 'releasedate':
@@ -174,6 +208,8 @@ function filterCardsBySearchString(cards, searchString) {
                             return orConditions.some(cond => card.lesson && card.lesson.some(lesson => lesson.toLowerCase().includes(cond)));
                         case 'c':
                         case 'cost':
+                        case 'power':
+                        case 'pow':
                             return orConditions.some(cond => card.cost && card.cost.toString().toLowerCase() === query);
                         case 'dmg':
                         case 'damage':
@@ -229,14 +265,21 @@ function filterCardsBySearchString(cards, searchString) {
                             return card.rarity && card.rarity.toLowerCase().includes(query);
                         case 'a':
                         case 'artist':
-                            return card.artist && card.artist.toLowerCase().includes(query);
+                            return card.artist && (
+                                Array.isArray(card.artist)
+                                ? card.artist.join(', ').toLowerCase().includes(query) // Join array of artists into a string
+                                : card.artist.toLowerCase().includes(query) // Handle single string artist
+                            );
                         case 'e':
                         case 'effect':
                             return card.effect && card.effect.some(effect => effect.toLowerCase().includes(query));
                         case 's':
                         case 'set':
                         case 'setname':
-                            return card.setName && card.setName.toLowerCase().includes(query);
+                            return card.setName && (
+                                card.setName.toLowerCase().includes(query) || 
+                                Object.keys(setAbbreviations).some(abbr => abbr.toLowerCase().includes(query) && setAbbreviations[abbr].toLowerCase() === card.setName.toLowerCase())
+                            );                                
                         case 'd':
                         case 'date':
                         case 'releasedate':
@@ -253,6 +296,8 @@ function filterCardsBySearchString(cards, searchString) {
                             return card.lesson && card.lesson.some(lesson => lesson.toLowerCase().includes(query));
                         case 'c':
                         case 'cost':
+                        case 'power':
+                        case 'pow':
                             return card.cost && card.cost.toString().toLowerCase() === query;
                         case 'dmg':
                         case 'damage':
