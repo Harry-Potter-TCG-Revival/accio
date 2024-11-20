@@ -4074,7 +4074,7 @@ export const cards = [
         "setName": "Base",
         "releaseDate": "08-2001",
         "rulings": [],
-        "imgSrc": "ForgetfullnessPotion.png",
+        "imgSrc": "ForgetfulnessPotion.png",
         "horizontal": false
     },
     {
