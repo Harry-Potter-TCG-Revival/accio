@@ -23,6 +23,16 @@ a {
     position: relative; /* Added to enable pseudo-element positioning */
 }
 
+#Home_Background {
+    background-image: url('Images/background1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 200%; /* Width remains 100%, height is squished to 90% */
+    background-position: center 60%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
 .Home_Background::before {
     content: ''; /* Pseudo-element for dark overlay */
     position: absolute;
