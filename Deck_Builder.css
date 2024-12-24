@@ -1,0 +1,880 @@
+html, body {
+    font-family: 'Literata', Georgia, serif;
+    background-color:  #6b63b5;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    min-width: 100%;
+    height: fit-content;
+    position: absolute;
+}
+
+/*****************************************************************************************************************/
+/************************************* First Body: Header Content Section ****************************************/
+/*****************************************************************************************************************/
+
+#Page_Header {
+    background-color:  #6b63b5;
+    color: #e7ddfde8;
+    width: 100%;
+    min-width: 100%;
+    min-height: 6vh;
+    max-height: 20vh;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(8px,2.5vw,16px);
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center; 
+    overflow: hidden;
+}
+
+.Page_Header_Buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+.Page_Header img {
+    width: 20px; /* Set the width of the images */
+    height: 20px; /* Maintain aspect ratio */
+    margin-left: 5vw; /* Add margin around the images */
+    margin-right: 1vw; /* Add margin around the images */
+}
+
+#Page_Header a, #Page_Header a:visited, #Page_Header a:hover, #Page_Header a:active {
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+    justify-content: space-around;
+    outline: none;
+}
+
+#Page_Header nav {
+    display: flex;
+    flex-direction: row;
+}
+
+#Page_Header_Advance_Search, #Page_Header_Syntax, #Page_Header_Sets {
+    margin-left: 20px;
+    margin-right: 20px;
+    outline: none;
+}
+
+#search_input {
+    min-width: 100px;
+    max-width: 80vw;
+    width: 400px; /* Change this value to adjust the width */
+    height: 36px; /* Change this value to adjust the height */
+    opacity: 0.6; /* Set the opacity */
+    border-radius: 5px; /* Change this value for corner radius */
+    padding: 0 10px; /* Optional: add padding inside the button */
+    background-color: rgba(0, 0, 0, 0.25); /* Set the background color */
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Arial', sans-serif;
+    font-size: 14px; /* Optional: adjust font size */
+    border: none; /* Optional: add a border */
+    outline: none;
+    margin: 2px;
+}
+
+.Feather
+{
+    width: 100px;
+    height: 100px;
+    fill: #fff;
+}
+
+#search_input::placeholder {
+    color: rgba(255, 255, 255, 1); /* Colour of placeholder text */
+    font-family: 'Arial', sans-serif;
+}
+
+#search_button:hover {
+    background-color: hsl(246, 47%, 46%); /* Change background color on hover */
+}
+
+/*****************************************************************************************************************/
+/************************************* Second Body: Body Content Section ****************************************/
+/*****************************************************************************************************************/
+
+#Deck_Builder_Body {
+    background-color: #e8e8e4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    position: relative;
+    min-height: 74vh;
+    height: fit-content;
+
+}
+
+#Deck_Builder_Body_Search_Filter
+{
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+    min-height: 6vh;
+    height: fit-content;
+    width: 100%;
+}
+
+/* Filter Bar Buton and element formating */
+.dropbtn, #Deck_Builder_Body_Search_Filter_Sort_Option, #Deck_Builder_Body_Search_Filter_Sort_Option::after, 
+#Deck_Builder_Body_Search_Filter_Sort_Option::before , #TextSearchBar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    min-height: 4vh;
+    min-width: fit-content;
+    height: 100%;
+    width: 15%;
+    margin-left: 20px;
+    border: solid 1px #ffffffc0;
+    border-radius: 5px;
+    font-size: clamp(8px, 1rem, 30px);
+}
+
+/* Container for dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 92%;
+    width: 92%;
+    min-width: fit-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 8%; 
+}
+
+/* Dropdown content item styling */
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.dropdown-item p
+{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+/* Style for the image in each dropdown item */
+.dropdown-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style checkboxes */
+.dropdown-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Change background color on hover */
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+#Deck_Builder_Body_Search_Filter_Results_Text, #Deck_Builder_Body_Save_Deck_Button, #Deck_Builder_Body_Display_Deck_Cards, #Deck_Builder_Body_Import_Deck_Button
+{
+    width: 10%;
+    height: 100%;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#Filter_Result_Count
+{
+    margin-left: 20px;
+}
+
+#Deck_Builder_Body_Search_Filter_Options_Button
+{
+    width: 40%;
+    height: 100%;
+    border: none; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Filter_Options_Drowpdown_Button, #Save_Deck_Button, #Deck_Builder_Body_Display_Deck_Cards_Button, #Import_Deck_Button
+{
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    min-height: 4vh;
+    height: 100%;
+    width: fit-content;
+    margin-left: 20px;
+    border: solid 1px #ffffffc0;
+    border-radius: 5px;
+    font-size: clamp(8px, 1rem, 30px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #Deck_Builder_Body_Search_Filter {
+        flex-direction: row; /* Keep row layout */
+        justify-content: space-evenly; /* Evenly space the buttons */
+        align-items: center;
+        padding: 5px; /* Add padding for spacing */
+    }
+
+    #Deck_Builder_Body_Search_Filter_Results_Text,
+    #Deck_Builder_Body_Save_Deck_Button,
+    #Deck_Builder_Body_Import_Deck_Button {
+        width: 30%; /* Increase button width to 20% of the viewport */
+        max-width: 30%; /* Ensure buttons don’t exceed 20% */
+        height: auto;
+        font-size: clamp(5px, 2.5vw, 14px); /* Scale font size */
+        text-align: center; /* Center-align text */
+        white-space: normal; /* Ensure text wraps */
+        background-color: #333; /* Reapply button background color */
+        border: solid 1px #ffffffc0; /* Reapply button border */
+        color: #fff; /* Reapply text color */
+    }
+}
+
+@media (max-width: 480px) {
+    #Deck_Builder_Body_Search_Filter {
+        flex-direction: row; /* Keep row layout */
+        flex-wrap: wrap; /* Allow buttons to wrap if needed */
+        justify-content: center; /* Center-align wrapped buttons */
+        padding: 5px; /* Add padding for spacing */
+    }
+
+    #Deck_Builder_Body_Save_Deck_Button,
+    #Deck_Builder_Body_Import_Deck_Button {
+        width: 30%; /* Increase button width to 30% for smaller screens */
+        max-width: 30%; /* Further reduce the maximum width */
+        height: auto;
+        font-size: clamp(5px, 3vw, 12px); /* Scale font size further */
+        margin: 5px; /* Adjust margins for spacing */
+        text-align: center; /* Ensure text alignment stays centered */
+        white-space: normal; /* Allow text wrapping */
+        word-wrap: break-word; /* Break long words cleanly */
+
+        /* Ensure consistency of border and background */
+        background-color: #333; /* Button background color */
+        border: solid 1px #ffffffc0; /* Button border */
+        color: #fff; /* Text color */
+    }
+}
+
+/**********************************************************************************************************************/
+/*********************************************Card Library Display*****************************************************/
+/**********************************************************************************************************************/
+#Deck_Builder_Body_Holder
+{
+    background-color: #e8e8e4;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    text-align: center;
+    min-height: 66vh;
+    height: fit-content;
+    width: 100%;
+}
+
+#Deck_Builder_Body_Card_Library
+{
+    background-color: #6b63b5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    height: 50vh;
+    width: 70%;
+    padding-top: 2vh;
+}
+
+#Deck_Builder_Body_Search_Filter_Sorting, #Deck_Builder_Body_Search_Filter_Searching, #Deck_Builder_Body_Search_Filter_Exporting
+{
+    width: 30%;
+    max-width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Deck_Builder_Body_Search_Filter_Sorting
+{
+    justify-content:start;
+    width: 15%;
+}
+#Deck_Builder_Body_Search_Filter_Searching
+{
+    max-width: 40%;
+    width: 40%;
+}
+
+
+#Deck_Builder_Body_Card_Library_Display
+{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    min-height: 50vh;
+    height: fit-content;
+    width: 95%;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+    
+.Display_Card_Button {
+    display: flex;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 5px; /* Space between buttons */
+    margin-left: 2%;
+    margin-right: 2%;
+    cursor: pointer;
+    width: 18%; /* Set desired width for the card image */
+    height: auto; /* Let height adjust automatically */
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    box-sizing: border-box; /* Ensure padding and borders are included in the width and height */
+    position: relative;
+
+}
+
+.Display_Card_Button img {
+    width: 100%;
+    height: auto; 
+    display: block; 
+    aspect-ratio: 5 / 7; 
+}
+
+/* Top-right box */
+.top-right-box {
+    position: absolute;
+    top: -2%;
+    right: -2%;
+    width: 10%;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    z-index: 2;
+    pointer-events: all; /* Ensure hover events are captured */
+}
+
+/* Large card preview */
+#largeCardPreview {
+    position: absolute;
+    display: none;
+    z-index: 10;
+    width: 300px; /* Adjust preview size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#largeCardPreview img {
+    width: 200%;
+    height: auto;
+}
+
+#Deck_Builder_Body_Card_Library_Page
+{
+    background-color: #e8e8e4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 20%;
+    width: 100%;
+}
+
+.Page_Button
+{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    height: 5vh;
+    
+    font-family: Arial;
+    font-size: clamp(8px, 1rem, 30px);
+    margin: 1vh;
+    border: solid 1px #333;
+    border-radius: 5px;
+}   
+
+
+#Page_Number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background: none; /* Remove background color */
+    border: none; /* Remove the border */
+    width: auto; /* Automatically size based on content */
+}
+
+
+#Page_Number_Input {
+    width: 5ch; /* Adjust width to fit 3 characters */
+    padding: 2px; /* Reduce padding for a smaller box */
+    font-size: 1rem; /* Ensure the font size matches other elements */
+    text-align: center; /* Center the number inside the input */
+    border: none; /* Remove border */
+    background: transparent; /* Transparent background */
+    outline: none; /* Remove default focus outline */
+}
+
+
+#Total_Pages {
+    margin-left: 4px; /* Space between input and total pages */
+    font-size: 1rem; /* Match font size to the input */
+    color: #666; /* Subtle color for the total pages text */
+}
+
+
+#Deck_Builder_Body_Card_Library
+{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    min-height: 60vh;
+    height: fit-content;
+}
+
+/* Hidden container for large card image */
+#largeCardPreview {
+    position: absolute;
+    display: none;
+    z-index: 10;
+}
+
+#largeCardPreview img {
+    width: 350px; /* Set the width to 450px */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+#deck-hover-preview {
+    position: fixed; /* Keeps it fixed relative to the viewport */
+    top: 50%; /* Start in the center vertically */
+    left: 50%; /* Start in the center horizontally */
+    transform: translate(50%, -50%); /* Adjust to truly center the element */
+    z-index: 100; /* Ensure it’s above other elements */
+    display: none; /* Initially hidden */
+    pointer-events: none; /* Prevent interaction */
+    width: 250px; /* Set this dynamically if necessary */
+    max-width: 90%; /* Prevent the image from exceeding the viewport width */
+    max-height: 90%; /* Prevent the image from exceeding the viewport height */
+    padding: 10px; /* Optional: add padding */
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
+#deck-hover-preview img {
+    width: auto; /* Ensure the image scales naturally */
+    height: auto;
+    max-width: 100%; /* Increase the max-width to make the image appear larger */
+    max-height: 100%; /* Increase the max-height as well */
+    transform: scale(2); /* Slightly scale up the image */
+    border: 5px solid #000000; /* Optional: border for clarity */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow for depth */
+}
+
+
+
+/***********************************************************************************************************/
+/**************************************DeckList*************************************************************/
+/***********************************************************************************************************/
+
+/**************************************Decklist Container*****************************************************/
+#Deck_Builder_Body_Deck_List_Panel
+{
+    background-color: #e8e8e4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    min-height: 60vh;
+    height: fit-content;
+    width: 25%;
+    margin-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+#Deck_Builder_Body_Deck_List_Frame
+{
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    min-height: 60vh;
+    height: fit-content;
+    width: 95%;
+    border-radius: 5px;
+}
+
+
+/******************************DeckList - Header or Deck Name section****************************************/
+#Deck_Builder_Deck_List_Frame_Header
+{
+    background-color: #11111180;
+    display: flex;
+    flex-direction: column;
+    align-items: Start;
+    justify-content: center;
+    min-height: 30px;
+    height: 6vh;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#Deck_Builder_Deck_List_Frame_Header_Content
+{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start; 
+    margin-left: 10px;
+}
+
+/******************************************Deck Name Stuff************************************************/
+#Deck_Name_Input
+{
+    background-color: transparent;
+    color: #fff;
+    font-size: clamp(8px, 1.25rem,30px);
+    font-weight: bold;
+    font-family: Arial;
+    border: none;
+}
+
+#Deck_Name_Input::placeholder {
+    color: rgba(128, 128, 128, 0.6); /* Light grey with transparency */
+    font-size: 1.25rem; /* Smaller font size */
+    font-style: italic; /* Optional: makes it visually distinct */
+    font-weight: normal; /* Ensure the placeholder is not bold */
+}
+
+
+#Deck_Name_Input:focus {
+    border: none; /* Ensures no border is shown when focused */
+    outline: none; /* Removes the focus outline (default browser focus ring) */
+}
+
+
+#Deck_Builder_Deck_List_Frame_Body_Maindeck
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/******************************************Deck Starter Stuff************************************************/
+#Deck_Builder_Deck_List_Frame_Body_Starter
+{
+    /* border-bottom: 1px solid #11111140; Lighter border for individual cards */
+    background-color: #333333; /* Slightly darker background for cards */
+    color: #e8e8e4;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Aligns card content neatly */
+    width: 95%;
+    margin: 2.5%;
+}
+
+#Starter_Element_Holder
+{
+    border-top: 2px solid #11111140; /* Lighter border for individual cards */
+    background-color: #333333; /* Slightly darker background for cards */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+
+}
+
+/******************************DeckList - Body or where the cards will go section*************************************/
+
+/*********The Body Container*******/
+#Deck_Builder_Deck_List_Frame_Body
+{
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    min-height: 50vh;
+    height: fit-content;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+}
+
+/*********The Main deck- Side Deck Selector*******/
+#Deck_Builder_Deck_List_Frame_Deck_Selector 
+{
+   width: 95%;
+   display: flex;
+   justify-content: space-between; 
+   border-bottom: 2px solid #11111140 ; /* Lighter border for individual cards */
+}
+
+#Maindeck_Title,
+#Sidedeck_Title {
+    display: flex;            /* Use Flexbox for alignment */
+    flex-direction: column;      /* Align elements horizontally */
+    justify-content: space-around; /* Push items to opposite ends */
+    align-items: center;      /* Vertically center content */
+    width: 95%;              /* Make div take up 100% of container */
+    box-sizing: border-box;   /* Include padding in width calculation */
+    
+}
+
+#Maindeck_Button,
+#SideDeck_Button,
+.Card_Counter_Display {
+    display:inline-flex; /* Ensure they stay inline within flex container */
+    padding-right: 60%;
+}
+
+.Card_Counter_Display
+{
+    color: #00a661;
+    font-size: 0.75rem;
+    padding-right: 0%;
+}
+
+/*********************************************The Deck Card List Body**************************************/
+#Deck_Builder_Deck_List_Frame_Body_Cards
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-bottom: 10px;
+}
+
+#Deck_Builder_Deck_List_Frame_Body_Sideboard_Cards
+{
+    margin-left: 2.5%;
+}
+
+/***********************************DeckList - Card Boxes Information*************************************************/
+.deck-card-type /*********This is the container that hold cards by card type*******/
+{   
+    margin: 2px;
+    width: 95%;
+}
+.deck-card-type h3 /*********This is the container that hold cards by card type*******/
+{   
+    margin: 1px;
+    width: 95%;
+    padding: 8px;
+    display: flex;
+    font-weight: normal;
+    border-top: 2px solid #11111140; /* Lighter border for individual cards */
+
+}
+
+/*********Each Individual Card*******/
+.deck-card 
+{
+    border-top: 2px solid #11111140; /* Lighter border for individual cards */
+    padding: 8px;
+    background-color: #333333; /* Slightly darker background for cards */
+    color: #e8e8e4;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Aligns card content neatly */
+}
+
+/* Additional styling for elements inside the deck-card */
+.deck-card .card-count {
+    font-weight: normal;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.deck-card .card-name {
+    flex-grow: 1; /* Makes the card name take up remaining space */
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.card-cost {
+    font-size: 14px; /* Adjust as needed */
+    font-weight: bold;
+    margin-left: 1%; /* Left margin */
+    margin-right: 1%; /* Right margin */
+}
+
+.lesson-type-icon {
+    width: 24px; /* Adjust as needed */
+    height: 24px; /* Adjust as needed */
+    margin-left: 1%; /* Left margin */
+    margin-right: 1%; /* Right margin */
+    vertical-align: middle; /* Aligns with text vertically */
+}
+
+
+/*****************************************************************************************************************/
+/************************************* Third Body: Footer Content Section ****************************************/
+/*****************************************************************************************************************/
+
+#Page_Footer {
+    background-image: url('Images/Temp_Images/feathers@3x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+    height: fit-content;
+    width: 150%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Remove underline for all links in the specified sections */
+.Page_Footer a {
+    text-decoration: none; 
+    color: #e8e8e4;
+}
+
+#Page_Footer::before {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute; /* Position relative to the container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(107, 99, 181, 0.5);
+    z-index: 0; /* Ensure pseudo-element is above the image */
+}
+
+.Page_Footer_Links {
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    color: #e8e8e4;
+    text-decoration: none;
+}
+
+.Page_Footer_Links h2 {
+    margin: 0;
+    border-bottom: 2px solid rgba(107, 99, 181, 0.5);
+    font-family: Literata;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
+.Page_Footer_Find_Cards, .Page_Footer_Accio, .Page_Footer_Socials {
+    width: 12Vw;
+    height: 10vh;
+    margin: 0 2vw 0 2vw;
+    font-family: Literata;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: var(--white-100);   
+}
+
+.Page_Footer_Find_Cards nav, .Page_Footer_Accio nav, .Page_Footer_Socials nav {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
+.Page_Footer_Find_Cards nav a, .Page_Footer_Accio nav a, .Page_Footer_Socials nav a {
+    text-decoration: none; 
+    color: #e8e8e4;
+}
+
+.Page_Footer_Copyright_Disclosure, .Page_Footer_Copyright_Disclosure p {
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+    font-family: Literata;
+    font-style: normal;
+    margin: 0;
+    color: #e8e8e4;
+    z-index: 2;
+    overflow: hidden;
+}

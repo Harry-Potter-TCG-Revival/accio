@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deck Builder</title>
+    <link rel="stylesheet" href="Deck_Builder.css">
+</head>
+<body>
+
+    <!--*****************************************************************************************************************/
+    /************************************* First Body: Header Content Section ****************************************/
+    /*****************************************************************************************************************-->
+
+    <div class="Page_Header" id="Page_Header">
+
+        <form class="Search_Bar" id="Search_Bar">
+            <input type="text" id="search_input" placeholder="Search for a card">
+        </form>
+
+        <div class = "Page_Header_Buttons" id="Page_Header_Buttons"> 
+            <img src="Images/Icons/accio.svg" class="Book">
+
+            <nav>
+                <a href="index.html">Home</a>
+            </nav>
+
+            <img src="Images/Icons/bolt.svg" class="Bolt">
+
+            <nav>
+                <a href="Advanced_Search.html">Advanced Search</a>
+            </nav>
+
+            <img src="Images/Icons/book.svg" class="Book">
+
+            <nav>
+                <a href="Sets_Page.html">Sets</a>
+            </nav>
+
+            <img src="Images/Icons/icon-font-awesome-feather.svg" class="Feather">
+            <nav>
+                <a href="Deck_Builder.html">Deck Builder</a>
+            </nav>
+
+            <img src="Images/Icons/magic.svg" class="Book">
+            <nav>
+                <a href="#" id="Random_Card_Link">Random Card</a>
+            </nav>
+            
+            <script type="module">
+                import { cards } from './cards.js';
+            
+                document.getElementById('Random_Card_Link').addEventListener('click', function(event) {
+                    event.preventDefault(); // Prevent the default anchor behavior
+            
+                    // Generate a random number between 1 and the length of the cards array
+                    const randomIndex = Math.floor(Math.random() * cards.length);
+            
+                    // Redirect to the Card_Display page with the random card number
+                    window.location.href = `Card_Display.html?card=random${randomIndex}`;
+                });
+            </script>
+
+        </div>
+
+    </div>
+
+    <!--*****************************************************************************************************************/
+    /************************************* Second Body: Body Content Section ****************************************/
+    /*****************************************************************************************************************-->
+
+    <div id="Deck_Builder_Body">
+
+        <div id="Deck_Builder_Body_Search_Filter">
+            
+            <div id="Deck_Builder_Body_Search_Filter_Sorting">
+                <label for="Deck_Builder_Body_Search_Filter_Sort_Option">Sort By:</label>
+                
+                <select id="Deck_Builder_Body_Search_Filter_Sort_Option">
+                    <option value="option1">Set</option>
+                    <option value="option2">Card Type</option>
+                    <option value="option3">Lesson Type</option>
+                    <option value="option4">Cost</option> 
+                </select>
+            </div>
+
+            <div id="Deck_Builder_Body_Search_Filter_Searching">
+                 <!-- Text Search -->
+                <div class="dropdown TextSearch-dropdown">
+                    <input 
+                        type="text" 
+                        id="TextSearchBar" 
+                        class="search-input" 
+                        placeholder="Search for cards..." 
+                        oninput="filterCards()" 
+                    />
+                </div>
+                <!-- Lesson Type Filter Search -->
+                <div class="dropdown lesson-dropdown">
+                    <button class="dropbtn">Lesson Type</button>
+                    <div class="dropdown-content">
+                        <label class="dropdown-item">
+                            <input type="checkbox">
+                            <img src="Images/Icons/care-of-magical-creatures.svg" alt="Item 2" class="dropdown-img">
+                            <span>Care of Magical Creatures</span>
+                        </label>
+                        <label class="dropdown-item">
+                            <input type="checkbox">
+                            <img src="Images/Icons/charms.svg" alt="Item 2" class="dropdown-img">
+                            <span>Charms</span>
+                        </label>
+                        <label class="dropdown-item">
+                            <input type="checkbox">
+                            <img src="Images/Icons/potion.svg" alt="Item 3" class="dropdown-img">
+                            <span>Potions</span>
+                        </label>
+
+                        <label class="dropdown-item">
+                            <input type="checkbox">
+                            <img src="Images/Icons/quidditch.svg" alt="Item 3" class="dropdown-img">
+                            <span>Quidditch</span>
+                        </label>
+
+                        <label class="dropdown-item">
+                            <input type="checkbox">
+                            <img src="Images/Icons/transfiguration.svg" alt="Item 3" class="dropdown-img">
+                            <span>Transfiguration</span>
+                        </label>
+                        <!-- Add more items as needed -->
+                    </div>
+                </div>
+
+                <!-- Card Type Filter Search -->
+                <div class="dropdown card-dropdown">
+                    <button class="dropbtn">Card Type</button>
+                    <div class="dropdown-content">
+                        <label class="dropdown-item">
+                            <input type="checkbox">
+                            <span>Adventure</span>
+                        </label>
+                        <label class="dropdown-item">
+                            <input type="checkbox">
+                            <span>Character</span>
+                        </label>
+                        <label class="dropdown-item">
+                            <input type="checkbox">
+                            <span>Creature</span>
+                        </label>
+
+                        <label class="dropdown-item">
+                            <input type="checkbox">
+                            <span>Event</span>
+                        </label>
+
+                        <label class="dropdown-item">
+                            <input type="checkbox">
+                            <span>Item</span>
+                        </label>
+
+                        <label class="dropdown-item">
+                            <input type="checkbox">
+                            <span>Lesson</span>
+                        </label>
+
+                        <label class="dropdown-item">
+                            <input type="checkbox">
+                            <span>Location</span>
+                        </label>
+
+                        <label class="dropdown-item">
+                            <input type="checkbox">
+                            <span>Match</span>
+                        </label>
+
+                        <label class="dropdown-item">
+                            <input type="checkbox">
+                            <span>Spell</span>
+                        </label>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="Deck_Builder_Body_Search_Filter_Exporting">
+                <div id="Deck_Builder_Body_Display_Deck_Cards">
+                    <button id="Deck_Builder_Body_Display_Deck_Cards_Button">Display Deck</button>
+                </div>
+
+                <div id="Deck_Builder_Body_Save_Deck_Button">
+                    <button id="Save_Deck_Button">Export Deck</button>
+                </div>
+
+                <div id="Deck_Builder_Body_Import_Deck_Button">
+                    <button id="Import_Deck_Button">Import Deck</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="Deck_Builder_Body_Holder">
+
+
+             <!--********************************** Card Library Content *******************************-->
+            <div id="Deck_Builder_Body_Card_Library">
+                <div id="Deck_Builder_Body_Card_Library_Display">
+                    
+                </div>
+
+                <div id="Deck_Builder_Body_Card_Library_Page">
+
+                    <button class="Page_Button" id="Previous_Page_Button"> ← Previous </button>
+                    <div id="Page_Number" class="Page_Button">
+                        <span>
+                            <input id="Page_Number_Input" type="number" value="1" min="1" step="1"> / <span id="Total_Pages">1</span>
+                        </span>
+                    </div>
+                    
+                    
+                    <button class="Page_Button" id="Next_Page_Button">Next →</button>
+                
+                </div>
+            </div>
+
+            <!--********************************** Card library Image Hover *******************************-->
+            <div id="largeCardPreview">
+                <img src="" alt="Card Preview">
+            </div>
+
+            <div id="Deck_Builder_Deck_List_Frame">
+                <div id="deck-hover-preview" class="deck-hover-preview">
+                    <img src="" alt="Card Preview">
+                </div>
+                <!-- Existing decklist structure -->
+            </div>
+            
+            
+
+            <!--********************************** Deck List Content *******************************-->
+            <div id="Deck_Builder_Body_Deck_List_Panel">
+                
+                <div id="Deck_Builder_Body_Deck_List_Frame">
+                    <div id="Deck_Builder_Deck_List_Frame_Header">
+                        <div id="Deck_Builder_Deck_List_Frame_Header_Content">
+
+                            <input type="text" id="Deck_Name_Input" placeholder="Enter deck name...">
+
+                        </div>
+
+                        
+                    </div>
+
+                    <div id="Deck_Builder_Deck_List_Frame_Body">
+                        <div id="Deck_Builder_Deck_List_Frame_Deck_Selector">
+                            <div id="Maindeck_Title">
+                                <p id="Maindeck_Button">Maindeck ></p>
+                                <p id="Deck_Card_Count" class="Card_Counter_Display">0/60</p>
+                            </div>
+
+                            <div id="Sidedeck_Title" style="display: none;"> <!-- Hidden initially -->
+                                <p id="SideDeck_Button">&lt;Side Deck</p>
+                                <p id="Side_Deck_Card_Count" class="Card_Counter_Display">0/15</p>
+                            </div>
+                        </div>
+
+
+
+                        <div id="Deck_Builder_Deck_List_Frame_Body_Maindeck">
+                            <div id="Deck_Builder_Deck_List_Frame_Body_Starter">
+                                <p id="Starter_Label">
+                                    Starter
+                                </p>
+                                <div id="Starter_Element_Holder">
+
+                                </div>
+                            </div>
+
+                            <div id="Deck_Builder_Deck_List_Frame_Body_Cards">
+                                <!-- Placeholder -->
+                            </div>
+                        </div>
+
+                        <div id="Deck_Builder_Deck_List_Frame_Body_Sideboard">
+                            
+                            <div id="Deck_Builder_Deck_List_Frame_Body_Sideboard_Cards">
+                                <!-- Placeholder -->
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--*****************************************************************************************************************/
+    /********************************************** Third Body: Footer *****************************************************/
+    /*****************************************************************************************************************-->
+
+    <div class="Page_Footer" id="Page_Footer">
+        <div class="Page_Footer_Links">
+            <div class="Page_Footer_Find_Cards">
+                <div class="Page_Footer_Find_Cards_Header">
+                    <h2>Find Cards</h2>
+                </div>
+                <nav>
+                    <a href="Sets_Page.html">All Sets</a>
+                    <a href="Syntax_Page.html">Syntax Guide</a>
+                </nav>
+            </div>
+            <div class="Page_Footer_Accio">
+                <div class="Page_Footer_Accio_Header">
+                    <h2>Accio</h2>
+                </div>
+                <nav>
+                    <a href="https://www.harrypottertcg.com" target="_blank">HPTCG</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSearA0XbaERqV1_HlvI44Duq1Jf0ciDsBo5pIx0A9q0i5tfcw/viewform?usp=sf_link" target="_blank">Contact</a>
+                </nav>
+            </div>
+            <div class="Page_Footer_Socials">
+                <div class="Page_Footer_Socials_Header">
+                    <h2>Socials</h2>
+                </div>
+                <nav>
+                    <a href="https://www.youtube.com/@harrypottertcgrevival" target="_blank">Youtube</a>
+                </nav>
+            </div>
+        </div>
+        <div class="Page_Footer_Copyright_Disclosure">
+            <nav>
+                <p>
+                    The information presented on this site about Harry Potter, including card images, characters, names and related indicia are ™ and © Warner Bros. Entertainment Inc.
+                    This website is not produced by, endorsed by, supported by, or affiliated with Warner Bros. Entertainment Inc. All rights reserved.
+                </p>
+            </nav>
+        </div>
+    </div>
+
+    <script type="module" src="Deck_Builder.js"></script>
+</body>
+</html>
