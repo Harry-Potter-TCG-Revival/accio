@@ -16,7 +16,7 @@ a {
 #Home_Background {
     background-image: url('Images/Background V1.0.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 100%; /* Width remains 100%, height is squished to 90% */
+    background-size: 100% 125%; /* Width remains 100%, height is squished to 90% */
     background-position: center 50%;
     display: flex;
     flex-direction: column;
