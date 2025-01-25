@@ -1,0 +1,83 @@
+#Page_Header {
+    background-color: #6b63b5;
+    color: #e7ddfde8;
+    width: 100%;
+    min-height: 6vh;
+    max-height: 20vh;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(8px, 2.5vw, 16px);
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    overflow: hidden;
+}
+
+.Page_Header_Buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+
+.Page_Header img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5vw;
+    margin-right: 1vw;
+}
+
+#Page_Header a,
+#Page_Header a:visited,
+#Page_Header a:hover,
+#Page_Header a:active {
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+    justify-content: space-around;
+    outline: none;
+}
+
+#Page_Header nav {
+    display: flex;
+    flex-direction: row;
+}
+
+#Page_Header_Advance_Search,
+#Page_Header_Syntax,
+#Page_Header_Sets {
+    margin-left: 20px;
+    margin-right: 20px;
+    outline: none;
+}
+
+#search_input {
+    min-width: 100px;
+    max-width: 80vw;
+    width: 400px;
+    height: 36px;
+    opacity: 0.6;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    margin: 2px;
+}
+
+#search_input::placeholder {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Arial', sans-serif;
+}
+
+#search_button:hover {
+    background-color: hsl(246, 47%, 46%);
+}

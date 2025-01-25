@@ -1,0 +1,60 @@
+html, body {
+    
+    font-family: 'Literata', Georgia, serif;
+    background-color:  #d85b3c;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*****************************************************************************************************************/
+/************************************* First Body: Header Content Section ****************************************/
+/*****************************************************************************************************************/
+
+/*****************************************************************************************************************/
+/**************************************Second Body: Main Content Section *****************************************/
+/*****************************************************************************************************************/
+
+#Error_Page_Body
+{
+    width: 100%;
+    min-height: 74vh;  /* Set the minimum height */
+    background-color: #e8e8e4;
+}
+.Error_Page_Body_404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.Error_Page_Body_404 img {
+    max-width: 30vw;
+    max-height: 30vh;
+    width: auto;
+    height: auto;
+    padding: 10px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+}
+
+.Error_Page_Body_Card_Message
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+}
+.Error_Page_Body_Card_Message h2
+{
+    color: rgba(107, 99, 181, 1);
+}
+/*****************************************************************************************************************/
+/********************************* Third Body: Footer Content Section ********************************************/
+/*****************************************************************************************************************/

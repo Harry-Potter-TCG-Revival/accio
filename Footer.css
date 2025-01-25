@@ -1,0 +1,148 @@
+
+#Advanced_Search_Footer {
+    background-image: url('Images/Temp_Images/feathers@3x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#Advanced_Search_Footer::before {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute; /* Position relative to the container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(107, 99, 181, 0.5);
+    z-index: 0; /* Ensure pseudo-element is above the image */
+}
+
+.Advanced_Search_Footer_Links {
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    color: #e8e8e4;
+    text-decoration: none;
+}
+
+.Advanced_Search_Footer_Links h2 {
+    margin: 0;
+    border-bottom: 2px solid rgba(107, 99, 181, 0.5);
+    font-family: Literata;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
+.Advanced_Search_Footer_Find_Cards, .Advanced_Search_Footer_Accio, .Advanced_Search_Footer_Socials {
+    width: 12Vw;
+    height: 10vh;
+    margin: 0 2vw 0 2vw;
+    font-family: Literata;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: var(--white-100);  
+}
+
+.Advanced_Search_Footer_Find_Cards nav, .Advanced_Search_Footer_Accio nav, .Advanced_Search_Footer_Socials nav,
+.Advanced_Search_Footer_Find_Cards nav a, .Advanced_Search_Footer_Accio nav a, .Advanced_Search_Footer_Socials nav a {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-decoration: none;
+    color: #e8e8e4;
+}
+
+.Advanced_Search_Footer_Copyright_Disclosure, .Advanced_Search_Footer_Copyright_Disclosure p {
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+    font-family: Literata;
+    font-style: normal;
+    margin: 0;
+    color: #e8e8e4;
+    z-index: 2;
+    overflow: hidden;
+}
+
+/* Add these styles to your CSS */
+
+.multi-select {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 5px;
+    cursor: pointer;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+#Keywords_MultiSelect {
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.dropdown-item {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+.dropdown-item:hover {
+    background-color: #e0e0e0;
+}
+
+.selected-option {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #d0d0d0;
+}
+
+.selected-option button {
+    margin-left: 5px;
+    padding: 2px 5px;
+    cursor: pointer;
+    background-color: #ff4c4c;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.styled-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}

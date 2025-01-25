@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Accio Search Display</title>
+        <link rel="stylesheet" href="404.css">
+    </head>
+    <body>
+
+        <!--*****************************************************************************************************************/
+        /************************************* First Body: Header Content Section ****************************************/
+        /*****************************************************************************************************************-->
+
+        <div id="header"></div>
+
+        <!--*****************************************************************************************************************/
+        /************************************* Second Body: Body Content Section ****************************************/
+        /*****************************************************************************************************************-->
+
+        <div class="Error_Page_Body" id="Error_Page_Body">
+
+            <!-- Search Result Filters -->
+            <div class="Error_Page_Body_404">
+                <img src="/Images/Icons/404@3x.png" alt="404 Image">
+            </div>
+
+            <!-- Card Image Grid -->
+            <div class="Error_Page_Body_Card_Message">
+                <h2>Merlin's Beard!</h2>
+                <p>This page mysteriously disappeared…
+                    We suspect the Nargles are behind it. </p>
+            </div>
+
+        </div>
+
+        <!--*****************************************************************************************************************/
+        /********************************************** Third Body: Footer *****************************************************/
+        /*****************************************************************************************************************-->
+        
+
+         <!----------------------------------------------------- Dynamic Footer -------------------------------------------------------->
+    <div id="footer"></div>
+
+        <!-------------------------------------------------------- Scripts ------------------------------------------------------------>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Load Header and its CSS
+            fetch('Header.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('header').innerHTML = data;
+                    
+                    // Dynamically add the header CSS
+                    const headerStylesheet = document.createElement('link');
+                    headerStylesheet.rel = 'stylesheet';
+                    headerStylesheet.href = 'Header.css'; // Path to the header's CSS
+                    document.head.appendChild(headerStylesheet);
+                });
+
+            // Load Footer and its CSS
+            fetch('Footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('footer').innerHTML = data;
+
+                    // Dynamically add the footer CSS
+                    const footerStylesheet = document.createElement('link');
+                    footerStylesheet.rel = 'stylesheet';
+                    footerStylesheet.href = 'Footer.css'; // Path to the footer's CSS
+                    document.head.appendChild(footerStylesheet);
+                });
+        });
+    </script>
+    
+        <script src="404.js"></script>
+    </body>
+</html>
+
