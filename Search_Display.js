@@ -18,7 +18,6 @@ const setAbbreviations = {
     "PRO": "Promotional"
 };
 
-
 document.addEventListener('DOMContentLoaded', function() {
     // Get the URL parameters
     const urlParams = new URLSearchParams(window.location.search);
@@ -26,6 +25,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Log the search string to the console
     console.log('Search String:', searchString);
+
+    if (searchString) {
+        // Set the searchbox value if search is defined
+        document.getElementById('search_input').value = searchString;
+    }
 
     // Parse the search string and filter cards
     const filteredCards = filterCardsBySearchString(cards, searchString);
@@ -49,293 +53,251 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+
+function filterCard(card, terms) {
+    let termPairs = terms.map((el, index) => [el, terms[index + 1] || ""]);
+    let orConditionResults = []; // Using an array for OR condition checks allows chaining
+
+    function conditionEval(cost, condition) {
+        const regex = /([<>]=?|==?|!=)?(\d+)/;
+        let match = condition.match(regex);
+        if (!match) {
+            return false;
+        }
+
+        let operator = match[1];
+        let value = parseFloat(match[2]);
+        cost = parseFloat(cost);
+
+        switch (operator) {
+            case "<":
+                return cost < value;
+            case "<=":
+                return cost <= value;
+            case ">":
+                return cost > value;
+            case ">=":
+                return cost >= value;
+            case "!=":
+                return cost !== value;
+            case "":
+            case "=":
+            case "==":
+                return cost === value;
+            default:
+                return false;
+        }
+    }
+
+    for (const [term, nextTerm] of termPairs) {
+        if (term.includes(':')) {
+            const [prefix, ...queryParts] = term.split(':');
+            const query = queryParts.join(':').toLowerCase().trim();
+
+            if (!query) {
+                return false; // If no query provided, mark as a failed search
+            }
+
+            let queryCheck = true;
+
+            switch (prefix.toLowerCase()) {
+                case 'a':
+                case 'artist':
+                    if (!card.hasOwnProperty('artist')) {
+                        queryCheck = false;
+                    } else {
+                        let _artist = Array.isArray(card.artist)
+                            ? card.artist.join(', ') // Join array of artists into a string
+                            : card.artist // Handle single string artist
+                        if (!_artist.toLowerCase().includes(query)) {
+                            queryCheck = false;
+                        }
+                    }
+                    break;
+                case 'c':
+                case 'cost':
+                case 'power':
+                case 'pow':
+                    if (!card.hasOwnProperty('cost')) {
+                        queryCheck = false;
+                    } else if (!conditionEval(card.cost, query)) {
+                        queryCheck = false;
+                    }
+                    break;
+                case 'dmg':
+                case 'damage':
+                case 'dmgeachturn':
+                    if (!card.hasOwnProperty('dmgEachTurn')) {
+                        queryCheck = false;
+                    } else if (!conditionEval(card.dmgEachTurn, query)) {
+                        queryCheck = false;
+                    }
+                    break;
+                case 'e':
+                case 'effect':
+                    if (!card.effect?.some(effect => effect.toLowerCase().includes(query))) {
+                        queryCheck = false;
+                    }
+                    break;
+                case 'fl':
+                case 'flavor':
+                case 'flavortext':
+                    if (!card.flavorText?.toLowerCase().includes(query)) {
+                        queryCheck = false;
+                    }
+                    break;
+                case 'h':
+                case 'health':
+                    if (!card.hasOwnProperty('health')) {
+                        queryCheck = false;
+                    } else if (!conditionEval(card.health, query)) {
+                        queryCheck = false;
+                    }
+                    break;
+                case 'k':
+                case 'keyword':
+                    if (!card.subTypes?.some(subType => subType.toLowerCase().includes(query))) {
+                        queryCheck = false;
+                    };
+                    break;
+                case 'l':
+                case 'lesson':
+                    if (!card.lesson?.some(lesson => lesson.toLowerCase().includes(query))) {
+                        queryCheck = false;
+                    }
+                    break;
+                case 'n':
+                case 'name':
+                case 'nm':
+                    if (!card.name?.toLowerCase().includes(query)) {
+                        queryCheck = false;
+                    }
+                    break;
+                case 'note':
+                    if (!card.note?.toLowerCase().includes(query)) {
+                        queryCheck = false;
+                    }
+                    break;
+                case 'num':
+                case 'number':
+                    // Not sure _why_ would want to search number with operands, but now it can be done
+                    if (!card.hasOwnProperty('number')) {
+                        queryCheck = false;
+                    } else if (!conditionEval(card.number, query)) {
+                        queryCheck = false;
+                    }
+                    break;
+                case 'p':
+                case 'prize':
+                    if (!card.prize?.toLowerCase().includes(query)) {
+                        queryCheck = false;
+                    }
+                    break;
+                case 'pa':
+                case 'providesamount':
+                case 'provides.amount':
+                    if (!card.provides?.some(item => {return conditionEval(item.amount?.toString(), query)})) {
+                        queryCheck = false;
+                    }
+                    break;
+                case 'pl':
+                case 'provideslesson':
+                case 'provides.lesson':
+                    if (!card.provides?.some(item => {return item.lesson?.toLowerCase().includes(query)})) {
+                        queryCheck = false;
+                    }
+                    break;
+                case 'r':
+                case 'rarity':
+                    if (!card.rarity?.toLowerCase().includes(query)) {
+                        queryCheck = false;
+                    }
+                    break;
+                case 'd':
+                case 'date':
+                case 'releasedate':
+                    if (!card.releaseDate?.toLowerCase().includes(query)) {
+                        queryCheck = false;
+                    }
+                    break;
+                case 're':
+                case 'reward':
+                    if (!card.reward?.toLowerCase().includes(query)) {
+                        queryCheck = false;
+                    }
+                    break;
+                case 's':
+                case 'set':
+                case 'setname':
+                    let _setName = card.setName?.toLowerCase();
+                    let _setAbbreviation = Object.keys(setAbbreviations).find(abbr => setAbbreviations[abbr].toLowerCase() === _setName);
+                    if (!(_setName.includes(query) || _setAbbreviation.toLowerCase() === query)) {
+                        queryCheck = false;
+                    }
+                    break;
+                case 'ts':
+                case 'solve':
+                case 'tosolve':
+                    if (!card.toSolve?.toLowerCase().includes(query)) {
+                        queryCheck = false;
+                    }
+                    break;
+                case 'tw':
+                case 'towin':
+                    if (!card.toWin?.toLowerCase().includes(query)) {
+                        queryCheck = false;
+                    }
+                    break;
+                case 't':
+                case 'type':
+                    if (!card.type?.some(type => type.toLowerCase().includes(query))) {
+                        queryCheck = false;
+                    }
+                    break;
+                default:
+                    queryCheck = false; // Given term is not known, so mark as failed search
+                    break;
+            }
+
+            if (nextTerm === '|') {
+                // This check is part of an OR condition, so don't fail if it's false
+                orConditionResults.push(queryCheck);
+            } else if (orConditionResults.length) {
+                // Check result of OR condition
+                orConditionResults.push(queryCheck);
+                if (orConditionResults.every(val => val === false)) {
+                    return false; // All parts of the OR conditional were false, so return false
+                }
+                // At least one of the conditions was true, so reset the lookup in case there's another OR check
+                orConditionResults = [];
+            } else if (!queryCheck) {
+                return false;
+            }
+        } else if (term === '*') {
+            // Do nothing; * is defined as an 'and' operand condition, but each separate term is already and conditional...
+        } else if (term === '|') {
+            // Or condition the next term only
+        } else {
+            // Default to name search
+            if (!card.name.toLowerCase().includes(term.toLowerCase())){
+                return false;
+            }
+        }
+    }
+
+    return true;
+}
+
 function filterCardsBySearchString(cards, searchString) {
+    if (!searchString) {
+        return cards; // If search for nothing, show _all_ cards
+    }
+
     // Split the search string into terms, handling quotes
     const terms = searchString.match(/(".*?"|[^"\s]+)+(?=\s*|\s*$)/g).map(term => term.replace(/"/g, '')).filter(term => term.trim() !== '');
     console.log(terms)
 
-    return cards.filter(card => {
-        return terms.every(term => {
-            if (term.includes(':')) {
-                // Handle prefixed terms
-                const [prefix, ...queryParts] = term.split(':');
-                const query = queryParts.join(':').toLowerCase().trim();
-
-                if (query.includes('*')) {
-                    const andConditions = query.split('*').map(cond => cond.trim());
-                    switch (prefix.toLowerCase()) {
-                        case 'n':
-                        case 'name':
-                        case 'nm':
-                            return andConditions.every(cond => card.name && card.name.toLowerCase().includes(cond));
-                        case 'num':
-                        case 'number':
-                            return andConditions.every(cond => card.number && card.number.toLowerCase().includes(cond));
-                        case 'fl':
-                        case 'flavor':
-                        case 'flavortext':
-                            return andConditions.every(cond => card.flavorText && card.flavorText.toLowerCase().includes(cond));
-                        case 't':
-                        case 'type':
-                            return andConditions.every(cond => card.type && card.type.some(type => type.toLowerCase().includes(cond)));
-                        case 'k':
-                        case 'keyword':
-                            return andConditions.every(cond => card.subTypes && card.subTypes.some(subType => subType.toLowerCase().includes(cond)));
-                        case 'r':
-                        case 'rarity':
-                            return andConditions.every(cond => card.rarity && card.rarity.toLowerCase().includes(cond));
-                        case 'a':
-                        case 'artist':
-                            return andConditions.every(cond => card.artist && (
-                                Array.isArray(card.artist)
-                                ? card.artist.join(', ').toLowerCase().includes(cond) // Join array of artists into a string
-                                : card.artist.toLowerCase().includes(cond) // Handle single string artist
-                            ));                                
-                        case 'e':
-                        case 'effect':
-                            return andConditions.every(cond => card.effect && card.effect.some(effect => effect.toLowerCase().includes(cond)));
-                        case 's':
-                        case 'set':
-                        case 'setname':
-                            return andConditions.every(cond => {
-                                const setName = card.setName && card.setName.toLowerCase();
-                                const abbreviation = Object.keys(setAbbreviations).find(abbr => setAbbreviations[abbr].toLowerCase() === setName);
-                                return (setName && setName.includes(cond)) || (abbreviation && abbreviation.toLowerCase().includes(cond));
-                            });                                
-                        case 'd':
-                        case 'date':
-                        case 'releasedate':
-                            return andConditions.every(cond => card.releaseDate && card.releaseDate.toLowerCase().includes(cond));
-                        case 'ts':
-                        case 'solve':
-                        case 'tosolve':
-                            return andConditions.every(cond => card.toSolve && card.toSolve.toLowerCase().includes(cond));
-                        case 're':
-                        case 'reward':
-                            return andConditions.every(cond => card.reward && card.reward.toLowerCase().includes(cond));
-                        case 'l':
-                        case 'lesson':
-                            return andConditions.every(cond => card.lesson && card.lesson.some(lesson => lesson.toLowerCase().includes(cond)));
-                        case 'c':
-                        case 'cost':
-                        case 'power':
-                        case 'pow':
-                            return andConditions.every(cond => card.cost && card.cost.toString().toLowerCase() === query);
-                        case 'dmg':
-                        case 'damage':
-                        case 'dmgeachturn':
-                            return andConditions.every(cond => card.dmgEachTurn && card.dmgEachTurn.toString().toLowerCase().includes(cond));
-                        case 'h':
-                        case 'health':
-                            return andConditions.every(cond => card.health && card.health.toString().toLowerCase().includes(cond));
-                        case 'note':
-                            return andConditions.every(cond => card.note && card.note.toLowerCase().includes(cond));
-                        case 'pl':
-                        case 'provideslesson':
-                        case 'provides.lesson':
-                            return andConditions.every(cond => card.provides && card.provides.some((item) => {
-                                return item.lesson && item.lesson.toLowerCase().includes(cond);
-                            }));
-                        case 'pa':
-                        case 'providesamount':
-                        case 'provides.amount':
-                            return andConditions.every(cond => card.provides && card.provides.some((item) => {
-                                return item.amount && item.amount.toString().toLowerCase().includes(cond);
-                            }));
-                        case 'tw':
-                        case 'towin':
-                            return andConditions.every(cond => card.toWin && card.toWin.toLowerCase().includes(cond));
-                        case 'p':
-                        case 'prize':
-                            return andConditions.every(cond => card.prize && card.prize.toLowerCase().includes(cond));
-                        default:
-                            return false;
-                    }
-                } else if (query.includes('|')) {
-                    const orConditions = query.split('|').map(cond => cond.trim());
-                    switch (prefix.toLowerCase()) {
-                        case 'n':
-                        case 'name':
-                        case 'nm':
-                            return orConditions.some(cond => card.name && card.name.toLowerCase().includes(cond));
-                        case 'num':
-                        case 'number':
-                            return orConditions.some(cond => card.number && card.number.toLowerCase().includes(cond));
-                        case 'fl':
-                        case 'flavor':
-                        case 'flavortext':
-                            return orConditions.some(cond => card.flavorText && card.flavorText.toLowerCase().includes(cond));
-                        case 't':
-                        case 'type':
-                            return orConditions.some(cond => card.type && card.type.some(type => type.toLowerCase().includes(cond)));
-                        case 'k':
-                        case 'keyword':
-                            return orConditions.some(cond => card.subTypes && card.subTypes.some(subType => subType.toLowerCase().includes(cond)));
-                        case 'r':
-                        case 'rarity':
-                            return orConditions.some(cond => card.rarity && card.rarity.toLowerCase().includes(cond));
-                        case 'a':
-                        case 'artist':
-                            return orConditions.some(cond => card.artist && (
-                                Array.isArray(card.artist)
-                                ? card.artist.join(', ').toLowerCase().includes(cond) // Join array of artists into a string
-                                : card.artist.toLowerCase().includes(cond) // Handle single string artist
-                            ));                                
-                        case 'e':
-                        case 'effect':
-                            return orConditions.some(cond => card.effect && card.effect.some(effect => effect.toLowerCase().includes(cond)));
-                        case 's':
-                        case 'set':
-                        case 'setname':
-                            return orConditions.some(cond => {
-                                const setName = card.setName && card.setName.toLowerCase();
-                                const abbreviation = Object.keys(setAbbreviations).find(abbr => setAbbreviations[abbr].toLowerCase() === setName);
-                                return (setName && setName.includes(cond)) || (abbreviation && abbreviation.toLowerCase().includes(cond));
-                            });                                
-                        case 'd':
-                        case 'date':
-                        case 'releasedate':
-                            return orConditions.some(cond => card.releaseDate && card.releaseDate.toLowerCase().includes(cond));
-                        case 'ts':
-                        case 'solve':
-                        case 'tosolve':
-                            return orConditions.some(cond => card.toSolve && card.toSolve.toLowerCase().includes(cond));
-                        case 're':
-                        case 'reward':
-                            return orConditions.some(cond => card.reward && card.reward.toLowerCase().includes(cond));
-                        case 'l':
-                        case 'lesson':
-                            return orConditions.some(cond => card.lesson && card.lesson.some(lesson => lesson.toLowerCase().includes(cond)));
-                        case 'c':
-                        case 'cost':
-                        case 'power':
-                        case 'pow':
-                            return orConditions.some(cond => card.cost && card.cost.toString().toLowerCase() === query);
-                        case 'dmg':
-                        case 'damage':
-                        case 'dmgeachturn':
-                            return orConditions.some(cond => card.dmgEachTurn && card.dmgEachTurn.toString().toLowerCase().includes(cond));
-                        case 'h':
-                        case 'health':
-                            return orConditions.some(cond => card.health && card.health.toString().toLowerCase().includes(cond));
-                        case 'note':
-                            return orConditions.some(cond => card.note && card.note.toLowerCase().includes(cond));
-                        case 'pl':
-                        case 'provideslesson':
-                        case 'provides.lesson':
-                            return orConditions.some(cond => card.provides && card.provides.some((item) => {
-                                return item.lesson && item.lesson.toLowerCase().includes(cond);
-                            }));
-                        case 'pa':
-                        case 'providesamount':
-                        case 'provides.amount':
-                            return orConditions.some(cond => card.provides && card.provides.some((item) => {
-                                return item.amount && item.amount.toString().toLowerCase().includes(cond);
-                            }));
-                        case 'tw':
-                        case 'towin':
-                            return orConditions.some(cond => card.toWin && card.toWin.toLowerCase().includes(cond));
-                        case 'p':
-                        case 'prize':
-                            return orConditions.some(cond => card.prize && card.prize.toLowerCase().includes(cond));
-                        default:
-                            return false;
-                    }
-                } else {
-                    switch (prefix.toLowerCase()) {
-                        case 'n':
-                        case 'name':
-                        case 'nm':
-                            return card.name && card.name.toLowerCase() === query;
-                        case 'num':
-                        case 'number':
-                            return card.number && card.number.toLowerCase() === query;
-                        case 'fl':
-                        case 'flavor':
-                        case 'flavortext':
-                            return card.flavorText && card.flavorText.toLowerCase().includes(query);
-                        case 't':
-                        case 'type':
-                            return card.type && card.type.some(type => type.toLowerCase().includes(query));
-                        case 'k':
-                        case 'keyword':
-                            return card.subTypes && card.subTypes.some(subType => subType.toLowerCase().includes(query));
-                        case 'r':
-                        case 'rarity':
-                            return card.rarity && card.rarity.toLowerCase().includes(query);
-                        case 'a':
-                        case 'artist':
-                            return card.artist && (
-                                Array.isArray(card.artist)
-                                ? card.artist.join(', ').toLowerCase().includes(query) // Join array of artists into a string
-                                : card.artist.toLowerCase().includes(query) // Handle single string artist
-                            );
-                        case 'e':
-                        case 'effect':
-                            return card.effect && card.effect.some(effect => effect.toLowerCase().includes(query));
-                        case 's':
-                        case 'set':
-                        case 'setname':
-                            return card.setName && (
-                                card.setName.toLowerCase().includes(query) || 
-                                Object.keys(setAbbreviations).some(abbr => abbr.toLowerCase().includes(query) && setAbbreviations[abbr].toLowerCase() === card.setName.toLowerCase())
-                            );                                
-                        case 'd':
-                        case 'date':
-                        case 'releasedate':
-                            return card.releaseDate && card.releaseDate.toLowerCase().includes(query);
-                        case 'ts':
-                        case 'solve':
-                        case 'tosolve':
-                            return card.toSolve && card.toSolve.toLowerCase().includes(query);
-                        case 're':
-                        case 'reward':
-                            return card.reward && card.reward.toLowerCase().includes(query);
-                        case 'l':
-                        case 'lesson':
-                            return card.lesson && card.lesson.some(lesson => lesson.toLowerCase().includes(query));
-                        case 'c':
-                        case 'cost':
-                        case 'power':
-                        case 'pow':
-                            return card.cost && card.cost.toString().toLowerCase() === query;
-                        case 'dmg':
-                        case 'damage':
-                        case 'dmgeachturn':
-                            return card.dmgEachTurn && card.dmgEachTurn.toString().toLowerCase().includes(query);
-                        case 'h':
-                        case 'health':
-                            return card.health && card.health.toString().toLowerCase().includes(query);
-                        case 'note':
-                            return card.note && card.note.toLowerCase().includes(query);
-                        case 'pl':
-                        case 'provideslesson':
-                        case 'provides.lesson':
-                            return card.provides && card.provides.some((item) => {
-                                return item.lesson && item.lesson.toLowerCase().includes(query);
-                            });
-                        case 'pa':
-                        case 'providesamount':
-                        case 'provides.amount':
-                            return card.provides && card.provides.some((item) => {
-                                return item.amount && item.amount.toString().toLowerCase().includes(query);
-                            });
-                        case 'tw':
-                        case 'towin':
-                            return card.toWin && card.toWin.toLowerCase().includes(query);
-                        case 'p':
-                        case 'prize':
-                            return card.prize && card.prize.toLowerCase().includes(query);
-                        default:
-                            return false;
-                    }
-                }
-            } else {
-                // Default to name search
-                return card.name.toLowerCase().includes(term.toLowerCase());
-            }
-        });
-    });
+    return cards.filter(card => filterCard(card, terms));
 }
 
 function displayFilteredCards(cards, page) {

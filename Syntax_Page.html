@@ -56,37 +56,52 @@
         <h2>Advanced Search</h2>
         <p>To perform an advanced search, use the following prefixes:</p>
         <ul>
-            <li><strong>Name</strong>: <code>name</code>, <code>n</code>, <code>nm</code></li>
-            <li><strong>Number</strong>: <code>number</code>, <code>num</code></li>
-            <li><strong>Flavor Text</strong>: <code>flavortext</code>, <code>flavor</code>, <code>fl</code></li>
-            <li><strong>Type</strong>: <code>type</code>, <code>t</code></li>
-            <li><strong>SubType or <em>Keyword</em></strong>: <code>keyword</code>, <code>k</code></li>
-            <li><strong>Rarity</strong>: <code>rarity</code>, <code>r</code></li>
             <li><strong>Artist</strong>: <code>artist</code>, <code>a</code></li>
-            <li><strong>Effect</strong>: <code>effect</code>, <code>e</code></li>
-            <li><strong>Set Name</strong>: <code>setname</code>, <code>set</code>, <code>s</code></li>
-            <li><strong>Release Date</strong>: <code>releasedate</code>, <code>date</code>, <code>d</code></li>
-            <li><strong>To Solve</strong>: <code>tosolve</code>, <code>solve</code>, <code>ts</code></li>
-            <li><strong>Reward</strong>: <code>reward</code>, <code>re</code></li>
-            <li><strong>Lesson</strong>: <code>lesson</code>, <code>l</code></li>
             <li><strong>Cost</strong>: <code>cost</code>, <code>c</code>, <code>power</code>, <code>pow</code></li>
             <li><strong>Damage Each Turn</strong>: <code>dmgeachturn</code>, <code>damage</code>, <code>dmg</code></li>
+            <li><strong>Effect</strong>: <code>effect</code>, <code>e</code></li>
+            <li><strong>Flavor Text</strong>: <code>flavortext</code>, <code>flavor</code>, <code>fl</code></li>
             <li><strong>Health</strong>: <code>health</code>, <code>h</code></li>
+            <li><strong>SubType or <em>Keyword</em></strong>: <code>keyword</code>, <code>k</code></li>
+            <li><strong>Lesson</strong>: <code>lesson</code>, <code>l</code></li>
+            <li><strong>Name</strong>: <code>name</code>, <code>n</code>, <code>nm</code></li>
             <li><strong>Note</strong>: <code>note</code></li>
-            <li><strong>Provides Lesson</strong>: <code>provides.lesson</code>, <code>provideslesson</code>, <code>pl</code></li>
-            <li><strong>Provides Amount</strong>: <code>provides.amount</code>, <code>providesamount</code>, <code>pa</code></li>
-            <li><strong>To Win</strong>: <code>towin</code>, <code>tw</code></li>
+            <li><strong>Number</strong>: <code>number</code>, <code>num</code></li>
             <li><strong>Prize</strong>: <code>prize</code>, <code>p</code></li>
+            <li><strong>Provides Amount</strong>: <code>provides.amount</code>, <code>providesamount</code>, <code>pa</code></li>
+            <li><strong>Provides Lesson</strong>: <code>provides.lesson</code>, <code>provideslesson</code>, <code>pl</code></li>
+            <li><strong>Rarity</strong>: <code>rarity</code>, <code>r</code></li>
+            <li><strong>Release Date</strong>: <code>releasedate</code>, <code>date</code>, <code>d</code></li>
+            <li><strong>Reward</strong>: <code>reward</code>, <code>re</code></li>
+            <li><strong>Set Name</strong>: <code>setname</code>, <code>set</code>, <code>s</code></li>
+            <li><strong>To Solve</strong>: <code>tosolve</code>, <code>solve</code>, <code>ts</code></li>
+            <li><strong>To Win</strong>: <code>towin</code>, <code>tw</code></li>
+            <li><strong>Type</strong>: <code>type</code>, <code>t</code></li>
         </ul>
 
         <h2>Combining Searches</h2>
-        <p>You can combine searches using AND (<code>*</code>) and OR (<code>|</code>) logic. For example:</p>
-        <pre><code>t:spell * r:rare</code></pre>
-        <p>This searches for cards that are of type "Spell" and have rarity "Rare".</p>
+        <p>You can combine searches using AND and OR (<code>|</code>) logic.<br>For example:</p>
+        <pre><code>weasley type:character</code></pre>
+        <p>Returns the <code>character</code> cards which contain <code>weasley</code> in the name.</p>
+        <p>This searches for cards that are <code>events</code> or <code>items</code>, and which are of type <code>charms</code> or <code>transfiguration</code>:</p>
+        <pre><code>type:event | type:item lesson:charms | lesson:transfiguration</code></pre>
 
         <h3>Quoted Searches</h3>
-        <p>If your search term includes spaces, use quotes:</p>
+        <p>The following numerical fields can be searched via ranges:</p>
         <pre><code>effect:"discard 2 cards"</code></pre>
+
+        <h3>Range Searches</h3>
+        <p>If your search term includes spaces, use quotes:</p>
+        <ul>
+            <li><strong>Cost</strong>: <code>cost</code>, <code>c</code>, <code>power</code>, <code>pow</code></li>
+            <li><strong>Damage Each Turn</strong>: <code>dmgeachturn</code>, <code>damage</code>, <code>dmg</code></li>
+            <li><strong>Health</strong>: <code>health</code>, <code>h</code></li>
+            <li><strong>Number</strong>: <code>number</code>, <code>num</code></li>
+            <li><strong>Provides Amount</strong>: <code>provides.amount</code>, <code>providesamount</code>, <code>pa</code></li>
+        </ul>
+        <p>Example:</p>
+        <pre><code>type:spell lesson:charms cost:>6 cost:<=9</code></pre>
+        <p>This search returns <code>charms</code> <code>spell</code> cards with a cost greater than 6 and less than or equal to 9.</p>
 
         <h2>Example Usage</h2>
         <p>To search for a card by name:</p>
@@ -96,10 +111,14 @@
         <pre><code>type:character<br>t:spell</code></pre>
 
         <p>To combine multiple search terms using AND logic (all conditions must be met):</p>
-        <pre><code>t:spell * r:rare</code></pre>
+        <pre><code>type:spell rarity:rare lesson:charms</code></pre>
 
         <p>To combine multiple search terms using OR logic (any condition can be met):</p>
-        <pre><code>t:spell | r:rare</code></pre>
+        <pre><code>type:character | type:item</code></pre>
+
+        <p>Combining AND logic with OR logic in a single search:</p>
+        <pre><code>weasley t:adve | t:item</code></pre>
+        <p>This searches for cards which name match to <code>weasley</code> and are <code>adventures</code> or <code>items</code> only.</p>
 
         <p>This guide should help you perform both basic and advanced searches effectively. Happy searching!</p>
     </div>
