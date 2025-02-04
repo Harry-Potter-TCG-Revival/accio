@@ -90,28 +90,28 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (nameInput) searchQuery.push(`name:${quoteIfNeeded(nameInput)}`);
         if (textInput) searchQuery.push(`effect:${quoteIfNeeded(textInput)}`);
-        if (selectedTypes.length > 0) searchQuery.push(`type:${selectedTypes.map(quoteIfNeeded).join('|')}`);
-        if (selectedKeywords.length > 0) searchQuery.push(`keyword:${selectedKeywords.map(quoteIfNeeded).join('|')}`);
-        
+        if (selectedTypes.length > 0) searchQuery.push(selectedTypes.map(itm => `type:${quoteIfNeeded(itm)}`).join(" | "));
+        if (selectedKeywords.length > 0) searchQuery.push(selectedKeywords.map(itm => `keyword:${quoteIfNeeded(itm)}`).join(" | "));
+
         let lessonValues = [];
         if (comcCheckbox) lessonValues.push('Care of Magical Creatures');
         if (charmsCheckbox) lessonValues.push('Charms');
         if (potionsCheckbox) lessonValues.push('Potions');
         if (quidCheckbox) lessonValues.push('Quidditch');
         if (tranCheckbox) lessonValues.push('Transfiguration');
-        if (lessonValues.length > 0) searchQuery.push(`l:${lessonValues.map(quoteIfNeeded).join('|')}`);
-        
+        if (lessonValues.length > 0) searchQuery.push(lessonValues.map(itm => `lesson:${quoteIfNeeded(itm)}`).join(" | "));
+
         if (ppcInput) searchQuery.push(`cost:${quoteIfNeeded(ppcInput)}`);
         if (statsInput) searchQuery.push(`stats:${quoteIfNeeded(statsInput)}`);
-        if (selectedSets.length > 0) searchQuery.push(`set:${selectedSets.map(quoteIfNeeded).join('|')}`);
+        if (selectedSets.length > 0) searchQuery.push(selectedSets.map(itm => `set:${quoteIfNeeded(itm)}`).join(" | "));
 
         let rarityValues = [];
         if (commonCheckbox) rarityValues.push('Common');
         if (uncommonCheckbox) rarityValues.push('Uncommon');
         if (rareCheckbox) rarityValues.push('Rare');
         if (premiumCheckbox) rarityValues.push('Premium');
-        if (rarityValues.length > 0) searchQuery.push(`rarity:${rarityValues.map(quoteIfNeeded).join('|')}`);
-        
+        if (rarityValues.length > 0) searchQuery.push(rarityValues.map(itm => `rarity:${quoteIfNeeded(itm)}`).join(" | "));
+
         if (flavorInput) searchQuery.push(`flavorText:${quoteIfNeeded(flavorInput)}`);
         if (artistInput) searchQuery.push(`artist:${quoteIfNeeded(artistInput)}`);
         if (numberInput) searchQuery.push(`number:${quoteIfNeeded(numberInput)}`);
