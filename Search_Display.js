@@ -65,7 +65,7 @@ function filterCard(card, terms) {
             return false;
         }
 
-        let operator = match[1];
+        let operator = match[1] || "";
         let value = parseFloat(match[2]);
         cost = parseFloat(cost);
 
