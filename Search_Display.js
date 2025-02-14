@@ -372,8 +372,8 @@ function applyFiltersAndSort() {
                     valueB = b.name;
                     break;
                 case 'Cost': // Cost
-                    valueA = a.cost;
-                    valueB = b.cost;
+                    valueA = parseFloat(a.cost) || 0; 
+                    valueB = parseFloat(b.cost) || 0;
                     break;
                 case 'Type':
                     valueA = a.type.join(', ');
