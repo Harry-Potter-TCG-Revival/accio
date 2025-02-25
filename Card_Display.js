@@ -1,15 +1,52 @@
 import { cards } from './cards.js';
 
 document.addEventListener('DOMContentLoaded', function() {
-    const searchInput = document.getElementById('search_input');
-    searchInput.addEventListener('keydown', function(event) {
-        if (event.key === 'Enter') {
-            event.preventDefault();
-            const StringValue = searchInput.value.trim().toLowerCase();
-            const url = `Search_Display.html?search=${encodeURIComponent(StringValue)}`;
-            window.location.href = url;
-        }
-    });
+
+    // Dynamic Header and Footer Loading
+    function loadAndExecute(url, targetId) {
+        fetch(url)
+            .then(response => response.text())
+            .then(data => {
+                const targetElement = document.getElementById(targetId);
+                if (!targetElement) {
+                    console.error(`Error: Element with ID '${targetId}' not found.`);
+                    return; // Stop execution if the target does not exist
+                }
+                targetElement.innerHTML = data;
+    
+                // Extract and execute <script> tags
+                const tempDiv = document.createElement('div');
+                tempDiv.innerHTML = data;
+                const scripts = tempDiv.querySelectorAll('script');
+    
+                scripts.forEach(script => {
+                    const newScript = document.createElement('script');
+                    newScript.type = 'module';
+    
+                    if (script.src) {
+                        newScript.src = script.src;
+                    } else {
+                        newScript.textContent = script.textContent;
+                    }
+    
+                    document.body.appendChild(newScript);
+                });
+            })
+            .catch(error => console.error(`Error loading ${url}:`, error));
+    }
+    
+    // Load Header and Footer
+    loadAndExecute('Header.html', 'header');
+    const headerStylesheet = document.createElement('link');
+    headerStylesheet.rel = 'stylesheet';
+    headerStylesheet.href = 'Header.css';
+    document.head.appendChild(headerStylesheet);
+
+    loadAndExecute('Footer.html', 'footer');
+    const footerStylesheet = document.createElement('link');
+    footerStylesheet.rel = 'stylesheet';
+    footerStylesheet.href = 'Footer.css';
+    document.head.appendChild(footerStylesheet);
 
     const urlParams = new URLSearchParams(window.location.search);
     const cardName = urlParams.get('card');
@@ -70,6 +107,9 @@ document.addEventListener('DOMContentLoaded', function() {
         setTextContent('card-set', card.setName || 'N/A');
         setTextContent('card-number', card.number || 'N/A');
         setTextContent('card-rarity', card.rarity || 'N/A');
+        
+        //Load in the Card Rules
+        loadCardRules(card.name);
     }
 
     function setTextContent(id, text) {
@@ -81,5 +121,41 @@ document.addEventListener('DOMContentLoaded', function() {
             span.textContent = text;
             element.style.display = 'block';
         }
+    }
+
+    // Function to load rulings from rulings.json
+    function loadCardRules(cardName) {
+        fetch('rules.json')
+            .then(response => response.arrayBuffer()) // Get raw binary data
+            .then(buffer => {
+                const decoder = new TextDecoder("utf-8"); // Force UTF-8 decoding
+                const jsonString = decoder.decode(buffer);
+                return JSON.parse(jsonString); // Convert to JSON
+            })
+            .then(rulings => {
+                const cardRulesContainer = document.getElementById('card-rules');
+                cardRulesContainer.innerHTML = ''; // Clear container
+    
+                const matchingRulings = rulings.filter(ruling => ruling.cards.includes(cardName));
+    
+                if (matchingRulings.length > 0) {
+                    matchingRulings.forEach(ruling => {
+                        const rulingDiv = document.createElement('div');
+                        rulingDiv.classList.add('card-rule-entry');
+                        rulingDiv.innerHTML = `<strong>${ruling.date} - ${ruling.source}</strong>: ${sanitizeText(ruling.ruling)}`;
+                        cardRulesContainer.appendChild(rulingDiv);
+                    });
+                } else {
+                    cardRulesContainer.innerHTML = `<div class="card-rule-entry">No rulings available.</div>`;
+                }
+            })
+            .catch(error => {
+                console.error('Error loading rulings:', error);
+                document.getElementById('card-rules').innerHTML = `<div class="card-rule-entry">Error loading rulings.</div>`;
+            });
+    }
+    // Function to sanitize text and remove bad characters
+    function sanitizeText(text) {
+        return text.replace(/\uFFFD/g, "'"); // Replace '�' with a normal apostrophe
     }
 });
