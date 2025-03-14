@@ -249,11 +249,14 @@ function filterCard(card, terms) {
                     }
                     break;
                 case 't':
-                case 'type':
-                    if (!card.type?.some(type => type.toLowerCase().includes(query))) {
-                        queryCheck = false;
-                    }
-                    break;
+                    case 'type':
+                        // Split the query on '+' and convert each token to lowercase
+                        const tokens = query.split('+').map(token => token.trim().toLowerCase());
+                        // Ensure every token exists in at least one of the card's type values
+                        if (!tokens.every(token => card.type?.some(type => type.toLowerCase().includes(token)))) {
+                            queryCheck = false;
+                        }
+                        break;
                 default:
                     queryCheck = false; // Given term is not known, so mark as failed search
                     break;

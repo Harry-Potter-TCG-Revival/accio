@@ -1,6 +1,7 @@
 import { cards } from './cards.js';
 
 document.addEventListener('DOMContentLoaded', function() {
+    
 
     // Dynamic Header and Footer Loading
     function loadAndExecute(url, targetId) {
@@ -86,6 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
         setTextContent('card-type', card.type.join(', '));
         setTextContent('card-subtypes', card.subTypes ? card.subTypes.join(', ') : 'N/A');
         setTextContent('card-effect', card.effect ? card.effect.join(' ') : 'N/A');
+        setTextContent('card-pretext', card.pretext ? card.pretext : 'N/A');
 
         const dmgHealthText = (card.dmgEachTurn ? `Damage Each Turn: ${card.dmgEachTurn}` : '') +
             (card.health ? ` Health: ${card.health}` : '');
@@ -94,9 +96,12 @@ document.addEventListener('DOMContentLoaded', function() {
         const providesText = card.provides ? card.provides.map(p => `Lesson: ${p.lesson}, Amount: ${p.amount}`).join(', ') : 'N/A';
         setTextContent('card-provides', providesText);
 
-        const toSolveRewardText = (card.toSolve ? `To Solve: ${card.toSolve}` : '') +
-            (card.reward ? ` Reward: ${card.reward}` : '');
-        setTextContent('card-to-solve', toSolveRewardText || 'N/A');
+        const toSolveText = (card.toSolve ? card.toSolve: 'N/A') 
+        setTextContent('card-to-solve', toSolveText || 'N/A');
+
+        const rewardText = (card.reward ? card.reward : 'N/A')
+        setTextContent('card-reward', rewardText || 'N/A');
+
 
         const toWinPrizeText = (card.toWin ? `To Win: ${card.toWin}` : '') +
             (card.prize ? ` Prize: ${card.prize}` : '');
@@ -158,4 +163,6 @@ document.addEventListener('DOMContentLoaded', function() {
     function sanitizeText(text) {
         return text.replace(/\uFFFD/g, "'"); // Replace '�' with a normal apostrophe
     }
+    
 });
+

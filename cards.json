@@ -80,9 +80,7 @@
     "rarity": "Foil Premium",
     "artist": "Scott M. Fischer",
     "effect": [
-      "Your opponent can't use Actions to play Adventure cards.",
-      "to solve: Your opponent chooses 2 Adventure cards in his or her hand and discards them.",
-      "reward: Your opponent may draw a card."
+      "Your opponent can't use Actions to play Adventure cards."
     ],
     "toSolve": "Your opponent chooses 2 Adventure cards in his or her hand and discards them.",
     "reward": "Your opponent may draw a card.",
@@ -208,9 +206,7 @@
     "rarity": "Foil Premium",
     "artist": "Jeff Laubenstein",
     "effect": [
-      "Your opponent can't use Actions to play Location cards.",
-      "to solve: Your opponent lets you search your deck. You may take up to 2 Location cards from your deck, show them to your opponent and put them into your hand. Then shuffle your deck.",
-      "reward: Your opponent may put a Lesson card from his or her hand into play."
+      "Your opponent can't use Actions to play Location cards."
     ],
     "toSolve": "Your opponent lets you search your deck. You may take up to 2 Location cards from your deck, show them to your opponent and put them into your hand. Then shuffle your deck.",
     "reward": "Your opponent may put a Lesson card from his or her hand into play.",
@@ -371,9 +367,7 @@
     "rarity": "Foil Premium",
     "artist": "Ron Spencer",
     "effect": [
-      "Before each of your opponent's turns, if he or she has any cards in play (other than his or her starting Character), he or she chooses 1 of them and discards it.",
-      "to solve: Your opponent discards his or her hand.",
-      "reward: You take 5 damage."
+      "Before each of your opponent's turns, if he or she has any cards in play (other than his or her starting Character), he or she chooses 1 of them and discards it."
     ],
     "toSolve": "Your opponent discards his or her hand.",
     "reward": "You take 5 damage.",
@@ -416,9 +410,7 @@
     "rarity": "Foil Premium",
     "artist": "Kevin Dobler",
     "effect": [
-      "Before each of your turns, your opponent takes 12 damage.",
-      "to solve: Your opponent lets you choose 3 of his or her cards in play (other than his or her starting Character) and discard them.",
-      "reward: Your opponent gets 1 more Action the turn he or she solves this Adventure."
+      "Before each of your turns, your opponent takes 12 damage."
     ],
     "toSolve": "Your opponent lets you choose 3 of his or her cards in play (other than his or her starting Character) and discard them.",
     "reward": "Your opponent gets 1 more Action the turn he or she solves this Adventure.",
@@ -449,9 +441,7 @@
     "rarity": "Foil Premium",
     "artist": "Ken Steacy",
     "effect": [
-      "To use an Action to play a Creature or a Spell card from his or her hand, your opponent must discard another card from his or her hand.",
-      "to solve: Your opponent chooses 4 of his or her cards in play (other than his or her starting Character) and discards them.",
-      "reward: Your opponent may draw 4 cards."
+      "To use an Action to play a Creature or a Spell card from his or her hand, your opponent must discard another card from his or her hand."
     ],
     "toSolve": "Your opponent chooses 4 of his or her cards in play (other than his or her starting Character) and discards them.",
     "reward": "Your opponent may draw 4 cards.",
@@ -648,9 +638,7 @@
     "rarity": "Foil Premium",
     "artist": "Ken Steacy",
     "effect": [
-      "Prevent all damage done to you by your opponent's Creatures.",
-      "to solve: Your opponent chooses 4 of his or her cards in play (other than his or her starting Character) and returns them to his or her hand.",
-      "reward: Your opponent may draw a card."
+      "Prevent all damage done to you by your opponent's Creatures."
     ],
     "toSolve": "Your opponent chooses 4 of his or her cards in play (other than his or her starting Character) and returns them to his or her hand.",
     "reward": "Your opponent may draw a card.",
@@ -698,9 +686,7 @@
     "rarity": "Foil Premium",
     "artist": "Ken Steacy",
     "effect": [
-      "Your opponent can't use Actions to play Healing cards.",
-      "to solve: Your opponent chooses 5 of his or her cards in play (other than his or her starting Character) and discards them.",
-      "reward: Your opponent may shuffle up to 5 non-Healing cards from his or her discard pile into his or her deck."
+      "Your opponent can't use Actions to play Healing cards."
     ],
     "toSolve": "Your opponent chooses 5 of his or her cards in play (other than his or her starting Character) and discards them.",
     "reward": "Your opponent may shuffle up to 5 non-Healing cards from his or her discard pile into his or her deck.",
@@ -747,9 +733,7 @@
     "rarity": "Foil Premium",
     "artist": "Scott M. Fischer",
     "effect": [
-      "Your opponent can't use Actions to play Spell cards.",
-      "to solve: Your opponent takes 7 damage.",
-      "reward: Your opponent may put up to 2 non-Healing cards from his or her discard pile and put them on the bottom of his deck (in any order)."
+      "Your opponent can't use Actions to play Spell cards."
     ],
     "toSolve": "Your opponent takes 7 damage.",
     "reward": "Your opponent may put up to 2 non-Healing cards from his or her discard pile and put them on the bottom of his deck (in any order).",
@@ -796,9 +780,7 @@
     "rarity": "Uncommon",
     "artist": "Scott M. Fischer",
     "effect": [
-      "Your opponent gets 1 fewer Action on each of his or her turns (even the turn this Adventure is solved). (If this would mean your opponent would have fewer than 1 Action, he or she still gets 1 Action.)",
-      "to solve: Your opponent chooses 5 cards from his or her hand and discards them.",
-      "reward: You take 5 damage."
+      "Your opponent gets 1 fewer Action on each of his or her turns (even the turn this Adventure is solved). (If this would mean your opponent would have fewer than 1 Action, he or she still gets 1 Action.)"
     ],
     "toSolve": "Your opponent chooses 5 cards from his or her hand and discards them.",
     "reward": "You take 5 damage.",
@@ -886,9 +868,7 @@
     "rarity": "Uncommon",
     "artist": "Michael Koelsch",
     "effect": [
-      "Before each of your opponent's turns, he or she draws 3 cards and then chooses 3 cards in his or her hand and discards them.",
-      "to solve: Your opponent takes 10 damage.",
-      "reward: Your opponent may draw a card."
+      "Before each of your opponent's turns, he or she draws 3 cards and then chooses 3 cards in his or her hand and discards them."
     ],
     "toSolve": "Your opponent takes 10 damage.",
     "reward": "Your opponent may draw a card.",
@@ -959,9 +939,7 @@
     "rarity": "Uncommon",
     "artist": "Darrell Riche",
     "effect": [
-      "Spell cards that need Quidditch Power use up 2 of your opponent's Actions instead of 1.",
-      "to solve: Your opponent discards 4 cards that need Quidditch Power from his or her hand.",
-      "reward: You take 2 damage."
+      "Spell cards that need Quidditch Power use up 2 of your opponent's Actions instead of 1."
     ],
     "toSolve": "Your opponent discards 4 cards that need Quidditch Power from his or her hand.",
     "reward": "You take 2 damage.",
@@ -1029,9 +1007,7 @@
     "rarity": "Uncommon",
     "artist": "David Day",
     "effect": [
-      "Your opponent can't use Actions to play Creature cards.",
-      "to solve: Your opponent chooses 2 of his or her Lessons in play and discards them.",
-      "reward: Your opponent may search his or her deck. He or she may take a Creature card, show it to you, and put it into his or her hand. Then your opponent shuffles his or her deck."
+      "Your opponent can't use Actions to play Creature cards."
     ],
     "toSolve": "Your opponent chooses 2 of his or her Lessons in play and discards them.",
     "reward": "Your opponent may search his or her deck. He or she may take a Creature card, show it to you, and put it into his or her hand. Then your opponent shuffles his or her deck.",
@@ -1137,9 +1113,7 @@
     "rarity": "Uncommon",
     "artist": "Monte Michael Moore",
     "effect": [
-      "Your opponent can't use Actions to play Lesson cards.",
-      "to solve: Your opponent discards his or her hand.",
-      "reward: Your opponent may draw 3 cards."
+      "Your opponent can't use Actions to play Lesson cards."
     ],
     "toSolve": "Your opponent discards his or her hand.",
     "reward": "Your opponent may draw 3 cards.",
@@ -1212,9 +1186,7 @@
     "rarity": "Uncommon",
     "artist": "Ken Steacy",
     "effect": [
-      "Your opponent discards the card drawn at the start of each of his or her turns.",
-      "to solve: The card drawn and discarded at the start of your opponent's turn is a Lesson card.",
-      "reward: You take 1 damage."
+      "Your opponent discards the card drawn at the start of each of his or her turns."
     ],
     "toSolve": "The card drawn and discarded at the start of your opponent's turn is a Lesson card.",
     "reward": "You take 1 damage.",
@@ -2103,9 +2075,7 @@
     "rarity": "Foil Premium",
     "artist": "Daren Bader",
     "effect": [
-      "Before each of your turns, your opponent takes 1 damage.",
-      "to solve: Your opponent chooses 3 of his or her Lessons in play and discards them.",
-      "reward: Your opponent draws 3 cards or does 3 damage to you."
+      "Before each of your turns, your opponent takes 1 damage."
     ],
     "toSolve": "Your opponent chooses 3 of his or her Lessons in play and discards them.",
     "reward": "Your opponent draws 3 cards or does 3 damage to you.",
@@ -2150,9 +2120,7 @@
     "rarity": "Foil Premium",
     "artist": "Warner Bros.",
     "effect": [
-      "Before each of your opponent's turns, he or she chooses a card in his or her hand (if any) and discards it.",
-      "to solve: Your opponent skips a total of 5 Actions. (Those Actions don't have to be one right after the other.)",
-      "reward: Your opponent may draw 5 cards."
+      "Before each of your opponent's turns, he or she chooses a card in his or her hand (if any) and discards it."
     ],
     "toSolve": "Your opponent skips a total of 5 Actions. (Those Actions don't have to be one right after the other.)",
     "reward": "Your opponent may draw 5 cards.",
@@ -2292,9 +2260,7 @@
     "rarity": "Foil Premium",
     "artist": "Ron Spears",
     "effect": [
-      "During each of your opponent's turns, he or she can play cards only if you played 1 or more cards during your previous turn.",
-      "to solve: Your opponent chooses and discards 1 of his or her Characters in play (other than his or her starting Character) or 8 cards from his or her hand.",
-      "reward: Your opponent may draw 3 cards."
+      "During each of your opponent's turns, he or she can play cards only if you played 1 or more cards during your previous turn."
     ],
     "toSolve": "Your opponent chooses and discards 1 of his or her Characters in play (other than his or her starting Character) or 8 cards from his or her hand.",
     "reward": "Your opponent may draw 3 cards.",
@@ -2503,9 +2469,7 @@
     "rarity": "Foil Premium",
     "artist": "Michael Koelsch",
     "effect": [
-      "Before each of your turns, your opponent takes 2 damage.",
-      "to solve: Your opponent chooses 7 cards in his or her hand and discards them.",
-      "reward: You take 4 damage."
+      "Before each of your turns, your opponent takes 2 damage."
     ],
     "toSolve": "Your opponent chooses 7 cards in his or her hand and discards them.",
     "reward": "You take 4 damage.",
@@ -2598,9 +2562,7 @@
     "rarity": "Rare",
     "artist": "Patrick Faricy",
     "effect": [
-      "Your opponent's Creature and Spell cards need 2 more Power to play.",
-      "to solve: Your opponent chooses 7 cards in his or her hand and discards them.",
-      "reward: Your opponent may put a Lesson card from his or her discard pile into play."
+      "Your opponent's Creature and Spell cards need 2 more Power to play."
     ],
     "toSolve": "Your opponent chooses 7 cards in his or her hand and discards them.",
     "reward": "Your opponent may put a Lesson card from his or her discard pile into play.",
@@ -2684,9 +2646,7 @@
     "rarity": "Rare",
     "artist": "Thomas Gianni",
     "effect": [
-      "Your opponent plays with his or her hand face up.",
-      "to solve: Your opponent discards his or her hand. (Your opponent may do this even if his or her hand is empty.)",
-      "reward: You play with your hand face up for the rest of the game."
+      "Your opponent plays with his or her hand face up."
     ],
     "toSolve": "Your opponent discards his or her hand. (Your opponent may do this even if his or her hand is empty.)",
     "reward": "You play with your hand face up for the rest of the game.",
@@ -2963,9 +2923,7 @@
     "rarity": "Uncommon",
     "artist": "Michael Koelsch",
     "effect": [
-      "Your opponent can't play Spell cards.",
-      "to solve: Your opponent chooses 6 cards in his or her hand and discards them.",
-      "reward: Your opponent may draw a card."
+      "Your opponent can't play Spell cards."
     ],
     "toSolve": "Your opponent chooses 6 cards in his or her hand and discards them.",
     "reward": "Your opponent may draw a card.",
@@ -3170,9 +3128,7 @@
     "rarity": "Uncommon",
     "artist": "Ron Spears",
     "effect": [
-      "Your opponent can't use Actions to draw cards.",
-      "to solve: Your opponent skips a total of 7 Actions. (Those Actions don't need to be one right after the other.)",
-      "reward: Your opponent may draw any number of cards."
+      "Your opponent can't use Actions to draw cards."
     ],
     "toSolve": "Your opponent skips a total of 7 Actions. (Those Actions don't need to be one right after the other.)",
     "reward": "Your opponent may draw any number of cards.",
@@ -3314,9 +3270,7 @@
     "rarity": "Uncommon",
     "artist": "James Bernardin",
     "effect": [
-      "Your opponent can't play Item cards.",
-      "to solve: Your opponent chooses 4 Item cards in his or her hand and discards them.",
-      "reward: Your opponent may search his or her deck for any card and put it into his or her hand. Then your opponent shuffles his or her deck."
+      "Your opponent can't play Item cards."
     ],
     "toSolve": "Your opponent chooses 4 Item cards in his or her hand and discards them.",
     "reward": "Your opponent may search his or her deck for any card and put it into his or her hand. Then your opponent shuffles his or her deck.",
@@ -3451,9 +3405,7 @@
     "rarity": "Uncommon",
     "artist": "Michael Koelsch",
     "effect": [
-      "Whenever your opponent draws 1 or more cards, he or she then takes 1 damage.",
-      "to solve: Your opponent skips a total of 5 Actions. (Those Actions don't need to be one right after the other.)",
-      "reward: You take 3 damage."
+      "Whenever your opponent draws 1 or more cards, he or she then takes 1 damage."
     ],
     "toSolve": "Your opponent skips a total of 5 Actions. (Those Actions don't need to be one right after the other.)",
     "reward": "You take 3 damage.",
@@ -3557,9 +3509,7 @@
     "rarity": "Uncommon",
     "artist": "Michael Koelsch",
     "effect": [
-      "Your opponent can't use more than 1 Action to play Lesson cards during each of his or her turns.",
-      "to solve: Your opponent chooses 4 of his or her Lessons in play and discards them.",
-      "reward: Your opponent may draw a card."
+      "Your opponent can't use more than 1 Action to play Lesson cards during each of his or her turns."
     ],
     "toSolve": "Your opponent chooses 4 of his or her Lessons in play and discards them.",
     "reward": "Your opponent may draw a card.",
@@ -3695,9 +3645,7 @@
     "rarity": "Uncommon",
     "artist": "Thomas Gianni",
     "effect": [
-      "Before each of your turns, your opponent takes 4 damage.",
-      "to solve: Your opponent chooses 2 of his or her Creatures in play and discards them.",
-      "reward: Your opponent may draw a card."
+      "Before each of your turns, your opponent takes 4 damage."
     ],
     "toSolve": "Your opponent chooses 2 of his or her Creatures in play and discards them.",
     "reward": "Your opponent may draw a card.",
@@ -4987,9 +4935,7 @@
     "rarity": "Foil Premium",
     "artist": "Larry MacDougall",
     "effect": [
-      "At the end of each of your opponent's turns, if he or she has any cards in his or her hand, he or she chooses 1 of them and discards it.",
-      "to solve: Your opponent discards 5 cards in this way.",
-      "reward: Your opponent may draw a card."
+      "At the end of each of your opponent's turns, if he or she has any cards in his or her hand, he or she chooses 1 of them and discards it."
     ],
     "toSolve": "Your opponent discards 5 cards in this way.",
     "reward": "Your opponent may draw a card.",
@@ -5198,9 +5144,7 @@
       "Michael Collins"
     ],
     "effect": [
-      "Your opponent can't use Actions to play non-Lesson cards.",
-      "to solve: Your opponent discards his or her hand.",
-      "reward: Your opponent searches his or her deck for any card, puts it into his or her hand and then shuffles his or her deck."
+      "Your opponent can't use Actions to play non-Lesson cards."
     ],
     "toSolve": "Your opponent discards his or her hand.",
     "reward": "Your opponent searches his or her deck for any card, puts it into his or her hand and then shuffles his or her deck.",
@@ -5271,9 +5215,7 @@
     "rarity": "Foil Premium",
     "artist": "Ken Steacy",
     "effect": [
-      "Before each of your turns, your opponent takes 5 damage.",
-      "to solve: Your opponent chooses 4 of his or her cards in play (other than his or her starting Character) and discards them.",
-      "reward: You take 5 damage."
+      "Before each of your turns, your opponent takes 5 damage."
     ],
     "toSolve": "Your opponent chooses 4 of his or her cards in play (other than his or her starting Character) and discards them.",
     "reward": "You take 5 damage.",
@@ -5335,9 +5277,7 @@
     "rarity": "Foil Premium",
     "artist": "Greg Hildebrandt",
     "effect": [
-      "Before each of your turns, your opponent takes 2 damage.",
-      "to solve: Your opponent skips a total of 5 Actions. (They don't need to be one right after the other.)",
-      "reward: Your opponent may look at your hand, choose 1 of those cards and discard it."
+      "Before each of your turns, your opponent takes 2 damage."
     ],
     "toSolve": "Your opponent skips a total of 5 Actions. (They don't need to be one right after the other.)",
     "reward": "Your opponent may look at your hand, choose 1 of those cards and discard it.",
@@ -5510,9 +5450,7 @@
     "rarity": "Foil Premium",
     "artist": "Ken Steacy",
     "effect": [
-      "Before each of your turns, you may show your opponent any number of Creature cards from your hand. Your opponent takes that much damage.",
-      "to solve: Your opponent takes 10 damage.",
-      "reward: If you have any cards in your hand, you choose 1 of them and discard it."
+      "Before each of your turns, you may show your opponent any number of Creature cards from your hand. Your opponent takes that much damage."
     ],
     "toSolve": "Your opponent takes 10 damage.",
     "reward": "If you have any cards in your hand, you choose 1 of them and discard it.",
@@ -5557,9 +5495,7 @@
       "Michael Collins"
     ],
     "effect": [
-      "Whenever you use an Action to play a Spell, your opponent says 'Brilliant!' If your opponent forgets, he or she takes 3 damage at the end of that turn.",
-      "to solve: Your opponent lets you have 4 more Actions on your next turn.",
-      "reward: You take 3 damage."
+      "Whenever you use an Action to play a Spell, your opponent says 'Brilliant!' If your opponent forgets, he or she takes 3 damage at the end of that turn."
     ],
     "toSolve": "Your opponent lets you have 4 more Actions on your next turn.",
     "reward": "You take 3 damage.",
@@ -6175,9 +6111,7 @@
     "rarity": "Uncommon",
     "artist": "Jim Nelson",
     "effect": [
-      "Your opponent can't use Actions to play Location cards.",
-      "to solve: Your opponent chooses 2 Location cards in his or her hand and discards them.",
-      "reward: Once during this turn, when your opponent uses an Action to play a Location card, he or she gets 2 more Actions this turn."
+      "Your opponent can't use Actions to play Location cards."
     ],
     "toSolve": "Your opponent chooses 2 Location cards in his or her hand and discards them.",
     "reward": "Once during this turn, when your opponent uses an Action to play a Location card, he or she gets 2 more Actions this turn.",
@@ -6238,9 +6172,7 @@
     "rarity": "Uncommon",
     "artist": "Kevin Dobler",
     "effect": [
-      "Your opponent can't use Actions to play any cards except Lesson cards.",
-      "to solve: Your opponent uses Actions to play Lesson cards 3 times. (Those Actions don't need to be one right after the other.)",
-      "reward: Your opponent may put any number of Lesson cards from his or her hand into play."
+      "Your opponent can't use Actions to play any cards except Lesson cards."
     ],
     "toSolve": "Your opponent uses Actions to play Lesson cards 3 times. (Those Actions don't need to be one right after the other.)",
     "reward": "Your opponent may put any number of Lesson cards from his or her hand into play.",
@@ -6463,9 +6395,7 @@
       "Michael Collins"
     ],
     "effect": [
-      "Your opponent discards the card drawn at the start of each of his or her turns.",
-      "to solve: Your opponent takes 8 damage.",
-      "reward: You take 2 damage."
+      "Your opponent discards the card drawn at the start of each of his or her turns."
     ],
     "toSolve": "Your opponent takes 8 damage.",
     "reward": "You take 2 damage.",
@@ -6484,9 +6414,7 @@
     "rarity": "Uncommon",
     "artist": "Kevin Dobler",
     "effect": [
-      "Your opponent gets 1 fewer Action on each of his or her turns (even the turn this Adventure is solved). (If this would mean your opponent has fewer than 1 Action, he or she still gets 1 Action.)",
-      "to solve: Your opponent chooses 4 cards in his or her hand and discards them.",
-      "reward: Your opponent may draw 2 cards."
+      "Your opponent gets 1 fewer Action on each of his or her turns (even the turn this Adventure is solved). (If this would mean your opponent has fewer than 1 Action, he or she still gets 1 Action.)"
     ],
     "toSolve": "Your opponent chooses 4 cards in his or her hand and discards them.",
     "reward": "Your opponent may draw 2 cards.",
@@ -6787,9 +6715,7 @@
     "rarity": "Uncommon",
     "artist": "Tim Hildebrandt",
     "effect": [
-      "Before each of your opponent's turns, he or she draws 3 cards and then chooses 3 cards in his or her hand and discards them.",
-      "to solve: Your opponent chooses 1 of his or her Locations in play or 4 of his or her Lessons in play and discards them. ",
-      "reward: You take 3 damage."
+      "Before each of your opponent's turns, he or she draws 3 cards and then chooses 3 cards in his or her hand and discards them."
     ],
     "toSolve": "Your opponent chooses 1 of his or her Locations in play or 4 of his or her Lessons in play and discards them. ",
     "reward": "You take 3 damage.",
@@ -8581,9 +8507,7 @@
     "rarity": "Foil Premium",
     "artist": "Greg Hildebrandt",
     "effect": [
-      "Your opponent may only use Actions to draw cards.",
-      "to solve: Your opponent discards 5 cards from his or her hand.",
-      "reward: Your opponent may draw two cards."
+      "Your opponent may only use Actions to draw cards."
     ],
     "toSolve": "Your opponent discards 5 cards from his or her hand.",
     "reward": "Your opponent may draw two cards.",
@@ -8813,9 +8737,7 @@
     "rarity": "Foil Premium",
     "artist": "George Davis",
     "effect": [
-      "Your opponent can't play Spell cards.",
-      "to solve: Your opponent skips a total of 4 Actions. (Those Actions don't need to be one right after the other.)",
-      "reward: Your opponent may put an Item card from his or her discard pile into his or her hand."
+      "Your opponent can't play Spell cards."
     ],
     "toSolve": "Your opponent skips a total of 4 Actions. (Those Actions don't need to be one right after the other.)",
     "reward": "Your opponent may put an Item card from his or her discard pile into his or her hand.",
@@ -10732,9 +10654,7 @@
     "flavorText": "He raised the map, tapped it with the tip of his wand, and muttered, \"Mischief managed!\"'",
     "effect": [
       "Play this card only if you have at least 5 Lessons in play.",
-      "Your opponent cannot use Actions.",
-      "to solve: Your opponent ends their turn.",
-      "reward: You discard your hand. During your next turn, you may not play Adventures."
+      "Your opponent cannot use Actions."
     ],
     "toSolve": "Your opponent ends their turn.",
     "reward": "You discard your hand. During your next turn, you may not play Adventures.",
@@ -10989,9 +10909,7 @@
     "rarity": "Uncommon",
     "effect": [
       "Play this card only if you have at least 4 Lessons in play.",
-      "Before each of your turns, your opponent takes 3 damage.",
-      "to solve: Your opponent chooses 3 of their cards in play and discards them.",
-      "reward: Your opponent may search their deck for a Lesson, reveal it, and put it into play, then shuffle their deck."
+      "Before each of your turns, your opponent takes 3 damage."
     ],
     "toSolve": "Your opponent chooses 3 of their cards in play and discards them.",
     "reward": "Your opponent may search their deck for a Lesson, reveal it, and put it into play, then shuffle their deck.",
@@ -11080,9 +10998,7 @@
     "rarity": "Uncommon",
     "effect": [
       "When you play this card, if you have at least 4 Lessons in play, you get 1 more Action this turn.",
-      "To use Actions to play a Character, your opponent must discard 3 cards from their hand.",
-      "to solve: Your opponent lets you choose 3 of their cards in play. Return them to their owner's hand.",
-      "reward: Your opponent may draw a card."
+      "To use Actions to play a Character, your opponent must discard 3 cards from their hand."
     ],
     "toSolve": "Your opponent lets you choose 3 of their cards in play. Return them to their owner's hand.",
     "reward": "Your opponent may draw a card.",
@@ -11362,9 +11278,7 @@
     ],
     "rarity": "Uncommon",
     "effect": [
-      "Before each of your turns, if there is an Event in play, do 5 damage to your opponent.",
-      "to solve: Your opponent lets you search your deck. You may take up to 2 Events from your deck, reveal them, and put them into your hand. Then shuffle your deck.",
-      "reward: Your opponent may put up to 2 Lessons from their discard pile into their hand."
+      "Before each of your turns, if there is an Event in play, do 5 damage to your opponent."
     ],
     "toSolve": "Your opponent lets you search your deck. You may take up to 2 Events from your deck, reveal them, and put them into your hand. Then shuffle your deck.",
     "reward": "Your opponent may put up to 2 Lessons from their discard pile into their hand.",
@@ -11491,9 +11405,7 @@
     "rarity": "Rare",
     "effect": [
       "Play this card only if you have at least 4 Lessons in play.",
-      "Before each of your opponent's turns, they choose a card they control with the highest printed Power cost and place it under this card. When this card leaves play, return all cards under this card to their owners' hands.",
-      "to solve: Your opponent discards 3 cards from their hand that share a Lesson type with a card under this card.",
-      "reward: Your opponent may draw 3 cards or do 3 damage to you."
+      "Before each of your opponent's turns, they choose a card they control with the highest printed Power cost and place it under this card. When this card leaves play, return all cards under this card to their owners' hands."
     ],
     "toSolve": "Your opponent discards 3 cards from their hand that share a Lesson type with a card under this card.",
     "reward": "Your opponent may draw 3 cards or do 3 damage to you.",
@@ -12756,9 +12668,7 @@
     "rarity": "Rare",
     "artist": "HogwartsHorror",
     "effect": [
-      "Your opponent may use Actions only to draw or play cards.",
-      "to solve: Your opponent uses Actions to play cards 4 times.",
-      "reward: Your opponent may choose 1 of your Characters in play. Their starting Character gains the abilities of the chosen Character until the end of their turn."
+      "Your opponent may use Actions only to draw or play cards."
     ],
     "toSolve": "Your opponent uses Actions to play cards 4 times.",
     "reward": "Your opponent may choose 1 of your Characters in play. Their starting Character gains the abilities of the chosen Character until the end of their turn.",
@@ -12834,9 +12744,7 @@
     "rarity": "Rare",
     "artist": "HogwartsHorror",
     "effect": [
-      "Your opponent's starting Character loses all abilities (including any Lessons provided).",
-      "to solve: Your opponent skips a total of 3 Actions.",
-      "reward: The next Spell your opponent plays needs 2 less Power to play."
+      "Your opponent's starting Character loses all abilities (including any Lessons provided)."
     ],
     "toSolve": "Your opponent skips a total of 3 Actions.",
     "reward": "The next Spell your opponent plays needs 2 less Power to play.",
@@ -13301,9 +13209,7 @@
     "rarity": "Rare",
     "artist": "Vladislav Pantic",
     "effect": [
-      "After your opponent uses an Action to play a Creature or Item, they discard that card from play.",
-      "to solve: Your opponent discards 2 cards in this way.",
-      "reward: Your opponent may put up to 2 Lessons from their discard pile into play."
+      "After your opponent uses an Action to play a Creature or Item, they discard that card from play."
     ],
     "toSolve": "Your opponent discards 2 cards in this way.",
     "reward": "Your opponent may put up to 2 Lessons from their discard pile into play.",
@@ -13537,9 +13443,7 @@
     "rarity": "Uncommon",
     "artist": "Adam Brockbank",
     "effect": [
-      "Whenever a card is discarded from play, your opponent says, 'Rest in peace.' If your opponent forgets, they take 3 damage at the end of the turn.",
-      "to solve: Your opponent chooses 3 Lessons in their hand and discards them.",
-      "reward: Your opponent may look at your hand. They may choose 1 of those cards and discard it."
+      "Whenever a card is discarded from play, your opponent says, 'Rest in peace.' If your opponent forgets, they take 3 damage at the end of the turn."
     ],
     "toSolve": "Your opponent chooses 3 Lessons in their hand and discards them.",
     "reward": "Your opponent may look at your hand. They may choose 1 of those cards and discard it.",
@@ -14075,9 +13979,7 @@
     "rarity": "Uncommon",
     "artist": "Alex van der Linde",
     "effect": [
-      "Before each of your opponent's turns, they reveal the top card of their deck. You may take 1 damage to put that card on the bottom of their deck.",
-      "to solve: Your opponent puts their hand on the bottom of their deck in any order.",
-      "reward: Your opponent names a card type. Reveal your hand and discard all cards of the chosen type."
+      "Before each of your opponent's turns, they reveal the top card of their deck. You may take 1 damage to put that card on the bottom of their deck."
     ],
     "toSolve": "Your opponent puts their hand on the bottom of their deck in any order.",
     "reward": "Your opponent names a card type. Reveal your hand and discard all cards of the chosen type.",
@@ -14978,9 +14880,7 @@
     ],
     "rarity": "Rare",
     "effect": [
-      "Your opponent's non-starting Characters have no abilities, damage each turn, health, or keywords (except Unique) while this card is in play.",
-      "to solve: Your opponent discards 2 Character cards from their hand.",
-      "reward: Your opponent chooses 1 of your cards in play and discards it."
+      "Your opponent's non-starting Characters have no abilities, damage each turn, health, or keywords (except Unique) while this card is in play."
     ],
     "toSolve": "Your opponent discards 2 Character cards from their hand.",
     "reward": "Your opponent chooses 1 of your cards in play and discards it.",
@@ -15124,9 +15024,7 @@
     ],
     "rarity": "Uncommon",
     "effect": [
-      "Your opponent's non-Lesson cards that don't have a printed Power cost require 1 more Action to play.",
-      "to solve: Your opponent skips a total of 4 Actions.",
-      "reward: Your opponent gets 1 more Action (the turn this Adventure is solved)."
+      "Your opponent's non-Lesson cards that don't have a printed Power cost require 1 more Action to play."
     ],
     "toSolve": "Your opponent skips a total of 4 Actions.",
     "reward": "Your opponent gets 1 more Action (the turn this Adventure is solved).",
@@ -15595,9 +15493,7 @@
     "flavorText": "It was nearly midnight, and he was lying on his stomach in bed, the blankets drawn right over his head like a tent, a flashlight in one hand ...",
     "note": "Play this card only if you have at least 4 Lessons in play.",
     "effect": [
-      "Before each of your opponent's turns, you may choose one of their Lessons in play. Return it to its owner's hand.",
-      "to solve: Your opponent takes 10 damage.",
-      "reward: Until the end of their turn, your opponent may play 1 non-Healing card in their discard pile as if it were in their hand."
+      "Before each of your opponent's turns, you may choose one of their Lessons in play. Return it to its owner's hand."
     ],
     "toSolve": "Your opponent takes 10 damage.",
     "reward": "Until the end of their turn, your opponent may play 1 non-Healing card in their discard pile as if it were in their hand.",
@@ -15971,9 +15867,7 @@
       "Healing"
     ],
     "effect": [
-      "Whenever your opponent uses an Action to play a card, you may choose a non-Healing card from your discard pile and put it on the bottom of your deck.",
-      "to solve: Your opponent uses Actions to play cards 10 times.",
-      "reward: Your opponent may search their deck for a Spell, reveal it, put it into their hand, and then shuffle their deck."
+      "Whenever your opponent uses an Action to play a card, you may choose a non-Healing card from your discard pile and put it on the bottom of your deck."
     ],
     "toSolve": "Your opponent uses Actions to play cards 10 times.",
     "reward": "Your opponent may search their deck for a Spell, reveal it, put it into their hand, and then shuffle their deck.",
@@ -16089,9 +15983,7 @@
     ],
     "rarity": "Uncommon",
     "effect": [
-      "When you play this card, discard any Match in play (nobody gets the Prize). Your opponent can't use Actions to play Matches.",
-      "to solve: Your opponent skips a total of 4 Actions.",
-      "reward: Your opponent may discard a Match in play. Then they may put a Match from their discard pile into play."
+      "When you play this card, discard any Match in play (nobody gets the Prize). Your opponent can't use Actions to play Matches."
     ],
     "toSolve": "Your opponent skips a total of 4 Actions.",
     "reward": "Your opponent may discard a Match in play. Then they may put a Match from their discard pile into play.",
@@ -16110,9 +16002,7 @@
     ],
     "rarity": "Uncommon",
     "effect": [
-      "At the end of each of your turns, your opponent names a card. Prevent all damage dealt to you on your opponent's next turn from all other cards (even the turn this Adventure is solved).",
-      "to solve: Your opponent does damage to you 4 times.",
-      "reward: Your opponent gets 1 more Action (the turn this Adventure is solved)."
+      "At the end of each of your turns, your opponent names a card. Prevent all damage dealt to you on your opponent's next turn from all other cards (even the turn this Adventure is solved)."
     ],
     "toSolve": "Your opponent does damage to you 4 times.",
     "reward": "Your opponent gets 1 more Action (the turn this Adventure is solved).",
@@ -18036,9 +17926,7 @@
     "rarity": "Foil Premium",
     "artist": "Jim Nelson",
     "effect": [
-      "During your opponent's turns, prevent all damage done to you by Spell cards.",
-      "to solve: Your opponent chooses 5 Spell cards in his or her hand and discards them.",
-      "reward: Your opponent gets 1 more Action (the turn this Adventure is solved)."
+      "During your opponent's turns, prevent all damage done to you by Spell cards."
     ],
     "toSolve": "Your opponent chooses 5 Spell cards in his or her hand and discards them.",
     "reward": "Your opponent gets 1 more Action (the turn this Adventure is solved).",
@@ -18108,9 +17996,7 @@
     "rarity": "Foil Premium",
     "artist": "Patrick Faricy",
     "effect": [
-      "Your opponent gets 1 fewer Action on each of his or her turns (even the turn this Adventure is solved). (If this would mean your opponent has fewer than 1 Action, he or she still gets 1 Action.)",
-      "to solve: Your opponent takes 8 damage.",
-      "reward: Your opponent may draw 3 cards."
+      "Your opponent gets 1 fewer Action on each of his or her turns (even the turn this Adventure is solved). (If this would mean your opponent has fewer than 1 Action, he or she still gets 1 Action.)"
     ],
     "toSolve": "Your opponent takes 8 damage.",
     "reward": "Your opponent may draw 3 cards.",
@@ -18846,9 +18732,7 @@
     "rarity": "Uncommon",
     "artist": "Patrick Faricy",
     "effect": [
-      "Your opponent can't play Creature cards.",
-      "to solve: Your opponent chooses 4 Creature cards in his or her hand and discards them.",
-      "reward: Your opponent may draw a card."
+      "Your opponent can't play Creature cards."
     ],
     "toSolve": "Your opponent chooses 4 Creature cards in his or her hand and discards them.",
     "reward": "Your opponent may draw a card.",
@@ -18868,9 +18752,7 @@
     "rarity": "Uncommon",
     "artist": "Lars Grant-West",
     "effect": [
-      "Whenever 1 of your Creatures does damage to your opponent, it does 1 more damage.",
-      "to solve: Your opponent skips a total of 5 Actions. (Those Actions don't need to be one right after the other.)",
-      "reward: Your opponent may draw a card."
+      "Whenever 1 of your Creatures does damage to your opponent, it does 1 more damage."
     ],
     "toSolve": "Your opponent skips a total of 5 Actions. (Those Actions don't need to be one right after the other.)",
     "reward": "Your opponent may draw a card.",
@@ -18964,9 +18846,7 @@
     "rarity": "Uncommon",
     "artist": "Patrick Faricy",
     "effect": [
-      "The first Action your opponent uses on each of his or her turns must be used to draw a card.",
-      "to solve: Your opponent shows you a card from his or her hand with a (printed) Power needed of 8 or more.",
-      "reward: Your opponent may draw 2 cards."
+      "The first Action your opponent uses on each of his or her turns must be used to draw a card."
     ],
     "toSolve": "Your opponent shows you a card from his or her hand with a (printed) Power needed of 8 or more.",
     "reward": "Your opponent may draw 2 cards.",
@@ -19037,9 +18917,7 @@
     "rarity": "Uncommon",
     "artist": "Jon Foster",
     "effect": [
-      "Your opponent discards the card he or she draws at the start of each of his or her turns.",
-      "to solve: Your opponent discards his or her hand.",
-      "reward: You discard your hand."
+      "Your opponent discards the card he or she draws at the start of each of his or her turns."
     ],
     "toSolve": "Your opponent discards his or her hand.",
     "reward": "You discard your hand.",
@@ -19059,9 +18937,7 @@
     "rarity": "Uncommon",
     "artist": "Patrick Faricy",
     "effect": [
-      "Your opponent can't use Actions to draw cards.",
-      "to solve: Your opponent lets you search your deck for up to 2 cards and put them into your hand. Then shuffle your deck.",
-      "reward: Your opponent may draw a card."
+      "Your opponent can't use Actions to draw cards."
     ],
     "toSolve": "Your opponent lets you search your deck for up to 2 cards and put them into your hand. Then shuffle your deck.",
     "reward": "Your opponent may draw a card.",
@@ -19087,9 +18963,7 @@
     "rarity": "Uncommon",
     "artist": "Patrick Faricy",
     "effect": [
-      "Before each of your turns, your opponent takes 4 damage.",
-      "to solve: Your opponent discards his or her hand.",
-      "reward: Your opponent may put up to 4 non-Healing cards from his or her discard pile on the bottom of his or her deck (in any order)."
+      "Before each of your turns, your opponent takes 4 damage."
     ],
     "toSolve": "Your opponent discards his or her hand.",
     "reward": "Your opponent may put up to 4 non-Healing cards from his or her discard pile on the bottom of his or her deck (in any order).",
@@ -20429,9 +20303,7 @@
     "rarity": "Uncommon",
     "effect": [
       "If you have 4 or more Lessons in play, when you play this card, you get 1 more Action this turn.",
-      "When you play this card, name a Character. Your opponent's cards that share Uniqueness with the named card lose all abilities while this card is in play.",
-      "to solve: Your opponent chooses 6 cards in their hand and discards them.",
-      "reward: You choose 3 cards in your hand and discard them."
+      "When you play this card, name a Character. Your opponent's cards that share Uniqueness with the named card lose all abilities while this card is in play."
     ],
     "toSolve": "Your opponent chooses 6 cards in their hand and discards them.",
     "reward": "You choose 3 cards in your hand and discard them.",
@@ -21396,9 +21268,7 @@
     "rarity": "Uncommon",
     "flavorText": "‘He seemed so determined that nobody should hear what he was saying ...’",
     "effect": [
-      "Your opponent can't play Events.",
-      "to solve: Your opponent chooses 4 Event cards in their hand and discards them.",
-      "reward: Your opponent may put a non-Healing Character card from their discard pile into their hand."
+      "Your opponent can't play Events."
     ],
     "toSolve": "Your opponent chooses 4 Event cards in their hand and discards them.",
     "reward": "Your opponent may put a non-Healing Character card from their discard pile into their hand.",
@@ -21462,9 +21332,7 @@
     "rarity": "Uncommon",
     "flavorText": "‘“Mr. Crouch!” said Percy breathlessly, sunk into a kind of half-bow that made him look like a hunchback.’",
     "effect": [
-      "Your opponent cannot play cards with greater printed Power cost than the number of Lessons they have in play.",
-      "to solve: Your opponent discards their hand.",
-      "reward: Your opponent may put a Lesson from their discard pile into play."
+      "Your opponent cannot play cards with greater printed Power cost than the number of Lessons they have in play."
     ],
     "toSolve": "Your opponent discards their hand.",
     "reward": "Your opponent may put a Lesson from their discard pile into play.",
@@ -21535,9 +21403,7 @@
     "rarity": "Uncommon",
     "flavorText": "‘“Do you see? It’s never been this clear, never since —”’ — Professor Igor Karkaroff",
     "effect": [
-      "Cards cannot be played from or leave your opponent's discard pile.",
-      "to solve: Your opponent skips a total of 5 Actions.",
-      "reward: Your opponent may choose 1 of your cards in play and discard it."
+      "Cards cannot be played from or leave your opponent's discard pile."
     ],
     "toSolve": "Your opponent skips a total of 5 Actions.",
     "reward": "Your opponent may choose 1 of your cards in play and discard it.",
