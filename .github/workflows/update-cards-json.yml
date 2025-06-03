@@ -19,7 +19,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18' # Specify the Node.js version you want to use
+          node-version: '20' # Specify the Node.js version you want to use
 
       - name: Run script to update cards.json
         run: node .github/scripts/updateCardsJson.js
