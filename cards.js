@@ -10066,7 +10066,7 @@ export const cards = [
       "Unique"
     ],
     "rarity": "Rare",
-    "flavorText": "\u2018\u201cHe\u2019s that tall, good-looking one, isn\u2019t he?\u201d said Angelina.\u201cStrong and silent,\u201d said Katie, and they started to giggle again.\u2019",
+    "flavorText": "\ufffd\ufffdHe\ufffds that tall, good-looking one, isn\ufffdt he?\ufffd said Angelina.\ufffdStrong and silent,\ufffd said Katie, and they started to giggle again.\ufffd",
     "effect": [
       "Once per game, you may discard your hand and then draw 6 cards."
     ],
@@ -10090,7 +10090,7 @@ export const cards = [
       "Unique"
     ],
     "rarity": "Rare",
-    "flavorText": "\u2018She was undoubtedly a very good flier \u2014 she kept cutting across him, forcing him to change direction.\u2019",
+    "flavorText": "\ufffdShe was undoubtedly a very good flier \ufffd she kept cutting across him, forcing him to change direction.\ufffd",
     "effect": [
       "At the end of each of your turns, if an opponent has more Lessons in play than you, you may search your deck. You may take up to 2 [Q] Lessons from your deck, reveal them, put 1 into play and the rest into your hand, and then shuffle your deck."
     ],
@@ -10122,7 +10122,7 @@ export const cards = [
     ],
     "cost": 9,
     "rarity": "Rare",
-    "flavorText": "\u2018Now was the moment to avenge his mother and father. He was going to kill Black. He had to kill Black.\u2019",
+    "flavorText": "\ufffdNow was the moment to avenge his mother and father. He was going to kill Black. He had to kill Black.\ufffd",
     "effect": [
       "Before each of your turns, count the number of Marauder cards that you have in your discard pile and in play. Do that much damage to an opponent."
     ],
@@ -10242,7 +10242,7 @@ export const cards = [
       "Unique"
     ],
     "rarity": "Rare",
-    "flavorText": "\u2018\u201cHe\u2019s made some changes in the lineup and seems to be going for size rather than skill \u2014\u201d\u2019 \u2014 Lee Jordan",
+    "flavorText": "\ufffd\ufffdHe\ufffds made some changes in the lineup and seems to be going for size rather than skill \ufffd\ufffd\ufffd \ufffd Lee Jordan",
     "effect": [
       "You may use an Action and discard a Lesson from your hand. If you do, choose an opponent. During their next turn, they get 1 fewer Action. (If this would mean your opponent has fewer than 1 Action, they still get 1 Action.)"
     ],
@@ -10267,7 +10267,7 @@ export const cards = [
     ],
     "cost": 7,
     "rarity": "Rare",
-    "flavorText": "\u2018... no amount of mud, wind, or rain could tarnish Harry\u2019s wonderful vision of finally winning the huge, silver Quidditch Cup.\u2019",
+    "flavorText": "\ufffd... no amount of mud, wind, or rain could tarnish Harry\ufffds wonderful vision of finally winning the huge, silver Quidditch Cup.\ufffd",
     "effect": [
       "If you have a Beater, Keeper, Chaser and Seeker in play, whenever you use an Action to play a Match, you win the Match."
     ],
@@ -10290,7 +10290,7 @@ export const cards = [
       "Unique"
     ],
     "rarity": "Rare",
-    "flavorText": "\u2018\u201cIs there any point asking how you\u2019re going to sit for two exams at once?\u201d\u2019 \u2014 Harry Potter",
+    "flavorText": "\ufffd\ufffdIs there any point asking how you\ufffdre going to sit for two exams at once?\ufffd\ufffd \ufffd Harry Potter",
     "effect": [
       "Once per turn, if you have at least 5 Lessons in your discard pile, you may use an Action to put up to 2 non-Advanced Lessons from your discard pile into play."
     ],
@@ -10576,7 +10576,7 @@ export const cards = [
     ],
     "cost": 15,
     "rarity": "Rare",
-    "flavorText": "\u2018Harry and Ron both made furious moves toward Malfoy, but Hermione got there first ...\u2019",
+    "flavorText": "\ufffdHarry and Ron both made furious moves toward Malfoy, but Hermione got there first ...\ufffd",
     "effect": [
       "Choose an opponent. They may discard any number of their cards from play and/or from their hand. Then, count the number of cards they have in their hand and in play. Do twice that much damage to that opponent."
     ],
@@ -10604,7 +10604,7 @@ export const cards = [
     ],
     "cost": 12,
     "rarity": "Rare",
-    "flavorText": "\u2018\u201cMiss Granger, three turns should do it. Good luck.\u201d\u2019 \u2014 Albus Dumbledore",
+    "flavorText": "\ufffd\ufffdMiss Granger, three turns should do it. Good luck.\ufffd\ufffd \ufffd Albus Dumbledore",
     "effect": [
       "Choose a non-Healing card in your discard pile other than Three Turns. Play that card without using any Actions."
     ],
@@ -10633,7 +10633,7 @@ export const cards = [
       "Unique"
     ],
     "rarity": "Rare",
-    "flavorText": "\u2018\u201c... an\u2019 the executioner, Macnair, he\u2019s an old pal o\u2019 Malfoy\u2019s ... but it\u2019ll be quick an\u2019 clean ... an\u2019 I\u2019ll be beside him ...\u201d\u2019 \u2014 Professor Rubeus Hagrid",
+    "flavorText": "\ufffd\ufffd... an\ufffd the executioner, Macnair, he\ufffds an old pal o\ufffd Malfoy\ufffds ... but it\ufffdll be quick an\ufffd clean ... an\ufffd I\ufffdll be beside him ...\ufffd\ufffd \ufffd Professor Rubeus Hagrid",
     "effect": [
       "Whenever a Creature does damage to you, you may prevent all but the first 1 damage."
     ],
@@ -10641,7 +10641,18 @@ export const cards = [
     "releaseDate": "06-2023",
     "imgSrc": "WaldenMacnair.png",
     "horizontal": true,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "2023-06-01",
+        "source": "Revival",
+        "ruling": "Modifier effects occur before prevention effects. First, apply any effects that increase or decrease damage (this damage can go below 0, but is reset to 0 if below 0 when all modifier effects have been applied). Then, when all of those effects are resolved, you may use Walden Macnair to reduce all the damage of a Creature damaging you to 1."
+      },
+      {
+        "date": "2023-06-01",
+        "source": "Revival",
+        "ruling": "The turn player decides what order prevention effects are applied. If an opponent plays a Black Bat while you have both Walden Macnair and Dragon-Hide Gloves in play, they will usually decide to apply Dragon-Hide Gloves first to reduce the damage to 1, then Walden Macnair, which will not reduce the damage further."
+      }
+    ]
   },
   {
     "number": "24",
@@ -10719,7 +10730,7 @@ export const cards = [
       "Animagus"
     ],
     "rarity": "Uncommon",
-    "flavorText": "\u2018\u201cIt takes years to become an Animagus, and then you have to register yourself and everything.\u201d\u2019 \u2014 Hermione Granger",
+    "flavorText": "\ufffd\ufffdIt takes years to become an Animagus, and then you have to register yourself and everything.\ufffd\ufffd \ufffd Hermione Granger",
     "dmgEachTurn": 2,
     "health": 2,
     "effect": [
@@ -10833,7 +10844,7 @@ export const cards = [
     ],
     "cost": 4,
     "rarity": "Uncommon",
-    "flavorText": "\u2018\u201cMars is bright tonight. Unusually bright.\u201d\u2019 \u2014 Ronan",
+    "flavorText": "\ufffd\ufffdMars is bright tonight. Unusually bright.\ufffd\ufffd \ufffd Ronan",
     "dmgEachTurn": 2,
     "health": 1,
     "effect": [
@@ -10857,7 +10868,7 @@ export const cards = [
     ],
     "cost": 5,
     "rarity": "Uncommon",
-    "flavorText": "\u2018...  the class left for lunch, all grinning broadly \u2014 the Cheering Charms had left them with a feeling of great contentment.\u2019",
+    "flavorText": "\ufffd...  the class left for lunch, all grinning broadly \ufffd the Cheering Charms had left them with a feeling of great contentment.\ufffd",
     "effect": [
       "Put a non-Healing Spell from your discard pile into your hand."
     ],
@@ -10967,7 +10978,7 @@ export const cards = [
     ],
     "cost": 5,
     "rarity": "Uncommon",
-    "flavorText": "\u2018He could feel them watching him, hear their rattling breath like an evil wind around him.\u2019",
+    "flavorText": "\ufffdHe could feel them watching him, hear their rattling breath like an evil wind around him.\ufffd",
     "dmgEachTurn": 2,
     "health": 6,
     "effect": [
@@ -11026,7 +11037,7 @@ export const cards = [
     ],
     "cost": 3,
     "rarity": "Common",
-    "flavorText": "\u2018He nodded toward an empty classroom to the left of the one-eyed statue. Harry followed Fred and George inside.\u2019",
+    "flavorText": "\ufffdHe nodded toward an empty classroom to the left of the one-eyed statue. Harry followed Fred and George inside.\ufffd",
     "effect": [
       "Locations need 3 more Power to play."
     ],
@@ -11101,7 +11112,7 @@ export const cards = [
     ],
     "cost": 8,
     "rarity": "Rare",
-    "flavorText": "\u2018\u201cWe\u2019ve checked for most of the usual curses, but Professor Flitwick believes the broom might be carrying a Hurling Hex.\u201d\u2019 \u2014 Professor McGonagall",
+    "flavorText": "\ufffd\ufffdWe\ufffdve checked for most of the usual curses, but Professor Flitwick believes the broom might be carrying a Hurling Hex.\ufffd\ufffd \ufffd Professor McGonagall",
     "effect": [
       "Choose an Item in play. Draw cards equal to the chosen Item's printed Power cost. Then each other player draws cards equal to the chosen Item's printed Power cost."
     ],
@@ -11126,7 +11137,7 @@ export const cards = [
     ],
     "cost": 2,
     "rarity": "Uncommon",
-    "flavorText": "\u2018There were suddenly dim shadows on the ground. Their party was bathed in moonlight.\u2019",
+    "flavorText": "\ufffdThere were suddenly dim shadows on the ground. Their party was bathed in moonlight.\ufffd",
     "provides": [
       {
         "lesson": "Potions",
@@ -11160,7 +11171,7 @@ export const cards = [
     ],
     "cost": 7,
     "rarity": "Uncommon",
-    "flavorText": "\u2018\u201cIt\u2019s called a Time-Turner,\u201d Hermione whispered, \u201cand I got it from Professor McGonagall on our first day back.\u201d\u2019",
+    "flavorText": "\ufffd\ufffdIt\ufffds called a Time-Turner,\ufffd Hermione whispered, \ufffdand I got it from Professor McGonagall on our first day back.\ufffd\ufffd",
     "effect": [
       "You may reveal any number of cards from your hand. For each card type revealed, do 2 damage to an opponent."
     ],
@@ -11245,7 +11256,7 @@ export const cards = [
     ],
     "cost": 5,
     "rarity": "Uncommon",
-    "flavorText": "\u2018\u201cWho\u2019d have thought it? That brings her total of real predictions up to two. I should offer her a pay raise. ...\u201d\u2019 \u2014 Albus Dumbledore",
+    "flavorText": "\ufffd\ufffdWho\ufffdd have thought it? That brings her total of real predictions up to two. I should offer her a pay raise. ...\ufffd\ufffd \ufffd Albus Dumbledore",
     "effect": [
       "Whenever cards are put in an opponent's deck (even if they were already in the deck), do 2 damage to them."
     ],
@@ -11516,7 +11527,7 @@ export const cards = [
     ],
     "cost": 3,
     "rarity": "Common",
-    "flavorText": "\u2018\u201cUgh, no, Harry won\u2019t want one of those, they\u2019re for vampires, I expect.\u201d\u2019 \u2014 Hermione Granger",
+    "flavorText": "\ufffd\ufffdUgh, no, Harry won\ufffdt want one of those, they\ufffdre for vampires, I expect.\ufffd\ufffd \ufffd Hermione Granger",
     "effect": [
       "Discard the top card of your deck. If it shares a card type with a card an opponent has in play, you may choose 1 of those cards and discard it. Then draw a card."
     ],
@@ -11538,7 +11549,7 @@ export const cards = [
     ],
     "cost": 6,
     "rarity": "Common",
-    "flavorText": "\u2018\u201cWe\u2019re not playing Slytherin!\u201d he told them, looking very angry. \u201cFlint\u2019s just been to see me.\u201d\u2019",
+    "flavorText": "\ufffd\ufffdWe\ufffdre not playing Slytherin!\ufffd he told them, looking very angry. \ufffdFlint\ufffds just been to see me.\ufffd\ufffd",
     "effect": [
       "Choose up to 2 Beaters, Chasers, Keepers, and/or Seekers in play and return them to their owners' hands."
     ],
@@ -11563,7 +11574,7 @@ export const cards = [
     ],
     "cost": 2,
     "rarity": "Common",
-    "flavorText": "\u2018... a pair of strong, clammy hands suddenly attached themselves around Harry\u2019s neck.\u2019",
+    "flavorText": "\ufffd... a pair of strong, clammy hands suddenly attached themselves around Harry\ufffds neck.\ufffd",
     "effect": [
       "Choose a non-Lesson card type. During your opponent's next turn, they cannot play cards of the chosen type."
     ],
@@ -11594,7 +11605,7 @@ export const cards = [
     ],
     "cost": 4,
     "rarity": "Common",
-    "flavorText": "\u2018And then the thing beneath the hood, whatever it was, drew a long, slow, rattling breath, as though it were trying to suck something more than air from its surroundings.\u2019",
+    "flavorText": "\ufffdAnd then the thing beneath the hood, whatever it was, drew a long, slow, rattling breath, as though it were trying to suck something more than air from its surroundings.\ufffd",
     "effect": [
       "Do 1 damage to each Creature in play (even your own)."
     ],
@@ -11694,7 +11705,7 @@ export const cards = [
     ],
     "cost": 2,
     "rarity": "Common",
-    "flavorText": "\u2018Full of determination, the team started training sessions, three evenings a week.\u2019",
+    "flavorText": "\ufffdFull of determination, the team started training sessions, three evenings a week.\ufffd",
     "effect": [
       "Discard any number of cards from your hand. Draw that many cards plus 1."
     ],
@@ -11716,7 +11727,7 @@ export const cards = [
     ],
     "cost": 7,
     "rarity": "Common",
-    "flavorText": "\u2018\u201cWe attacked a teacher. ... We attacked a teacher ... ,\u201d Hermione whimpered, staring at the lifeless Snape with frightened eyes.\u2019",
+    "flavorText": "\ufffd\ufffdWe attacked a teacher. ... We attacked a teacher ... ,\ufffd Hermione whimpered, staring at the lifeless Snape with frightened eyes.\ufffd",
     "effect": [
       "Do 6 damage to an opponent or choose a Character in play and discard it."
     ],
@@ -11738,7 +11749,7 @@ export const cards = [
     ],
     "cost": 3,
     "rarity": "Common",
-    "flavorText": "\u2018\u201cShe was usually last to leave the common room at night, first to arrive at the library the next morning ...\u201d\u2019",
+    "flavorText": "\ufffd\ufffdShe was usually last to leave the common room at night, first to arrive at the library the next morning ...\ufffd\ufffd",
     "effect": [
       "Count the number of Lessons in your discard pile. Until the end of your turn, your cards needs that much less Power to play. (You still need at least 1 Power that matches.)"
     ],
@@ -11792,7 +11803,7 @@ export const cards = [
     ],
     "cost": 5,
     "rarity": "Common",
-    "flavorText": "\u2018\u201cOooooo, Professor Trelawney, I\u2019ve just remembered! You saw her leaving, didn\u2019t you?\u201d\u2019 \u2014 Lavender Brown",
+    "flavorText": "\ufffd\ufffdOooooo, Professor Trelawney, I\ufffdve just remembered! You saw her leaving, didn\ufffdt you?\ufffd\ufffd \ufffd Lavender Brown",
     "effect": [
       "Choose an opponent's card in play and return it to its owner's hand. If you have at least 3 [T] Lessons in your discard pile, instead shuffle it into its owner's deck."
     ],
@@ -11814,7 +11825,7 @@ export const cards = [
     ],
     "cost": 4,
     "rarity": "Uncommon",
-    "flavorText": "\u2018He nodded toward an empty classroom to the left of the one-eyed statue. Harry followed Fred and George inside.\u2019",
+    "flavorText": "\ufffdHe nodded toward an empty classroom to the left of the one-eyed statue. Harry followed Fred and George inside.\ufffd",
     "effect": [
       "When you play this card, name a Character card. Cards that share Uniqueness with the named card cannot be played. You may use 2 Actions and discard this card from play to search your deck. You may take the named card from your deck and put it into play. Then shuffle your deck."
     ],
@@ -11924,7 +11935,7 @@ export const cards = [
     ],
     "cost": 3,
     "rarity": "Common",
-    "flavorText": "\u2018\u201cLures travellers into bogs. You notice the lantern dangling from his hand? Hops ahead \u2014 people follow the light ...\u201d\u2019 \u2014 Professor Remus Lupin",
+    "flavorText": "\ufffd\ufffdLures travellers into bogs. You notice the lantern dangling from his hand? Hops ahead \ufffd people follow the light ...\ufffd\ufffd \ufffd Professor Remus Lupin",
     "dmgEachTurn": 1,
     "health": 1,
     "effect": [
@@ -11951,7 +11962,7 @@ export const cards = [
     ],
     "cost": 8,
     "rarity": "Common",
-    "flavorText": "\u2018They had the bodies, hind legs, and tails of horses, but the front legs, wings, and heads of what seemed to be giant eagles ...\u2019",
+    "flavorText": "\ufffdThey had the bodies, hind legs, and tails of horses, but the front legs, wings, and heads of what seemed to be giant eagles ...\ufffd",
     "dmgEachTurn": 3,
     "health": 4,
     "effect": [
@@ -11986,7 +11997,7 @@ export const cards = [
     ],
     "cost": 7,
     "rarity": "Common",
-    "flavorText": "\u2018\u201cCan't nothing interfere with a broomstick except powerful Dark magic ...\u201d\u2019 \u2014 Rubeus Hagrid",
+    "flavorText": "\ufffd\ufffdCan't nothing interfere with a broomstick except powerful Dark magic ...\ufffd\ufffd \ufffd Rubeus Hagrid",
     "effect": [
       "Do 4 damage to your opponent. You may also choose a Creature in play and do 4 damage to it."
     ],
@@ -12008,7 +12019,7 @@ export const cards = [
     ],
     "cost": 1,
     "rarity": "Common",
-    "flavorText": "\u2018They walked out onto the field to a tidal wave of noise.\u2019",
+    "flavorText": "\ufffdThey walked out onto the field to a tidal wave of noise.\ufffd",
     "effect": [
       "to win: Whenever a player takes damage, they may discard any number of cards from their hand. They prevent that much damage.  To win: Prevent 8 damage.",
       "prize: The winner may draw 2 cards. The loser takes 8 damage."
@@ -12049,7 +12060,7 @@ export const cards = [
     ],
     "cost": 3,
     "rarity": "Common",
-    "flavorText": "\u2018\u201cThis time tomorrow, the owls will start arriving from parents. . . . They will not want a werewolf teaching their children, Harry.\u201d\u2019 \u2014 Professor Remus Lupin",
+    "flavorText": "\ufffd\ufffdThis time tomorrow, the owls will start arriving from parents. . . . They will not want a werewolf teaching their children, Harry.\ufffd\ufffd \ufffd Professor Remus Lupin",
     "effect": [
       "If at least 1 of your Creatures dealt damage to an opponent this turn, choose a non-Healing Character in play and shuffle it into its owner's deck."
     ],
@@ -12167,7 +12178,7 @@ export const cards = [
     ],
     "cost": 4,
     "rarity": "Common",
-    "flavorText": "\u2018He slithered between the battering branches like a snake and placed his front paws upon a knot on the trunk.\u2019",
+    "flavorText": "\ufffdHe slithered between the battering branches like a snake and placed his front paws upon a knot on the trunk.\ufffd",
     "effect": [
       "Do 4 damage to an opponent. During that opponent's next turn, they can't use Actions to play Creature cards."
     ],
@@ -12214,7 +12225,7 @@ export const cards = [
     ],
     "cost": 5,
     "rarity": "Uncommon",
-    "flavorText": "\u2018\u201cBLOOD!\u201d Ron yelled into the stunned silence. \u201cHE\u2019S GONE!\u201d\u2019",
+    "flavorText": "\ufffd\ufffdBLOOD!\ufffd Ron yelled into the stunned silence. \ufffdHE\ufffdS GONE!\ufffd\ufffd",
     "effect": [
       "Once during each of your turns, whenever 1 of your Creatures does damage to an opponent, you may discard it from play. If you do, do 4 damage to that opponent."
     ],
@@ -12236,7 +12247,7 @@ export const cards = [
     ],
     "cost": 5,
     "rarity": "Common",
-    "flavorText": "\u201cIt\u2019s okay, Scabbers!\u201d said Ron. \u201cNo cats! There\u2019s nothing here to hurt you!\u201d",
+    "flavorText": "\ufffdIt\ufffds okay, Scabbers!\ufffd said Ron. \ufffdNo cats! There\ufffds nothing here to hurt you!\ufffd",
     "effect": [
       "You may put a Creature from your discard pile into your hand. If you have at least 3 [F] Lessons in your discard pile, you may play that Creature without using an Action."
     ],
@@ -23398,75 +23409,75 @@ export const cards = [
     "horizontal": false,
     "rulings": []
   },
-    {
-        "Legality": "legal",
-        "number": "4",
-        "name": "Death Eater",
-        "artist": "Paolo Maria Breda",
-        "type": [
-            "Character"
-        ],
-        "subTypes": [
-            "Wizard/Witch",
-            "Dark",
-            "Death Eater"
-        ],
-        "rarity": "Rare",
-        "effect": [
-            "Once per turn, you may use an Action to count the number of Death Eaters you have in play. Do that much damage to an opponent."
-        ],
-        "setName": "Quidditch World Finals",
-        "releaseDate": "06-2025",
-        "imgSrc": "DeathEater.png",
-        "horizontal": true,
-        "rulings": []
-    },
-    {
-        "Legality": "legal",
-        "number": "27",
-        "name": "Campfire Stories",
-        "artist": "HogwartsHorror",
-        "type": [
-            "Event"
-        ],
-        "subTypes": [
-            "Unique"
-        ],
-        "lesson": [
-            "Charms"
-        ],
-        "cost": "8",
-        "rarity": "Uncommon",
-        "effect": "To play this card, you may discard any number of cards from your hand. This cards needs 1 less Power to play for each card discarded this way.\n\nBefore each of your turns, choose 1 based on the number of cards in your hand:\n-Less than 5 cards - draw a card.\n-At least 5 cards - do 3 damage to an opponent.\n-At least 8 cards - do 5 damage to an opponent.",
-        "setName": "Quidditch World Finals",
-        "releaseDate": "06-2025",
-        "imgSrc": "CampfireStories.png",
-        "horizontal": true,
-        "rulings": []
-    },
-    {
-        "Legality": "legal",
-        "number": "16",
-        "name": "The Dark Mark",
-        "artist": "Paolo Maria Breda",
-        "type": [
-            "Item"
-        ],
-        "subTypes": [
-            "Dark"
-        ],
-        "lesson": [
-            "Potions"
-        ],
-        "cost": "5",
-        "rarity": "Rare",
-        "effect": [
-            "Once during each of your turns, you may do 3 damage to yourself. If you do, search your deck. You may take a Dark card from your deck, reveal it, and put it into your hand. Then shuffle your deck."
-        ],
-        "setName": "Quidditch World Finals",
-        "releaseDate": "06-2025",
-        "imgSrc": "TheDarkMark.png",
-        "horizontal": true,
-        "rulings": []
-    }
+  {
+    "Legality": "legal",
+    "number": "4",
+    "name": "Death Eater",
+    "artist": "Paolo Maria Breda",
+    "type": [
+      "Character"
+    ],
+    "subTypes": [
+      "Wizard/Witch",
+      "Dark",
+      "Death Eater"
+    ],
+    "rarity": "Rare",
+    "effect": [
+      "Once per turn, you may use an Action to count the number of Death Eaters you have in play. Do that much damage to an opponent."
+    ],
+    "setName": "Quidditch World Finals",
+    "releaseDate": "06-2025",
+    "imgSrc": "DeathEater.png",
+    "horizontal": true,
+    "rulings": []
+  },
+  {
+    "Legality": "legal",
+    "number": "27",
+    "name": "Campfire Stories",
+    "artist": "HogwartsHorror",
+    "type": [
+      "Event"
+    ],
+    "subTypes": [
+      "Unique"
+    ],
+    "lesson": [
+      "Charms"
+    ],
+    "cost": "8",
+    "rarity": "Uncommon",
+    "effect": "To play this card, you may discard any number of cards from your hand. This cards needs 1 less Power to play for each card discarded this way.\n\nBefore each of your turns, choose 1 based on the number of cards in your hand:\n-Less than 5 cards - draw a card.\n-At least 5 cards - do 3 damage to an opponent.\n-At least 8 cards - do 5 damage to an opponent.",
+    "setName": "Quidditch World Finals",
+    "releaseDate": "06-2025",
+    "imgSrc": "CampfireStories.png",
+    "horizontal": true,
+    "rulings": []
+  },
+  {
+    "Legality": "legal",
+    "number": "16",
+    "name": "The Dark Mark",
+    "artist": "Paolo Maria Breda",
+    "type": [
+      "Item"
+    ],
+    "subTypes": [
+      "Dark"
+    ],
+    "lesson": [
+      "Potions"
+    ],
+    "cost": "5",
+    "rarity": "Rare",
+    "effect": [
+      "Once during each of your turns, you may do 3 damage to yourself. If you do, search your deck. You may take a Dark card from your deck, reveal it, and put it into your hand. Then shuffle your deck."
+    ],
+    "setName": "Quidditch World Finals",
+    "releaseDate": "06-2025",
+    "imgSrc": "TheDarkMark.png",
+    "horizontal": true,
+    "rulings": []
+  }
 ]
