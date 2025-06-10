@@ -10622,7 +10622,7 @@ export const cards = [
   },
   {
     "number": "23",
-    "name": "Walden MacNair",
+    "name": "Walden Macnair",
     "artist": "Madeline Nagel",
     "type": [
       "Character"
