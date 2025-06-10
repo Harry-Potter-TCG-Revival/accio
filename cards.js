@@ -16339,7 +16339,7 @@ export const cards = [
     ],
     "setName": "Prisoner of Azkaban",
     "releaseDate": "11-2021",
-    "imgSrc": "McgonagallsOffice.png",
+    "imgSrc": "McGonagallsOffice.png",
     "horizontal": true,
     "rulings": [
       {
@@ -18319,7 +18319,7 @@ export const cards = [
     ],
     "setName": "Quidditch Cup",
     "releaseDate": "11-2001",
-    "imgSrc": "ProfMinervaMcgonagall.png",
+    "imgSrc": "ProfMinervaMcGonagall.png",
     "horizontal": true,
     "rulings": []
   },
