@@ -10582,7 +10582,7 @@ export const cards = [
     ],
     "setName": "Echoes of the Past",
     "releaseDate": "06-2023",
-    "imgSrc": "Smack.png",
+    "imgSrc": "SMACK.png",
     "horizontal": false,
     "rulings": [
       {
