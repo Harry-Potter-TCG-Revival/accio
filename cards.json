@@ -67,7 +67,7 @@
         ],
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
-        "imgSrc": "CrabbeandGoyle.png",
+        "imgSrc": "CrabbeAndGoyle.png",
         "horizontal": true,
         "rulings": []
     },
@@ -165,7 +165,7 @@
         ],
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
-        "imgSrc": "EndofYearFeast.png",
+        "imgSrc": "EndOfYearFeast.png",
         "horizontal": false,
         "rulings": []
     },
@@ -212,7 +212,7 @@
         "reward": "Your opponent may put a Lesson card from his or her hand into play.",
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
-        "imgSrc": "FindingthePlatform.png",
+        "imgSrc": "FindingThePlatform.png",
         "horizontal": true,
         "rulings": []
     },
@@ -373,7 +373,7 @@
         "reward": "You take 5 damage.",
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
-        "imgSrc": "HutontheRock.png",
+        "imgSrc": "HutOnTheRock.png",
         "horizontal": true,
         "rulings": []
     },
@@ -477,7 +477,7 @@
         ],
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
-        "imgSrc": "MirrorofErised.png",
+        "imgSrc": "MirrorOfErised.png",
         "horizontal": true,
         "rulings": []
     },
@@ -644,7 +644,7 @@
         "reward": "Your opponent may draw a card.",
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
-        "imgSrc": "RidingtheCentaur.png",
+        "imgSrc": "RidingTheCentaur.png",
         "horizontal": true,
         "rulings": [
             {
@@ -673,7 +673,7 @@
         ],
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
-        "imgSrc": "RontheBrave.png",
+        "imgSrc": "RonTheBrave.png",
         "horizontal": true,
         "rulings": []
     },
@@ -786,7 +786,7 @@
         "reward": "You take 5 damage.",
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
-        "imgSrc": "5PointsfromGryffindor.png",
+        "imgSrc": "5PointsFromGryffindor.png",
         "horizontal": true,
         "rulings": []
     },
@@ -1013,7 +1013,7 @@
         "reward": "Your opponent may search his or her deck. He or she may take a Creature card, show it to you, and put it into his or her hand. Then your opponent shuffles his or her deck.",
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
-        "imgSrc": "LookingforTrevor.png",
+        "imgSrc": "LookingForTrevor.png",
         "horizontal": true,
         "rulings": []
     },
@@ -1119,7 +1119,7 @@
         "reward": "Your opponent may draw 3 cards.",
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
-        "imgSrc": "RunningfromFilch.png",
+        "imgSrc": "RunningFromFilch.png",
         "horizontal": true,
         "rulings": []
     },
@@ -1192,7 +1192,7 @@
         "reward": "You take 1 damage.",
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
-        "imgSrc": "ThroughtheTrapdoor.png",
+        "imgSrc": "ThroughTheTrapdoor.png",
         "horizontal": true,
         "rulings": []
     },
@@ -1571,7 +1571,7 @@
         ],
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
-        "imgSrc": "LooptheLoops.png",
+        "imgSrc": "LoopTheLoops.png",
         "horizontal": false,
         "rulings": []
     },
@@ -1848,7 +1848,7 @@
         ],
         "setName": "Adventures at Hogwarts",
         "releaseDate": "06-2002",
-        "imgSrc": "CareofMagicalCreatures.png",
+        "imgSrc": "CareOfMagicalCreatures.png",
         "horizontal": true,
         "rulings": []
     },
@@ -2106,7 +2106,7 @@
         ],
         "setName": "Base",
         "releaseDate": "08-2001",
-        "imgSrc": "ElixirofLife.png",
+        "imgSrc": "ElixirOfLife.png",
         "horizontal": false,
         "rulings": []
     },
@@ -2475,7 +2475,7 @@
         "reward": "You take 4 damage.",
         "setName": "Base",
         "releaseDate": "08-2001",
-        "imgSrc": "TrollintheBathroom.png",
+        "imgSrc": "TrollInTheBathroom.png",
         "horizontal": true,
         "rulings": []
     },
@@ -2549,7 +2549,7 @@
         ],
         "setName": "Base",
         "releaseDate": "08-2001",
-        "imgSrc": "DraughtofLivingDeath.png",
+        "imgSrc": "DraughtOfLivingDeath.png",
         "horizontal": false,
         "rulings": []
     },
@@ -2590,7 +2590,7 @@
         ],
         "setName": "Base",
         "releaseDate": "08-2001",
-        "imgSrc": "HistoryofMagic.png",
+        "imgSrc": "HistoryOfMagic.png",
         "horizontal": false,
         "rulings": []
     },
@@ -2652,7 +2652,7 @@
         "reward": "You play with your hand face up for the rest of the game.",
         "setName": "Base",
         "releaseDate": "08-2001",
-        "imgSrc": "MeettheCentaurs.png",
+        "imgSrc": "MeetTheCentaurs.png",
         "horizontal": true,
         "rulings": []
     },
@@ -2825,7 +2825,7 @@
         ],
         "setName": "Base",
         "releaseDate": "08-2001",
-        "imgSrc": "RaventoWritingDesk.png",
+        "imgSrc": "RavenToWritingDesk.png",
         "horizontal": false,
         "rulings": []
     },
@@ -3857,7 +3857,7 @@
         ],
         "setName": "Base",
         "releaseDate": "08-2001",
-        "imgSrc": "CauldrontoSieve.png",
+        "imgSrc": "CauldronToSieve.png",
         "horizontal": false,
         "rulings": []
     },
@@ -4092,7 +4092,7 @@
         ],
         "setName": "Base",
         "releaseDate": "08-2001",
-        "imgSrc": "HagridandtheStranger.png",
+        "imgSrc": "HagridAndTheStranger.png",
         "horizontal": false,
         "rulings": []
     },
@@ -4268,7 +4268,7 @@
         ],
         "setName": "Base",
         "releaseDate": "08-2001",
-        "imgSrc": "OutoftheWoods.png",
+        "imgSrc": "OutOfTheWoods.png",
         "horizontal": false,
         "rulings": []
     },
@@ -4637,7 +4637,7 @@
         ],
         "setName": "Base",
         "releaseDate": "08-2001",
-        "imgSrc": "CareofMagicalCreatures.png",
+        "imgSrc": "CareOfMagicalCreatures.png",
         "horizontal": true,
         "rulings": []
     },
@@ -4941,7 +4941,7 @@
         "reward": "Your opponent may draw a card.",
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
-        "imgSrc": "DeGnomingtheGarden.png",
+        "imgSrc": "DeGnomingTheGarden.png",
         "horizontal": true,
         "rulings": []
     },
@@ -5031,7 +5031,7 @@
         ],
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
-        "imgSrc": "DracotheSeeker.png",
+        "imgSrc": "DracoTheSeeker.png",
         "horizontal": true,
         "rulings": []
     },
@@ -5150,7 +5150,7 @@
         "reward": "Your opponent searches his or her deck for any card, puts it into his or her hand and then shuffles his or her deck.",
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
-        "imgSrc": "EscapingtheDursleys.png",
+        "imgSrc": "EscapingTheDursleys.png",
         "horizontal": true,
         "rulings": []
     },
@@ -5221,7 +5221,7 @@
         "reward": "You take 5 damage.",
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
-        "imgSrc": "FightingtheBasilisk.png",
+        "imgSrc": "FightingTheBasilisk.png",
         "horizontal": true,
         "rulings": []
     },
@@ -5283,7 +5283,7 @@
         "reward": "Your opponent may look at your hand, choose 1 of those cards and discard it.",
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
-        "imgSrc": "FlyingtoHogwarts.png",
+        "imgSrc": "FlyingToHogwarts.png",
         "horizontal": true,
         "rulings": []
     },
@@ -5456,7 +5456,7 @@
         "reward": "If you have any cards in your hand, you choose 1 of them and discard it.",
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
-        "imgSrc": "IntheSpidersLair.png",
+        "imgSrc": "InTheSpidersLair.png",
         "horizontal": true,
         "rulings": []
     },
@@ -5655,7 +5655,7 @@
         ],
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
-        "imgSrc": "NimbusTwoThousandandOne.png",
+        "imgSrc": "NimbusTwoThousandAndOne.png",
         "horizontal": true,
         "rulings": []
     },
@@ -6178,7 +6178,7 @@
         "reward": "Your opponent may put any number of Lesson cards from his or her hand into play.",
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
-        "imgSrc": "CaughtbySnape.png",
+        "imgSrc": "CaughtBySnape.png",
         "horizontal": true,
         "rulings": []
     },
@@ -6721,7 +6721,7 @@
         "reward": "You take 3 damage.",
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
-        "imgSrc": "ThroughtheFloo.png",
+        "imgSrc": "ThroughTheFloo.png",
         "horizontal": true,
         "rulings": []
     },
@@ -7319,7 +7319,7 @@
         ],
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
-        "imgSrc": "GuidetoHouseholdPests.png",
+        "imgSrc": "GuideToHouseholdPests.png",
         "horizontal": true,
         "rulings": []
     },
@@ -7407,7 +7407,7 @@
         ],
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
-        "imgSrc": "HistoryofMagicHomework.png",
+        "imgSrc": "HistoryOfMagicHomework.png",
         "horizontal": false,
         "rulings": []
     },
@@ -7916,7 +7916,7 @@
         ],
         "setName": "Chamber of Secrets",
         "releaseDate": "10-2002",
-        "imgSrc": "CareofMagicalCreatures.png",
+        "imgSrc": "CareOfMagicalCreatures.png",
         "horizontal": true,
         "rulings": []
     },
@@ -8042,7 +8042,7 @@
         ],
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
-        "imgSrc": "BeaterGrabstheSnitch.png",
+        "imgSrc": "BeaterGrabsTheSnitch.png",
         "horizontal": false,
         "rulings": []
     },
@@ -8213,7 +8213,7 @@
         ],
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
-        "imgSrc": "FlourishandBlotts.png",
+        "imgSrc": "FlourishAndBlotts.png",
         "horizontal": true,
         "rulings": []
     },
@@ -8360,7 +8360,7 @@
         ],
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
-        "imgSrc": "HagridKeeperofKeys.png",
+        "imgSrc": "HagridKeeperOfKeys.png",
         "horizontal": true,
         "rulings": []
     },
@@ -8743,7 +8743,7 @@
         "reward": "Your opponent may put an Item card from his or her discard pile into his or her hand.",
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
-        "imgSrc": "ThroughtheArch.png",
+        "imgSrc": "ThroughTheArch.png",
         "horizontal": true,
         "rulings": []
     },
@@ -9299,7 +9299,7 @@
         ],
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
-        "imgSrc": "ABeginnersGuidetoTransfiguration.png",
+        "imgSrc": "ABeginnersGuideToTransfiguration.png",
         "horizontal": true,
         "rulings": []
     },
@@ -9320,7 +9320,7 @@
         ],
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
-        "imgSrc": "BludgerintheStands.png",
+        "imgSrc": "BludgerInTheStands.png",
         "horizontal": false,
         "rulings": []
     },
@@ -9460,7 +9460,7 @@
         ],
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
-        "imgSrc": "FantasticBeastsWheretoFindThem.png",
+        "imgSrc": "FantasticBeastsWhereToFindThem.png",
         "horizontal": true,
         "rulings": []
     },
@@ -9533,7 +9533,7 @@
         ],
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
-        "imgSrc": "MagicalDraftsandPotions.png",
+        "imgSrc": "MagicalDraftsAndPotions.png",
         "horizontal": true,
         "rulings": []
     },
@@ -9557,7 +9557,7 @@
         ],
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
-        "imgSrc": "MidairCollision.png",
+        "imgSrc": "MidAirCollision.png",
         "horizontal": false,
         "rulings": [
             {
@@ -9606,7 +9606,7 @@
         ],
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
-        "imgSrc": "PickingonNeville.png",
+        "imgSrc": "PickingOnNeville.png",
         "horizontal": false,
         "rulings": []
     },
@@ -9683,7 +9683,7 @@
         ],
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
-        "imgSrc": "QuidditchThroughtheAges.png",
+        "imgSrc": "QuidditchThroughTheAges.png",
         "horizontal": true,
         "rulings": []
     },
@@ -9852,7 +9852,7 @@
         ],
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
-        "imgSrc": "TeacuptoRat.png",
+        "imgSrc": "TeacupToRat.png",
         "horizontal": false,
         "rulings": []
     },
@@ -9882,7 +9882,7 @@
         ],
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
-        "imgSrc": "TheStandardBookofSpellsGrade1.png",
+        "imgSrc": "TheStandardBookOfSpellsGrade1.png",
         "horizontal": true,
         "rulings": []
     },
@@ -9908,7 +9908,7 @@
         ],
         "setName": "Diagon Alley",
         "releaseDate": "03-2002",
-        "imgSrc": "CareofMagicalCreatures.png",
+        "imgSrc": "CareOfMagicalCreatures.png",
         "horizontal": true,
         "rulings": []
     },
@@ -10248,7 +10248,7 @@
         ],
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
-        "imgSrc": "DerrickandBole.png",
+        "imgSrc": "DerrickAndBole.png",
         "horizontal": true,
         "rulings": []
     },
@@ -10273,7 +10273,7 @@
         ],
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
-        "imgSrc": "DreamingoftheCup.png",
+        "imgSrc": "DreamingOfTheCup.png",
         "horizontal": true,
         "rulings": []
     },
@@ -10394,7 +10394,7 @@
         ],
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
-        "imgSrc": "OlivertheCaptain.png",
+        "imgSrc": "OliverTheCaptain.png",
         "horizontal": true,
         "rulings": []
     },
@@ -10582,7 +10582,7 @@
         ],
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
-        "imgSrc": "SMACK.png",
+        "imgSrc": "Smack.png",
         "horizontal": false,
         "rulings": [
             {
@@ -10639,7 +10639,7 @@
         ],
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
-        "imgSrc": "WaldenMacNair.png",
+        "imgSrc": "WaldenMacnair.png",
         "horizontal": true,
         "rulings": []
     },
@@ -10660,7 +10660,7 @@
         "reward": "You discard your hand. During your next turn, you may not play Adventures.",
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
-        "imgSrc": "WatchingtheMap.png",
+        "imgSrc": "WatchingTheMap.png",
         "horizontal": true,
         "rulings": [
             {
@@ -11004,7 +11004,7 @@
         "reward": "Your opponent may draw a card.",
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
-        "imgSrc": "DementorsontheLake.png",
+        "imgSrc": "DementorsOnTheLake.png",
         "horizontal": true,
         "rulings": [
             {
@@ -11569,7 +11569,7 @@
         ],
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
-        "imgSrc": "CaughtbyDementors.png",
+        "imgSrc": "CaughtByDementors.png",
         "horizontal": false,
         "rulings": [
             {
@@ -12077,7 +12077,7 @@
         ],
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
-        "imgSrc": "MarkingtheSeeker.png",
+        "imgSrc": "MarkingTheSeeker.png",
         "horizontal": false,
         "rulings": []
     },
@@ -12173,7 +12173,7 @@
         ],
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
-        "imgSrc": "PressingtheKnot.png",
+        "imgSrc": "PressingTheKnot.png",
         "horizontal": false,
         "rulings": []
     },
@@ -12415,7 +12415,7 @@
         ],
         "setName": "Echoes of the Past",
         "releaseDate": "06-2023",
-        "imgSrc": "HistoryofMagicThirdYear.png",
+        "imgSrc": "HistoryOfMagicThirdYear.png",
         "horizontal": true,
         "rulings": [
             {
@@ -12616,7 +12616,7 @@
         ],
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
-        "imgSrc": "ChamberofSecrets.png",
+        "imgSrc": "ChamberOfSecrets.png",
         "horizontal": true,
         "rulings": [
             {
@@ -12674,7 +12674,7 @@
         "reward": "Your opponent may choose 1 of your Characters in play. Their starting Character gains the abilities of the chosen Character until the end of their turn.",
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
-        "imgSrc": "DobbyisFree.png",
+        "imgSrc": "DobbyIsFree.png",
         "horizontal": true,
         "rulings": []
     },
@@ -12696,7 +12696,7 @@
         ],
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
-        "imgSrc": "DrawingtheSword.png",
+        "imgSrc": "DrawingTheSword.png",
         "horizontal": false,
         "rulings": [
             {
@@ -13346,7 +13346,7 @@
         ],
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
-        "imgSrc": "BreakwithaBanshee.png",
+        "imgSrc": "BreakWithABanshee.png",
         "horizontal": true,
         "rulings": [
             {
@@ -13388,7 +13388,7 @@
         ],
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
-        "imgSrc": "CirclingtheGoalPosts.png",
+        "imgSrc": "CirclingTheGoalPosts.png",
         "horizontal": false,
         "rulings": []
     },
@@ -13544,7 +13544,7 @@
         ],
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
-        "imgSrc": "GaddingwithGhouls.png",
+        "imgSrc": "GaddingWithGhouls.png",
         "horizontal": true,
         "rulings": [
             {
@@ -13629,7 +13629,7 @@
         ],
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
-        "imgSrc": "HolidayswithHags.png",
+        "imgSrc": "HolidaysWithHags.png",
         "horizontal": true,
         "rulings": [
             {
@@ -13945,7 +13945,7 @@
         ],
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
-        "imgSrc": "VoyageswithVampires.png",
+        "imgSrc": "VoyagesWithVampires.png",
         "horizontal": true,
         "rulings": [
             {
@@ -13985,7 +13985,7 @@
         "reward": "Your opponent names a card type. Reveal your hand and discard all cards of the chosen type.",
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
-        "imgSrc": "WhispersfromthePipes.png",
+        "imgSrc": "WhispersFromThePipes.png",
         "horizontal": true,
         "rulings": [
             {
@@ -14142,7 +14142,7 @@
         ],
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
-        "imgSrc": "DodgingtheBludger.png",
+        "imgSrc": "DodgingTheBludger.png",
         "horizontal": false,
         "rulings": []
     },
@@ -14207,7 +14207,7 @@
         ],
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
-        "imgSrc": "EnemiesoftheHeirBeware.png",
+        "imgSrc": "EnemiesOfTheHeirBeware.png",
         "horizontal": false,
         "rulings": []
     },
@@ -14687,7 +14687,7 @@
         ],
         "setName": "Heir of Slytherin",
         "releaseDate": "07-2020",
-        "imgSrc": "SwishandFlick.png",
+        "imgSrc": "SwishAndFlick.png",
         "horizontal": false,
         "rulings": []
     },
@@ -15011,7 +15011,7 @@
         ],
         "setName": "Hogwarts A History",
         "releaseDate": "12-2023",
-        "imgSrc": "StairsintoSlides.png",
+        "imgSrc": "StairsIntoSlides.png",
         "horizontal": false,
         "rulings": []
     },
@@ -15499,7 +15499,7 @@
         "reward": "Until the end of their turn, your opponent may play 1 non-Healing card in their discard pile as if it were in their hand.",
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
-        "imgSrc": "HomeworkbyWandlight.png",
+        "imgSrc": "HomeworkByWandlight.png",
         "horizontal": true,
         "rulings": []
     },
@@ -15830,7 +15830,7 @@
         ],
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
-        "imgSrc": "12YearsinAzkaban.png",
+        "imgSrc": "12YearsInAzkaban.png",
         "horizontal": true,
         "rulings": [
             {
@@ -15873,7 +15873,7 @@
         "reward": "Your opponent may search their deck for a Spell, reveal it, put it into their hand, and then shuffle their deck.",
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
-        "imgSrc": "AttheThreeBroomsticks.png",
+        "imgSrc": "AtTheThreeBroomsticks.png",
         "horizontal": true,
         "rulings": [
             {
@@ -15989,7 +15989,7 @@
         "reward": "Your opponent may discard a Match in play. Then they may put a Match from their discard pile into play.",
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
-        "imgSrc": "DementorsonthePitch.png",
+        "imgSrc": "DementorsOnThePitch.png",
         "horizontal": true,
         "rulings": []
     },
@@ -16008,7 +16008,7 @@
         "reward": "Your opponent gets 1 more Action (the turn this Adventure is solved).",
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
-        "imgSrc": "EavesdroppingontheWeasleys.png",
+        "imgSrc": "EavesdroppingOnTheWeasleys.png",
         "horizontal": true,
         "rulings": [
             {
@@ -16071,7 +16071,7 @@
         ],
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
-        "imgSrc": "FlightoftheFatLady.png",
+        "imgSrc": "FlightOfTheFatLady.png",
         "horizontal": false,
         "rulings": []
     },
@@ -16126,7 +16126,7 @@
         ],
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
-        "imgSrc": "HandbookofDoItYourselfBroomcare.png",
+        "imgSrc": "HandbookOfDoItYourselfBroomcare.png",
         "horizontal": true,
         "rulings": []
     },
@@ -16252,7 +16252,7 @@
         ],
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
-        "imgSrc": "InheritingtheMap.png",
+        "imgSrc": "InheritingTheMap.png",
         "horizontal": false,
         "rulings": [
             {
@@ -16314,7 +16314,7 @@
         ],
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
-        "imgSrc": "ListofPasswords.png",
+        "imgSrc": "ListOfPasswords.png",
         "horizontal": true,
         "rulings": []
     },
@@ -16339,15 +16339,15 @@
         ],
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
+        "imgSrc": "McgonagallsOffice.png",
+        "horizontal": true,
         "rulings": [
             {
                 "date": "2022-11-03",
                 "source": "Revival",
                 "ruling": "This card only sees card types played when it enters and afterwards. It does not count card types played before it entered play."
             }
-        ],
-        "imgSrc": "McGonagallsOffice.png",
-        "horizontal": true
+        ]
     },
     {
         "number": "41",
@@ -16487,7 +16487,7 @@
         ],
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
-        "imgSrc": "TeacupsandTeaLeaves.png",
+        "imgSrc": "TeacupsAndTeaLeaves.png",
         "horizontal": true,
         "rulings": [
             {
@@ -16555,7 +16555,7 @@
         ],
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
-        "imgSrc": "TheStandardBookofSpellsGrade3.png",
+        "imgSrc": "TheStandardBookOfSpellsGrade3.png",
         "horizontal": true,
         "rulings": []
     },
@@ -16710,7 +16710,7 @@
         ],
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
-        "imgSrc": "BowingtoaHippogriff.png",
+        "imgSrc": "BowingToAHippogriff.png",
         "horizontal": false,
         "rulings": []
     },
@@ -17086,7 +17086,7 @@
         ],
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
-        "imgSrc": "InsultingaHippogriff.png",
+        "imgSrc": "InsultingAHippogriff.png",
         "horizontal": false,
         "rulings": []
     },
@@ -17129,7 +17129,7 @@
         ],
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
-        "imgSrc": "LaughingataBoggart.png",
+        "imgSrc": "LaughingAtABoggart.png",
         "horizontal": false,
         "rulings": [
             {
@@ -17553,7 +17553,7 @@
         ],
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
-        "imgSrc": "TheMonsterBookofMonsters.png",
+        "imgSrc": "TheMonsterBookOfMonsters.png",
         "horizontal": true,
         "rulings": [
             {
@@ -17608,7 +17608,7 @@
         ],
         "setName": "Prisoner of Azkaban",
         "releaseDate": "11-2021",
-        "imgSrc": "UnfoggingtheFuture.png",
+        "imgSrc": "UnfoggingTheFuture.png",
         "horizontal": true,
         "rulings": [
             {
@@ -17825,7 +17825,7 @@
         ],
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
-        "imgSrc": "CatchtheSnitch.png",
+        "imgSrc": "CatchTheSnitch.png",
         "horizontal": false,
         "rulings": []
     },
@@ -17932,7 +17932,7 @@
         "reward": "Your opponent gets 1 more Action (the turn this Adventure is solved).",
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
-        "imgSrc": "GazeIntotheMirror.png",
+        "imgSrc": "GazeIntoTheMirror.png",
         "horizontal": true,
         "rulings": []
     },
@@ -18064,7 +18064,7 @@
         ],
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
-        "imgSrc": "HarrytheSeeker.png",
+        "imgSrc": "HarryTheSeeker.png",
         "horizontal": true,
         "rulings": []
     },
@@ -18216,7 +18216,7 @@
         ],
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
-        "imgSrc": "NoTimetoPlay.png",
+        "imgSrc": "NoTimeToPlay.png",
         "horizontal": false,
         "rulings": []
     },
@@ -18270,7 +18270,7 @@
         ],
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
-        "imgSrc": "OutofControl.png",
+        "imgSrc": "OutOfControl.png",
         "horizontal": false,
         "rulings": []
     },
@@ -18319,9 +18319,9 @@
         ],
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
-        "rulings": [],
-        "imgSrc": "ProfMinervaMcGonagall.png",
-        "horizontal": true
+        "imgSrc": "ProfMinervaMcgonagall.png",
+        "horizontal": true,
+        "rulings": []
     },
     {
         "number": "22",
@@ -18466,7 +18466,7 @@
         ],
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
-        "imgSrc": "StartofTermFeast.png",
+        "imgSrc": "StartOfTermFeast.png",
         "horizontal": false,
         "rulings": []
     },
@@ -18738,7 +18738,7 @@
         "reward": "Your opponent may draw a card.",
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
-        "imgSrc": "IntheStands.png",
+        "imgSrc": "InTheStands.png",
         "horizontal": true,
         "rulings": []
     },
@@ -18758,7 +18758,7 @@
         "reward": "Your opponent may draw a card.",
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
-        "imgSrc": "IntotheForbiddenForest.png",
+        "imgSrc": "IntoTheForbiddenForest.png",
         "horizontal": true,
         "rulings": [
             {
@@ -18923,7 +18923,7 @@
         "reward": "You discard your hand.",
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
-        "imgSrc": "RacefortheSnitch.png",
+        "imgSrc": "RaceForTheSnitch.png",
         "horizontal": true,
         "rulings": []
     },
@@ -18969,7 +18969,7 @@
         "reward": "Your opponent may put up to 4 non-Healing cards from his or her discard pile on the bottom of his or her deck (in any order).",
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
-        "imgSrc": "StickingUpforNeville.png",
+        "imgSrc": "StickingUpForNeville.png",
         "horizontal": true,
         "rulings": []
     },
@@ -19290,7 +19290,7 @@
         ],
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
-        "imgSrc": "MicetoSnuffboxes.png",
+        "imgSrc": "MiceToSnuffboxes.png",
         "horizontal": false,
         "rulings": []
     },
@@ -19451,7 +19451,7 @@
         ],
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
-        "imgSrc": "SearchingfortheSnitch.png",
+        "imgSrc": "SearchingForTheSnitch.png",
         "horizontal": false,
         "rulings": []
     },
@@ -19496,7 +19496,7 @@
         ],
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
-        "imgSrc": "StreamofFlames.png",
+        "imgSrc": "StreamOfFlames.png",
         "horizontal": false,
         "rulings": []
     },
@@ -19612,7 +19612,7 @@
         ],
         "setName": "Quidditch Cup",
         "releaseDate": "11-2001",
-        "imgSrc": "CareofMagicalCreatures.png",
+        "imgSrc": "CareOfMagicalCreatures.png",
         "horizontal": true,
         "rulings": []
     },
@@ -19743,7 +19743,7 @@
         ],
         "setName": "Streets of Hogsmeade",
         "releaseDate": "11-2022",
-        "imgSrc": "DervishandBanges.png",
+        "imgSrc": "DervishAndBanges.png",
         "horizontal": true,
         "rulings": []
     },
@@ -19931,7 +19931,7 @@
         ],
         "setName": "Streets of Hogsmeade",
         "releaseDate": "11-2022",
-        "imgSrc": "OntheHogwartsExpress.png",
+        "imgSrc": "OnTheHogwartsExpress.png",
         "horizontal": true,
         "rulings": [
             {
@@ -20395,7 +20395,7 @@
         ],
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "GobletofFire.png",
+        "imgSrc": "GobletOfFire.png",
         "horizontal": true,
         "rulings": []
     },
@@ -20863,7 +20863,7 @@
         ],
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "AGuidetoAdvancedTransfiguration.png",
+        "imgSrc": "AGuideToAdvancedTransfiguration.png",
         "horizontal": true,
         "rulings": []
     },
@@ -21064,7 +21064,7 @@
         ],
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "FavourtoDumbledore.png",
+        "imgSrc": "FavourToDumbledore.png",
         "horizontal": false,
         "rulings": []
     },
@@ -21086,7 +21086,7 @@
         ],
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "FertiliserfromNorway.png",
+        "imgSrc": "FertiliserFromNorway.png",
         "horizontal": true,
         "rulings": []
     },
@@ -21211,7 +21211,7 @@
         ],
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "MadnessofMrCrouch.png",
+        "imgSrc": "MadnessOfMrCrouch.png",
         "horizontal": false,
         "rulings": []
     },
@@ -21242,7 +21242,7 @@
         ],
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "MagicalWaterPlantsoftheMediterranean.png",
+        "imgSrc": "MagicalWaterPlantsOfTheMediterranean.png",
         "horizontal": true,
         "rulings": []
     },
@@ -21368,7 +21368,7 @@
         "reward": "Your opponent may put a non-Healing Character card from their discard pile into their hand.",
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "OverhearingaConversation.png",
+        "imgSrc": "OverhearingAConversation.png",
         "horizontal": true,
         "rulings": []
     },
@@ -21494,7 +21494,7 @@
         ],
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "QuidditchTeamsofBritainandIreland.png",
+        "imgSrc": "QuidditchTeamsOfBritainAndIreland.png",
         "horizontal": true,
         "rulings": []
     },
@@ -21515,7 +21515,7 @@
         "reward": "Your opponent may choose 1 of your cards in play and discard it.",
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "ResurgenceoftheDarkMark.png",
+        "imgSrc": "ResurgenceOfTheDarkMark.png",
         "horizontal": true,
         "rulings": []
     },
@@ -21666,7 +21666,7 @@
         ],
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "TeawithMoody.png",
+        "imgSrc": "TeaWithMoody.png",
         "horizontal": false,
         "rulings": []
     },
@@ -21697,7 +21697,7 @@
         ],
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "TheDarkForcesAGuidetoSelfProtection.png",
+        "imgSrc": "TheDarkForcesAGuideToSelfProtection.png",
         "horizontal": true,
         "rulings": []
     },
@@ -21728,7 +21728,7 @@
         ],
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "TheRiseandFalloftheDarkArts.png",
+        "imgSrc": "TheRiseAndFallOfTheDarkArts.png",
         "horizontal": true,
         "rulings": []
     },
@@ -21848,7 +21848,7 @@
         ],
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "AYearofNoQuidditch.png",
+        "imgSrc": "AYearOfNoQuidditch.png",
         "horizontal": false,
         "rulings": []
     },
@@ -22091,7 +22091,7 @@
         ],
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "DisturbedandDangerous.png",
+        "imgSrc": "DisturbedAndDangerous.png",
         "horizontal": false,
         "rulings": []
     },
@@ -22398,7 +22398,7 @@
         ],
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "HeadintheFire.png",
+        "imgSrc": "HeadInTheFire.png",
         "horizontal": false,
         "rulings": []
     },
@@ -22443,7 +22443,7 @@
         ],
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "HouseelfExploitation.png",
+        "imgSrc": "HouseElfExploitation.png",
         "horizontal": false,
         "rulings": []
     },
@@ -22511,7 +22511,7 @@
         ],
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "LapsaroundHogwarts.png",
+        "imgSrc": "LapsAroundHogwarts.png",
         "horizontal": false,
         "rulings": []
     },
@@ -22534,7 +22534,7 @@
         ],
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "MoodyBorrowstheMap.png",
+        "imgSrc": "MoodyBorrowsTheMap.png",
         "horizontal": false,
         "rulings": []
     },
@@ -22645,7 +22645,7 @@
         ],
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "ReportonCauldronThickness.png",
+        "imgSrc": "ReportOnCauldronThickness.png",
         "horizontal": false,
         "rulings": []
     },
@@ -22740,7 +22740,7 @@
         ],
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "SeeingtheUnseen.png",
+        "imgSrc": "SeeingTheUnseen.png",
         "horizontal": false,
         "rulings": []
     },
@@ -22873,7 +22873,7 @@
         ],
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "TheStandardBookofSpellsGrade4.png",
+        "imgSrc": "TheStandardBookOfSpellsGrade4.png",
         "horizontal": true,
         "rulings": []
     },
@@ -22951,7 +22951,7 @@
         ],
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "TresspasserintheRiddleHouse.png",
+        "imgSrc": "TresspasserInTheRiddleHouse.png",
         "horizontal": false,
         "rulings": []
     },
@@ -23108,7 +23108,7 @@
         ],
         "setName": "Goblet of Fire",
         "releaseDate": "07-2024",
-        "imgSrc": "DefenseAgainsttheDarkArtsThirdYear.png",
+        "imgSrc": "DefenseAgainstTheDarkArtsThirdYear.png",
         "horizontal": true,
         "rulings": []
     },
@@ -23172,7 +23172,7 @@
         ],
         "setName": "Quidditch World Finals",
         "releaseDate": "06-2025",
-        "imgSrc": "RainofBludgers.png",
+        "imgSrc": "RainOfBludgers.png",
         "horizontal": false,
         "rulings": []
     },
