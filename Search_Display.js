@@ -15,7 +15,8 @@ const setAbbreviations = {
     "POA": "Prisoner of Azkaban",
     "SOH": "Streets of HogsMeade",
     "EOTP": "Echoes of the Past",
-    "PRO": "Promotional"
+    "PRO": "Promotional",
+    "QWF": "Quidditch World Finals"
 };
 
 document.addEventListener('DOMContentLoaded', function() {
