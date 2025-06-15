@@ -1,0 +1,405 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drafter</title>
+    <link rel="stylesheet" href="Drafter.css">
+    <script src="https://unpkg.com/simple-peer/simplepeer.min.js"></script>
+</head>
+<body>
+
+    <!--*****************************************************************************************************************/
+    /************************************* First Body: Header Content Section ****************************************/
+    /*****************************************************************************************************************-->
+
+    <div id="header"></div>
+
+    <!--*****************************************************************************************************************/
+    /************************************* Second Body: Body Content Section ****************************************/
+    /*****************************************************************************************************************-->
+    <div id="Drafter_Body">
+        <div id="Game_Mode_Menu">
+            <h2>Select a Game Mode</h2>
+            <button id="Host_Button">Host Game</button>
+            <button id="Join_Button">Join Game</button>
+            <button id="Solo_Button">Solo Mode</button>
+        </div>
+
+<!-------------------------------------------------- Solo Player Draft Body -------------------------------------------------->
+        <div id="Solo_Drafter_Body" style="display: none;">
+            <!---------------- Jumpstart Pack Info ---------------->
+            <!-- Hover Icon -->
+            <div class="hover-icon">?</div>
+            <!-- Hover Window -->
+            <div class="information_window">
+                
+
+                <div class="hover-container" id="hover-container-1">
+                    <h3>COMC</h3>
+                    <div class="Starter"></div>
+                    <div class="Jumpstart_Pack"></div>
+                </div>
+                <div class="hover-container" id="hover-container-2">
+                    <h3>Charms</h3>
+                    <div class="Starter"></div>
+                    <div class="Jumpstart_Pack"></div>
+                </div>
+                <div class="hover-container" id="hover-container-3">
+                    <h3>Potions</h3>
+                    <div class="Starter"></div>
+                    <div class="Jumpstart_Pack"></div>
+                </div>
+                <div class="hover-container" id="hover-container-4">
+                    <h3>Quidditch</h3>
+                    <div class="Starter"></div>
+                    <div class="Jumpstart_Pack"></div>
+                </div>
+                <div class="hover-container" id="hover-container-5">
+                    <h3>Transfiguration</h3>
+                    <div class="Starter"></div>
+                    <div class="Jumpstart_Pack"></div>
+                </div>
+            </div>
+
+
+            <!---------------- Drafting Interface ---------------->
+            <div id="Draft_Interface">
+                <div id="Draft_Controls">
+                    <button id="Start_Solo_Draft_Button">Start Draft</button>
+                    
+                </div>
+                
+                <div id="Draft_Display">
+                    <div id="Solo_Your_Pack" class="pack">
+                        <h2>Your Current Pack</h2>
+                        <div id="Solo_Pack_Cards"></div>
+                    </div>
+            
+                    <div id="Solo_Your_Pool" class="pool">
+                        <h2>Your Pool</h2>
+                        <div id="Solo_Pool_Cards">
+                                <!-- Divs for individual card pools -->
+                                <div id="Solo_Card_Pool_0" class="solo-card-pool-column">
+                                    <!-- Cards for pool 0 will appear here -->
+                                </div>
+                                <div id="Solo_Card_Pool_1" class="solo-card-pool-column">
+                                    <!-- Cards for pool 1 will appear here -->
+                                </div>
+                                <div id="Solo_Card_Pool_2" class="solo-card-pool-column">
+                                    <!-- Cards for pool 2 will appear here -->
+                                </div>
+                                <div id="Solo_Card_Pool_3" class="solo-card-pool-column">
+                                    <!-- Cards for pool 3 will appear here -->
+                                </div>
+                                <div id="Solo_Card_Pool_4" class="solo-card-pool-column">
+                                    <!-- Cards for pool 4 will appear here -->
+                                </div>
+                                <div id="Solo_Card_Pool_5" class="solo-card-pool-column">
+                                    <!-- Cards for pool 5 will appear here -->
+                                </div>
+                                <div id="Solo_Card_Pool_6" class="solo-card-pool-column">
+                                    <!-- Cards for pool 6 will appear here -->
+                                </div>
+                                <div id="Solo_Card_Pool_7" class="solo-card-pool-column">
+                                    <!-- Cards for pool 7 will appear here -->
+                                </div>
+                                <div id="Solo_Card_Pool_8" class="solo-card-pool-column">
+                                    <!-- Cards for pool 8 will appear here -->
+                                </div>
+
+                        </div>
+                    </div>
+                </div>
+                <button id="Solo_Back_To_Menu_Button">Back</button> <!-- Added Back Button -->                
+            </div>
+        </div>
+
+<!-------------------------------------------------- Host Structure ---------------------------------------------------------->
+        <div id="Host_Lobby_Body" style="display: none;">
+            <h2>Host Lobby</h2>
+
+<!---------------- Create Lobby Section ---------------->
+            <div id="Host_Create_Lobby">
+                <h3>Create a Lobby</h3>
+            
+                <div class="input-container">
+                    <label for="Lobby_Name_Input">Lobby Name:</label>
+                    <input type="text" id="Lobby_Name_Input" placeholder="Enter lobby name">
+                </div>
+            
+                <div class="input-container">
+                    <label for="Host_Name_Input">Host Name:</label>
+                    <input type="text" id="Host_Name_Input" placeholder="Enter your name">
+                </div>
+            
+                <div class="input-container">
+                    <label for="Lobby_Password_Input">Password:</label>
+                    <input type="password" id="Lobby_Password_Input" placeholder="Enter password" disabled>
+                    <button type="button" id="Toggle_Password_Visibility" disabled>👁</button>
+                </div>
+            
+                <div class="checkbox-container">
+                    <label>
+                        <input type="checkbox" id="Include_Password_Checkbox"> Password
+                    </label>
+                </div>
+            
+                <div class="button-container">
+                    <button id="Start_Lobby_Button">Start Lobby</button>
+                    <button id="Host_Rejoin_Lobby_Button">Rejoin Lobby</button>
+                    <button id="Host_Create_Lobby_Back_Button">Back</button>
+                </div>
+            </div>
+            
+
+<!---------------- Host Lobby Section ---------------->
+            <div id="Host_Lobby_Content" style="display: none;">
+
+
+                <!---------------- Seats Section ---------------->
+                <div id="Host_Seats_Container">
+                    <h3>Seats</h3>
+                    <div id="Seats">
+                        <!-- Pre-made 8 seats -->
+                        <div class="seat" id="seat-0" data-index="0">
+                            <span class="seat-label">Empty</span>
+                            <button class="unlock-btn">Unlock</button>
+                            <button class="kick-btn" disabled>Kick</button>
+                            <button class="ai-btn">AI: Off</button>
+                        </div>
+                        <div class="seat" id="seat-1" data-index="1">
+                            <span class="seat-label">Empty</span>
+                            <button class="unlock-btn">Unlock</button>
+                            <button class="kick-btn" disabled>Kick</button>
+                            <button class="ai-btn">AI: Off</button>
+                        </div>
+                        <div class="seat" id="seat-2" data-index="2">
+                            <span class="seat-label">Empty</span>
+                            <button class="unlock-btn">Unlock</button>
+                            <button class="kick-btn" disabled>Kick</button>
+                            <button class="ai-btn">AI: Off</button>
+                        </div>
+                        <div class="seat" id="seat-3" data-index="3">
+                            <span class="seat-label">Empty</span>
+                            <button class="unlock-btn">Unlock</button>
+                            <button class="kick-btn" disabled>Kick</button>
+                            <button class="ai-btn">AI: Off</button>
+                        </div>
+                        <div class="seat" id="seat-4" data-index="4">
+                            <span class="seat-label">Empty</span>
+                            <button class="unlock-btn">Unlock</button>
+                            <button class="kick-btn" disabled>Kick</button>
+                            <button class="ai-btn">AI: Off</button>
+                        </div>
+                        <div class="seat" id="seat-5" data-index="5">
+                            <span class="seat-label">Empty</span>
+                            <button class="unlock-btn">Unlock</button>
+                            <button class="kick-btn" disabled>Kick</button>
+                            <button class="ai-btn">AI: Off</button>
+                        </div>
+                        <div class="seat" id="seat-6" data-index="6">
+                            <span class="seat-label">Empty</span>
+                            <button class="unlock-btn">Unlock</button>
+                            <button class="kick-btn" disabled>Kick</button>
+                            <button class="ai-btn">AI: Off</button>
+                        </div>
+                        <div class="seat" id="seat-7" data-index="7">
+                            <span class="seat-label">Empty</span>
+                            <button class="unlock-btn">Unlock</button>
+                            <button class="kick-btn" disabled>Kick</button>
+                            <button class="ai-btn">AI: Off</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!---------------- Player List Section ---------------->
+                <div id="Player_List_Container">
+                    <h3>Player List</h3>
+                    <div id="Player_List">
+                        <!-- Players will be dynamically added here -->
+                    </div>
+                </div>
+
+                <!---------------- Controls Section ---------------->
+                <div id="Start_Game_Controls">
+                    <button id="Start_Game_Button">Start Game</button>
+                    <button id="Host_Lobby_Back_Button">Back</button>
+                    <button id="Host_Lobby_Close_Lobby_Button">Close Lobby</button>
+                </div>
+            </div>
+
+        </div>
+
+
+<!-------------------------------------------------- Host Game Screen -------------------------------------------------------->
+    <div id="Host_Game_Screen" style="display: none;">
+        <h2>Game Screen</h2>
+        <div id="Game_Seats">
+            <!-- Seat Blocks -->
+            <div class="host-seat" data-seat-index="0">
+            <h3>Seat 1: <span class="seat-player-name">Empty</span></h3>
+            <div>Pack 1: <div class="pack pack-1"></div></div>
+            <div>Pack 2: <div class="pack pack-2"></div></div>
+            <div>Pack 3: <div class="pack pack-3"></div></div>
+            <div>Current Pack: <div class="current-pack"></div></div>
+            <div>Card Pool: <div class="card-pool"></div></div>
+            <button class="kick-player-btn">Kick Player</button>
+            </div>
+
+            <!-- Quick manual copy-paste of remaining seats -->
+            <div class="host-seat" data-seat-index="1"><h3>Seat 2: <span class="seat-player-name">Empty</span></h3><div>Pack 1: <div class="pack pack-1"></div></div><div>Pack 2: <div class="pack pack-2"></div></div><div>Pack 3: <div class="pack pack-3"></div></div><div>Current Pack: <div class="current-pack"></div></div><div>Card Pool: <div class="card-pool"></div></div><button class="kick-player-btn">Kick Player</button></div>
+            <div class="host-seat" data-seat-index="2"><h3>Seat 3: <span class="seat-player-name">Empty</span></h3><div>Pack 1: <div class="pack pack-1"></div></div><div>Pack 2: <div class="pack pack-2"></div></div><div>Pack 3: <div class="pack pack-3"></div></div><div>Current Pack: <div class="current-pack"></div></div><div>Card Pool: <div class="card-pool"></div></div><button class="kick-player-btn">Kick Player</button></div>
+            <div class="host-seat" data-seat-index="3"><h3>Seat 4: <span class="seat-player-name">Empty</span></h3><div>Pack 1: <div class="pack pack-1"></div></div><div>Pack 2: <div class="pack pack-2"></div></div><div>Pack 3: <div class="pack pack-3"></div></div><div>Current Pack: <div class="current-pack"></div></div><div>Card Pool: <div class="card-pool"></div></div><button class="kick-player-btn">Kick Player</button></div>
+            <div class="host-seat" data-seat-index="4"><h3>Seat 5: <span class="seat-player-name">Empty</span></h3><div>Pack 1: <div class="pack pack-1"></div></div><div>Pack 2: <div class="pack pack-2"></div></div><div>Pack 3: <div class="pack pack-3"></div></div><div>Current Pack: <div class="current-pack"></div></div><div>Card Pool: <div class="card-pool"></div></div><button class="kick-player-btn">Kick Player</button></div>
+            <div class="host-seat" data-seat-index="5"><h3>Seat 6: <span class="seat-player-name">Empty</span></h3><div>Pack 1: <div class="pack pack-1"></div></div><div>Pack 2: <div class="pack pack-2"></div></div><div>Pack 3: <div class="pack pack-3"></div></div><div>Current Pack: <div class="current-pack"></div></div><div>Card Pool: <div class="card-pool"></div></div><button class="kick-player-btn">Kick Player</button></div>
+            <div class="host-seat" data-seat-index="6"><h3>Seat 7: <span class="seat-player-name">Empty</span></h3><div>Pack 1: <div class="pack pack-1"></div></div><div>Pack 2: <div class="pack pack-2"></div></div><div>Pack 3: <div class="pack pack-3"></div></div><div>Current Pack: <div class="current-pack"></div></div><div>Card Pool: <div class="card-pool"></div></div><button class="kick-player-btn">Kick Player</button></div>
+            <div class="host-seat" data-seat-index="7"><h3>Seat 8: <span class="seat-player-name">Empty</span></h3><div>Pack 1: <div class="pack pack-1"></div></div><div>Pack 2: <div class="pack pack-2"></div></div><div>Pack 3: <div class="pack pack-3"></div></div><div>Current Pack: <div class="current-pack"></div></div><div>Card Pool: <div class="card-pool"></div></div><button class="kick-player-btn">Kick Player</button></div>
+        </div>
+
+        <!-- Global Controls -->
+        <div id="Host_Game_Controls">
+            <button id="End_Draft_Button">End Draft</button>
+            <button id="Send_Timer_Prompt_Button">Send 20s Warning</button>
+        </div>
+    </div>
+
+
+<!------------------------------------------------- Client Join Lobby --------------------------------------------------------->
+        <div id="Join_Game_Menu" style="display: none;">
+            <h2>Join a Game</h2>
+            
+            <!-- Available Lobbies Section -->
+            <div id="Available_Lobbies_Container">
+                <h3>Available Lobbies</h3>
+                <div id="Loading_Lobbies">Loading lobbies...</div>
+                <div id="Lobby_List"></div> <!-- Lobbies will be dynamically added here -->
+            </div>
+
+            <!-- Back Button -->
+            <button id="Join_Back_Button">Back</button>
+
+            <!-- Sessions Button -->
+            <button id="View_Saved_Sessions_Button">View Saved Sessions</button>
+
+        </div>
+
+
+<!------------------------------------------------- Client Game Lobby --------------------------------------------------------->
+        <div id="Client_Lobby_Body" style="display: none;">
+            <h2>Client Lobby</h2>
+
+            <!-- Seats Section -->
+            <div id="Client_Seats_Container">
+                <h3>Seats</h3>
+                <div id="Client_Seats">
+                    <!-- Dynamically populated seats -->
+                </div>
+            </div>
+
+            <!-- Seats Section -->
+            <div id="Client_Waiting_Container">
+                <h3>Waiting</h3>
+                <div id="Client_Lobby_Unseated_Players_List">
+                    <!-- Dynamically populated list where all players first display when first joining a lobby -->
+                </div>
+            </div>
+        
+            <!-- Back Button -->
+            <button id="Client_Lobby_Back_Button">Back</button>
+        </div>
+
+<!------------------------------------------------- Client Game Screen -------------------------------------------------------->
+        <div id="Client_Game_Screen" style="display: none;">
+            <h2>Game Screen</h2>
+            
+            <!-- Current Pack Section -->
+            <div id="Client_Current_Pack_Container">
+                <h3>Current Pack</h3>
+                <div id="Current_Pack">
+                    <!-- Cards in the current pack will be dynamically added here -->
+                </div>
+                <button id="Client_Confirm_Pick_Button">Confirm Pick</button>
+            </div>
+            
+            <!-- Card Pool Section -->
+            <div id="Client_Card_Pool_Container">
+                <h3>Card Pool</h3>
+                <div id="Card_Pool">
+                    <!-- Divs for individual card pools -->
+                    <div id="Card_Pool_0">
+                        <!-- Cards for pool 0 will appear here -->
+                    </div>
+                    <div id="Card_Pool_1">
+                        <!-- Cards for pool 1 will appear here -->
+                    </div>
+                    <div id="Card_Pool_2">
+                        <!-- Cards for pool 2 will appear here -->
+                    </div>
+                    <div id="Card_Pool_3">
+                        <!-- Cards for pool 3 will appear here -->
+                    </div>
+                    <div id="Card_Pool_4">
+                        <!-- Cards for pool 4 will appear here -->
+                    </div>
+                    <div id="Card_Pool_5">
+                        <!-- Cards for pool 5 will appear here -->
+                    </div>
+                    <div id="Card_Pool_6">
+                        <!-- Cards for pool 6 will appear here -->
+                    </div>
+                    <div id="Card_Pool_7">
+                        <!-- Cards for pool 7 will appear here -->
+                    </div>
+                    <div id="Card_Pool_8">
+                        <!-- Cards for pool 7 will appear here -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+    
+    <!--*****************************************************************************************************************/
+    /********************************************** Third Body: Footer *****************************************************/
+    /*****************************************************************************************************************-->
+
+    <!----------------------------------------------------- Dynamic Footer -------------------------------------------------------->
+    <div id="footer"></div>
+
+    <!-------------------------------------------------------- Scripts ------------------------------------------------------------>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Load Header and its CSS
+            fetch('Header.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('header').innerHTML = data;
+                    
+                    // Dynamically add the header CSS
+                    const headerStylesheet = document.createElement('link');
+                    headerStylesheet.rel = 'stylesheet';
+                    headerStylesheet.href = 'Header.css'; // Path to the header's CSS
+                    document.head.appendChild(headerStylesheet);
+                });
+
+            // Load Footer and its CSS
+            fetch('Footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('footer').innerHTML = data;
+
+                    // Dynamically add the footer CSS
+                    const footerStylesheet = document.createElement('link');
+                    footerStylesheet.rel = 'stylesheet';
+                    footerStylesheet.href = 'Footer.css'; // Path to the footer's CSS
+                    document.head.appendChild(footerStylesheet);
+                });
+        });
+    </script>
+
+    <script type="module" src="Drafter.js"></script>
+</body>
+</html>
