@@ -23196,7 +23196,7 @@ export const cards = [
     ],
     "setName": "Quidditch World Finals",
     "releaseDate": "06-2025",
-    "imgSrc": "RainofBludgers.png",
+    "imgSrc": "RainOfBludgers.png",
     "horizontal": false,
     "rulings": [
       {
