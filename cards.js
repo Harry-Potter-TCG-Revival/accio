@@ -23603,7 +23603,7 @@ export const cards = [
     ],
     "setName": "Quidditch World Finals",
     "releaseDate": "06-2025",
-    "imgSrc": "ConnollyandQuigleyIrishBeaters.png",
+    "imgSrc": "ConnollyAndQuigleyIrishBeaters.png",
     "horizontal": true,
     "rulings": []
   },
@@ -23623,7 +23623,7 @@ export const cards = [
     "reward": "Your opponent may choose 1 of your cards in play and return it to its owner's hand.",
     "setName": "Quidditch World Finals",
     "releaseDate": "06-2025",
-    "imgSrc": "FleeingtheGrounds.png",
+    "imgSrc": "FleeingTheGrounds.png",
     "horizontal": true,
     "rulings": []
   },
@@ -23837,7 +23837,7 @@ export const cards = [
     ],
     "setName": "Quidditch World Finals",
     "releaseDate": "06-2025",
-    "imgSrc": "MeleeoftheMascots.png",
+    "imgSrc": "MeleeOfTheMascots.png",
     "horizontal": true,
     "rulings": []
   },
@@ -23884,7 +23884,7 @@ export const cards = [
     ],
     "setName": "Quidditch World Finals",
     "releaseDate": "06-2025",
-    "imgSrc": "TouringtheTents.png",
+    "imgSrc": "TouringTheTents.png",
     "horizontal": true,
     "rulings": [
       {
@@ -24149,7 +24149,7 @@ export const cards = [
     "reward": "You take 2 damage and your opponent may draw 2 cards.",
     "setName": "Quidditch World Finals",
     "releaseDate": "06-2025",
-    "imgSrc": "DreamsofFlying.png",
+    "imgSrc": "DreamsOfFlying.png",
     "horizontal": true,
     "rulings": []
   },
@@ -24198,7 +24198,7 @@ export const cards = [
     ],
     "setName": "Quidditch World Finals",
     "releaseDate": "06-2025",
-    "imgSrc": "InsidetheTent.png",
+    "imgSrc": "InsideTheTent.png",
     "horizontal": false,
     "rulings": []
   },
@@ -24224,7 +24224,7 @@ export const cards = [
     ],
     "setName": "Quidditch World Finals",
     "releaseDate": "06-2025",
-    "imgSrc": "KrumCatchestheSnitch.png",
+    "imgSrc": "KrumCatchesTheSnitch.png",
     "horizontal": true,
     "rulings": []
   },
@@ -24508,7 +24508,7 @@ export const cards = [
     ],
     "setName": "Quidditch World Finals",
     "releaseDate": "06-2025",
-    "imgSrc": "WideAwakewithWorry.png",
+    "imgSrc": "WideAwakeWithWorry.png",
     "horizontal": false,
     "rulings": []
   },
@@ -24648,7 +24648,7 @@ export const cards = [
     ],
     "setName": "Quidditch World Finals",
     "releaseDate": "06-2025",
-    "imgSrc": "BludgertotheFace.png",
+    "imgSrc": "BludgerToTheFace.png",
     "horizontal": false,
     "rulings": []
   },
@@ -24693,7 +24693,7 @@ export const cards = [
     ],
     "setName": "Quidditch World Finals",
     "releaseDate": "06-2025",
-    "imgSrc": "BoxofPortkeys.png",
+    "imgSrc": "BoxOfPortkeys.png",
     "horizontal": false,
     "rulings": [
       {
@@ -24865,7 +24865,7 @@ export const cards = [
     ],
     "setName": "Quidditch World Finals",
     "releaseDate": "06-2025",
-    "imgSrc": "DelightoftheDeathEaters.png",
+    "imgSrc": "DelightOfTheDeathEaters.png",
     "horizontal": false,
     "rulings": []
   },
@@ -25026,7 +25026,7 @@ export const cards = [
     ],
     "setName": "Quidditch World Finals",
     "releaseDate": "06-2025",
-    "imgSrc": "FlyingwiththeCannons.png",
+    "imgSrc": "FlyingWithTheCannons.png",
     "horizontal": true,
     "rulings": []
   },
@@ -25076,7 +25076,7 @@ export const cards = [
     ],
     "setName": "Quidditch World Finals",
     "releaseDate": "06-2025",
-    "imgSrc": "GiftsofGold.png",
+    "imgSrc": "GiftsOfGold.png",
     "horizontal": false,
     "rulings": []
   },
@@ -25295,7 +25295,7 @@ export const cards = [
     ],
     "setName": "Quidditch World Finals",
     "releaseDate": "06-2025",
-    "imgSrc": "SilhouettesintheSmoke.png",
+    "imgSrc": "SilhouettesInTheSmoke.png",
     "horizontal": true,
     "rulings": []
   },
