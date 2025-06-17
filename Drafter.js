@@ -473,6 +473,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('Host_Button').style.display = 'none';
+    document.getElementById('Join_Button').style.display = 'none';
+});
+
 
 // *******************************************************************************************************************************************************************************************//
 // ********************************************************************************Multiplayer Functions**************************************************************************************//
