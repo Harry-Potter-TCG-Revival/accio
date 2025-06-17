@@ -87,12 +87,13 @@ const cardList = [
     { name: 'Winkys Thievery', rarity: 'R', isHorizontal: false, imageFile: 'WinkysThievery.png', cost: 6, type: 'P', draftValue: 3.5, setName: 'The World Cup' },
     { name: 'Box of Portkeys', rarity: 'U', isHorizontal: false, imageFile: 'BoxOfPortkeys.png', cost: 6, type: 'T', draftValue: 3, setName: 'The World Cup' },
     { name: 'Hanging Shamrocks', rarity: 'C', isHorizontal: true, imageFile: 'HangingShamrocks.png', cost: 2, type: 'T', draftValue: 3, setName: 'The World Cup' },
-    { name: 'Bagmans Announcing', rarity: 'C', isHorizontal: false, imageFile: 'BagmansAnnouncing.png', cost: 3, type: 'T', draftValue: 3.5, setName: 'The World Cup' },
     { name: 'Trick Wand', rarity: 'C', isHorizontal: true, imageFile: 'TrickWand.png', cost: 5, type: 'T', draftValue: 3, setName: 'The World Cup' },
     { name: 'Inside The Tent', rarity: 'C', isHorizontal: false, imageFile: 'InsideTheTent.png', cost: 6, type: 'T', draftValue: 4.5, setName: 'The World Cup' },
-    { name: 'Meeting Winky', rarity: 'U', isHorizontal: false, imageFile: 'MeetingWinky.png', cost: 4, type: 'T', draftValue: 3.5, setName: 'The World Cup' },
-    { name: 'Model Firebolt', rarity: 'C', isHorizontal: true, imageFile: 'ModelFirebolt.png', cost: 1, type: 'T', draftValue: 3, setName: 'The World Cup' }
+    { name: 'Winkys Empty Seat', rarity: 'U', isHorizontal: false, imageFile: 'WinkysEmptySeat.png', cost: 4, type: 'T', draftValue: 3.5, setName: 'The World Cup' },
+    { name: 'Model Broomstick', rarity: 'C', isHorizontal: true, imageFile: 'ModelBroomstick.png', cost: 1, type: 'T', draftValue: 3, setName: 'The World Cup' }
 ];
+
+// Ill just leave this here as a maybe one day { name: 'Bagmans Announcing', rarity: 'C', isHorizontal: false, imageFile: 'BagmansAnnouncing.png', cost: 3, type: 'T', draftValue: 3.5, setName: 'The World Cup' },
 
 // *********************************************************************************************************************************************************************************************************************/
 // ***********************************************************************************************Global Declarations***************************************************************************************************/
