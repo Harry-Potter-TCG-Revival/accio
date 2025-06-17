@@ -2124,7 +2124,7 @@ function soloCreateCardElement(card) {
     cardElement.className = "Solo_Draft_Pack_Card";
     cardElement.dataset.name = card.name;
     const imagePath = card.setName === "The World Cup" 
-    ? `Quidditch World Cup/${card.imageFile}` 
+    ? `cardimages/${card.imageFile}` 
     : `Images/Cards/${card.imgSrc}`;
 
     // Add orientation attribute
@@ -2187,7 +2187,7 @@ function addCardToPool(card) {
     // Create the card element
     const cardElement = document.createElement("div");
     cardElement.classList.add("Solo_Draft_Pool_Card");
-    cardElement.style.backgroundImage = `url('Quidditch World Cup/${card.imageFile}')`;
+    cardElement.style.backgroundImage = `url('cardimages/${card.imageFile}')`;
     cardElement.setAttribute("data-name", card.name);
     cardElement.setAttribute("data-cost", cost);
     cardElement.style.backgroundSize = "cover";
