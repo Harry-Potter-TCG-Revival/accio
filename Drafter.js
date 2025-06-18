@@ -45,7 +45,7 @@ const cardList = [
     { name: 'Silhouettes in the Smoke', rarity: 'U', isHorizontal: true, imageFile: 'SilhouettesInTheSmoke.png', cost: 5, type: 'P', draftValue: 2, setName: 'The World Cup' },
     { name: 'Tents Ablaze', rarity: 'U', isHorizontal: true, imageFile: 'TentsAblaze.png', cost: 5, type: 'P', draftValue: 3, setName: 'The World Cup' },
     { name: 'The Dark Mark', rarity: 'R', isHorizontal: true, imageFile: 'TheDarkMark.png', cost: 5, type: 'P', draftValue: 2, setName: 'The World Cup' },
-    { name: 'The Delight of the Death Eaters', rarity: 'C', isHorizontal: false, imageFile: 'TheDelightOfTheDeathEaters.png', cost: 5, type: 'P', draftValue: 4, setName: 'The World Cup' },
+    { name: 'Delight of the Death Eaters', rarity: 'C', isHorizontal: false, imageFile: 'DelightOfTheDeathEaters.png', cost: 5, type: 'P', draftValue: 4, setName: 'The World Cup' },
     { name: 'Bludger to the Face', rarity: 'C', isHorizontal: false, imageFile: 'BludgerToTheFace.png', cost: 4, type: 'Q', draftValue: 2.5, setName: 'The World Cup' },
     { name: 'Bulgaria Scores', rarity: 'R', isHorizontal: false, imageFile: 'BulgariaScores.png', cost: 12, type: 'Q', draftValue: 3, setName: 'The World Cup' },
     { name: 'Childs Broom', rarity: 'C', isHorizontal: true, imageFile: 'ChildsBroom.png', cost: 1, type: 'Q', draftValue: 5, setName: 'The World Cup' },
