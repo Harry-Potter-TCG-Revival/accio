@@ -61,7 +61,7 @@ const cardList = [
     { name: 'Porskoff Ploy', rarity: 'U', isHorizontal: false, imageFile: 'PorskoffPloy.png', cost: 12, type: 'Q', draftValue: 1.5, setName: 'The World Cup' },
     { name: 'Broomstick Servicing Kit', rarity: 'U', isHorizontal: true, imageFile: 'BroomstickServicingKit.png', cost: 5, type: 'Q', draftValue: 1, setName: 'The World Cup' },
     { name: 'Rain of Bludgers', rarity: 'R', isHorizontal: false, imageFile: 'RainOfBludgers.png', cost: 10, type: 'Q', draftValue: 3.5, setName: 'The World Cup' },
-    { name: 'Sharp Eyed Seekers', rarity: 'C', isHorizontal: false, imageFile: 'SharpEyedSeekers.png', cost: 8, type: 'Q', draftValue: 3.5, setName: 'The World Cup' },
+    { name: 'Sharp Eyed Seeker', rarity: 'C', isHorizontal: false, imageFile: 'SharpEyedSeeker.png', cost: 8, type: 'Q', draftValue: 3.5, setName: 'The World Cup' },
     { name: 'Slow Motion Viewing', rarity: 'C', isHorizontal: false, imageFile: 'SlowMotionViewing.png', cost: 6, type: 'Q', draftValue: 3, setName: 'The World Cup' },
     { name: 'Synchronized Chasers', rarity: 'C', isHorizontal: false, imageFile: 'SynchronizedChasers.png', cost: 5, type: 'Q', draftValue: 4, setName: 'The World Cup' },
     { name: 'Tough Beaters', rarity: 'U', isHorizontal: false, imageFile: 'ToughBeaters.png', cost: 10, type: 'Q', draftValue: 3, setName: 'The World Cup' },
