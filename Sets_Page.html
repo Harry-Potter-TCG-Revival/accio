@@ -9,44 +9,11 @@
 </head>
 <body>
 
-    <!--*****************************************************************************************************************/
-    /************************************* First Body: Header Content Section ****************************************/
-    /*****************************************************************************************************************-->
+<!--*****************************************************************************************************************/
+        /************************************* First Body: Header Content Section ****************************************/
+        /*****************************************************************************************************************-->
 
-    <div class="Page_Header" id="Page_Header">
-
-        <form class="Search_Bar" id="Search_Bar">
-            <input type="text" id="search_input" placeholder="Search for a card">
-        </form>
-
-        <div class="Page_Header_Buttons" id="Page_Header_Buttons">
-            <img src="Images/Icons/accio.svg" class="Book">
-            <nav><a href="index.html">Home</a></nav>
-            <img src="Images/Icons/bolt.svg" class="Bolt">
-            <nav><a href="Advanced_Search.html">Advanced Search</a></nav>
-            <img src="Images/Icons/book.svg" class="Book">
-            <nav><a href="Sets_Page.html">Sets</a></nav>
-            <img src="Images/Icons/icon-font-awesome-feather.svg" class="Feather">
-            <nav><a href="Deck_Builder.html">Deck Builder</a></nav>
-            <img src="Images/Icons/magic.svg" class="Book">
-            <nav><a href="#" id="Random_Card_Link">Random Card</a></nav>
-            
-            <script type="module">
-                import { cards } from './cards.js';
-            
-                document.getElementById('Random_Card_Link').addEventListener('click', function(event) {
-                    event.preventDefault(); // Prevent the default anchor behavior
-            
-                    // Generate a random number between 1 and the length of the cards array
-                    const randomIndex = Math.floor(Math.random() * cards.length);
-            
-                    // Redirect to the Card_Display page with the random card number
-                    window.location.href = `Card_Display.html?card=random${randomIndex}`;
-                });
-            </script>
-        </div>
-
-    </div>
+        <div id="header"></div>
 
     <!--*****************************************************************************************************************/
     /************************************* Second Body: Body Content Section ****************************************/
@@ -372,46 +339,39 @@
     <!--*****************************************************************************************************************/
     /********************************************** Third Body: Footer *****************************************************/
     /*****************************************************************************************************************-->
-    
-    <div class="Sets_Page_Footer" id="Sets_Page_Footer">
-        <div class="Sets_Page_Footer_Links">
-            <div class="Sets_Page_Footer_Find_Cards">
-                <div class="Sets_Page_Footer_Find_Cards_Header">
-                    <h2>Find Cards</h2>
-                </div>
-                <nav>
-                    <a href="Sets_Page.html">All Sets</a>
-                    <a href="Syntax_Page.html">Syntax Guide</a>
-                </nav>
-            </div>
-            <div class="Sets_Page_Footer_Accio">
-                <div class="Sets_Page_Footer_Accio_Header">
-                    <h2>Accio</h2>
-                </div>
-                <nav>
-                    <a href="https://www.harrypottertcg.com" target="_blank">HPTCG</a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSearA0XbaERqV1_HlvI44Duq1Jf0ciDsBo5pIx0A9q0i5tfcw/viewform?usp=sf_link" target="_blank">Contact</a>
-                </nav>
-            </div>
-            <div class="Sets_Page_Footer_Socials">
-                <div class="Sets_Page_Footer_Socials_Header">
-                    <h2>Socials</h2>
-                </div>
-                <nav>
-                    <a href="https://www.youtube.com/@harrypottertcgrevival" target="_blank">Youtube</a>
-                    <a href="https://discord.gg/EKJSXBC" target="_blank">Discord</a>
-                </nav>
-            </div>
-        </div>
-        <div class="Sets_Page_Footer_Copyright_Disclosure">
-            <nav>
-                <p>
-                    The information presented on this site about Harry Potter, including card images, characters, names and related indicia are ™ and © Warner Bros. Entertainment Inc.
-                    This website is not produced by, endorsed by, supported by, or affiliated with Warner Bros. Entertainment Inc. All rights reserved.
-                </p>
-            </nav>
-        </div>
-    </div>
+
+    <div id="footer"></div>
+
+        <!-------------------------------------------------------- Scripts ------------------------------------------------------------>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Load Header and its CSS
+            fetch('Header.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('header').innerHTML = data;
+                    
+                    // Dynamically add the header CSS
+                    const headerStylesheet = document.createElement('link');
+                    headerStylesheet.rel = 'stylesheet';
+                    headerStylesheet.href = 'Header.css'; // Path to the header's CSS
+                    document.head.appendChild(headerStylesheet);
+                });
+
+            // Load Footer and its CSS
+            fetch('Footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('footer').innerHTML = data;
+
+                    // Dynamically add the footer CSS
+                    const footerStylesheet = document.createElement('link');
+                    footerStylesheet.rel = 'stylesheet';
+                    footerStylesheet.href = 'Footer.css'; // Path to the footer's CSS
+                    document.head.appendChild(footerStylesheet);
+                });
+        });
+    </script>
 
     <script src="Sets_Page.js"></script>
 </body>
