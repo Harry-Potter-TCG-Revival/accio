@@ -1877,7 +1877,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             title: "Potions",
-            starter: "Igor Karkaroff",
+            starter: "Hermione, Potion Maker",
             jumpstart: [
                 "Potions Dungeon",
                 "Knight Bus Ride",
