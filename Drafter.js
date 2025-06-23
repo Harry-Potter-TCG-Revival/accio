@@ -29,7 +29,7 @@ const cardList = [
     { name: 'Gifts of Gold', rarity: 'C', isHorizontal: false, imageFile: 'GiftsOfGold.png', cost: 4, type: 'C', draftValue: 4, setName: 'The World Cup' },
     { name: 'Lantern Lit Trail', rarity: 'R', isHorizontal: true, imageFile: 'LanternLitTrail.png', cost: 4, type: 'C', draftValue: 5, setName: 'The World Cup' },
     { name: 'Leprechaun Gold', rarity: 'U', isHorizontal: true, imageFile: 'LeprechaunGold.png', cost: 2, type: 'C', draftValue: 3.5, setName: 'The World Cup' },
-    { name: 'WinkysEmptySeat', rarity: 'C', isHorizontal: true, imageFile: 'WinkysEmptySeat.png', cost: 4, type: 'C', draftValue: 4, setName: 'The World Cup' },
+    { name: 'Winkys Empty Seat', rarity: 'C', isHorizontal: false, imageFile: 'WinkysEmptySeat.png', cost: 4, type: 'C', draftValue: 4, setName: 'The World Cup' },
     { name: 'Prior Incantato', rarity: 'C', isHorizontal: false, imageFile: 'PriorIncantato.png', cost: 6, type: 'C', draftValue: 3, setName: 'The World Cup' },
     { name: 'Quick Camp Kit', rarity: 'U', isHorizontal: true, imageFile: 'QuickCampKit.png', cost: 5, type: 'C', draftValue: 3, setName: 'The World Cup' },
     { name: 'Campfire Stories', rarity: 'U', isHorizontal: true, imageFile: 'CampfireStories.png', cost: 8, type: 'U', draftValue: 3.5, setName: 'The World Cup' },
