@@ -77,7 +77,7 @@ const cardList = [
     { name: 'Portkey', rarity: 'U', isHorizontal: false, imageFile: 'Portkey.png', cost: 8, type: 'T', draftValue: 3, setName: 'The World Cup' },
     { name: 'Touring the Tents', rarity: 'R', isHorizontal: true, imageFile: 'TouringTheTents.png', cost: 4, type: 'T', draftValue: 4, setName: 'The World Cup' },
     { name: 'Connolly and Quigley, Irish Beaters', rarity: 'R', isHorizontal: true, imageFile: 'ConnollyAndQuigleyIrishBeaters.png', cost: 0, type: 'Character', draftValue: 1.5, setName: 'The World Cup' },
-    { name: 'Moran, Irish Seeker', rarity: 'R', isHorizontal: true, imageFile: 'MoranIrishSeeker.png', cost: 0, type: 'Character', draftValue: 5, setName: 'The World Cup' },
+    { name: 'Lynch, Irish Seeker', rarity: 'R', isHorizontal: true, imageFile: 'LynchIrishSeeker.png', cost: 0, type: 'Character', draftValue: 5, setName: 'The World Cup' },
     { name: 'Ginny, Youngest Weasley', rarity: 'R', isHorizontal: true, imageFile: 'GinnyYoungestWeasley.png', cost: 0, type: 'Character', draftValue: 3.5, setName: 'The World Cup' },
     { name: 'Krum, Bulgarian Seeker', rarity: 'R', isHorizontal: true, imageFile: 'KrumBulgarianSeeker.png', cost: 0, type: 'Character', draftValue: 5, setName: 'The World Cup' },
     { name: 'Ludo Bagman', rarity: 'R', isHorizontal: true, imageFile: 'LudoBagman.png', cost: 0, type: 'Character', draftValue: 4.5, setName: 'The World Cup' },
