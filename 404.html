@@ -45,36 +45,29 @@
 
         <!-------------------------------------------------------- Scripts ------------------------------------------------------------>
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            // Load Header and its CSS
-            fetch('Header.html')
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('header').innerHTML = data;
-                    
-                    // Dynamically add the header CSS
-                    const headerStylesheet = document.createElement('link');
-                    headerStylesheet.rel = 'stylesheet';
-                    headerStylesheet.href = 'Header.css'; // Path to the header's CSS
-                    document.head.appendChild(headerStylesheet);
-                });
+    document.addEventListener('DOMContentLoaded', function () {
+        // Load Header and Footer
+        Promise.all([
+            fetch('Header.html').then(res => res.text()),
+            fetch('Footer.html').then(res => res.text())
+        ]).then(([headerData, footerData]) => {
+            document.getElementById('header').innerHTML = headerData;
+            document.getElementById('footer').innerHTML = footerData;
 
-            // Load Footer and its CSS
-            fetch('Footer.html')
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('footer').innerHTML = data;
+            // Add styles
+            const headerCSS = document.createElement('link');
+            headerCSS.rel = 'stylesheet';
+            headerCSS.href = 'Header.css';
+            document.head.appendChild(headerCSS);
 
-                    // Dynamically add the footer CSS
-                    const footerStylesheet = document.createElement('link');
-                    footerStylesheet.rel = 'stylesheet';
-                    footerStylesheet.href = 'Footer.css'; // Path to the footer's CSS
-                    document.head.appendChild(footerStylesheet);
-                });
+            const footerCSS = document.createElement('link');
+            footerCSS.rel = 'stylesheet';
+            footerCSS.href = 'Footer.css';
+            document.head.appendChild(footerCSS);
         });
-    </script>
-    
-        <script src="404.js"></script>
+    });
+</script>
+
     </body>
 </html>
 
