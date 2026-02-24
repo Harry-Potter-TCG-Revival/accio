@@ -3,6 +3,17 @@ import { cards } from './cards.js';
 let currentPage = 1;
 const cardsPerPage = 20;
 
+const rarityAbbreviations = {
+    "L": "Lesson",
+    "C": "Common",
+    "U": "Uncommon",
+    "R": "Rare",
+    "F": "Full Premium",
+    "H": "Holo Portrait Premium",
+    "P": ["Foil Premium","Holo Portrait Premium"]
+}
+
+
 const setAbbreviations = {
     "HAH": "Hogwarts a History",
     "GOF": "Goblet of Fire",
@@ -18,6 +29,8 @@ const setAbbreviations = {
     "PRO": "Promotional",
     "QWF": "Quidditch World Finals"
 };
+
+const classicSetKeys = ["QC", "DA", "AAH", "COS", "B"]
 
 document.addEventListener('DOMContentLoaded', function() {
     // Get the URL parameters
@@ -210,7 +223,32 @@ function filterCard(card, terms) {
                     break;
                 case 'r':
                 case 'rarity':
-                    if (!card.rarity?.toLowerCase().includes(query)) {
+                    const rarity = card.rarity?.toLowerCase();
+                    if (!rarity) {
+                        queryCheck = false;
+                        break;
+                    }
+
+                    const rarityAbbreviation = Object.keys(rarityAbbreviations)
+                        .find(abbr => {
+                            const value = rarityAbbreviations[abbr];
+                            if (Array.isArray(value)) {
+                                return value.some(v => v.toLowerCase() === rarity);
+                            }
+                            return value.toLowerCase() === rarity;
+                        });
+
+                    // Handle "premium" query separately
+                    const isPremiumQuery = query === "p" || query === "premium";
+
+                    const matches =
+                        rarity === query ||                    // exact match
+                        (rarityAbbreviation?.toLowerCase() === query) || // matches abbreviation key
+                        (isPremiumQuery && Array.isArray(rarityAbbreviations["P"]) && 
+                            rarityAbbreviations["P"].some(v => v.toLowerCase() === rarity)
+                        );
+
+                    if (!matches) {
                         queryCheck = false;
                     }
                     break;
@@ -230,9 +268,26 @@ function filterCard(card, terms) {
                 case 's':
                 case 'set':
                 case 'setname':
-                    let _setName = card.setName?.toLowerCase();
-                    let _setAbbreviation = Object.keys(setAbbreviations).find(abbr => setAbbreviations[abbr].toLowerCase() === _setName);
-                    if (!(_setName.includes(query) || _setAbbreviation.toLowerCase() === query)) {
+                    let setName = card.setName?.toLowerCase();
+                    let setAbbreviation = Object.keys(setAbbreviations).find(abbr => setAbbreviations[abbr].toLowerCase() === setName);
+
+                    const queryLower = query.toLowerCase();
+
+                    if (["classic", "o5"].includes(queryLower)) {
+                        if (!classicSetKeys.includes(setAbbreviation)) {
+                            queryCheck = false
+                        }
+                        break;
+                    }
+
+                    if (["revival", "modern"].includes(queryLower)) {
+                        if (classicSetKeys.includes(setAbbreviation)) {
+                            queryCheck = false
+                        }
+                        break;
+                    }
+
+                    if (!(setName.includes(query) || setAbbreviation.toLowerCase() === query)) {
                         queryCheck = false;
                     }
                     break;
