@@ -8,7 +8,7 @@ const rarityAbbreviations = {
     "C": "Common",
     "U": "Uncommon",
     "R": "Rare",
-    "F": "Full Premium",
+    "F": "Foil Premium",
     "H": "Holo Portrait Premium",
     "P": ["Foil Premium","Holo Portrait Premium"]
 }
