@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const types = ["Adventure", "Character", "Creature", "Event", "Item", "Lesson", "Location", "Match", "Spell"];
     const keywords = ["Abraxan", "Beauxbaton", "Beetle", "Crab", "Dustbin", "Durmstrang", "Game", "Ingredient", "Plimpy", "Tebo","Wizard", "Unique", "Slytherin", "Dog", "Money", "Seeker", "Gryffindor", "Witch", "Healing", "Ghost", "Dragon", "Cauldron", "Squid", "Gargoyle", "Bat", "Candy", "Chimaera", "Broom", "Hufflepuff", "Ravenclaw", "Unicorn", "Owl", "Troll", "Cat", "Wand", "Kelpie", "Toad", "Snake", "Bird", "Spider", "Rat", "Deer", "Wolf", "Chaser", "Capybara", "Phoenix", "Plant", "Manticore", "Porcupine", "Password", "Ghoul", "Gnome", "Lion", "Book", "Badger", "Eagle", "Ferret", "Goblin", "Beetle Eyes", "Eel Eyes", "Quintaped", "Boar", "Dark", "Marauder", "Beater", "Character Creature", "Werewolf", "Keeper", "Animagus", "Patronus", "Ministry", "Divination", "Revelation", "Centaur", "Dementor", "Newt", "Hinkypunk", "Hippogriff", "Advanced", "Headmaster", "House-elf", "Pixie", "Clothes", "Rooster", "Armour", "Cockatrice", "Boggart", "Red Cap", "Fairy", "Fox", "Snail", "Hogsmeade"];
-    const sets = ["Base", "Quidditch Cup", "Diagon Alley", "Adventures at Hogwarts", "Chamber of Secrets", "Heir of Slytherin", "Prisoner of Azkaban", "Streets of HogsMeade", "Echoes of the Past", "Promotional", "Hogwarts a History", "Goblet of Fire", "Quidditch World Finals"];
+    const sets = ["Classic", "Revival", "Base", "Quidditch Cup", "Diagon Alley", "Adventures at Hogwarts", "Chamber of Secrets", "Heir of Slytherin", "Prisoner of Azkaban", "Streets of HogsMeade", "Echoes of the Past", "Promotional", "Hogwarts a History", "Goblet of Fire", "Quidditch World Finals"];
 
     function setupMultiSelect(inputId, options, multiSelectId, selectedContainerId) {
         const input = document.getElementById(inputId);
@@ -74,6 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const tranCheckbox = document.getElementById('TranCheckBox').checked;
         const ppcInput = document.getElementById('PPCInput').value.trim();
         const statsInput = document.getElementById('StatsInput').value.trim();
+        const lessonCheckbox = document.getElementById('LessonCheckBox').checked;
         const commonCheckbox = document.getElementById('CommonCheckBox').checked;
         const uncommonCheckbox = document.getElementById('UncommonCheckBox').checked;
         const rareCheckbox = document.getElementById('RareCheckBox').checked;
@@ -106,6 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (selectedSets.length > 0) searchQuery.push(selectedSets.map(itm => `set:${quoteIfNeeded(itm)}`).join(" | "));
 
         let rarityValues = [];
+        if (lessonCheckbox) rarityValues.push('Lesson');
         if (commonCheckbox) rarityValues.push('Common');
         if (uncommonCheckbox) rarityValues.push('Uncommon');
         if (rareCheckbox) rarityValues.push('Rare');
