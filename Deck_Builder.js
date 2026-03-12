@@ -14,6 +14,27 @@ let MainSide = 0;
 //********************************************************* Function Definitions ******************************************************//
 //*************************************************************************************************************************************//
 
+function loadCardImage(imgElement, fileName) {
+
+    const folders = ['cardimages', 'cardimages2', 'cardimages3'];
+    let index = 0;
+
+    function tryNext() {
+
+        if (index < folders.length) {
+            imgElement.src = folders[index] + '/' + fileName;
+            index++;
+        } else {
+            imgElement.onerror = null;
+            imgElement.src = 'images/card-back@3x.png';
+        }
+
+    }
+
+    imgElement.onerror = tryNext;
+
+    tryNext();
+}
 
 //*************************************************************************************************************************************//
 //********************************************************* Filter Functions ******************************************************//
@@ -160,7 +181,7 @@ let MainSide = 0;
         button.setAttribute('data-img-src', card.imgSrc);       // Store image source
 
         const img = document.createElement("img");
-        img.src = `./cardimages/${card.imgSrc.replace(/[_-]/, '')}`; // Set image source
+        loadCardImage(img, card.imgSrc.replace(/[_-]/, '')); // Set image source
         button.appendChild(img);
 
          // Create the top-right box with background image
@@ -599,7 +620,7 @@ let MainSide = 0;
     
         // On mouse enter, show the large card preview
         cardElement.addEventListener('mouseenter', function () {
-            previewImage.src = `./cardimages/${cardImageSrc}`; // Set the large image source
+            loadCardImage(previewImage, cardImageSrc); // Set the large image source
             largeCardPreview.style.display = 'block'; // Show the preview
     
             // Rotate the image if the card is horizontal (sideways)
@@ -791,7 +812,7 @@ let MainSide = 0;
     
         cardElement.addEventListener('mouseenter', () => {
             if (cardImageSrc) {
-                hoverImage.src = `./cardimages/${cardImageSrc}`;
+                loadCardImage(hoverImage, cardImageSrc);
                 hoverPreview.style.display = 'block';
     
                 // Handle scaling and rotation

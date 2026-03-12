@@ -1,5 +1,28 @@
 import { cards } from './cards.js';
 
+function loadCardImage(imgElement, fileName) {
+
+    const folders = ['cardimages', 'cardimages2', 'cardimages3'];
+    let index = 0;
+
+    function tryNext() {
+
+        if (index < folders.length) {
+            imgElement.src = folders[index] + '/' + fileName;
+            index++;
+        } else {
+            imgElement.onerror = null;
+            imgElement.src = 'images/card-back@3x.png';
+        }
+
+    }
+
+    imgElement.onerror = tryNext;
+
+    tryNext();
+}
+
+
 document.addEventListener('DOMContentLoaded', function() {
     
 
@@ -75,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function displayCard(card) {
         const cardImage = document.getElementById('card-image');
-        cardImage.src = 'cardimages/' + card.imgSrc || 'images/card-back@3x.png';
+        loadCardImage(cardImage, card.imgSrc)
 
         if (card.horizontal) {
             cardImage.classList.add('horizontal');

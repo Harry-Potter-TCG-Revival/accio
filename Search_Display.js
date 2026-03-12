@@ -3,6 +3,29 @@ import { cards } from './cards.js';
 let currentPage = 1;
 const cardsPerPage = 20;
 
+function loadCardImage(imgElement, fileName) {
+
+    const folders = ['cardimages', 'cardimages2', 'cardimages3'];
+    let index = 0;
+
+    function tryNext() {
+
+        if (index < folders.length) {
+            imgElement.src = folders[index] + '/' + fileName;
+            index++;
+        } else {
+            imgElement.onerror = null;
+            imgElement.src = 'images/card-back@3x.png';
+        }
+
+    }
+
+    imgElement.onerror = tryNext;
+
+    tryNext();
+}
+
+
 const rarityAbbreviations = {
     "L": "Lesson",
     "C": "Common",
@@ -381,7 +404,7 @@ function displayFilteredCards(cards, page) {
             }
 
             const imgElement = document.createElement('img');
-            imgElement.src = 'cardimages/' + card.imgSrc;
+            loadCardImage(imgElement, card.imgSrc);
             imgElement.alt = card.name;
             cardElement.appendChild(imgElement);
 

@@ -1,5 +1,27 @@
 import { cards } from './cards.js';
 
+function loadCardImage(imgElement, fileName) {
+
+    const folders = ['cardimages', 'cardimages2', 'cardimages3'];
+    let index = 0;
+
+    function tryNext() {
+
+        if (index < folders.length) {
+            imgElement.src = folders[index] + '/' + fileName;
+            index++;
+        } else {
+            imgElement.onerror = null;
+            imgElement.src = 'images/card-back@3x.png';
+        }
+
+    }
+
+    imgElement.onerror = tryNext;
+
+    tryNext();
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('Home_Page_Search_Bar');
     const searchString = document.getElementById('search_input');
@@ -20,15 +42,16 @@ document.addEventListener('DOMContentLoaded', function() {
     // Update floating cards with random images and add click event listeners
     floatingCards.forEach((cardElement, index) => {
         const card = randomCards[index];
-        const imagePath = 'cardimages/' + card.imgSrc;
         const cardName = card.name;
         
         // Add 'horizontal' class if the card has the horizontal property set to true
         if (card.horizontal) {
             cardElement.classList.add('horizontal');
         }
-
-        cardElement.querySelector('img').src = imagePath;
+        
+        img = cardElement.querySelector('img').src;
+        
+        loadCardImage(img, card.imgSrc);
 
         cardElement.addEventListener('click', function() {
             const url = `Card_Display.html?card=${encodeURIComponent(cardName)}`;
