@@ -50,7 +50,8 @@ const setAbbreviations = {
     "SOH": "Streets of HogsMeade",
     "EOTP": "Echoes of the Past",
     "PRO": "Promotional",
-    "QWF": "Quidditch World Finals"
+    "QWF": "Quidditch World Finals",
+    "LM1": "Lost Magic 1"
 };
 
 const classicSetKeys = ["QC", "DA", "AAH", "COS", "B"]
@@ -292,7 +293,7 @@ function filterCard(card, terms) {
                 case 'set':
                 case 'setname':
                     let setName = card.setName?.toLowerCase();
-                    let setAbbreviation = Object.keys(setAbbreviations).find(abbr => setAbbreviations[abbr].toLowerCase() === setName);
+                    let setAbbreviation = Object.keys(setAbbreviations).find(abbr => setAbbreviations[abbr].toLowerCase() === setName) || "";
 
                     const queryLower = query.toLowerCase();
 
