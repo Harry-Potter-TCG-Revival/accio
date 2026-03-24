@@ -311,7 +311,7 @@ function filterCard(card, terms) {
                         break;
                     }
 
-                    if (!(setName.includes(query) || setAbbreviation.toLowerCase() === query)) {
+                    if (!(setName.includes(query) || (setAbbreviation || '').toLowerCase() === query)) {
                         queryCheck = false;
                     }
                     break;
