@@ -228,6 +228,7 @@ html, body {
 
 
 /* -----------------------------------Sets Rows----------------------------------------- */
+.Sets_Page_Body_Grid_LM1,
 .Sets_Page_Body_Grid_GOF,
 .Sets_Page_Body_Grid_Promo,
 .Sets_Page_Body_Grid_SOH,
@@ -241,6 +242,8 @@ html, body {
     background-color: rgba(255, 255, 255, 1); /* Set the background color */
 }
 
+
+.Sets_Page_Body_Grid_QWF,
 .Sets_Page_Body_Grid_HAH,
 .Sets_Page_Body_Grid_EOTP,
 .Sets_Page_Body_Grid_POA,

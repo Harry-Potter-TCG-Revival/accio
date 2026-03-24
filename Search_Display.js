@@ -50,7 +50,8 @@ const setAbbreviations = {
     "SOH": "Streets of HogsMeade",
     "EOTP": "Echoes of the Past",
     "PRO": "Promotional",
-    "QWF": "Quidditch World Finals"
+    "QWF": "Quidditch World Finals",
+    "LM1": "Lost Magic 1"
 };
 
 const classicSetKeys = ["QC", "DA", "AAH", "COS", "B"]
