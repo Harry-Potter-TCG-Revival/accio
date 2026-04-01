@@ -23468,6 +23468,9 @@ export const cards = [
       "Character"
     ],
     "subTypes": [
+      "Wizard",
+      "Ireland",
+      "Seeker",
       "Unique"
     ],
     "effect": [
