@@ -17466,9 +17466,11 @@
     },
     {
         "name": "Moony",
-        "type": [],
+        "type": [
+            "Character",
+            "Creature"
+        ],
         "subTypes": [
-            "Character Creature",
             "Werewolf",
             "Marauder",
             "Unique"
@@ -17534,9 +17536,11 @@
     },
     {
         "name": "Padfoot",
-        "type": [],
+        "type": [
+            "Character",
+            "Creature"
+        ],
         "subTypes": [
-            "Character Creature",
             "Animagus",
             "Marauder",
             "Unique"
@@ -17811,9 +17815,11 @@
     },
     {
         "name": "Wormtail",
-        "type": [],
+        "type": [
+            "Character",
+            "Creature"
+        ],
         "subTypes": [
-            "Character Creature",
             "Animagus",
             "Marauder",
             "Unique"
@@ -17845,9 +17851,11 @@
     },
     {
         "name": "Animagus",
-        "type": [],
+        "type": [
+            "Character",
+            "Creature"
+        ],
         "subTypes": [
-            "Character Creature",
             "Animagus"
         ],
         "effect": [
@@ -21883,10 +21891,12 @@
         "lesson": [
             "Transfiguration"
         ],
-        "type": [],
+        "type": [
+            "Creature",
+            "Item"
+        ],
         "subTypes": [
-            "Creature Item",
-            "Dustbin"
+            "Dustbins"
         ],
         "effect": [
             "Before your turn, you may discard a card from your hand. If you do not, Aggressive Dustbins does no damage this turn."
@@ -21989,7 +21999,7 @@
     {
         "name": "Bubotuber Pus",
         "Legality": "legal",
-        "cost": 4,
+        "cost": 2,
         "lesson": [
             "Potions"
         ],
@@ -25584,9 +25594,8 @@
         "lesson": [
             "Potions"
         ],
-        "type": [],
+        "type": ["Location"],
         "subTypes": [
-            "Location ",
             "Unique"
         ],
         "effect": [

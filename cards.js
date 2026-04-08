@@ -17466,9 +17466,11 @@ export const cards = [
   },
   {
     "name": "Moony",
-    "type": [],
+    "type": [
+            "Character",
+            "Creature"
+        ],
     "subTypes": [
-      "Character Creature",
       "Werewolf",
       "Marauder",
       "Unique"
@@ -17534,9 +17536,11 @@ export const cards = [
   },
   {
     "name": "Padfoot",
-    "type": [],
+    "type": [
+      "Character",
+      "Creature"
+        ],
     "subTypes": [
-      "Character Creature",
       "Animagus",
       "Marauder",
       "Unique"
@@ -17811,9 +17815,11 @@ export const cards = [
   },
   {
     "name": "Wormtail",
-    "type": [],
+    "type": [
+      "Character",
+      "Creature"
+        ],
     "subTypes": [
-      "Character Creature",
       "Animagus",
       "Marauder",
       "Unique"
@@ -17845,9 +17851,11 @@ export const cards = [
   },
   {
     "name": "Animagus",
-    "type": [],
+    "type": [
+      "Character",
+      "Creature"
+        ],
     "subTypes": [
-      "Character Creature",
       "Animagus"
     ],
     "effect": [
@@ -21883,10 +21891,12 @@ export const cards = [
     "lesson": [
       "Transfiguration"
     ],
-    "type": [],
+    "type": [
+      "Creature",
+      "Item"
+    ],
     "subTypes": [
-      "Creature Item",
-      "Dustbin"
+      "Dustbins"
     ],
     "effect": [
       "Before your turn, you may discard a card from your hand. If you do not, Aggressive Dustbins does no damage this turn."
@@ -21989,7 +21999,7 @@ export const cards = [
   {
     "name": "Bubotuber Pus",
     "Legality": "legal",
-    "cost": 4,
+    "cost": 2,
     "lesson": [
       "Potions"
     ],
@@ -25587,9 +25597,8 @@ export const cards = [
     "lesson": [
       "Potions"
     ],
-    "type": [],
+    "type": ["Location"],
     "subTypes": [
-      "Location ",
       "Unique"
     ],
     "effect": [
