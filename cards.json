@@ -25966,4 +25966,30 @@
         "horizontal": true,
         "imgSrc": "UnconsciousTroll.png"
     }
+        {
+        "name": "Triwizard Cup",
+        "Legality": "legal",
+        "draftValue": 4,
+        "cost": "4",
+        "lesson": [
+            "Transfiguration"
+        ],
+        "type": [
+            "Item"
+        ],
+        "subTypes": [
+            "Unique"
+        ],
+        "effect": [
+            "Your first non-Lesson card each turn needs 3 less Power to play. Whenever you play your first non-Lesson card each turn, choose an opponent. They may choose 1: Draw a card. Do 2 damage to a player. Put up to 2 non-Healing cards from their discard pile on the bottom of their deck."
+        ],
+        "artist": "Unknown",
+        "setName": "Triwizard Cup",
+        "number": "19",
+        "releaseDate": "08-2026",
+        "rarity": "Rare",
+        "rulings": [],
+        "horizontal": true,
+        "imgSrc": "TriwizardCup.png"
+    }
 ]
