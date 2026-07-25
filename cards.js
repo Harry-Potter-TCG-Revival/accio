@@ -25968,5 +25968,29 @@ export const cards = [
     "rulings": [],
     "horizontal": true,
     "imgSrc": "UnconsciousTroll.png"
-  }
+  },
+  {
+    "name": "Triwizard Cup",
+    "cost": "4",
+    "lesson": [
+      "Transfiguration"
+    ],
+    "type": [
+      "Item"
+    ],
+    "subTypes": [
+      "Unique"
+    ],
+    "effect": [
+      "Choose 1, then each opponent may discard 1 of their Lessons from play. If they do, they choose 1: Search your deck for an Event card and put it into play, then shuffle your deck. Trade a card in your hand with a card in your Sideboard. Draw 3 cards."
+    ],
+    "artist": "Unknown",
+    "setName": "Triwizard Cup",
+    "number": "19",
+    "releaseDate": "08-2026",
+    "rarity": "Rare",
+    "rulings": [],
+    "horizontal": true,
+    "imgSrc": "TriwizardCup.png"
+  },
 ]
