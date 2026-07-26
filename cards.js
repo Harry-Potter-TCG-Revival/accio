@@ -25993,4 +25993,49 @@ export const cards = [
     "horizontal": true,
     "imgSrc": "TriwizardCup.png"
   },
+    {
+    "name": "Accio Firebolt",
+    "Legality": "legal",
+    "draftValue": 3,
+    "cost": "1",
+    "lesson": [
+      "Quidditch"
+    ],
+    "type": [
+      "Spell"
+    ],
+    "effect": [
+      "Search your deck for an Item card, reveal it, and put it into your hand. Then shuffle your deck."
+    ],
+    "artist": "MartinTenbones",
+    "setName": "Triwizard Tournament",
+    "number": "43",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": false,
+    "imgSrc": "AccioFirebolt.png"
+  },    {
+    "name": "ImpressiveFlying",
+    "Legality": "legal",
+    "draftValue": 3,
+    "cost": "5",
+    "lesson": [
+      "Quidditch"
+    ],
+    "type": [
+      "Spell"
+    ],
+    "effect": [
+      "Do 2 damage to an opponent. The next Q Spell you play this turn needs 3 less Power to play."
+    ],
+    "artist": "ReallyCorking",
+    "setName": "Triwizard Tournament",
+    "number": "57",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": false,
+    "imgSrc": "ImpressiveFlying.png"
+  }
 ]
