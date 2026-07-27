@@ -26015,8 +26015,9 @@ export const cards = [
     "rulings": [],
     "horizontal": false,
     "imgSrc": "AccioFirebolt.png"
-  },    {
-    "name": "ImpressiveFlying",
+  },
+    {
+    "name": "Impressive Flying",
     "Legality": "legal",
     "draftValue": 3,
     "cost": "5",
@@ -26037,5 +26038,28 @@ export const cards = [
     "rulings": [],
     "horizontal": false,
     "imgSrc": "ImpressiveFlying.png"
+  },
+    {
+    "name": "Searching the Lake",
+    "Legality": "legal",
+    "draftValue": 3,
+    "cost": "7",
+    "lesson": [
+      "Potions"
+    ],
+    "type": [
+      "Spell"
+    ],
+    "effect": [
+      "Choose 1, then each opponent may discard 1 of their Lessons from play. If they do, they choose 1: Choose up to 12 non-Healing cards in your discard pile and shuffle them into your deck. Put up to 2 non-Healing cards from your discard pile into your hand. Draw 3 cards."
+    ],
+    "artist": "Orlaith",
+    "setName": "Triwizard Tournament",
+    "number": "14",
+    "releaseDate": "08-2026",
+    "rarity": "Rare",
+    "rulings": [],
+    "horizontal": false,
+    "imgSrc": "SearchingTheLake.png"
   }
 ]
