@@ -26061,5 +26061,29 @@ export const cards = [
     "rulings": [],
     "horizontal": false,
     "imgSrc": "SearchingTheLake.png"
+  },
+  {
+    "name": "Cedric, Hogwarts Champion",
+    "Legality": "legal",
+    "draftValue": 5,
+    "type": [
+      "Character"
+    ],
+    "subTypes": [
+      "Wizard",
+      "Hufflepuff",
+      "Unique"
+    ],
+    "effect": [
+      "Once per turn, you may discard 2 cards from your hand. If you do, search your deck for a card with printed Power cost equal to one of the discarded cards, reveal it, and put it into your hand. Then shuffle your deck."
+    ],
+    "artist": "Paolo Maria Breda",
+    "setName": "Triwizard Tournament",
+    "number": "1",
+    "releaseDate": "08-2026",
+    "rarity": "Rare",
+    "rulings": [],
+    "horizontal": true,
+    "imgSrc": "CedricHogwartsChampion.png"
   }
 ]
