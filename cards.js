@@ -26085,5 +26085,31 @@ export const cards = [
     "rulings": [],
     "horizontal": true,
     "imgSrc": "CedricHogwartsChampion.png"
+  },
+  {
+    "name": "Fleur's Wand",
+    "cost": "3",
+    "lesson": [
+      "Charms"
+    ],
+    "type": [
+      "Item"
+    ],
+    "subTypes": [
+      "Wand",
+      "Beauxbatons",
+      "Unique"
+    ],
+    "effect": [
+      "Once per turn, you may use an Action to look at the top 6 cards of your deck. You may reveal a card that shares a Keyword (except Unique) with at least 6 of your cards in play and/or your discard pile, and put it into your hand. Put the rest on the bottom of your deck in any order. Then you may play that card without using any Actions."
+    ],
+    "artist": "LizzuChrome",
+    "setName": "Triwizard Cup",
+    "number": "27",
+    "releaseDate": "08-2026",
+    "rarity": "Uncommon",
+    "rulings": [],
+    "horizontal": true,
+    "imgSrc": "FleursWand.png"
   }
 ]
