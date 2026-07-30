@@ -26111,5 +26111,33 @@
         "rulings": [],
         "horizontal": true,
         "imgSrc": "FleursWand.png"
+    },
+    {
+        "name": "Merchieftainess Murcus",
+        "cost": "7",
+        "lesson": [
+            "Care of Magical Creatures"
+        ],
+        "type": [
+            "Creature"
+        ],
+        "subTypes": [
+            "Merperson",
+            "Unique"
+        ],
+        "effect": [
+            "To play this card, return 3 of your Care of Magical Creatures Lessons from play to your hand. Once per turn, when you play a Lesson card, you may count the number of Creatures in play (yours and opponents'). Do that much damage to each opponent."
+        ],
+        "dmgEachTurn": "3",
+        "health": "8",
+        "flavorText": " ",
+        "artist": "Kristina Anishchenko",
+        "setName": "Triwizard Tournament",
+        "number": "10",
+        "releaseDate": "08-2026",
+        "rarity": "Rare",
+        "rulings": [],
+        "horizontal": true,
+        "imgSrc": "MerchieftainessMurcus.png"
     }
 ]
