@@ -26140,4 +26140,31 @@ export const cards = [
     "horizontal": true,
     "imgSrc": "MerchieftainessMurcus.png"
   },
+  {
+    "name": "Hugnarian Horntail",
+    "cost": "8",
+    "lesson": [
+      "Care of Magical Creatures"
+    ],
+    "type": [
+      "Creature"
+    ],
+    "subTypes": [
+      "Dragon"
+    ],
+    "effect": [
+      "To play this card, return 2 of your F lessons in play to your hand. At the end of each of your turns, do 2 damage to all Creatures and players."
+    ],
+    "damagePerTurn": "7",
+    "health": 11",
+    "flavorText": " ",
+    "artist": "maryquize",
+    "setName": "Triwizard Tournament",
+    "number": "30",
+    "releaseDate": "08-2026",
+    "rarity": "Rare",
+    "rulings": [],
+    "horizontal": true,
+    "imgSrc": "HungarianHorntail.png"
+  }
 ]
