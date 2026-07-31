@@ -26141,7 +26141,7 @@ export const cards = [
     "imgSrc": "MerchieftainessMurcus.png"
   },
   {
-    "name": "Hugnarian Horntail",
+    "name": "Hungarian Horntail",
     "cost": "8",
     "lesson": [
       "Care of Magical Creatures"
