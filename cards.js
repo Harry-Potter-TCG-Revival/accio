@@ -26156,7 +26156,7 @@ export const cards = [
       "To play this card, return 2 of your F lessons in play to your hand. At the end of each of your turns, do 2 damage to all Creatures and players."
     ],
     "damagePerTurn": "7",
-    "health": 11",
+    "health": "11",
     "flavorText": " ",
     "artist": "maryquize",
     "setName": "Triwizard Tournament",
