@@ -27215,5 +27215,607 @@ export const cards = [
     "rulings": [],
     "horizontal": true,
     "imgSrc": "ChineseFireball.png"
+  },
+    {
+    "name": "Choose Your Dragon",
+    "Legality": "legal",
+    "draftValue": 3,
+    "cost": "2",
+    "lesson": [
+      "Charms"
+    ],
+    "type": [
+      "Spell"
+    ],
+    "effect": [
+      "Discard the top 3 cards of your deck. You may put a card from among them into your hand. If you put a Lesson card into your hand, you get an extra Action this turn."
+    ],
+    "artist": "Bryce Brewer",
+    "setName": "Triwizard Tournament",
+    "number": "50",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": false,
+    "imgSrc": "ChooseYourDragon.png"
+  },
+    {
+    "name": "Dragon's Fire",
+    "Legality": "legal",
+    "draftValue": 3,
+    "cost": "8",
+    "lesson": [
+      "Care of Magical Creatures"
+    ],
+    "type": [
+      "Spell"
+    ],
+    "effect": [
+      "Choose 1 of your Creatures in play. It does damage to an opponent. If it is a Dragon, you may choose 1 of that opponent's cards in play in discard it."
+    ],
+    "artist": "SzokeKissMarton",
+    "setName": "Triwizard Tournament",
+    "number": "51",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": false,
+    "imgSrc": "DragonsFire.png"
+  },
+  {
+    "name": "Exhibition Match",
+    "cost": "1",
+    "lesson": [
+      "Quidditch"
+    ],
+    "type": [
+      "Match"
+    ],
+    "effect": [
+      "to win: Play 4 Lessons while this card is in play.",
+      "prize: Do 10 damage to an opponent."
+    ],
+    "toWin": "Play 4 Lessons while this card is in play.",
+    "prize": "Do 10 damage to an opponent.",
+    "flavorText": " ",
+    "artist": "Olivia DeBourcier",
+    "setName": "Triwizard Tournament",
+    "number": "52",
+    "releaseDate": "11-2001",
+    "rarity": "Common",
+    "horizontal": true,
+    "imgSrc": "ExhibitionMatch.png"
+  },
+  {
+    "name": "Fire Aid Tent",
+    "cost": "4",
+    "lesson": [
+      "Potions"
+    ],
+    "type": [
+      "Item"
+    ],
+    "subTypes": [
+      "Healing",
+    ],
+    "effect": [
+      "At the end of each of your turns, shuffle non-Healing cards from your discard pile up to the number of Lessons you played that turn into your deck."
+    ],
+    "artist": "Draco-Awesomeness",
+    "setName": "Triwizard Cup",
+    "number": "53",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": true,
+    "imgSrc": "FirstAidTent.png"
+  },
+  {
+    "name": "Gillyweed",
+    "cost": "3",
+    "lesson": [
+      "Potions"
+    ],
+    "type": [
+      "Item"
+    ],
+    "subTypes": [
+      "Plant",
+      "Ingredient",
+    ],
+    "effect": [
+      "Whenever you play a Lesson card, you may remove all damage counters from 1 Creature in play."
+    ],
+    "artist": "Amanda Herzman",
+    "setName": "Triwizard Cup",
+    "number": "54",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": true,
+    "imgSrc": "Gillyweed.png"
+  },
+  {
+    "name": "Golden Egg",
+    "cost": "1",
+    "lesson": [
+      "Charms"
+    ],
+    "type": [
+      "Item"
+    ],
+    "subTypes": [
+    ],
+    "effect": [
+      "Whenever you play a Lesson card, put a counter on this card. You may use an Action to count the number of counters on this card, then discard it from play. If you do, do damage to an opponent equal to that number."
+    ],
+    "artist": "Nicholas R Green",
+    "setName": "Triwizard Cup",
+    "number": "55",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": true,
+    "imgSrc": "GoldenEgg.png"
+  },
+    {
+    "name": "Grindylow Attack",
+    "Legality": "legal",
+    "draftValue": 3,
+    "cost": "8",
+    "lesson": [
+      "Transfiguration"
+    ],
+    "type": [
+      "Spell"
+    ],
+    "effect": [
+      "Search your deck. You may take a Creature card, reveal it, and put it in your hand. Then shuffle your deck. An opponent may choose and discard 2 cards from their hand. If they do not, you may put that Creature into play."
+    ],
+    "artist": "Deborah Hilbert",
+    "setName": "Triwizard Tournament",
+    "number": "56",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": false,
+    "imgSrc": "GrindylowAttack.png"
+  },
+    {
+    "name": "Impressive Flying",
+    "Legality": "legal",
+    "draftValue": 3,
+    "cost": "6",
+    "lesson": [
+      "Quidditch"
+    ],
+    "type": [
+      "Spell"
+    ],
+    "effect": [
+      "Do 2 damage to an opponent. The next Q Spell you play this turn needs 3 less Power to play."
+    ],
+    "artist": "ReallyCorking",
+    "setName": "Triwizard Tournament",
+    "number": "57",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": false,
+    "imgSrc": "ImpressiveFlying.png"
+  },
+    {
+    "name": "Leave the Others",
+    "Legality": "legal",
+    "draftValue": 3,
+    "cost": "8",
+    "lesson": [
+      "Quidditch"
+    ],
+    "type": [
+      "Spell"
+    ],
+    "effect": [
+      "Do 6 damage to an opponent. The first time you take damage on that opponent's next turn, prevent that damage."
+    ],
+    "artist": "Amr Morsi",
+    "setName": "Triwizard Tournament",
+    "number": "58",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": false,
+    "imgSrc": "LeaveTheOthers.png"
+  },
+  {
+    "name": "Maze Spider",
+    "cost": "5",
+    "lesson": [
+      "Care of Magical Creatures"
+    ],
+    "type": [
+      "Creature"
+    ],
+    "subTypes": [
+      "Spider"
+    ],
+    "effect": [
+      "When this card is discarded from your deck, you may put it into play. If you do, choose an opponent. They may put a Spell card from their discard pile into their hand."
+    ],
+    "damagePerTurn": "2",
+    "health": "3",
+    "flavorText": " ",
+    "artist": "SzokeKissMarton",
+    "setName": "Triwizard Tournament",
+    "number": "59",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": true,
+    "imgSrc": "MazeSpider.png"
+  },
+  {
+    "name": "Mermaid Painting",
+    "cost": "2",
+    "lesson": [
+      "Charms"
+    ],
+    "type": [
+      "Item"
+    ],
+    "subTypes": [
+    ],
+    "effect": [
+      "Whenever you play any number of Lesson cards, you may put that many cards from your hand on the bottom of your deck. If you do, draw that many cards."
+    ],
+    "artist": "RidiculumGlacialis",
+    "setName": "Triwizard Cup",
+    "number": "60",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": true,
+    "imgSrc": "MermaidPainting.png"
+  },
+  {
+    "name": "Merperson Guard",
+    "cost": "6",
+    "lesson": [
+      "Care of Magical Creatures"
+    ],
+    "type": [
+      "Creature"
+    ],
+    "subTypes": [
+      "Merperson"
+    ],
+    "effect": [
+      "Whenever you play a Lesson card, you may put an opponent's card in play under this card. If you do, for each other card under this card, their owner either puts it into play or discards it."
+    ],
+    "damagePerTurn": "2",
+    "health": "3",
+    "flavorText": " ",
+    "artist": "AkiruSaru95",
+    "setName": "Triwizard Tournament",
+    "number": "61",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": true,
+    "imgSrc": "MerpersonGuard.png"
+  },
+  {
+    "name": "Merperson Villager",
+    "cost": "4",
+    "lesson": [
+      "Care of Magical Creatures"
+    ],
+    "type": [
+      "Creature"
+    ],
+    "subTypes": [
+      "Merperson"
+    ],
+    "effect": [
+      "Whenever you play 1 or more Lesson cards, you may do 2 damage to an opponent."
+    ],
+    "damagePerTurn": "0",
+    "health": "2",
+    "flavorText": " ",
+    "artist": "maryquize",
+    "setName": "Triwizard Tournament",
+    "number": "62",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": true,
+    "imgSrc": "MerpersonVillager.png"
+  },
+    {
+    "name": "One Champion Down",
+    "Legality": "legal",
+    "draftValue": 3,
+    "cost": "6",
+    "lesson": [
+      "Transfiguration"
+    ],
+    "type": [
+      "Spell"
+    ],
+    "effect": [
+      "Choose an opponent's non-Character card in play and discard it. Your opponent may prevent this by choosing 1 of their Character cards from their hand or in play and discarding it."
+    ],
+    "artist": "Down-nhu-dles",
+    "setName": "Triwizard Tournament",
+    "number": "63",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": false,
+    "imgSrc": "OneChampionDown.png"
+  },
+    {
+    "name": "Outside Assistance",
+    "Legality": "legal",
+    "draftValue": 3,
+    "cost": "3",
+    "lesson": [
+      "Potions"
+    ],
+    "type": [
+      "Spell"
+    ],
+    "effect": [
+      "Look at an opponent's hand. You may choose a card from their hand and discard it. That opponent may take 5 damage. If they do, they look at your hand. They may choose a card from your hand and discard it."
+    ],
+    "artist": "Julie Graham",
+    "setName": "Triwizard Tournament",
+    "number": "64",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": false,
+    "imgSrc": "OutsideAssistance.png"
+  },
+  {
+    "name": "Rekindled Friendship",
+    "Legality": "legal",
+    "draftValue": 4,
+    "cost": "2",
+    "lesson": [
+      "Transfiguration"
+    ],
+    "type": [
+      "Event"
+    ],
+    "subTypes": [
+      "Unique"
+    ],
+    "effect": [
+      "Whenever an opponent plays a Lesson card, if they have more Lessons in play than you, you may discard this card from play. If you do, search your deck for up to 3 Lesson cards, reveal them, and put them into your hand. Then shuffle your deck."
+    ],
+    "flavorText": " ",
+    "artist": "Linndsey",
+    "setName": "Triwizard Tournament",
+    "number": "65",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": true,
+    "imgSrc": "RekindledFriendship.png"
+  },
+    {
+    "name": "Self-Transfiguration",
+    "Legality": "legal",
+    "draftValue": 3,
+    "cost": "6",
+    "lesson": [
+      "Transfiguration"
+    ],
+    "type": [
+      "Spell"
+    ],
+    "effect": [
+      "To play this card, discard 1 of your cards with a printed Power cost from play. Search your deck for a card with printed Power cost up to 2 more than the discarded card and put it into play. Then shuffle your deck."
+    ],
+    "artist": "Nasak Chancharoen",
+    "setName": "Triwizard Tournament",
+    "number": "66",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": false,
+    "imgSrc": "SelfTransfiguration.png"
+  },
+  {
+    "name": "Sphinx",
+    "cost": "6",
+    "lesson": [
+      "Care of Magical Creatures"
+    ],
+    "type": [
+      "Creature"
+    ],
+    "subTypes": [
+      "Sphinx"
+    ],
+    "effect": [
+      "Once during each opponent's turn, whenever they play a card with a printed Power cost, you may discard a card with greater printed Power cost from your hand. If you do, do 5 damage to that opponent."
+    ],
+    "damagePerTurn": "2",
+    "health": "7",
+    "flavorText": " ",
+    "artist": "maryquize",
+    "setName": "Triwizard Tournament",
+    "number": "67",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": true,
+    "imgSrc": "Sphinx.png"
+  },
+    {
+    "name": "Stupefy a Dragon",
+    "Legality": "legal",
+    "draftValue": 3,
+    "cost": "1",
+    "lesson": [
+      "Charms"
+    ],
+    "type": [
+      "Spell"
+    ],
+    "effect": [
+      "Choose a Creature in play and do 2 damage to it. If the chosen Creature is a Dragon, instead do 9 damage to it."
+    ],
+    "artist": "Marta",
+    "setName": "Triwizard Tournament",
+    "number": "68",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": false,
+    "imgSrc": "StupefyADragon.png"
+  },
+    {
+    "name": "Under Moody's Control",
+    "Legality": "legal",
+    "draftValue": 3,
+    "cost": "5",
+    "lesson": [
+      "Potions"
+    ],
+    "type": [
+      "Spell"
+    ],
+    "effect": [
+      "Do 7 damage to an opponent. Then that opponent may discard 2 of their Lessons from play and/or their hand. If they do, you take 7 damage."
+    ],
+    "artist": "generousa_carescura",
+    "setName": "Triwizard Tournament",
+    "number": "69",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": false,
+    "imgSrc": "UnderMoodysControl.png"
+  },
+    {
+    "name": "What You'll Sorely Miss",
+    "Legality": "legal",
+    "draftValue": 3,
+    "cost": "10",
+    "lesson": [
+      "Quidditch"
+    ],
+    "type": [
+      "Spell"
+    ],
+    "effect": [
+      "Choose an opponent. They discard 1 of their cards in play with the highest printed Power cost. Then they take damage equal to that card's printed Power cost."
+    ],
+    "artist": "Clud Moon",
+    "setName": "Triwizard Tournament",
+    "number": "70",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": false,
+    "imgSrc": "WhatYoullSorelyMiss.png"
+  },
+  {
+    "name": "Care of Magical Creatures, Fourth Year",
+    "type": [
+      "Lesson"
+    ],
+    "subTypes": [
+      "Advanced"
+    ],
+    "effect": [
+      "This card only provides Power for Care of Magical Creaturs cards. You may use an Action to discard this card from play. If you do, put a Creature card from your discard pile into your hand."
+    ],
+    "artist": "raitala",
+    "setName": "Triwizard Tournament",
+    "number": "71",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "horizontal": true,
+    "imgSrc": "CareOfMagicalCreautresFourthYear.png"
+  },
+  {
+    "name": "Charms, Fourth Year",
+    "type": [
+      "Lesson"
+    ],
+    "subTypes": [
+      "Advanced"
+    ],
+    "effect": [
+      "This card only provides Power for Charms cards. You may use an Action to discard this card from play. If you do, choose an opponent's Adventure in play and return it to their hand."
+    ],
+    "artist": "BlueFoxStudio",
+    "setName": "Triwizard Tournament",
+    "number": "72",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "horizontal": true,
+    "imgSrc": "CharmsFourthYear.png"
+  },
+  {
+    "name": "Potions, Fourth Year",
+    "type": [
+      "Lesson"
+    ],
+    "subTypes": [
+      "Advanced"
+    ],
+    "effect": [
+      "This card only provides Power for Potions cards. You may use an Action to discard this card from play. If you do, do 3 damage to an opponent."
+    ],
+    "artist": "BlueFoxStudio",
+    "setName": "Triwizard Tournament",
+    "number": "73",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "horizontal": true,
+    "imgSrc": "PotionsFourthYear.png"
+  },
+  {
+    "name": "Quidditch, Fourth Year",
+    "type": [
+      "Lesson"
+    ],
+    "subTypes": [
+      "Advanced"
+    ],
+    "effect": [
+      "This card only provides power for Quidditch cards. You may use an Action to discard this card from play. If you do, look at the top two cards of your deck. You may put them on the top or bottom of your deck in any order. Then you may draw a card."
+    ],
+    "artist": "Unknown",
+    "setName": "Triwizard Tournament",
+    "number": "74",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "horizontal": true,
+    "imgSrc": "QuidditchFourthYear.png"
+  },
+  {
+    "name": "Transfiguration, Fourth Year",
+    "type": [
+      "Lesson"
+    ],
+    "subTypes": [
+      "Advanced"
+    ],
+    "effect": [
+      "This card only provides Power for Transfiguration cards. You may use an Action to discard this card from play. If you do, the next card you play this turn needs 3 less Power to play."
+    ],
+    "artist": "BlueFoxStudio",
+    "setName": "Triwizard Tournament",
+    "number": "75",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "horizontal": true,
+    "imgSrc": "TransfigurationFourthYear.png"
   }
 ]
