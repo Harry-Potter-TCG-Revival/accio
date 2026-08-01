@@ -25985,7 +25985,7 @@ export const cards = [
       "Choose 1, then each opponent may discard 1 of their Lessons from play. If they do, they choose 1: Search your deck for an Event card and put it into play, then shuffle your deck. Trade a card in your hand with a card in your Sideboard. Draw 3 cards."
     ],
     "artist": "Unknown",
-    "setName": "Triwizard Cup",
+    "setName": "Triwizard Tournament",
     "number": "19",
     "releaseDate": "08-2026",
     "rarity": "Rare",
@@ -26104,7 +26104,7 @@ export const cards = [
       "Once per turn, you may use an Action to look at the top 6 cards of your deck. You may reveal a card that shares a Keyword (except Unique) with at least 6 of your cards in play and/or your discard pile, and put it into your hand. Put the rest on the bottom of your deck in any order. Then you may play that card without using any Actions."
     ],
     "artist": "LizzyChrome",
-    "setName": "Triwizard Cup",
+    "setName": "Triwizard Tournament",
     "number": "27",
     "releaseDate": "08-2026",
     "rarity": "Uncommon",
@@ -26621,7 +26621,7 @@ export const cards = [
       "Once during each of your turns, when you discard 2 or more cards from your hand, you may put 1 of the discarded cards from your discard pile on the top of your deck."
     ],
     "artist": "pinefreshhh",
-    "setName": "Triwizard Cup",
+    "setName": "Triwizard Tournament",
     "number": "22",
     "releaseDate": "08-2026",
     "rarity": "Uncommon",
@@ -26642,7 +26642,7 @@ export const cards = [
       "Whenever you discard any of your non-Advanced Lessons from play, you may put them under this card. Before each of your turns, you may put a Lesson under this card into play."
     ],
     "artist": "Sarcone",
-    "setName": "Triwizard Cup",
+    "setName": "Triwizard Tournament",
     "number": "23",
     "releaseDate": "08-2026",
     "rarity": "Uncommon",
@@ -26766,7 +26766,7 @@ export const cards = [
       "Whenever you draw 1 or more cards, except during your draw step, do 1 damage to an opponent. If you have a Harry Potter Character in play, instead do 2 damage to an opponent."
     ],
     "artist": "wasting_air",
-    "setName": "Triwizard Cup",
+    "setName": "Triwizard Tournament",
     "number": "29",
     "releaseDate": "08-2026",
     "rarity": "Uncommon",
@@ -26910,7 +26910,7 @@ export const cards = [
     "toSolve": "Your opponent discards their hand.",
     "reward": "You discard 1 card from your hand for each Lesson type your opponent has in their discard pile.",
     "artist": "Loquacious Literature",
-    "setName": "Base",
+    "setName": "Triwizard Tournament",
     "number": "36",
     "releaseDate": "08-2001",
     "rarity": "Uncommon",
@@ -26986,7 +26986,7 @@ export const cards = [
       "Whenever a card is discarded from play during your turn, do 1 damage to an opponent."
     ],
     "artist": "Renan Zevola",
-    "setName": "Triwizard Cup",
+    "setName": "Triwizard Tournament",
     "number": "39",
     "releaseDate": "08-2026",
     "rarity": "Uncommon",
@@ -27300,7 +27300,7 @@ export const cards = [
       "At the end of each of your turns, shuffle non-Healing cards from your discard pile up to the number of Lessons you played that turn into your deck."
     ],
     "artist": "Draco-Awesomeness",
-    "setName": "Triwizard Cup",
+    "setName": "Triwizard Tournament",
     "number": "53",
     "releaseDate": "08-2026",
     "rarity": "Common",
@@ -27325,7 +27325,7 @@ export const cards = [
       "Whenever you play a Lesson card, you may remove all damage counters from 1 Creature in play."
     ],
     "artist": "Amanda Herzman",
-    "setName": "Triwizard Cup",
+    "setName": "Triwizard Tournament",
     "number": "54",
     "releaseDate": "08-2026",
     "rarity": "Common",
@@ -27346,7 +27346,7 @@ export const cards = [
       "Whenever you play a Lesson card, put a counter on this card. You may use an Action to count the number of counters on this card, then discard it from play. If you do, do damage to an opponent equal to that number."
     ],
     "artist": "Nicholas R Green",
-    "setName": "Triwizard Cup",
+    "setName": "Triwizard Tournament",
     "number": "55",
     "releaseDate": "08-2026",
     "rarity": "Common",
@@ -27463,7 +27463,7 @@ export const cards = [
       "Whenever you play any number of Lesson cards, you may put that many cards from your hand on the bottom of your deck. If you do, draw that many cards."
     ],
     "artist": "RidiculumGlacialis",
-    "setName": "Triwizard Cup",
+    "setName": "Triwizard Tournament",
     "number": "60",
     "releaseDate": "08-2026",
     "rarity": "Common",
