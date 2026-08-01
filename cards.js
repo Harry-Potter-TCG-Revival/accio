@@ -26488,7 +26488,10 @@ export const cards = [
     "lesson": [
       "Care of Magical Creatures"
     ],
-    "type": ["Location"],["Creature"],
+    "type": [
+      "Location",
+      "Creature"
+        ],
     "subTypes": [
       "Plant",
       "Unique"
@@ -26635,9 +26638,6 @@ export const cards = [
     "type": [
       "Item"
     ],
-    "subTypes": [
-      
-    ],
     "effect": [
       "Whenever you discard any of your non-Advanced Lessons from play, you may put them under this card. Before each of your turns, you may put a Lesson under this card into play."
     ],
@@ -26686,8 +26686,6 @@ export const cards = [
       "Care of Magical Creatures"
     ],
     "type": ["Location"],
-    "subTypes": [
-    ],
     "effect": [
       "Whenever a player draws 1 or more cards during their turn, they may reveal them. If any of them have a printed Power cost of 8 or more, they may put a Lesson card from their hand into play."
     ],
@@ -26762,7 +26760,7 @@ export const cards = [
     "subTypes": [
       "Wand",
       "Gryffindor",
-      "Unique",
+      "Unique"
     ],
     "effect": [
       "Whenever you draw 1 or more cards, except during your draw step, do 1 damage to an opponent. If you have a Harry Potter Character in play, instead do 2 damage to an opponent."
@@ -26982,7 +26980,7 @@ export const cards = [
     "subTypes": [
       "Wand",
       "Durmstrang",
-      "Unique",
+      "Unique"
     ],
     "effect": [
       "Whenever a card is discarded from play during your turn, do 1 damage to an opponent."
@@ -27296,7 +27294,7 @@ export const cards = [
       "Item"
     ],
     "subTypes": [
-      "Healing",
+      "Healing"
     ],
     "effect": [
       "At the end of each of your turns, shuffle non-Healing cards from your discard pile up to the number of Lessons you played that turn into your deck."
@@ -27321,7 +27319,7 @@ export const cards = [
     ],
     "subTypes": [
       "Plant",
-      "Ingredient",
+      "Ingredient"
     ],
     "effect": [
       "Whenever you play a Lesson card, you may remove all damage counters from 1 Creature in play."
@@ -27343,8 +27341,6 @@ export const cards = [
     ],
     "type": [
       "Item"
-    ],
-    "subTypes": [
     ],
     "effect": [
       "Whenever you play a Lesson card, put a counter on this card. You may use an Action to count the number of counters on this card, then discard it from play. If you do, do damage to an opponent equal to that number."
@@ -27462,8 +27458,6 @@ export const cards = [
     ],
     "type": [
       "Item"
-    ],
-    "subTypes": [
     ],
     "effect": [
       "Whenever you play any number of Lesson cards, you may put that many cards from your hand on the bottom of your deck. If you do, draw that many cards."
