@@ -27755,6 +27755,25 @@ export const cards = [
     "horizontal": true,
     "imgSrc": "CharmsFourthYear.png"
   },
+   {
+    "name": "Flying, Fourth Year",
+    "type": [
+      "Lesson"
+    ],
+    "subTypes": [
+      "Advanced"
+    ],
+    "effect": [
+      "This card only provides power for Quidditch cards. You may use an Action to discard this card from play. If you do, look at the top two cards of your deck. You may put them on the top or bottom of your deck in any order. Then you may draw a card."
+    ],
+    "artist": "Unknown",
+    "setName": "Triwizard Tournament",
+    "number": "73",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "horizontal": true,
+    "imgSrc": "QuidditchFourthYear.png"
+  },
   {
     "name": "Potions, Fourth Year",
     "type": [
@@ -27768,30 +27787,11 @@ export const cards = [
     ],
     "artist": "BlueFoxStudio",
     "setName": "Triwizard Tournament",
-    "number": "73",
-    "releaseDate": "08-2026",
-    "rarity": "Common",
-    "horizontal": true,
-    "imgSrc": "PotionsFourthYear.png"
-  },
-  {
-    "name": "Quidditch, Fourth Year",
-    "type": [
-      "Lesson"
-    ],
-    "subTypes": [
-      "Advanced"
-    ],
-    "effect": [
-      "This card only provides power for Quidditch cards. You may use an Action to discard this card from play. If you do, look at the top two cards of your deck. You may put them on the top or bottom of your deck in any order. Then you may draw a card."
-    ],
-    "artist": "Unknown",
-    "setName": "Triwizard Tournament",
     "number": "74",
     "releaseDate": "08-2026",
     "rarity": "Common",
     "horizontal": true,
-    "imgSrc": "QuidditchFourthYear.png"
+    "imgSrc": "PotionsFourthYear.png"
   },
   {
     "name": "Transfiguration, Fourth Year",
