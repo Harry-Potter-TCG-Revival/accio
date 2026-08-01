@@ -25994,29 +25994,6 @@ export const cards = [
     "imgSrc": "TriwizardCup.png"
   },
     {
-    "name": "Accio Firebolt",
-    "Legality": "legal",
-    "draftValue": 3,
-    "cost": "1",
-    "lesson": [
-      "Quidditch"
-    ],
-    "type": [
-      "Spell"
-    ],
-    "effect": [
-      "Search your deck for an Item card, reveal it, and put it into your hand. Then shuffle your deck."
-    ],
-    "artist": "MartinTenbones",
-    "setName": "Triwizard Tournament",
-    "number": "43",
-    "releaseDate": "08-2026",
-    "rarity": "Common",
-    "rulings": [],
-    "horizontal": false,
-    "imgSrc": "AccioFirebolt.png"
-  },
-    {
     "name": "Impressive Flying",
     "Legality": "legal",
     "draftValue": 3,
@@ -27047,6 +27024,29 @@ export const cards = [
     "rulings": [],
     "horizontal": true,
     "imgSrc": "YuleBall.png"
+  },
+  {
+    "name": "Accio Firebolt",
+    "Legality": "legal",
+    "draftValue": 3,
+    "cost": "1",
+    "lesson": [
+      "Quidditch"
+    ],
+    "type": [
+      "Spell"
+    ],
+    "effect": [
+      "Search your deck for an Item card, reveal it, and put it into your hand. Then shuffle your deck."
+    ],
+    "artist": "MartinTenbones",
+    "setName": "Triwizard Tournament",
+    "number": "43",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": false,
+    "imgSrc": "AccioFirebolt.png"
   },
   {
     "name": "Yule Ball Garden",
