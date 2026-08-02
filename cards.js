@@ -27688,7 +27688,7 @@ export const cards = [
     "releaseDate": "08-2026",
     "rarity": "Common",
     "horizontal": true,
-    "imgSrc": "CareOfMagicalCreautresFourthYear.png"
+    "imgSrc": "CareOfMagicalCreaturesFourthYear.png"
   },
   {
     "name": "Charms, Fourth Year",
