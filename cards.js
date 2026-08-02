@@ -25970,76 +25970,6 @@ export const cards = [
     "imgSrc": "UnconsciousTroll.png"
   },
   {
-    "name": "Triwizard Cup",
-    "cost": "4",
-    "lesson": [
-      "Transfiguration"
-    ],
-    "type": [
-      "Item"
-    ],
-    "subTypes": [
-      "Unique"
-    ],
-    "effect": [
-      "Choose 1, then each opponent may discard 1 of their Lessons from play. If they do, they choose 1: Search your deck for an Event card and put it into play, then shuffle your deck. Trade a card in your hand with a card in your Sideboard. Draw 3 cards."
-    ],
-    "artist": "Unknown",
-    "setName": "Triwizard Tournament",
-    "number": "19",
-    "releaseDate": "08-2026",
-    "rarity": "Rare",
-    "rulings": [],
-    "horizontal": true,
-    "imgSrc": "TriwizardCup.png"
-  },
-    {
-    "name": "Impressive Flying",
-    "Legality": "legal",
-    "draftValue": 3,
-    "cost": "5",
-    "lesson": [
-      "Quidditch"
-    ],
-    "type": [
-      "Spell"
-    ],
-    "effect": [
-      "Do 2 damage to an opponent. The next Q Spell you play this turn needs 3 less Power to play."
-    ],
-    "artist": "ReallyCorking",
-    "setName": "Triwizard Tournament",
-    "number": "57",
-    "releaseDate": "08-2026",
-    "rarity": "Common",
-    "rulings": [],
-    "horizontal": false,
-    "imgSrc": "ImpressiveFlying.png"
-  },
-    {
-    "name": "Searching the Lake",
-    "Legality": "legal",
-    "draftValue": 3,
-    "cost": "7",
-    "lesson": [
-      "Potions"
-    ],
-    "type": [
-      "Spell"
-    ],
-    "effect": [
-      "Choose 1, then each opponent may discard 1 of their Lessons from play. If they do, they choose 1: Choose up to 12 non-Healing cards in your discard pile and shuffle them into your deck. Put up to 2 non-Healing cards from your discard pile into your hand. Draw 3 cards."
-    ],
-    "artist": "Orlaith",
-    "setName": "Triwizard Tournament",
-    "number": "14",
-    "releaseDate": "08-2026",
-    "rarity": "Rare",
-    "rulings": [],
-    "horizontal": false,
-    "imgSrc": "SearchingTheLake.png"
-  },
-  {
     "name": "Cedric, Hogwarts Champion",
     "Legality": "legal",
     "draftValue": 5,
@@ -26062,87 +25992,6 @@ export const cards = [
     "rulings": [],
     "horizontal": true,
     "imgSrc": "CedricHogwartsChampion.png"
-  },
-  {
-    "name": "Fleur's Wand",
-    "cost": "3",
-    "lesson": [
-      "Charms"
-    ],
-    "type": [
-      "Item"
-    ],
-    "subTypes": [
-      "Wand",
-      "Beauxbatons",
-      "Unique"
-    ],
-    "effect": [
-      "Once per turn, you may use an Action to look at the top 6 cards of your deck. You may reveal a card that shares a Keyword (except Unique) with at least 6 of your cards in play and/or your discard pile, and put it into your hand. Put the rest on the bottom of your deck in any order. Then you may play that card without using any Actions."
-    ],
-    "artist": "LizzyChrome",
-    "setName": "Triwizard Tournament",
-    "number": "27",
-    "releaseDate": "08-2026",
-    "rarity": "Uncommon",
-    "rulings": [],
-    "horizontal": true,
-    "imgSrc": "FleursWand.png"
-  },
-  {
-    "name": "Merchieftainess Murcus",
-    "cost": "7",
-    "lesson": [
-      "Care of Magical Creatures"
-    ],
-    "type": [
-      "Creature"
-    ],
-    "subTypes": [
-      "Merperson",
-      "Unique"
-    ],
-    "effect": [
-      "To play this card, return 3 of your Care of Magical Creatures Lessons from play to your hand. Once per turn, when you play a Lesson card, you may count the number of Creatures in play (yours and opponents'). Do that much damage to each opponent."
-    ],
-    "damagePerTurn": "3",
-    "health": "8",
-    "flavorText": " ",
-    "artist": "Kristina Anishchenko",
-    "setName": "Triwizard Tournament",
-    "number": "10",
-    "releaseDate": "08-2026",
-    "rarity": "Rare",
-    "rulings": [],
-    "horizontal": true,
-    "imgSrc": "MerchieftainessMurcus.png"
-  },
-  {
-    "name": "Hungarian Horntail",
-    "cost": "8",
-    "lesson": [
-      "Care of Magical Creatures"
-    ],
-    "type": [
-      "Creature"
-    ],
-    "subTypes": [
-      "Dragon"
-    ],
-    "effect": [
-      "To play this card, return 2 of your F lessons in play to your hand. At the end of each of your turns, do 2 damage to all Creatures and players."
-    ],
-    "damagePerTurn": "7",
-    "health": "11",
-    "flavorText": " ",
-    "artist": "maryquize",
-    "setName": "Triwizard Tournament",
-    "number": "30",
-    "releaseDate": "08-2026",
-    "rarity": "Rare",
-    "rulings": [],
-    "horizontal": true,
-    "imgSrc": "HungarianHorntail.png"
   },
   {
     "name": "Charlie Weasley",
@@ -26336,6 +26185,34 @@ export const cards = [
     "rulings": [],
     "horizontal": true,
     "imgSrc": "HogwartsLibrary.png"
+  },
+    {
+    "name": "Merchieftainess Murcus",
+    "cost": "7",
+    "lesson": [
+      "Care of Magical Creatures"
+    ],
+    "type": [
+      "Creature"
+    ],
+    "subTypes": [
+      "Merperson",
+      "Unique"
+    ],
+    "effect": [
+      "To play this card, return 3 of your Care of Magical Creatures Lessons from play to your hand. Once per turn, when you play a Lesson card, you may count the number of Creatures in play (yours and opponents'). Do that much damage to each opponent."
+    ],
+    "damagePerTurn": "3",
+    "health": "8",
+    "flavorText": " ",
+    "artist": "Kristina Anishchenko",
+    "setName": "Triwizard Tournament",
+    "number": "10",
+    "releaseDate": "08-2026",
+    "rarity": "Rare",
+    "rulings": [],
+    "horizontal": true,
+    "imgSrc": "MerchieftainessMurcus.png"
   },
     {
     "name": "Navigating the Maze",
@@ -26533,6 +26410,30 @@ export const cards = [
     "horizontal": false,
     "imgSrc": "TournamentPreparation.png"
   },
+    {
+    "name": "Triwizard Cup",
+    "cost": "4",
+    "lesson": [
+      "Transfiguration"
+    ],
+    "type": [
+      "Item"
+    ],
+    "subTypes": [
+      "Unique"
+    ],
+    "effect": [
+      "Choose 1, then each opponent may discard 1 of their Lessons from play. If they do, they choose 1: Search your deck for an Event card and put it into play, then shuffle your deck. Trade a card in your hand with a card in your Sideboard. Draw 3 cards."
+    ],
+    "artist": "Unknown",
+    "setName": "Triwizard Tournament",
+    "number": "19",
+    "releaseDate": "08-2026",
+    "rarity": "Rare",
+    "rulings": [],
+    "horizontal": true,
+    "imgSrc": "TriwizardCup.png"
+  },
   {
     "name": "Viktor, Durmstrang Champion",
     "Legality": "legal",
@@ -26581,7 +26482,7 @@ export const cards = [
     "imgSrc": "AspiringChampion.png"
   },
   {
-    "name": "Cedirc's Wand",
+    "name": "Cedric's Wand",
     "cost": "3",
     "lesson": [
       "Care of Magical Creatures"
@@ -26696,7 +26597,33 @@ export const cards = [
     "rarity": "Uncommon",
     "rulings": [],
     "horizontal": false,
-    "imgSrc": "FindingsDates.png"
+    "imgSrc": "FindingDates.png"
+  },
+    {
+    "name": "Fleur's Wand",
+    "cost": "3",
+    "lesson": [
+      "Charms"
+    ],
+    "type": [
+      "Item"
+    ],
+    "subTypes": [
+      "Wand",
+      "Beauxbatons",
+      "Unique"
+    ],
+    "effect": [
+      "Once per turn, you may use an Action to look at the top 6 cards of your deck. You may reveal a card that shares a Keyword (except Unique) with at least 6 of your cards in play and/or your discard pile, and put it into your hand. Put the rest on the bottom of your deck in any order. Then you may play that card without using any Actions."
+    ],
+    "artist": "LizzyChrome",
+    "setName": "Triwizard Tournament",
+    "number": "27",
+    "releaseDate": "08-2026",
+    "rarity": "Uncommon",
+    "rulings": [],
+    "horizontal": true,
+    "imgSrc": "FleursWand.png"
   },
   {
     "name": "Golden Mist",
@@ -26750,6 +26677,33 @@ export const cards = [
     "rulings": [],
     "horizontal": true,
     "imgSrc": "HarrysWand.png"
+  },
+    {
+    "name": "Hungarian Horntail",
+    "cost": "8",
+    "lesson": [
+      "Care of Magical Creatures"
+    ],
+    "type": [
+      "Creature"
+    ],
+    "subTypes": [
+      "Dragon"
+    ],
+    "effect": [
+      "To play this card, return 2 of your F lessons in play to your hand. At the end of each of your turns, do 2 damage to all Creatures and players."
+    ],
+    "damagePerTurn": "7",
+    "health": "11",
+    "flavorText": " ",
+    "artist": "maryquize",
+    "setName": "Triwizard Tournament",
+    "number": "30",
+    "releaseDate": "08-2026",
+    "rarity": "Rare",
+    "rulings": [],
+    "horizontal": true,
+    "imgSrc": "HungarianHorntail.png"
   },
     {
     "name": "Into the Great Lake",
@@ -27168,7 +27122,7 @@ export const cards = [
     "name": "Champions' Dance",
     "Legality": "legal",
     "draftValue": 3,
-    "cost": "4",
+    "cost": "5",
     "lesson": [
       "Charms"
     ],
@@ -27772,7 +27726,7 @@ export const cards = [
     "releaseDate": "08-2026",
     "rarity": "Common",
     "horizontal": true,
-    "imgSrc": "QuidditchFourthYear.png"
+    "imgSrc": "FlyingFourthYear.png"
   },
   {
     "name": "Potions, Fourth Year",
