@@ -27438,7 +27438,7 @@ export const cards = [
       "Merperson"
     ],
     "effect": [
-      "Whenever you play a Lesson card, you may put an opponent's card in play under this card. If you do, for each other card under this card, their owner either puts it into play or discards it."
+      "Whenever you play a Lesson card, you may put an opponent's card in play under this card. If you do, for each other opponent's card under this card, their owner either puts it into play or discards it."
     ],
     "damagePerTurn": "2",
     "health": "3",
