@@ -26741,7 +26741,7 @@ export const cards = [
       "Unique"
     ],
     "effect": [
-      "Once per turn, each player may use an Action to discard the top card of each player's deck. Each player who discards a card with the lowest printed Power cost takes damage equal to the highest printed Power cost discarded."
+      "Once per turn, each player may use an Action to discard the top card of each player's deck. Each player who discards a card with the lowest printed Power cost takes damage equal to the highest printed Power cost discarded. (Cards with no printed Power cost count as 0.)"
     ],
     "artist": "zzoffer",
     "setName": "Triwizard Tournament",
