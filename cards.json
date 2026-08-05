@@ -27568,4 +27568,218 @@
         "horizontal": true,
         "imgSrc": "RekindledFriendship.png"
     },
+        {
+        "name": "Self-Transfiguration",
+        "Legality": "legal",
+        "draftValue": 3,
+        "cost": "6",
+        "lesson": [
+            "Transfiguration"
+        ],
+        "type": [
+            "Spell"
+        ],
+        "effect": [
+            "To play this card, discard 1 of your cards with a printed Power cost from play. Search your deck for a card with printed Power cost up to 2 more than the discarded card and put it into play. Then shuffle your deck."
+        ],
+        "artist": "Nasak Chancharoen",
+        "setName": "Triwizard Tournament",
+        "number": "66",
+        "releaseDate": "08-2026",
+        "rarity": "Common",
+        "rulings": [],
+        "horizontal": false,
+        "imgSrc": "SelfTransfiguration.png"
+    },
+        {
+        "name": "Sphinx",
+        "cost": "6",
+        "lesson": [
+            "Care of Magical Creatures"
+        ],
+        "type": [
+            "Creature"
+        ],
+        "subTypes": [
+            "Sphinx"
+        ],
+        "effect": [
+            "Once during each opponent's turn, whenever they play a card with a printed Power cost, you may discard a card with greater printed Power cost from your hand. If you do, do 5 damage to that opponent."
+        ],
+        "dmgEachTurn": "2",
+        "health": "7",
+        "flavorText": " ",
+        "artist": "maryquize",
+        "setName": "Triwizard Tournament",
+        "number": "67",
+        "releaseDate": "08-2026",
+        "rarity": "Common",
+        "rulings": [],
+        "horizontal": true,
+        "imgSrc": "Sphinx.png"
+    },
+        {
+        "name": "Stupefy a Dragon",
+        "Legality": "legal",
+        "draftValue": 3,
+        "cost": "1",
+        "lesson": [
+            "Charms"
+        ],
+        "type": [
+            "Spell"
+        ],
+        "effect": [
+            "Choose a Creature in play and do 2 damage to it. If the chosen Creature is a Dragon, instead do 9 damage to it."
+        ],
+        "artist": "Marta",
+        "setName": "Triwizard Tournament",
+        "number": "68",
+        "releaseDate": "08-2026",
+        "rarity": "Common",
+        "rulings": [],
+        "horizontal": false,
+        "imgSrc": "StupefyADragon.png"
+    },
+        {
+        "name": "Under Moody's Control",
+        "Legality": "legal",
+        "draftValue": 3,
+        "cost": "5",
+        "lesson": [
+            "Potions"
+        ],
+        "type": [
+            "Spell"
+        ],
+        "effect": [
+            "Do 7 damage to an opponent. Then that opponent may discard 2 of their Lessons from play and/or their hand. If they do, you take 7 damage."
+        ],
+        "artist": "generousa_carescura",
+        "setName": "Triwizard Tournament",
+        "number": "69",
+        "releaseDate": "08-2026",
+        "rarity": "Common",
+        "rulings": [],
+        "horizontal": false,
+        "imgSrc": "UnderMoodysControl.png"
+    },
+        {
+        "name": "What You'll Sorely Miss",
+        "Legality": "legal",
+        "draftValue": 3,
+        "cost": "10",
+        "lesson": [
+            "Quiddtich"
+        ],
+        "type": [
+            "Spell"
+        ],
+        "effect": [
+            "Choose an opponent. They discard 1 of their cards in play with the highest printed Power cost. Then they take damage equal to that card's printed Power cost."
+        ],
+        "artist": "Clud Moon",
+        "setName": "Triwizard Tournament",
+        "number": "70",
+        "releaseDate": "08-2026",
+        "rarity": "Common",
+        "rulings": [],
+        "horizontal": false,
+        "imgSrc": "WhatYoullSorelyMiss.png"
+    },
+    {
+        "name": "Care of Magical Creatures, Fourth Year",
+        "type": [
+            "Lesson"
+        ],
+        "subTypes": [
+            "Advanced"
+        ],
+        "effect": [
+            "This card only provides Power for Care of Magical Creatures cards. You may use an Action to discard this card from play. If you do, put a Creature card from your discard pile into your hand."
+        ],
+        "artist": "raitala",
+        "setName": "Triwizard Tournament",
+        "number": "71",
+        "releaseDate": "08-2026",
+        "rarity": "Common",
+        "horizontal": true,
+        "imgSrc": "CareOfMagicalCreaturesFourthYear.png"
+    },
+    {
+        "name": "Charms, Fourth Year",
+        "type": [
+            "Lesson"
+        ],
+        "subTypes": [
+            "Advanced"
+        ],
+        "effect": [
+            "This card only provides Power for Charms cards. You may use an Action to discard this card from play. If you do, choose an opponent's Adventure in play and return it to their hand."
+        ],
+        "artist": "BlueFoxStudio",
+        "setName": "Triwizard Tournament",
+        "number": "72",
+        "releaseDate": "08-2026",
+        "rarity": "Common",
+        "horizontal": true,
+        "imgSrc": "CharmsFourthYear.png"
+    },
+    {
+        "name": "Flying, Fourth Year",
+        "type": [
+            "Lesson"
+        ],
+        "subTypes": [
+            "Advanced"
+        ],
+        "effect": [
+            "This card only provides power for Quidditch cards. You may use an Action to discard this card from play. If you do, look at the top two cards of your deck. You may put them on the top or bottom of your deck in any order. Then you may draw a card."
+        ],
+        "artist": "BlueFoxStudio",
+        "setName": "Triwizard Tournament",
+        "number": "73",
+        "releaseDate": "08-2026",
+        "rarity": "Common",
+        "horizontal": true,
+        "imgSrc": "FlyingFourthYear.png"
+    },
+    {
+        "name": "Potions, Fourth Year",
+        "type": [
+            "Lesson"
+        ],
+        "subTypes": [
+            "Advanced"
+        ],
+        "effect": [
+            "This card only provides Power for Potions cards. You may use an Action to discard this card from play. If you do, do 3 damage to an opponent."
+        ],
+        "artist": "Unknown",
+        "setName": "Triwizard Tournament",
+        "number": "74",
+        "releaseDate": "08-2026",
+        "rarity": "Common",
+        "horizontal": true,
+        "imgSrc": "PotionsFourthYear.png"
+    },
+    {
+        "name": "Transfiguration, Fourth Year",
+        "type": [
+            "Lesson"
+        ],
+        "subTypes": [
+            "Advanced"
+        ],
+        "effect": [
+            "This card only provides Power for Transfiguration cards. You may use an Action to discard this card from play. If you do, the next card you play this turn needs 3 less Power to play."
+        ],
+        "artist": "Unknown",
+        "setName": "Triwizard Tournament",
+        "number": "75",
+        "releaseDate": "08-2026",
+        "rarity": "Common",
+        "horizontal": true,
+        "imgSrc": "TransfigurationFourthYear.png"
+    },
 ]
