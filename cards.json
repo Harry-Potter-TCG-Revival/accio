@@ -27255,7 +27255,7 @@
             "Item"
         ],
         "subTypes": [
-            "Healing",
+            "Healing"
         ],
         "effect": [
             "At the end of each of your turns, shuffle non-Healing cards from your discard pile up to the number of Lessons you played that turn into your deck."
