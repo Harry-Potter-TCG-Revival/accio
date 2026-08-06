@@ -25910,7 +25910,7 @@
         "horizontal": true,
         "imgSrc": "MeetingOnTheTrain.png"
     },
-    {
+        {
         "name": "Ron's Knightly Protection",
         "Legality": "legal",
         "draftValue": 4,
@@ -25927,7 +25927,6 @@
         "effect": [
             "At the beginning of each opponents' turn, if they have more Power than you, their cards need 2 more Power to play until the end of their turn."
         ],
-        "flavorText": "\u201cThat\u2019s chess!\u201d snapped Ron. \"\u201cYou\u2019ve got to make some sacrifices! I\u2019ll make my move and she\u2019ll take me \u2014 that leaves you free to checkmate the king, Harry!\u201d",
         "artist": "MudBlood428",
         "setName": "Lost Magic 1",
         "number": "19",
@@ -25937,7 +25936,7 @@
         "horizontal": true,
         "imgSrc": "RonsKnightlyProtection.png"
     },
-    {
+        {
         "name": "Unconscious Troll",
         "Legality": "legal",
         "draftValue": 2,
@@ -25956,7 +25955,6 @@
         ],
         "dmgEachTurn": "0",
         "health": "6",
-        "flavorText": "\u201cI\u2019m glad we didn\u2019t have to fight that one,\u201d Harry whispered as they stepped carefully over one of its massive legs.",
         "artist": "Unknown",
         "setName": "Lost Magic 1",
         "number": "20",
@@ -26007,7 +26005,6 @@
         "number": "2",
         "releaseDate": "08-2026",
         "rarity": "Rare",
-        "rulings": [],
         "horizontal": true,
         "imgSrc": "CharlieWeasley.png"
     },
@@ -26153,7 +26150,7 @@
         "horizontal": true,
         "imgSrc": "HermioneYuleDebutante.png"
     },
-    {
+        {
         "name": "Hogwarts Library",
         "Legality": "legal",
         "draftValue": 3,
@@ -26520,7 +26517,7 @@
         "rarity": "Uncommon",
         "rulings": [],
         "horizontal": true,
-        "imgSrc": "CrocodileSkinhandbag.png"
+        "imgSrc": "CrocodileSkinHandbag.png"
     },
         {
         "name": "Dead End",
@@ -26549,7 +26546,7 @@
         "horizontal": true,
         "imgSrc": "DeadEnd.png"
     },
-    {
+        {
         "name": "Dragon Pen",
         "Legality": "legal",
         "draftValue": 3,
@@ -26701,7 +26698,7 @@
         "setName": "Triwizard Tournament",
         "number": "30",
         "releaseDate": "08-2026",
-        "rarity": "Rare",
+        "rarity": "Uncommon",
         "rulings": [],
         "horizontal": true,
         "imgSrc": "HungarianHorntail.png"
@@ -26806,7 +26803,7 @@
         "horizontal": true,
         "imgSrc": "SphinxsRiddle.png"
     },
-    {
+        {
         "name": "Swedish Short-Snout",
         "cost": "9",
         "lesson": [
@@ -27009,7 +27006,7 @@
         "imgSrc": "YuleBallGarden.png"
     },
         {
-        "name": "Accio Firefolt",
+        "name": "Accio Firebolt",
         "Legality": "legal",
         "draftValue": 3,
         "cost": "1",
@@ -27244,7 +27241,7 @@
         "releaseDate": "11-2001",
         "rarity": "Common",
         "horizontal": true,
-        "imgSrc": "ExhibitionfMatch.png"
+        "imgSrc": "ExhibitionMatch.png"
     },
         {
         "name": "First Aid Tent",
