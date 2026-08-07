@@ -26353,6 +26353,7 @@ export const cards = [
     "effect": [
       "Whenever a card is discarded from play, put it under this card. If you do, do 1 damage to that card's controller."
     ],
+    "health": "20",
     "artist": "Nasak Chancharoen",
     "setName": "Triwizard Tournament",
     "number": "16",
