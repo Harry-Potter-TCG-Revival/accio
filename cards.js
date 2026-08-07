@@ -25659,7 +25659,7 @@ export const cards = [
     "imgSrc": "MostePotentePotions.png"
   },
   {
-    "name": "Out of Bounds 3rd Floor",
+    "name": "Out of Bounds Third Floor",
     "Legality": "legal",
     "draftValue": 3,
     "cost": "4",
@@ -25683,7 +25683,7 @@ export const cards = [
     "rarity": "Uncommon",
     "rulings": [],
     "horizontal": true,
-    "imgSrc": "OutOfBounds3rdFloor.png"
+    "imgSrc": "OutOfBoundsThirdFloor.png"
   },
   {
     "name": "Rivals",
