@@ -26276,7 +26276,7 @@ export const cards = [
       "Unique"
     ],
     "effect": [
-      "When you play this card, choose 1 of your other cards in play and give control of it to an opponent while this card is in play."
+      "When you play this card, choose 1 of your other cards in play (other than your starting Character) and give control of it to an opponent while this card is in play."
     ],
     "flavorText": " ",
     "artist": "roonerspism",
