@@ -19759,7 +19759,7 @@ export const cards = [
       "Unique"
     ],
     "effect": [
-      "Once during each of your turns, whenever one or more cards are put into your deck from play, your hand, or your discard pile, you get 1 more Action that turn."
+      "Once during each of your turns, whenever 1 or more cards are put into your deck from play, your hand, or your discard pile, you get 1 more Action that turn."
     ],
     "flavorText": "For Hufflepuff, hard workers were Most worthy of admission",
     "artist": "AnnaSassiArt",
@@ -26447,7 +26447,7 @@ export const cards = [
       "Unique"
     ],
     "effect": [
-      "Once per turn, when an opponent discards one or more cards from their hand and/or play, they choose one: You draw a card. They take 2 damage"
+      "Once per turn, when an opponent discards 1 or more cards from their hand and/or play, they choose one: You draw a card. They take 2 damage"
     ],
     "artist": "Daisy Lightwood-Bane",
     "setName": "Triwizard Tournament",
