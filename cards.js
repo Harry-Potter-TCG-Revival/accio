@@ -19342,7 +19342,7 @@ export const cards = [
   },
   {
     "name": "Scabbers' Disappearance",
-    "cost": 5,
+    "cost": 2,
     "lesson": [
       "Care of Magical Creatures"
     ],
