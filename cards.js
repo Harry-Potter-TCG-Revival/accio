@@ -20251,7 +20251,7 @@ export const cards = [
       "Unique"
     ],
     "effect": [
-      "Before each of your turns, you may take 4 damage. If you do, you may play a Spell with printed Power cost of 4 or less without using any Actions. That card requires 3 less Power to play. (You still need at least 1 Power that matches.)"
+      "Before each of your turns, you may take 4 damage. If you do, play a Spell with printed Power cost of 4 or less without using any Actions. That card requires 3 less Power to play. (You still need at least 1 Power that matches.)"
     ],
     "flavorText": "\ufffd\ufffdHe was an Auror \ufffd one of the best ... a Dark wizard catcher. Half the cells in Azkaban are full because of him.\ufffd\ufffd \ufffd Charlie Weasley",
     "artist": "UpTheHillArt",
