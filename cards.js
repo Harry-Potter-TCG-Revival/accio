@@ -26981,29 +26981,6 @@ export const cards = [
     "imgSrc": "YuleBall.png"
   },
   {
-    "name": "Accio Firebolt",
-    "Legality": "legal",
-    "draftValue": 3,
-    "cost": "1",
-    "lesson": [
-      "Quidditch"
-    ],
-    "type": [
-      "Spell"
-    ],
-    "effect": [
-      "Search your deck for an Item card, reveal it, and put it into your hand. Then shuffle your deck."
-    ],
-    "artist": "MartinTenbones",
-    "setName": "Triwizard Tournament",
-    "number": "43",
-    "releaseDate": "08-2026",
-    "rarity": "Common",
-    "rulings": [],
-    "horizontal": false,
-    "imgSrc": "AccioFirebolt.png"
-  },
-  {
     "name": "Yule Ball Garden",
     "Legality": "legal",
     "draftValue": 5,
@@ -27026,6 +27003,29 @@ export const cards = [
     "rulings": [],
     "horizontal": true,
     "imgSrc": "YuleBallGarden.png"
+  },
+    {
+    "name": "Accio Firebolt",
+    "Legality": "legal",
+    "draftValue": 3,
+    "cost": "1",
+    "lesson": [
+      "Quidditch"
+    ],
+    "type": [
+      "Spell"
+    ],
+    "effect": [
+      "Search your deck for an Item card, reveal it, and put it into your hand. Then shuffle your deck."
+    ],
+    "artist": "MartinTenbones",
+    "setName": "Triwizard Tournament",
+    "number": "43",
+    "releaseDate": "08-2026",
+    "rarity": "Common",
+    "rulings": [],
+    "horizontal": false,
+    "imgSrc": "AccioFirebolt.png"
   },
     {
     "name": "Age Line",
