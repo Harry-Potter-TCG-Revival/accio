@@ -26424,7 +26424,7 @@ export const cards = [
       "Unique"
     ],
     "effect": [
-      "Choose 1, then each opponent may discard 1 of their Lessons from play. If they do, they choose 1: Search your deck for an Event card and put it into play, then shuffle your deck. Trade a card in your hand with a card in your Sideboard. Draw 3 cards."
+      "Your first non-Lesson card each turn needs 3 less Power to play. Whenever you play your first non-Lesson card each turn, choose an opponent. They may choose 1: Draw a card. Do 2 damage to a player. Put up to 2 non-Healing cards from their discard pile on the bottom of their deck."
     ],
     "artist": "Unknown",
     "setName": "Triwizard Tournament",
