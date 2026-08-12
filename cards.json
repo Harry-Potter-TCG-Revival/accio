@@ -27207,6 +27207,9 @@
         "type": [
             "Spell"
         ],
+        "subTypes": [
+          "Dragon"
+        ],
         "effect": [
             "Discard the top 3 cards of your deck. You may put a card from among them into your hand. If you put a Lesson card into your hand, you get an extra Action this turn."
         ],
