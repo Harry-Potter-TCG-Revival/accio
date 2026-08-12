@@ -27125,7 +27125,7 @@ export const cards = [
     "draftValue": 3,
     "cost": "5",
     "lesson": [
-      "Charms"
+      "Transfiguration"
     ],
     "type": [
       "Spell"
@@ -27202,6 +27202,9 @@ export const cards = [
     ],
     "type": [
       "Spell"
+    ],
+    "subTypes": [
+      "Dragon"
     ],
     "effect": [
       "Choose 1 of your Creatures in play. It does damage to an opponent. If it is a Dragon, you may choose 1 of that opponent's cards in play in discard it."
