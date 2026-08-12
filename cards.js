@@ -25982,7 +25982,7 @@ export const cards = [
       "Unique"
     ],
     "effect": [
-      "Once per turn, you may discard 2 cards from your hand. If you do, search your deck for a card with printed Power cost equal to one of the discarded cards, reveal it, and put it into your hand. Then shuffle your deck."
+      "Once per turn, you may discard 2 cards from your hand. If you do, search your deck. You may take a card with printed Power cost equal to one of the discarded cards, reveal it, and put it into your hand. Then shuffle your deck."
     ],
     "artist": "Paolo Maria Breda",
     "setName": "Triwizard Tournament",
