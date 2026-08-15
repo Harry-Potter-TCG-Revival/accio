@@ -24912,7 +24912,7 @@ export const cards = [
       "Fwooper"
     ],
     "effect": [
-      "When this card is discard from play, you may put a non-Healing Creature card in your discard pile with printed Power cost of 4 or less into play."
+      "When this card is discarded from play, you may put a non-Healing Creature card in your discard pile with printed Power cost of 4 or less into play."
     ],
     "dmgEachTurn": "2",
     "health": "1",
