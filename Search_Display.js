@@ -129,7 +129,7 @@ function filterCard(card, terms) {
 
     for (const [term, nextTerm] of termPairs) {
         if (term.includes(':')) {
-            const [prefix, ...queryParts] = term.split(':');
+            let [prefix, ...queryParts] = term.split(':');
             const query = queryParts.join(':').toLowerCase().trim();
 
             if (!query) {
@@ -137,6 +137,10 @@ function filterCard(card, terms) {
             }
 
             let queryCheck = true;
+            let invert_search = prefix[0] == '!';
+            if (invert_search) {
+                prefix = prefix.slice(1);
+            }
 
             switch (prefix.toLowerCase()) {
                 case 'a':
@@ -340,6 +344,10 @@ function filterCard(card, terms) {
                 default:
                     queryCheck = false; // Given term is not known, so mark as failed search
                     break;
+            }
+
+            if (invert_search) {
+                queryCheck = !queryCheck;
             }
 
             if (nextTerm === '|') {
