@@ -80,6 +80,11 @@
         <pre><code>type:spell lesson:charms cost:>6 cost:<=9</code></pre>
         <p>This search returns <code>charms</code> <code>spell</code> cards with a cost greater than 6 and less than or equal to 9.</p>
 
+        <h3>Inverse Searches</h3>
+        <p>Each term can be inverted using the <code>!</code> character before the term definition.<br>For example:</p>
+        <pre><code>type:character !keyword:witch !keyword:wizard</code></pre>
+        <p>Returns the <code>character</code> cards which are do not contain the keyword <code>witch</code> or <code>wizard</code>.</p>
+
         <h2>Example Usage</h2>
         <p>To search for a card by name:</p>
         <pre><code>Albus Dumbledore<br>albus dumbledore<br>albus<br>dumbledore</code></pre>
