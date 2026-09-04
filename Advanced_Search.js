@@ -112,12 +112,18 @@ document.addEventListener('DOMContentLoaded', function() {
             return `${inversePrefix}${prefix}:${quoteIfNeeded(value)}`;
         }
 
+        function buildGroupedSearchTerms(prefix, values, inverseCheckboxId) {
+            const isInverse = document.getElementById(inverseCheckboxId).checked;
+            const separator = isInverse ? ' ' : ' | ';
+            return values.map(item => buildSearchTerm(prefix, item, inverseCheckboxId)).join(separator);
+        }
+
         let searchQuery = [];
 
         if (nameInput) searchQuery.push(buildSearchTerm('name', nameInput, 'NameInverse'));
         if (textInput) searchQuery.push(buildSearchTerm('effect', textInput, 'TextInverse'));
-        if (selectedTypes.length > 0) searchQuery.push(selectedTypes.map(item => buildSearchTerm('type', item, 'TypeInverse')).join(" | "));
-        if (selectedKeywords.length > 0) searchQuery.push(selectedKeywords.map(item => buildSearchTerm('keyword', item, 'KeywordsInverse')).join(" | "));
+        if (selectedTypes.length > 0) searchQuery.push(buildGroupedSearchTerms('type', selectedTypes, 'TypeInverse'));
+        if (selectedKeywords.length > 0) searchQuery.push(buildGroupedSearchTerms('keyword', selectedKeywords, 'KeywordsInverse'));
 
         let lessonValues = [];
         if (comcCheckbox) lessonValues.push('Care of Magical Creatures');
@@ -125,11 +131,11 @@ document.addEventListener('DOMContentLoaded', function() {
         if (potionsCheckbox) lessonValues.push('Potions');
         if (quidCheckbox) lessonValues.push('Quidditch');
         if (tranCheckbox) lessonValues.push('Transfiguration');
-        if (lessonValues.length > 0) searchQuery.push(lessonValues.map(item => buildSearchTerm('lesson', item, 'LessonInverse')).join(" | "));
+        if (lessonValues.length > 0) searchQuery.push(buildGroupedSearchTerms('lesson', lessonValues, 'LessonInverse'));
 
         if (ppcInput) searchQuery.push(buildSearchTerm('cost', ppcInput, 'PPCInverse'));
         if (statsInput) searchQuery.push(buildSearchTerm('stats', statsInput, 'StatsInverse'));
-        if (selectedSets.length > 0) searchQuery.push(selectedSets.map(item => buildSearchTerm('set', item, 'SetsInverse')).join(" | "));
+        if (selectedSets.length > 0) searchQuery.push(buildGroupedSearchTerms('set', selectedSets, 'SetsInverse'));
 
         let rarityValues = [];
         if (lessonCheckbox) rarityValues.push('Lesson');
@@ -137,7 +143,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (uncommonCheckbox) rarityValues.push('Uncommon');
         if (rareCheckbox) rarityValues.push('Rare');
         if (premiumCheckbox) rarityValues.push('Premium');
-        if (rarityValues.length > 0) searchQuery.push(rarityValues.map(item => buildSearchTerm('rarity', item, 'RarityInverse')).join(" | "));
+        if (rarityValues.length > 0) searchQuery.push(buildGroupedSearchTerms('rarity', rarityValues, 'RarityInverse'));
 
         if (flavorInput) searchQuery.push(buildSearchTerm('flavorText', flavorInput, 'FlavorInverse'));
         if (artistInput) searchQuery.push(buildSearchTerm('artist', artistInput, 'ArtistInverse'));
