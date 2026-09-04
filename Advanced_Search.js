@@ -43,25 +43,29 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    setupMultiSelect('TypeInput', types, 'Card_Type_MultiSelect', 'Selected_Options_Type');
     setupMultiSelect('KeywordsInput', keywords, 'Keywords_MultiSelect', 'Selected_Options_Keywords');
 
-    const setsCheckboxes = document.getElementById('Sets_Checkboxes');
-    sets.forEach((set, index) => {
-        const checkboxId = `SetCheckBox-${index}`;
-        const option = document.createElement('label');
-        option.classList.add('set-checkbox-option');
+    function setupChecklist(containerId, options, name, idPrefix) {
+        const container = document.getElementById(containerId);
+        options.forEach((value, index) => {
+            const checkboxId = `${idPrefix}-${index}`;
+            const option = document.createElement('label');
+            option.classList.add('set-checkbox-option');
 
-        const checkbox = document.createElement('input');
-        checkbox.type = 'checkbox';
-        checkbox.id = checkboxId;
-        checkbox.name = 'sets';
-        checkbox.value = set;
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.id = checkboxId;
+            checkbox.name = name;
+            checkbox.value = value;
 
-        option.appendChild(checkbox);
-        option.appendChild(document.createTextNode(set));
-        setsCheckboxes.appendChild(option);
-    });
+            option.appendChild(checkbox);
+            option.appendChild(document.createTextNode(value));
+            container.appendChild(option);
+        });
+    }
+
+    setupChecklist('Types_Checkboxes', types, 'types', 'TypeCheckBox');
+    setupChecklist('Sets_Checkboxes', sets, 'sets', 'SetCheckBox');
 
     const searchInput = document.getElementById('search_input');
     searchInput.addEventListener('keydown', function(event) {
@@ -77,8 +81,8 @@ document.addEventListener('DOMContentLoaded', function() {
     searchButton.addEventListener('click', function() {
         const nameInput = document.getElementById('NameInput').value.trim();
         const textInput = document.getElementById('TextInput').value.trim();
-        const selectedTypes = Array.from(document.querySelectorAll('#Selected_Options_Type .selected-option'))
-            .map(el => el.dataset.value);
+        const selectedTypes = Array.from(document.querySelectorAll('#Types_Checkboxes input[name="types"]:checked'))
+            .map(checkbox => checkbox.value);
         const selectedKeywords = Array.from(document.querySelectorAll('#Selected_Options_Keywords .selected-option'))
             .map(el => el.dataset.value);
         const selectedSets = Array.from(document.querySelectorAll('#Sets_Checkboxes input[name="sets"]:checked'))
