@@ -275,6 +275,21 @@ html, body {
     flex: 0 0 20px;
 }
 
+.inverse-search-option {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0 0 10px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.Advanced_Search_Card_Attributes .inverse-search-option input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    flex: 0 0 20px;
+}
+
 #Advanced_Search_Button {
     background-color: rgba(255, 255, 255, 1);
     color: rgba(51, 51, 51, 1);
