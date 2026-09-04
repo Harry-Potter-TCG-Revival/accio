@@ -43,9 +43,29 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    setupMultiSelect('TypeInput', types, 'Card_Type_MultiSelect', 'Selected_Options_Type');
     setupMultiSelect('KeywordsInput', keywords, 'Keywords_MultiSelect', 'Selected_Options_Keywords');
-    setupMultiSelect('SetsInput', sets, 'Card_Sets_MultiSelect', 'Selected_Options_Sets');
+
+    function setupChecklist(containerId, options, name, idPrefix) {
+        const container = document.getElementById(containerId);
+        options.forEach((value, index) => {
+            const checkboxId = `${idPrefix}-${index}`;
+            const option = document.createElement('label');
+            option.classList.add('set-checkbox-option');
+
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.id = checkboxId;
+            checkbox.name = name;
+            checkbox.value = value;
+
+            option.appendChild(checkbox);
+            option.appendChild(document.createTextNode(value));
+            container.appendChild(option);
+        });
+    }
+
+    setupChecklist('Types_Checkboxes', types, 'types', 'TypeCheckBox');
+    setupChecklist('Sets_Checkboxes', sets, 'sets', 'SetCheckBox');
 
     const searchInput = document.getElementById('search_input');
     searchInput.addEventListener('keydown', function(event) {
@@ -61,12 +81,12 @@ document.addEventListener('DOMContentLoaded', function() {
     searchButton.addEventListener('click', function() {
         const nameInput = document.getElementById('NameInput').value.trim();
         const textInput = document.getElementById('TextInput').value.trim();
-        const selectedTypes = Array.from(document.querySelectorAll('#Selected_Options_Type .selected-option'))
-            .map(el => el.dataset.value);
+        const selectedTypes = Array.from(document.querySelectorAll('#Types_Checkboxes input[name="types"]:checked'))
+            .map(checkbox => checkbox.value);
         const selectedKeywords = Array.from(document.querySelectorAll('#Selected_Options_Keywords .selected-option'))
             .map(el => el.dataset.value);
-        const selectedSets = Array.from(document.querySelectorAll('#Selected_Options_Sets .selected-option'))
-            .map(el => el.dataset.value);
+        const selectedSets = Array.from(document.querySelectorAll('#Sets_Checkboxes input[name="sets"]:checked'))
+            .map(checkbox => checkbox.value);
         const comcCheckbox = document.getElementById('COMCCheckBox').checked;
         const charmsCheckbox = document.getElementById('CharmsCheckBox').checked;
         const potionsCheckbox = document.getElementById('PotionsCheckBox').checked;
@@ -87,12 +107,23 @@ document.addEventListener('DOMContentLoaded', function() {
             return value.includes(' ') ? `"${value}"` : value;
         }
 
+        function buildSearchTerm(prefix, value, inverseCheckboxId) {
+            const inversePrefix = document.getElementById(inverseCheckboxId).checked ? '!' : '';
+            return `${inversePrefix}${prefix}:${quoteIfNeeded(value)}`;
+        }
+
+        function buildGroupedSearchTerms(prefix, values, inverseCheckboxId) {
+            const isInverse = document.getElementById(inverseCheckboxId).checked;
+            const separator = isInverse ? ' ' : ' | ';
+            return values.map(item => buildSearchTerm(prefix, item, inverseCheckboxId)).join(separator);
+        }
+
         let searchQuery = [];
 
-        if (nameInput) searchQuery.push(`name:${quoteIfNeeded(nameInput)}`);
-        if (textInput) searchQuery.push(`effect:${quoteIfNeeded(textInput)}`);
-        if (selectedTypes.length > 0) searchQuery.push(selectedTypes.map(itm => `type:${quoteIfNeeded(itm)}`).join(" | "));
-        if (selectedKeywords.length > 0) searchQuery.push(selectedKeywords.map(itm => `keyword:${quoteIfNeeded(itm)}`).join(" | "));
+        if (nameInput) searchQuery.push(buildSearchTerm('name', nameInput, 'NameInverse'));
+        if (textInput) searchQuery.push(buildSearchTerm('effect', textInput, 'TextInverse'));
+        if (selectedTypes.length > 0) searchQuery.push(buildGroupedSearchTerms('type', selectedTypes, 'TypeInverse'));
+        if (selectedKeywords.length > 0) searchQuery.push(buildGroupedSearchTerms('keyword', selectedKeywords, 'KeywordsInverse'));
 
         let lessonValues = [];
         if (comcCheckbox) lessonValues.push('Care of Magical Creatures');
@@ -100,11 +131,11 @@ document.addEventListener('DOMContentLoaded', function() {
         if (potionsCheckbox) lessonValues.push('Potions');
         if (quidCheckbox) lessonValues.push('Quidditch');
         if (tranCheckbox) lessonValues.push('Transfiguration');
-        if (lessonValues.length > 0) searchQuery.push(lessonValues.map(itm => `lesson:${quoteIfNeeded(itm)}`).join(" | "));
+        if (lessonValues.length > 0) searchQuery.push(buildGroupedSearchTerms('lesson', lessonValues, 'LessonInverse'));
 
-        if (ppcInput) searchQuery.push(`cost:${quoteIfNeeded(ppcInput)}`);
-        if (statsInput) searchQuery.push(`stats:${quoteIfNeeded(statsInput)}`);
-        if (selectedSets.length > 0) searchQuery.push(selectedSets.map(itm => `set:${quoteIfNeeded(itm)}`).join(" | "));
+        if (ppcInput) searchQuery.push(buildSearchTerm('cost', ppcInput, 'PPCInverse'));
+        if (statsInput) searchQuery.push(buildSearchTerm('stats', statsInput, 'StatsInverse'));
+        if (selectedSets.length > 0) searchQuery.push(buildGroupedSearchTerms('set', selectedSets, 'SetsInverse'));
 
         let rarityValues = [];
         if (lessonCheckbox) rarityValues.push('Lesson');
@@ -112,11 +143,11 @@ document.addEventListener('DOMContentLoaded', function() {
         if (uncommonCheckbox) rarityValues.push('Uncommon');
         if (rareCheckbox) rarityValues.push('Rare');
         if (premiumCheckbox) rarityValues.push('Premium');
-        if (rarityValues.length > 0) searchQuery.push(rarityValues.map(itm => `rarity:${quoteIfNeeded(itm)}`).join(" | "));
+        if (rarityValues.length > 0) searchQuery.push(buildGroupedSearchTerms('rarity', rarityValues, 'RarityInverse'));
 
-        if (flavorInput) searchQuery.push(`flavorText:${quoteIfNeeded(flavorInput)}`);
-        if (artistInput) searchQuery.push(`artist:${quoteIfNeeded(artistInput)}`);
-        if (numberInput) searchQuery.push(`number:${quoteIfNeeded(numberInput)}`);
+        if (flavorInput) searchQuery.push(buildSearchTerm('flavorText', flavorInput, 'FlavorInverse'));
+        if (artistInput) searchQuery.push(buildSearchTerm('artist', artistInput, 'ArtistInverse'));
+        if (numberInput) searchQuery.push(buildSearchTerm('number', numberInput, 'NumberInverse'));
 
         const searchString = searchQuery.join(' ');
 
