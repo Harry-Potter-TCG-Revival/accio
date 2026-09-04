@@ -24951,7 +24951,7 @@ export const cards = [
   {
     "name": "Hanging Shamrocks",
     "Legality": "legal",
-    "cost": "1",
+    "cost": "2",
     "lesson": [
       "Transfiguration"
     ],
