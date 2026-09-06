@@ -21848,6 +21848,9 @@ export const cards = [
     "type": [
       "Spell"
     ],
+    "subTypes": [
+      "Dark"
+    ],
     "effect": [
       "Do 8 damage to yourself. Do 10 damage to an opponent."
     ],
