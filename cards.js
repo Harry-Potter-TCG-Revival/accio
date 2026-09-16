@@ -26835,7 +26835,7 @@ export const cards = [
     "imgSrc": "SwedishShortSnout.png"
   },
   {
-    "name": "The Real Hogwart Champion",
+    "name": "The Real Hogwarts Champion",
     "type": [
       "Adventure"
     ],
