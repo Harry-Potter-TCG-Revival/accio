@@ -27246,7 +27246,7 @@ export const cards = [
     "imgSrc": "ExhibitionMatch.png"
   },
   {
-    "name": "Fire Aid Tent",
+    "name": "First Aid Tent",
     "cost": "4",
     "lesson": [
       "Potions"
