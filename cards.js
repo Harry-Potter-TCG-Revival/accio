@@ -9092,7 +9092,7 @@ export const cards = [
       "Healing"
     ],
     "effect": [
-      "Once per game, you may draw 2 cards, then do 2 damage to your opponent and then put up to 2 non-Healing cards from your discard pile on the bottom of your deck."
+      "Once per game, you may draw 2 cards, then do 2 damage to your opponent and then put up to 2 non-Healing cards from your discard pile on the bottom of your deck (in any order)."
     ],
     "flavorText": "''Hope to see you in Hufflepuff!' said the Friar.'",
     "artist": "Kim Graham",
